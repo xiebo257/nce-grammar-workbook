@@ -423,14 +423,51 @@ Set 2 example: `read a magazine/my father/your mother/clean her teeth`
 
 ## Lesson 35 - Our village
 
-### I. Fill in the blanks with `there is`, `there are`, `is there`, or `are there`
-Describe village features: a river, hills, fields, a school, shops, houses, trees, and people.
+### I. Fill in the blanks with the correct preposition
 
-### II. Change singular/plural descriptions
-Convert `There is a ...` to `There are some ...`, and use `any` in questions and negatives.
+1. Look! That girl's swimming ___ the river. (over/across)
+2. Look! That policeman's running ___ the shop. (out of/between)
+3. Look! John's walking ___ two girls. (across/between)
+4. Look! The children are going ___ the park. (off/into)
+5. Look! Mary's running ___ the wall. (beside/along)
+6. Look! Mark's sitting ___ his grandmother. (beside/between)
+7. Look! That aeroplane's flying ___ the bridge! (under/in)
+8. Look! Those people are waiting ___ a bus. (into/for)
+9. Look! That dog's running ___ our cat! (out of/after)
+10. Look! That sales rep is going ___ the shop. (across/into)
 
-### III. Answer questions about a village or town
-Use *Is there ...?*, *Are there any ...?*, *Where is/are ...?*, and concise affirmative/negative replies.
+### II. Answer the questions using the cues
+
+1. **1a.** Is the young man coming out of the river? (go into)
+   *No, he isn't. He's going into the river.*
+   What's he doing? (swim)
+   *He's swimming.*
+2. **1b.** Are you walking across the street? (along)
+   What are you doing? (look at the shop windows)
+3. **1c.** Is the teacher going into the building? (come out of)
+   What is she doing? (read a magazine)
+4. **1d.** Are the boys climbing up the tree? (jump out of the tree)
+   What are they doing now? (play under the tree)
+5. **2a.** What's Ann doing? (read)
+   *She's reading.*
+   What's she reading? (a magazine)
+   *She's reading a magazine.*
+6. **2b.** What's Tim doing? (study)
+   What's he studying? (English)
+7. **2c.** What are Kathy and her mother doing? (wash)
+   What are they washing? (the dishes)
+8. **2d.** What's the dog doing? (eat)
+   What's it eating? (a bone)
+9. **3a.** What's Sam doing? (type a letter)
+   *He's typing a letter.*
+   Where's he typing the letter? (in his office)
+   *He's typing the letter in his office.*
+10. **3b.** What are you and your wife doing? (run)
+    Where are you running? (along the bank of a river)
+11. **3c.** What are the girls doing? (look at some photographs)
+    Where are they looking at the photographs? (in the kitchen)
+12. **3d.** What's Helen doing? (clean her teeth)
+    Where's she cleaning her teeth? (in the bathroom)
 
 ## Lesson 36 - Across the Channel
 
