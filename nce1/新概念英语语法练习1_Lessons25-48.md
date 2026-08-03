@@ -383,14 +383,43 @@ Set 2 example: `read a magazine/my father/your mother/clean her teeth`
 
 ## Lesson 34 - What are they doing?
 
-### I. Make questions from the answers
-Use *What are they doing?*, *Who is/are ...?*, *Where are ...?*, and present continuous answers.
+### I. Answer the questions using the cues
 
-### II. Put the words in the correct order
-Build present-continuous questions, short answers, and statements with singular and plural subjects.
+1. What are you looking at? (we/the boats)
+   *We're looking at the boats.*
+   Where are the boats? (on the river)
+   *They are on the river.*
+2. What are Linda and her sister waiting for? (they/the bus)
+   Where are they waiting? (at the bus stop)
+3. What are the children doing? (they/their homework)
+   Where are they doing their homework? (in their room)
+4. What are the dogs eating? (they/bones)
+   Where are they eating the bones? (in the garden)
+5. What are the girls doing? (they/look at a dress)
+   What colour is the dress? (red)
+6. What are you doing? (we/wait for the next class)
+   Who is your teacher? (Miss Scott)
+7. What are Mr. and Mrs. Wilson doing? (they/watch television)
+   What are they watching? (the news)
+8. What are the babies doing? (they/sleep)
+   Where are they sleeping? (in their bedroom)
 
-### III. Complete the dialogues
-Practice contrasts between *What is he doing?* and *What are they doing?*
+### II. Write the correct `-ing` form of the verbs
+
+1. turn
+2. shine
+3. run
+4. take
+5. make
+6. walk
+7. type
+8. fly
+9. put
+10. empty
+11. dust
+12. cry
+13. shave
+14. shut
 
 ## Lesson 35 - Our village
 
