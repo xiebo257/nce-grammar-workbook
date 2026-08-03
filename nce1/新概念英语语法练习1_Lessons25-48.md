@@ -6,15 +6,57 @@ This is a structured transcription of the lesson headings, instructions, example
 ## Lesson 25 - Mrs. Smith's kitchen
 
 ### I. Fill in the blanks with `a`, `an`, or `the`
-Practice articles with household objects and locations: a new table in the kitchen; a watch in a cupboard; big/dirty glasses and clean ones; a sharp knife rather than a blunt one; a pen and pencil; a white refrigerator; an ice cream; an American tourist; coats in black and blue; and a keyboard operator.
+
+1. There is ___ new table in our kitchen. It's in ___ middle of ___ kitchen.
+2. There is ___ watch in ___ cupboard in your room.
+3. These glasses are big. ___ ones on ___ table are dirty; ___ ones in ___ cupboard are clean.
+4. Give me ___ knife, please.
+   Which one?
+   ___ sharp one, not ___ blunt one!
+5. Is there ___ pen on my desk?
+   Yes, there's ___ pen and there's ___ pencil. ___ pencil is a red one.
+6. There is ___ refrigerator in Mrs. Smith's kitchen. ___ refrigerator is ___ white one.
+7. What's ___ matter, John?
+   I'm hot. Give me ___ ice cream, please.
+8. Who is that man?
+   He's ___ American tourist.
+9. Here are two coats, ___ black one and ___ blue one. Which one is your coat? ___ black one or ___ blue one?
+   My coat is ___ blue one.
+10. Come and meet Molly. She's ___ keyboard operator.
 
 ### II. Fill in the blanks with `in` or `on`
-Prompts include a picture ___ the wall, water ___ the bottle, a table ___ the room, pens ___ the desk, a box ___ the floor, tickets ___ a handbag, shoes ___ a cupboard, bottles ___ a dressing table, and a cooker ___ a kitchen.
+
+1. There is a picture ___ the wall.
+2. There is water ___ the bottle.
+3. There is a small table ___ the room.
+4. My pens are ___ the desk.
+5. There's a big box ___ the floor.
+6. The tickets are ___ her handbag.
+7. Where are my shoes?
+   They're ___ the cupboard.
+8. Jane's small bottles are ___ her dressing table.
+9. Look at the new carpet ___ my room!
+10. Is there a cooker ___ her new kitchen?
+    Yes, there is.
+11. The table is ___ the middle of the room, and the cups and plates are ___ the table.
+12. There's the new cooker. And the new refrigerator is ___ the right.
 
 ### III. Answer the questions using the cues according to the example
 Example: *Is there a spoon in the cup? (on the plate/dirty)* -> *No, there isn't a spoon in the cup. There is one on the plate. It's dirty.*
 
-Use location and description cues for tins, bottles, tables, knives, umbrellas, ties, cookers, magazines, windows, and boxes.
+1. Is there a spoon in the cup? (on the plate/dirty)
+   *No, there isn't a spoon in the cup. There is one on the plate. It's dirty.*
+2. Is there a tin on the table? (in the refrigerator/big)
+3. Is there a bottle on the cupboard? (in the cupboard/full)
+4. Is there a table in the middle of the room? (in the kitchen/brown)
+5. Is there a knife on the plate? (on the shelf/blunt)
+6. Is there an umbrella on the floor? (on the chair/red)
+7. Is there a tie on the bed? (on the dressing table/orange)
+8. Is there an electric cooker on the right of the cupboard? (on the left of the cupboard/new)
+9. Is there a magazine on the desk? (on the bed/new)
+10. Is there a window on the left of the door? (on the right of the door/open)
+11. Is there a knife on the plate? (on the tin/green)
+12. Is there a box on the shelf? (on the refrigerator/empty)
 
 ## Lesson 26 - Where is it?
 

@@ -1,6 +1,10 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 
 const directory = new URL("./", import.meta.url);
+const requestedLesson = process.argv[2] ? Number(process.argv[2]) : null;
+if (requestedLesson !== null && (!Number.isInteger(requestedLesson) || requestedLesson < 1 || requestedLesson > 144)) {
+  throw new Error("Usage: node nce1/build-lessons-html.mjs [lesson-number]");
+}
 const sourceFiles = (await readdir(directory))
   .filter((file) => file.endsWith(".md"))
   .sort((left, right) => left.localeCompare(right, "en"));
@@ -94,6 +98,7 @@ if (lessons.length !== expected.length || lessons.some((lesson, index) => lesson
 }
 
 for (const lesson of lessons) {
+  if (requestedLesson !== null && lesson.number !== requestedLesson) continue;
   const filename = `lesson-${String(lesson.number).padStart(3, "0")}.html`;
   const previous = lesson.number > 1 ? `lesson-${String(lesson.number - 1).padStart(3, "0")}.html` : null;
   const next = lesson.number < lessons.length ? `lesson-${String(lesson.number + 1).padStart(3, "0")}.html` : null;
@@ -201,4 +206,4 @@ for (const lesson of lessons) {
   await writeFile(new URL(filename, directory), html.replace(/[\t ]+$/gm, ""));
 }
 
-console.log(`Wrote ${lessons.length} lesson pages in ${directory.pathname}`);
+console.log(`Wrote ${requestedLesson === null ? lessons.length : 1} lesson page${requestedLesson === null ? "s" : ""} in ${directory.pathname}`);
