@@ -469,16 +469,36 @@ Set 2 example: `read a magazine/my father/your mother/clean her teeth`
 12. **3d.** What's Helen doing? (clean her teeth)
     Where's she cleaning her teeth? (in the bathroom)
 
-## Lesson 36 - Across the Channel
+## Lesson 36 - Where ...?
 
-### I. Complete present-continuous and location sentences
-Review `Where is/are`, prepositions of place, and descriptions of people, places, and transport across the Channel.
+### I. Fill in the blanks with `some` or `any`
 
-### II. Rewrite sentences using `there is/there are`
-Change descriptions of rooms, streets, and villages between singular and plural.
+1. There are ___ old men in the park. ___ are standing under trees; ___ are sitting on chairs.
+2. Do you know ___ people here?
+3. ___ children are playing on the sand; ___ are looking at the birds.
+4. English people speak English, but ___ speak French.
+5. There isn't ___ cheese left in the fridge.
+6. ___ birds are flying over the bridge.
+7. There aren't ___ villages in that valley.
+8. Are there ___ children in the park?
 
-### III. Ask and answer from cues
-Use locations such as near, beside, between, opposite, and on the left/right.
+### II. Fill in the blanks with `beside`, `between`, `on`, `along`, or `out of`
+
+1. Come and sit down ___ me under this tree.
+2. In this photograph, the park is ___ the left and the school building is ___ the right.
+3. Our village is in a valley ___ two big hills.
+4. His small house is ___ Mr. Smith's and Mrs. White's.
+5. Put your umbrella ___ my shoes near the door.
+6. They're walking ___ the street in the village.
+7. The children are sitting ___ the grass. It's wet!
+8. Mrs. Green is coming ___ the shop with a loaf of bread.
+9. In this photograph, I am standing ___ my father and my mother.
+10. Where's my blue pen?
+    It's ___ your desk ___ those letters.
+    And where's my red pencil?
+    It's ___ your computer.
+    And where are those new photographs?
+    They're ___ your bed.
 
 ## Lesson 37 - Making a bookcase
 
