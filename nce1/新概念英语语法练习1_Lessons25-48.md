@@ -147,15 +147,53 @@ Example: *Are there any sharp pencils on the desk?* -> *No, there aren't any sha
 ### I. Fill in the blanks with question words
 Use `Where`, `Whose`, `Who`, `What`, `Which`, `What colour`, or `What make`.
 
-Prompts include tickets in the kitchen, Anna's pen, magazines, a Volvo, a black coat, Jane, a French nationality, a coat on the bed, trousers belonging to a brother, and an armchair near a window.
+1. ___ are the tickets?
+   They're in the kitchen.
+2. ___ is this pen?
+   It's Anna's.
+3. Give me some magazines, please.
+   ___ ones? These?
+4. ___ is that car?
+   It's a Volvo.
+5. ___ is your coat?
+   It's black.
+6. ___ is that young woman?
+   That's Jane.
+7. ___ nationality is that man?
+   He's French.
+8. ___ is my coat?
+   It's on your bed.
+9. ___ are these trousers?
+   They're my brother's.
+10. ___ is there near the window?
+    An armchair.
 
 ### II. Answer questions using the cues
 Example: *Where are my cigarettes? (in the living room/on the table)* -> *They're in the living room. They're on the table.*
 
-Practice plural locations for flowers, shoes, shirts and coats, plates, knives and forks, passports, and tins.
+1. Where are my cigarettes? (in the living room/on the table)
+   *They're in the living room. They're on the table.*
+2. Where are the flowers? (near the bed/in the vase)
+3. Where are my shoes? (near the television/under your armchair)
+4. Where are our shirts and coats? (on the bed/in the bedroom)
+5. Where are the dirty plates? (in the kitchen/on the table)
+6. Where are the knives and forks? (in the kitchen/in the cupboard)
+7. Where are your passports? (on the dressing table/in a box)
+8. Where are the empty tins? (near the door/in the box)
 
 ### III. Fill in the blanks with `some` or `any`
-Practice affirmative, negative, and interrogative forms with pictures, men, glasses, magazines, ice creams, and sales reps.
+
+1. Are there ___ pictures on the wall?
+   Yes, there are ___ lovely pictures on the wall.
+2. Are there ___ men in the garden?
+   No, there aren't ___ men in the garden.
+3. Are there ___ dirty glasses on the table?
+   No, there aren't. There are ___ clean ones in that box.
+4. There are ___ magazines on the table.
+   Are there ___ magazines on the table?
+   There aren't ___ magazines on the table.
+5. Are there ___ ice creams in the refrigerator?
+6. There are ___ sales reps in the office.
 
 ## Lesson 29 - Come in, Amy.
 
