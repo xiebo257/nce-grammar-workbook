@@ -282,16 +282,51 @@ Options: **a.** this magazine; **b.** your books; **c.** your shoes; **d.** our 
 10. `sharpen/these pencils`
     What must I do?
 
-## Lesson 31 - Where's Susan?
+## Lesson 31 - Where's Sally?
 
-### I. Fill in the blanks with the correct preposition
-Use `in`, `on`, `under`, `near`, `behind`, `between`, `beside`, and location phrases for rooms, furniture, and objects.
+### I. Complete the dialogues using the cues
 
-### II. Ask and answer using the cues
-Form *Where is/are ...?* questions and state both the room and the exact position of objects and people.
+1. Is the boy in bed? (no)
+   *No, he isn't.*
+   Where is he? (in the garden/hot)
+   *He's in the garden. He's hot.*
+   What's he doing? (run across the lawn)
+   *He's running across the lawn.*
+2. Is your mother in her chair? (no)
+   Where is she? (in the kitchen/busy)
+   What's she doing? (cook a meal)
+3. Is your daughter in the shop? (no)
+   Where is she? (in the classroom/busy)
+   What's she doing? (read a book)
+4. Is Jack here? (no)
+   Where is he? (in the living room/tired)
+   What's he doing? (read a magazine)
+5. Is John in the living room? (no)
+   Where is he? (in the kitchen/thirsty)
+   What's he doing? (drink tea)
+6. Is your brother at home? (no)
+   Where is he? (in his office/tired)
+   What's he doing? (clean the office)
+7. Is the employee in the office? (no)
+   Where is he? (at home/lazy)
+   What's he doing? (watch television)
+8. Is Nicola in the park? (no)
+   Where is she? (in her room/cold)
+   What's she doing? (put on some clothes)
 
-### III. Complete dialogues
-Practice *Where's Susan?*, *She's ...*, *Is she ...?*, and plural location questions with personal and object pronouns.
+### II. Make sentences using the cues
+
+1. My teacher is sitting at the desk. (write a letter)
+   *She is writing a letter.*
+2. Mike is opening the window. (look at the garden)
+3. My daughter is sitting under a tree. (read a newspaper)
+4. A dog is running in the garden. (run after a cat)
+5. Mary is sharpening a pencil. (do her homework)
+6. Tom is near the bed. (put on his tie)
+7. My mother is turning on the tap. (clean the plates)
+8. Jane is near the door. (turn on the light)
+9. Mrs. Jones is working in the office. (type a letter)
+10. A cat is under a tree. (drink its milk)
 
 ## Lesson 32 - What's he doing?
 
