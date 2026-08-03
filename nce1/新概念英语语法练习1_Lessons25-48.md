@@ -241,16 +241,46 @@ Example: *The spoons and forks are dirty. (clean)* -> *Clean them, please.*
 15. 把书放到书架上。
 16. 把盘子里的东西倒掉。
 
-## Lesson 30 - Where's Sally?
+## Lesson 30 - What must I do?
 
-### I. Complete questions and answers with `he`, `she`, `it`, `they`, `there`, or possessive forms
-Practice locating people and things, including Sally, a dog, books, an umbrella, flowers, and household objects.
+### I. Match the verbs on the left with the words on the right
 
-### II. Ask and answer location questions according to cues
-Use singular and plural questions with *Where is/are ...?* and answers using `in`, `on`, `under`, `near`, `behind`, and `between`.
+Options: **a.** this magazine; **b.** your books; **c.** your shoes; **d.** our new office assistant; **e.** the light; **f.** this room; **g.** those boxes; **h.** the floor; **i.** that pencil; **j.** the windows.
 
-### III. Rewrite singular sentences in the plural
-Change people, objects, and locations while correctly using `there are`, plural nouns, and `they are`.
+1. Air ...
+2. Sharpen ...
+3. Shut ...
+4. Empty ...
+5. Turn on ...
+6. Sweep ...
+7. Take off ...
+8. Read ...
+9. Open ...
+10. Come and meet ...
+
+### II. Answer the question "What must I do?" using the cues
+
+1. `sweep/the floor`
+   What must I do?
+   *Sweep the floor, please.*
+2. `empty/the box`
+   What must I do?
+3. `read/this magazine`
+   What must I do?
+4. `dust/the cupboard`
+   What must I do?
+5. `clean/the electric cooker`
+   What must I do?
+6. `make/your bed`
+   What must I do?
+7. `close/your case`
+   What must I do?
+8. `put on/your tie`
+   What must I do?
+9. `turn off/the tap`
+   What must I do?
+10. `sharpen/these pencils`
+    What must I do?
 
 ## Lesson 31 - Where's Susan?
 
