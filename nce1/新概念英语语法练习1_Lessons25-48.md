@@ -502,14 +502,46 @@ Set 2 example: `read a magazine/my father/your mother/clean her teeth`
 
 ## Lesson 37 - Making a bookcase
 
-### I. Use present continuous verbs
-Practice actions involved in work: making, working, typing, reading, opening, shutting, cleaning, and carrying.
+### I. Make sentences according to the examples
 
-### II. Complete questions and answers
-Use *What are you doing?*, *What is he doing?*, and replies with present continuous forms.
+Example for Set 1: *Look at Jack. -> I'm looking at Jack.*
 
-### III. Translate practical instructions and descriptions
-Focus on household/workshop vocabulary and actions.
+1. **1a.** Look at Jack.
+2. **1b.** Help the girl.
+3. **1c.** Sit on the chair.
+4. **1d.** Read your book.
+5. **1e.** Drink your milk.
+6. **1f.** Wash the dishes.
+7. **1g.** Make your bed.
+8. **1h.** Open the window.
+9. **1i.** Sweep the floor.
+10. **1j.** Do your homework.
+
+Example for Set 2: *Put on your coats. -> We're putting on our coats.*
+
+1. **2a.** Put on your coats.
+2. **2b.** Take off your shoes.
+3. **2c.** Put your clothes in the wardrobe.
+4. **2d.** Take out your books.
+5. **2e.** Turn on the lights.
+6. **2f.** Turn off the taps.
+7. **2g.** Come into the kitchen.
+8. **2h.** Clean your teeth.
+9. **2i.** Go into the shop.
+10. **2j.** Look at the boats.
+
+### II. Answer the questions using the cues
+
+1. What are you going to do? (make a bookcase/paint it)
+   *I'm going to make a bookcase. Then I'm going to paint it.*
+2. What are you and Anna going to do? (cook a meal/eat it)
+   *We're going to cook a meal. Then we're going to eat it.*
+3. What are you going to do? (do my homework/read a magazine)
+4. What are you and John going to do? (type some letters/empty the baskets)
+5. What are you going to do? (sweep the floor/clean my father's car)
+6. What are you and Louise going to do? (read our books/write some letters)
+7. What are you going to do? (turn off the television/turn off the lights)
+8. What are you going to do? (put my clothes in the wardrobe/shut the door)
 
 ## Lesson 38 - What are you going to do?
 
