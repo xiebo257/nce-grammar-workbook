@@ -328,16 +328,44 @@ Options: **a.** this magazine; **b.** your books; **c.** your shoes; **d.** our 
 9. Mrs. Jones is working in the office. (type a letter)
 10. A cat is under a tree. (drink its milk)
 
-## Lesson 32 - What's he doing?
+## Lesson 32 - What's he/she/it doing?
 
-### I. Make questions and answers from the cues
-Use present continuous forms: *What's he/she doing?* and *What are they doing?* Examples include reading, typing, making tea, sweeping, cleaning, sharpening, putting on/taking off clothes, and opening/shutting doors.
+### I. Ask and answer questions according to the example
 
-### II. Fill in the blanks with the present continuous
-Use `am/is/are` plus `-ing` forms in positive, negative, and question sentences.
+1. `Ann/read` -> *Is Ann reading? Yes, she is.*
+2. `Sam/climb a tree`
+3. `Kathy/cook`
+4. `Miss Scott/run`
+5. `Pedro/make his bed`
+6. `Marie/clean the room`
+7. `she/drink tea`
+8. `he/clean his teeth`
+9. `she/type a letter`
+10. `your mother/sweep the floor`
 
-### III. Rewrite statements as questions and negatives
-Practice `He is ...`, `She is ...`, `They are ...`, and short answers.
+### II. Make dialogues using the cues
+
+Set 1 example: `the girl/run/walk/to school`
+
+*Is the girl running? No, she isn't. What is she doing? She's walking. Where is she walking? She's walking to school.*
+
+1. **1a.** `the girl/run/walk/to school`
+2. **1b.** `Sam/sit on a chair/stand/near the door`
+3. **1c.** `Jane/sit in the garden/cook/in the kitchen`
+4. **1d.** `the dog/drink/eat a bone/under a tree`
+5. **1e.** `Tony/sweep the floor/empty a basket/in the garden`
+6. **1f.** `the cat/drink its milk/run/across the lawn`
+
+Set 2 example: `read a magazine/my father/your mother/clean her teeth`
+
+*Who is reading a magazine? My father is. What about your mother? She is cleaning her teeth.*
+
+1. **2a.** `read a magazine/my father/your mother/clean her teeth`
+2. **2b.** `turn on the light/Kathy/Mike/look at a picture`
+3. **2c.** `run across the lawn/the cat/the dog/run after the cat`
+4. **2d.** `listen to the stereo/Sally/Ann/put on her skirt`
+5. **2e.** `eat a bone/the dog/the cat/drink its milk`
+6. **2f.** `climb the tree in the garden/Jack/Jane/sit under the tree`
 
 ## Lesson 33 - A fine day
 
