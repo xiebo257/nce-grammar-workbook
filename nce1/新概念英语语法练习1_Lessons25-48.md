@@ -96,15 +96,51 @@ Example: `my key/on the table` -> *Where is my key? It's on the table.*
 ## Lesson 27 - Mrs. Smith's living room
 
 ### I. Fill in the blanks with `in`, `on`, or `near`
-Describe a classroom, teacher, students, a table, flowers, windows, a clock, and a picture using locations such as in the school/classroom/room, on the table/wall, and near the table/open window.
+
+1. This is a classroom ___ a school. The teacher is ___ the classroom, and the students are ___ the classroom, too. There is a table ___ the room. There are some pencils and some flowers ___ the table. The teacher is ___ the table. There are two windows ___ the room. The window ___ the left is open, but the window ___ the right is shut. A student is ___ the open window. There is a clock ___ the wall ___ the door, and there is a picture ___ the wall.
 
 ### II. Rewrite the sentences according to the examples
-Change singular `There is/There's a ...` sentences into plural `There are some ...` sentences, then change questions such as *Is there a chair in the kitchen?* into *Are there any chairs in the kitchen?*
+
+Change the statements into the plural.
+
+1. **1a.** There's a girl in the class. -> *There are some girls in the class.*
+2. **1b.** There's a magazine on the table.
+3. **1c.** There's a pen on the desk.
+4. **1d.** There's a book on the stereo.
+5. **1e.** There's an air hostess on the aeroplane.
+6. **1f.** There's a black dog in the garden.
+7. **1g.** There's a boy in the kitchen.
+8. **1h.** There's an office assistant in the office.
+9. **1i.** There's a bottle in the refrigerator.
+10. **1j.** There's a policewoman in the street.
+
+Change the questions into the plural.
+
+1. **2a.** Is there a chair in the kitchen? -> *Are there any chairs in the kitchen?*
+2. **2b.** Is there a window in the room?
+3. **2c.** Is there a fork in the box?
+4. **2d.** Is there a magazine on the shelf?
+5. **2e.** Is there an egg in the basket?
+6. **2f.** Is there a tin in the cupboard?
+7. **2g.** Is there an armchair in the living room?
+8. **2h.** Is there a cup in the cupboard?
+9. **2i.** Is there a shoe near the door?
+10. **2j.** Is there a picture on the wall?
 
 ### III. Ask and answer questions according to the example
 Example: *Are there any sharp pencils on the desk?* -> *No, there aren't any sharp pencils on the desk. There are some blunt ones in my schoolbag.*
 
-Use paired cues for clean/dirty glasses, big/small plates, red/yellow flowers, long/short spoons, new/old chairs, full/empty bottles, dirty shirts, hats, and leaves.
+1. `sharp pencils/on the desk; blunt pencils/in my schoolbag`
+   *Are there any sharp pencils on the desk? No, there aren't any sharp pencils on the desk. There are some blunt ones in my schoolbag.*
+2. `clean glasses/in the cupboard; dirty glasses/on the table`
+3. `big plates/on the table; small plates/on the shelf`
+4. `red flowers/in the living room; yellow flowers/in the living room`
+5. `long spoons/in the cupboard; short spoons/on this plate`
+6. `new chairs/in the classroom; old chairs/in the classroom`
+7. `full bottles/on the floor; empty bottles/on the table`
+8. `dirty shirts/on the bed; dirty shirts/on the chair`
+9. `blue hats/in this shop; blue hats/in that shop`
+10. `green leaves/on the tree; yellow leaves/on the ground`
 
 ## Lesson 28 - Where are they?
 
