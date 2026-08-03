@@ -114,6 +114,10 @@ for (const lesson of lessons) {
     h1, h2 { line-height: 1.25; letter-spacing: 0; }
     h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 600; }
     h2 { margin: 36px 0 12px; color: var(--accent-dark); font-size: 1.25rem; }
+    .lesson-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+    .export-button { padding: 10px 14px; border: 1px solid var(--accent); border-radius: 4px; background: #fff; color: var(--accent-dark); font: inherit; font-weight: 700; cursor: pointer; }
+    .export-button:hover, .export-button:focus-visible { background: var(--accent); color: #fff; }
+    .export-button:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
     article { margin-top: 28px; padding: 4px 32px 30px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
     p { margin: 15px 0; }
     ol, ul { margin: 14px 0; padding-left: 1.7em; }
@@ -138,6 +142,7 @@ for (const lesson of lessons) {
     <header>
       <p class="series">NCE Grammar Practice 1</p>
       <h1>Lesson ${lesson.number}: ${inline(lesson.title)}</h1>
+      <div class="lesson-actions"><button class="export-button" type="button" id="export-answers">Export answers</button></div>
     </header>
     <article>
       ${renderBlocks(lesson.lines.join("\n"))}
@@ -158,6 +163,36 @@ for (const lesson of lessons) {
       field.addEventListener('input', () => {
         localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
       });
+    });
+    document.querySelector('#export-answers').addEventListener('click', () => {
+      const completedAnswers = fields
+        .map((field, index) => ({ field, index, answer: field.value.trim() }))
+        .filter(({ answer }) => answer);
+      const exportedAt = new Date().toLocaleString();
+      const sections = [
+        '# NCE Grammar Practice 1 - Lesson ${lesson.number}: ${lesson.title}',
+        '',
+        'Exported: ' + exportedAt,
+        '',
+        '## Answers',
+        ''
+      ];
+      if (completedAnswers.length === 0) {
+        sections.push('No answers have been entered yet.');
+      }
+      for (const { field, index, answer } of completedAnswers) {
+        const prompt = field.closest('li')?.querySelector('.question-text')?.textContent.trim();
+        const heading = prompt ? 'Question ' + (index + 1) : 'Notes and longer answers';
+        sections.push('### ' + heading, '');
+        if (prompt) sections.push('**Prompt:** ' + prompt, '');
+        sections.push('**Your answer:**', '', answer, '');
+      }
+      const blob = new Blob([sections.join('\\n')], { type: 'text/markdown;charset=utf-8' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'nce1-lesson-${String(lesson.number).padStart(3, "0")}-answers.md';
+      link.click();
+      URL.revokeObjectURL(link.href);
     });
   </script>
 </body>
