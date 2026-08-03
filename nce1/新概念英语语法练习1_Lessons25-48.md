@@ -200,10 +200,46 @@ Example: *Where are my cigarettes? (in the living room/on the table)* -> *They'r
 ### I. Give correct replies using the words given
 Example: *The spoons and forks are dirty. (clean)* -> *Clean them, please.*
 
-Make imperative replies for untidy beds, a hot room, blunt knives/pencils, dirty hands and face, clothes on the bed, a full cupboard, an open door, a dirty floor, a dark room, a stereo, a bookshelf, coats, cooker, windows, boxes, and a book.
+1. The spoons and forks are dirty. (clean)
+   *Clean them, please.*
+2. These beds are untidy. (make)
+3. The room is hot. (open/window)
+4. This knife is blunt. (sharpen)
+5. Your hands and face aren't clean. (wash)
+6. The clothes are on the bed. (put/in the wardrobe)
+7. The cupboard is full. (empty)
+8. The door is open. (shut)
+9. Your pencils are blunt. (sharpen)
+10. The floor of the living room is dirty. (sweep)
+11. It's dark in the room. (turn on/light)
+12. The stereo is on. (turn off/stereo)
+13. The bookshelf is dirty. (dust)
+14. It's cold outside. (put on/your coat)
+15. The cooker isn't clean. (clean)
+16. The windows are open. (close)
+17. The knife isn't sharp. (sharpen)
+18. It's hot in the room. (take off/your coat)
+19. The box is full. (empty)
+20. This is a good book. (read)
 
 ### II. Translate imperative sentences into English
-Practice: come in; sit down; give me an umbrella; open the window; open a book and read a lesson; show tickets; empty an ashtray and sweep the floor; put a coat in the wardrobe; clean a bicycle; put a newspaper on the table; turn on/off appliances; open a box; clean a classroom; put books on a shelf; empty a plate.
+
+1. 请进来。
+2. 请坐下。
+3. 给我一把伞。
+4. 把窗户打开，让房间通通风。
+5. 打开你的书，读第一课。
+6. 请把你的票给我。
+7. 把桌子上的灰掸掉，再把地扫一下。
+8. 把你的裙子放到衣柜里去。
+9. 把你的自行车擦干净。
+10. 把报纸放到桌子上。
+11. 打开电视。
+12. 关灯。
+13. 打开你的箱子。
+14. 请把教室打扫干净。
+15. 把书放到书架上。
+16. 把盘子里的东西倒掉。
 
 ## Lesson 30 - Where's Sally?
 
