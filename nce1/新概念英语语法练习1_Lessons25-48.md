@@ -370,13 +370,16 @@ Set 2 example: `read a magazine/my father/your mother/clean her teeth`
 ## Lesson 33 - A fine day
 
 ### I. Complete sentences with present continuous forms
-Describe people and animals in a park/garden: walking, reading, sitting, running, drinking, eating, talking, and playing.
+1. There ___ (be) some people at the seaside. It ___ (be) a fine day and the sun ___ (shine). It ___ (not rain). Some men and women ___ (sit) on the beach. They ___ (eat) ice creams or ___ (drink) tea or coffee. A man ___ (look) at the children. They ___ (play) on the sand near the sea. What ___ the dog ___ (do)? It ___ (sleep) under a big umbrella.
 
-### II. Ask and answer according to picture-style cues
-Use *What is he/she doing?*, *What are they doing?*, and *Who is ...?*
+### II. Make dialogues using the cues
 
-### III. Translate sentences into English
-Practice everyday present-continuous descriptions and location phrases.
+1. `boys/play football/girls/sing a song`
+   *Are the boys playing football? Yes, they are. Are the girls playing football, too? No, they aren't. They're singing a song.*
+2. `boys/sweep the floor/girls/clean the desks and chairs`
+3. `you/watch television/your friends/listen to the radio`
+4. `the dogs/eat bones/the cats/eat fish`
+5. `the children in this room/write/the children in that room/cry`
 
 ## Lesson 34 - What are they doing?
 
