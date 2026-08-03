@@ -61,12 +61,37 @@ Example: *Is there a spoon in the cup? (on the plate/dirty)* -> *No, there isn't
 ## Lesson 26 - Where is it?
 
 ### I. Fill in the blanks with `a`, `an`, or `the`
-Article practice with a book on a table, glasses on a shelf/table, a Fiat, an American student, a blue pen, an orange bottle, a television and desk, a cigarette shop, an electric cooker, and an engineer's son.
+
+1. Is there ___ book on ___ table?
+   Yes, there is. There is ___ big red book.
+   Give me ___ book, please.
+   Here you are.
+2. There are some glasses here. ___ glasses on ___ shelf are clean. ___ glasses on ___ table are dirty.
+3. Look at John's new car. What make is it?
+   It's ___ Fiat.
+4. My new friend is ___ American student.
+5. Is this your pen? Is it ___ blue one?
+   Yes, it's ___ blue one. It's my pen. Thank you.
+6. There is ___ orange bottle in the refrigerator. ___ bottle is full.
+7. On ___ right there is ___ television and on ___ left there is ___ desk.
+8. There's ___ cigarette shop and it's open.
+9. There's ___ electric cooker in our kitchen. It's new and it's white.
+10. My father is ___ engineer. I am ___ son of ___ engineer.
 
 ### II. Ask and answer using the cues according to the example
 Example: `my key/on the table` -> *Where is my key? It's on the table.*
 
-Prompts: your pencil/on the book; my coat/on the bed; your fork/on my plate; the refrigerator/in the kitchen; your pen/in my schoolbag; my watch/on the dressing table; the newspaper/on the television; the stereo/on the cupboard; the television/in the middle of the room.
+1. `my key/on the table`
+   *Where is my key? It's on the table.*
+2. `your pencil/on the book`
+3. `my coat/on the bed`
+4. `your fork/on my plate`
+5. `the refrigerator/in the kitchen`
+6. `your pen/in my schoolbag`
+7. `my watch/on the dressing table`
+8. `the newspaper/on the television`
+9. `the stereo/on the cupboard`
+10. `the television/in the middle of the room`
 
 ## Lesson 27 - Mrs. Smith's living room
 
