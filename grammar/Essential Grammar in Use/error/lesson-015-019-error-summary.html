@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 15–19)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 18px 60px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+  .tag.green { background: #e8f8f0; color: var(--green); }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 15–19 (Present Perfect)</h1>
+<p class="subtitle">Essential Grammar in Use — reviewed 2026-08-08</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">5</div><div class="label">Hard errors</div></div>
+  <div class="stat"><div class="num amber">5</div><div class="label">Typos / minor</div></div>
+  <div class="stat"><div class="num">~90</div><div class="label">Total answers</div></div>
+  <div class="stat"><div class="num" style="color:var(--green)">94%</div><div class="label">Overall accuracy</div></div>
+</div>
+
+<h2>Error Details by Lesson</h2>
+
+<h3>Lesson 15 — I have done (present perfect 1)</h3>
+<p style="margin: 8px 0 12px; font-size: 14px; color: var(--gray);">
+  Exercise 15.2 verb box: break, buy, decide, finish, forget, go, invite, lose, see, not/see, take, tell, not/tell
+</p>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">15.2 #3</td>
+    <td class="question">"She's not here. She _____ out." (verb: go)</td>
+    <td class="right">has gone</td>
+    <td class="right">has gone</td>
+    <td><span class="tag green">correct</span> ✅ correct.</td>
+  </tr>
+  <tr>
+    <td class="lesson">15.2 #4</td>
+    <td class="question">"I'm looking for Paula. _____ you _____ her?" (verb: see)</td>
+    <td class="wrong">have seen</td>
+    <td class="right">Have seen</td>
+    <td><span class="tag amber">capitalization</span> Starts a question — should be "Have" not "have".</td>
+  </tr>
+  <tr>
+    <td class="lesson">15.2 #7</td>
+    <td class="question">"I can't find my umbrella. Somebody _____ it." (verb: take)</td>
+    <td class="wrong">has stolen</td>
+    <td class="right">has taken</td>
+    <td><span class="tag red">wrong verb</span> "steal" is NOT in the verb box — use "take".</td>
+  </tr>
+  <tr>
+    <td class="lesson">15.2 #12</td>
+    <td class="question">"What are you going to do? _____ you _____?" (verb: decide)</td>
+    <td class="wrong">have decided</td>
+    <td class="right">Have decided</td>
+    <td><span class="tag amber">capitalization</span> Starts a question — should be "Have" not "have".</td>
+  </tr>
+  <tr>
+    <td class="lesson">15.2 #14</td>
+    <td class="question">"I _____ with this magazine. Do you want it?" (verb: finish)</td>
+    <td class="wrong">have taken</td>
+    <td class="right">have finished</td>
+    <td><span class="tag red">wrong verb</span> "finish with" = done using; "take" doesn't fit the context "Do you want it?".</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: choose the correct verb from the box</div>
+  Only use verbs <strong>given in the exercise</strong>. Don't substitute synonyms like "steal" for "take". Match the verb to the <strong>context</strong>: "Do you want it?" → the speaker is <strong>finished</strong> with the magazine.
+</div>
+
+<h3>Lesson 16 — I've just/already/yet (present perfect 2)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">16.4 #17</td>
+    <td class="question">Tom was trying to sell his car. Perhaps he has sold it. You ask a friend about Tom:</td>
+    <td class="wrong">Has tom sold his car yet?</td>
+    <td class="right">Has Tom sold his car yet?</td>
+    <td><span class="tag amber">capitalization</span> "tom" → "Tom" (proper noun, must capitalize).</td>
+  </tr>
+</table>
+
+<h3>Lesson 17 — Have you ever...? (present perfect 3)</h3>
+<p style="margin: 8px 0 12px; font-size: 14px; color: var(--gray);">
+  Verb box for 17.4: have many different jobs, travel all over the world, meet a lot of interesting people, write ten books, be married three times, do a lot of interesting things
+</p>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">17.4 #2</td>
+    <td class="question">"Mary is 65. She has had an interesting life." (travel all over the world)</td>
+    <td class="wrong">has traveld all over the world.</td>
+    <td class="right">has traveled all over the world.</td>
+    <td><span class="tag amber">spelling</span> traveld → traveled (or travelled). Double the consonant before -ed after a stressed syllable.</td>
+  </tr>
+  <tr>
+    <td class="lesson">17.4 #4</td>
+    <td class="question">(write ten books)</td>
+    <td class="wrong">She has wrote ten books.</td>
+    <td class="right">She has written ten books.</td>
+    <td><span class="tag red">wrong past participle</span> write → wrote → written (not "wrote"). "has wrote" is never correct.</td>
+  </tr>
+  <tr>
+    <td class="lesson">17.5 #5</td>
+    <td class="question">"Rebecca loves Paris. She's _____ there many times." (gone or been)</td>
+    <td class="wrong">gone</td>
+    <td class="right">been</td>
+    <td><span class="tag red">gone vs been</span> Repeated completed visits → "been" (gone implies still there; "many times" contradicts gone).</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: gone vs been</div>
+  <strong>has gone</strong> = went and is still there. <strong>has been</strong> = went and came back (experience). "Many times" → always <strong>been</strong> (you can only be "gone" once at a time).
+</div>
+
+<h3>Lesson 18 — How long have you...? (present perfect 4)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">18.2 #5</td>
+    <td class="question">"My brother lives in Canada. _____?"</td>
+    <td class="wrong">How long has your brother been in Canada</td>
+    <td class="right">How long has he been in Canada?</td>
+    <td><span class="tag amber">pronoun</span> Book expects pronoun "he" (like "she" for Helen, "they" for Steve and Nadia).</td>
+  </tr>
+  <tr>
+    <td class="lesson">18.2 #6</td>
+    <td class="question">"I'm a teacher. _____?"</td>
+    <td class="wrong">How long have you been a teacher.</td>
+    <td class="right">How long have you been a teacher?</td>
+    <td><span class="tag amber">punctuation</span> Stray period — the "?" is already in the HTML prompt.</td>
+  </tr>
+</table>
+
+<h3>Lesson 19 — for/since/ago</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">19.4 #7</td>
+    <td class="question">(David plays the piano – he started when he was seven years old) David has</td>
+    <td class="wrong">been played the piano since he was 7</td>
+    <td class="right">played the piano since he was 7 / been playing the piano since he was 7</td>
+    <td><span class="tag red">active vs passive</span> "has been played" = passive (the piano is played by someone); should be active "has played" or "has been playing".</td>
+  </tr>
+  <tr>
+    <td class="lesson">19.5 #5</td>
+    <td class="question">Write sentences about yourself. Begin with: I've had ...</td>
+    <td class="wrong">I've had lunch since 12.00.</td>
+    <td class="right">(better: I've had this phone for two years / I've had a headache since morning)</td>
+    <td><span class="tag amber">word choice</span> "lunch" is an event, not a possession — "have had lunch since 12:00" is awkward.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: active vs passive in present perfect</div>
+  <strong>has played</strong> = active (he plays). <strong>has been played</strong> = passive (the piano is played by someone). For a person doing an activity, always use <strong>active</strong>: has played / has been playing.
+</div>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Wrong verb from the box</div>
+    <ul>
+      <li>"steal" instead of "take" (not in box) — L15</li>
+      <li>"take" instead of "finish" (wrong context) — L15</li>
+    </ul>
+    <div class="pc-fix">Fix: Only use verbs given in the exercise. Match the verb to the context clue ("Do you want it?" → finished).</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Capitalization at sentence starts</div>
+    <ul>
+      <li>"have" → "Have" (question start) — L15</li>
+      <li>"tom" → "Tom" (proper noun) — L16</li>
+    </ul>
+    <div class="pc-fix">Fix: Capitalize the first word of every sentence/question. Always capitalize names.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Wrong past participle</div>
+    <ul>
+      <li>write → wrote → written (not "wrote") — L17</li>
+    </ul>
+    <div class="pc-fix">Fix: Memorize irregular verb triples: write / wrote / written. "has wrote" is never correct.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">gone vs been</div>
+    <ul>
+      <li>"many times" → been (gone = still there) — L17</li>
+    </ul>
+    <div class="pc-fix">Fix: gone = still there; been = went and returned. "Many times" always means been.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Active vs passive</div>
+    <ul>
+      <li>"has been played" (passive) → "has played" (active) — L19</li>
+    </ul>
+    <div class="pc-fix">Fix: For a person doing an activity, use active: has played / has been playing. "has been + -ed" = passive.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Typos & minor issues</div>
+    <ul>
+      <li>traveld → traveled — L17</li>
+      <li>stray period instead of "?" — L18</li>
+    </ul>
+    <div class="pc-fix">Fix: Double consonant before -ed (travel → traveled). Don't add a period when a "?" is already present.</div>
+  </div>
+
+</div>
+
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-015-019-unit-summary.html">Unit 15–19 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 15–19
+</div>
+
+</body>
+</html>

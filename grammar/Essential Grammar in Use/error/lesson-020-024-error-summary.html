@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 20–24, Past & Passive)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 18px 60px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 20–24 (Past & Passive)</h1>
+<p class="subtitle">Essential Grammar in Use — Group: Past &amp; Passive — Lessons 20-24 — reviewed 2026-08-08</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">8</div><div class="label">Hard errors</div></div>
+  <div class="stat"><div class="num amber">5</div><div class="label">Typos / minor</div></div>
+  <div class="stat"><div class="num">~85</div><div class="label">Total answers</div></div>
+  <div class="stat"><div class="num" style="color:var(--green)">85%</div><div class="label">Overall accuracy</div></div>
+</div>
+
+<h2>Error Details by Lesson</h2>
+
+<h3>Lesson 20 — I have done (present perfect) and I did (past)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">20.1 #4</td>
+    <td class="question">"Has Sarah gone away? Yes, _____ on Friday."</td>
+    <td class="wrong">She went</td>
+    <td class="right">she went</td>
+    <td><span class="tag amber">capitalization</span> After "Yes, " the clause continues — lowercase "she".</td>
+  </tr>
+  <tr>
+    <td class="lesson">20.3 #8</td>
+    <td class="question">"I _____ (switch) off the light before going out this morning."</td>
+    <td class="wrong">have switched</td>
+    <td class="right">switched</td>
+    <td><span class="tag red">tense</span> "this morning" + "before going out" = finished past context → past simple.</td>
+  </tr>
+  <tr>
+    <td class="lesson">20.3 #9</td>
+    <td class="question">"I live in New York now, but I _____ (live) in Mexico for many years."</td>
+    <td class="wrong">have lived</td>
+    <td class="right">lived</td>
+    <td><span class="tag red">tense</span> "now" signals the Mexico period is finished → past simple (have lived would imply still there).</td>
+  </tr>
+  <tr>
+    <td class="lesson">20.4 #3</td>
+    <td class="question">"Before that she was a waitress. She _____ (work) there for two years, but she _____ (not/enjoy) it."</td>
+    <td class="wrong">has worked ... didn't enjoy</td>
+    <td class="right">worked ... didn't enjoy</td>
+    <td><span class="tag red">tense</span> Waitressing is in the past (before current job) → "worked" not "has worked".</td>
+  </tr>
+  <tr>
+    <td class="lesson">20.4 #4</td>
+    <td class="question">"Do you know Mark's sister? I _____ (see) her a few times, but I _____ (never/speak) to her."</td>
+    <td class="wrong">saw</td>
+    <td class="right">have seen / 've seen</td>
+    <td><span class="tag red">tense</span> "a few times" = life experience, no finished time → present perfect.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: present perfect vs past simple</div>
+  Finished time word (yesterday, last week, ago, this morning when it's over) → <strong>past simple</strong>. No finished time (ever, never, a few times) → <strong>present perfect</strong>.
+</div>
+
+<h3>Lesson 21 — is done / was done (passive 1)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">21.1 #6</td>
+    <td class="question">"(we / allow / to park here?)"</td>
+    <td class="wrong">Are we allowd to park here?</td>
+    <td class="right">Are we allowed to park here?</td>
+    <td><span class="tag amber">spelling</span> allowd → allowed (double the "e" before adding -d: allow → allowed).</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.1 #12</td>
+    <td class="question">"(when / this bridge / build?)"</td>
+    <td class="wrong">When was thi bridge built?</td>
+    <td class="right">When was this bridge built?</td>
+    <td><span class="tag amber">typo</span> thi → this.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.1 #13</td>
+    <td class="question">"(I / not / wake up / by the noise)"</td>
+    <td class="wrong">I wasn't woke up by the noise.</td>
+    <td class="right">I wasn't woken up by the noise.</td>
+    <td><span class="tag red">past participle</span> Past participle of wake = <strong>woken</strong> (not woke). Passive = was + past participle.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.2 #4</td>
+    <td class="question">"A film studio is a place where films make." → correct it</td>
+    <td class="wrong">where films is made</td>
+    <td class="right">where films are made</td>
+    <td><span class="tag red">agreement</span> films = plural → <strong>are</strong> (not is). Passive: be + past participle.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.3 #5</td>
+    <td class="question">"'Where did you get this picture?' 'It _____ to me by a friend of mine.'" (verb: give)</td>
+    <td class="wrong">was found</td>
+    <td class="right">was given</td>
+    <td><span class="tag red">wrong verb</span> Context: received as gift → "give" (was given), not "find".</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.3 #6</td>
+    <td class="question">"Many American programmes _____ on British TV." (verb: show)</td>
+    <td class="wrong">were shown</td>
+    <td class="right">are shown</td>
+    <td><span class="tag red">tense</span> General ongoing fact (no past time marker) → present passive (are shown), not past (were shown).</td>
+  </tr>
+  <tr>
+    <td class="lesson">21.4 #5</td>
+    <td class="question">"(your mother / ???)"</td>
+    <td class="wrong">My monther was born in China.</td>
+    <td class="right">My mother was born in ...</td>
+    <td><span class="tag amber">typo</span> monther → mother.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: passive formation</div>
+  Passive = <strong>be + past participle</strong>. Present: is/are + done. Past: was/were + done. Plural subject → are/were. Use the correct past participle (wake → <strong>woken</strong>, not woke).
+</div>
+
+<h3>Lesson 22 — is being done / has been done (passive 2)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">22.2 #5</td>
+    <td class="question">"(the car / damage)" — no starter text, full sentence needed</td>
+    <td class="wrong">has been damaged.</td>
+    <td class="right">The car has been damaged.</td>
+    <td><span class="tag amber">missing subject</span> Items 5–8 have no starter text — need a full sentence with "The car" as subject.</td>
+  </tr>
+  <tr>
+    <td class="lesson">22.3 #6</td>
+    <td class="question">"How old are these houses? When _____ (they/build)?"</td>
+    <td class="wrong">are they built</td>
+    <td class="right">were they built</td>
+    <td><span class="tag red">tense</span> Houses already exist → building is completed past → past passive (were built), not present.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: passive tense choice</div>
+  Present continuous passive: <strong>is/are being + past participle</strong> (happening now). Present perfect passive: <strong>has/have been + past participle</strong> (completed, result now). Existing things → past passive (were built).
+</div>
+
+<h3>Lesson 23 — be/have/do in present and past tenses</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">23.2 #5</td>
+    <td class="question">"My parents are usually at home. They _____ go out very often."</td>
+    <td class="wrong">aren't</td>
+    <td class="right">don't</td>
+    <td><span class="tag red">auxiliary</span> Bare verb (go) → do-family (don't), not be-family (aren't). "aren't go out" is grammatically broken.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: choosing the correct auxiliary</div>
+  Bare verb (go, walk, eat) → <strong>do/does/did</strong>. -ing form → <strong>am/is/are/was/were</strong>. Past participle → <strong>have/has</strong> (perfect) or <strong>is/are/was/were</strong> (passive).
+</div>
+
+<h3>Lesson 24 — Regular and irregular verbs</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">24.4 #4</td>
+    <td class="question">"I know Gary, but I've never _____ his wife." (verb from box: meet)</td>
+    <td class="wrong">known</td>
+    <td class="right">met</td>
+    <td><span class="tag red">wrong verb</span> "know" is in the sentence but the box has "meet". Contrast: know Gary vs never <strong>met</strong> his wife. Past participle of meet = met.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: three forms of irregular verbs</div>
+  base / past simple / past participle: <strong>meet / met / met</strong>, <strong>wake / woke / woken</strong>, <strong>write / wrote / written</strong>. After have/has or be (passive), use the past participle.
+</div>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">4 errors</div>
+    <div class="pc-title">Present perfect vs past simple — finished time</div>
+    <ul>
+      <li>"this morning" + "before going out" → past simple — L20</li>
+      <li>"now" signals Mexico period is finished → past simple — L20</li>
+      <li>"before that" = past period → worked not has worked — L20</li>
+      <li>"a few times" = experience, no finished time → present perfect — L20</li>
+    </ul>
+    <div class="pc-fix">Fix: Check for finished time markers (yesterday, ago, this morning when over, "now" ending a period) → past simple. No finished time (ever, never, a few times) → present perfect.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Wrong past participle in passive</div>
+    <ul>
+      <li>wake → woke → <strong>woken</strong> (not "woke" in passive) — L21</li>
+      <li>meet → met → <strong>met</strong> (not "known") — L24</li>
+    </ul>
+    <div class="pc-fix">Fix: Memorize irregular verb forms. Passive (be + past participle) and perfect (have + past participle) both require the past participle, never the past simple form.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Passive tense choice</div>
+    <ul>
+      <li>General ongoing fact (no past marker) → present passive (are shown) — L21</li>
+      <li>Existing things → past passive (were built, not are built) — L22</li>
+    </ul>
+    <div class="pc-fix">Fix: General fact = is/are + done. Specific past event = was/were + done. Existing result from completed past = was/were done or has/have been done.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Subject-verb agreement in passive</div>
+    <ul>
+      <li>films (plural) → are made (not is made) — L21</li>
+    </ul>
+    <div class="pc-fix">Fix: Check singular/plural of the subject before choosing is/are or was/were in passive.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Wrong verb from box</div>
+    <ul>
+      <li>"find" doesn't fit context → "give" (was given) — L21</li>
+      <li>"know" in sentence but box has "meet" → never met — L24</li>
+    </ul>
+    <div class="pc-fix">Fix: Match the verb to the meaning, not to a word already in the sentence. Read the context carefully and check which box verb fits.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Auxiliary family choice</div>
+    <ul>
+      <li>bare verb (go) → don't (do-family), not aren't (be-family) — L23</li>
+    </ul>
+    <div class="pc-fix">Fix: Look at the verb form after the blank. Bare verb → do/does/did. -ing → be. Past participle → have/has or be (passive).</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">5 errors</div>
+    <div class="pc-title">Typos &amp; minor issues</div>
+    <ul>
+      <li>allowd → allowed — L21</li>
+      <li>thi → this — L21</li>
+      <li>monther → mother — L21</li>
+      <li>"She went" → "she went" (lowercase after "Yes, ") — L20</li>
+      <li>Missing subject "The car" in full sentence — L22</li>
+    </ul>
+    <div class="pc-fix">Fix: Slow down on spelling. Lowercase after comma in continuing clause. Items with no starter text need a full sentence with subject.</div>
+  </div>
+
+</div>
+
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-020-024-unit-summary.html">Unit 20–24 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 20–24 (Past &amp; Passive)
+</div>
+
+</body>
+</html>
