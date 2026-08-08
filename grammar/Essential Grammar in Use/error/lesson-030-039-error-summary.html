@@ -19,10 +19,10 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body {
-    max-width: 920px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 18px 60px;
-    font: 16px/1.6 Arial, Helvetica, sans-serif;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
     color: var(--text);
     background: var(--bg);
   }
@@ -45,7 +45,6 @@
     margin: 24px 0 12px;
   }
 
-  /* Stats grid */
   .stats {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -64,7 +63,6 @@
   .stat .num.amber { color: var(--amber); }
   .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
 
-  /* Table styles */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -73,17 +71,17 @@
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.06);
     margin: 12px 0 24px;
-    font-size: 15px;
+    font-size: 14px;
   }
   th {
     background: var(--primary);
     color: #fff;
-    padding: 10px 14px;
+    padding: 10px 12px;
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
   }
   td {
-    padding: 10px 14px;
+    padding: 10px 12px;
     border-bottom: 1px solid #e8edee;
     vertical-align: top;
   }
@@ -92,8 +90,8 @@
   td.wrong { color: var(--red); font-weight: bold; }
   td.right { color: var(--green); font-weight: bold; }
   td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
 
-  /* Rule boxes */
   .rule-box {
     background: #eef7f8;
     border-left: 4px solid var(--primary-light);
@@ -103,7 +101,6 @@
   }
   .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
 
-  /* Pattern cards */
   .patterns {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -140,7 +137,6 @@
   .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
   .pattern-card li { margin-bottom: 4px; }
 
-  /* Unit summary */
   .unit-card {
     background: var(--card);
     border: 1px solid var(--border);
@@ -159,7 +155,6 @@
     font-size: 14px;
   }
 
-  /* Tags */
   .tag {
     display: inline-block;
     padding: 2px 8px;
@@ -169,7 +164,6 @@
   }
   .tag.red { background: #fdeaea; color: var(--red); }
   .tag.amber { background: #fef5e7; color: var(--amber); }
-  .tag.green { background: #e8f8f0; color: var(--green); }
 
   .footer {
     text-align: center;
@@ -196,9 +190,10 @@
 
 <h3>Lesson 30 — can and could</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
     <td class="lesson">30.4 #25</td>
+    <td class="question">Situation: you want to borrow someone's newspaper.<br><em>(borrow / newspaper) — What do you say?</em></td>
     <td class="wrong">Could you borrow the newspaper to me?</td>
     <td class="right">Could I borrow your newspaper?</td>
     <td><span class="tag red">borrow vs lend</span> borrow = take (I borrow); lend = give (you lend). "to me" doesn't work with borrow.</td>
@@ -207,18 +202,20 @@
 
 <h3>Lesson 31 — must, mustn't, don't need to</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">31.2 #13</td>
-    <td class="wrong">I had to (later today)</td>
+    <td class="lesson">31.2 #7</td>
+    <td class="question">"I forgot to phone David yesterday. _____ phone him later today."<br><em>Write I must or I had to</em></td>
+    <td class="wrong">I had to</td>
     <td class="right">I must</td>
-    <td><span class="tag red">tense mismatch</span> "later today" = future → present necessity (must), not past (had to).</td>
+    <td><span class="tag red">tense</span> "later today" = future → present necessity (must), not past (had to).</td>
   </tr>
   <tr>
-    <td class="lesson">31.5 #27</td>
-    <td class="wrong">must (last week)</td>
+    <td class="lesson">31.5 #4</td>
+    <td class="question">"I was very busy last week. I _____ work every evening."<br><em>Write must / mustn't / had to / don't need to</em></td>
+    <td class="wrong">must</td>
     <td class="right">had to</td>
-    <td><span class="tag red">tense mismatch</span> "last week" = past → had to. must has no past form.</td>
+    <td><span class="tag red">tense</span> "last week" = past → had to. must has no past form.</td>
   </tr>
 </table>
 <div class="rule-box">
@@ -228,39 +225,44 @@
 
 <h3>Lesson 32 — should</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">32.4 #14</td>
-    <td class="wrong">I think he should...</td>
-    <td class="right">I think she should...</td>
+    <td class="lesson">32.4 #4</td>
+    <td class="question">"Karen needs a rest. (have a holiday)"<br><em>Write: I think ... should ...</em></td>
+    <td class="wrong">I think he should have a holiday.</td>
+    <td class="right">I think she should have a holiday.</td>
     <td><span class="tag red">pronoun</span> Karen is a female name → she, not he.</td>
   </tr>
 </table>
 
 <h3>Lesson 33 — have to</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">33.3 #14</td>
+    <td class="lesson">33.3 #4</td>
+    <td class="question">"We had to pay a lot of money. How much _____?"<br><em>Complete the question</em></td>
     <td class="wrong">did we have to pay</td>
     <td class="right">did you have to pay</td>
-    <td><span class="tag red">subject shift</span> In questions, 1st person (I/we) → you.</td>
+    <td><span class="tag red">subject shift</span> In questions, 1st person (we) → you.</td>
   </tr>
   <tr>
-    <td class="lesson">33.3 #15</td>
+    <td class="lesson">33.3 #5</td>
+    <td class="question">"I have to do some work. What exactly _____?"<br><em>Complete the question</em></td>
     <td class="wrong">do I have to do</td>
     <td class="right">do you have to do</td>
     <td><span class="tag red">subject shift</span> Same — I → you in questions.</td>
   </tr>
   <tr>
-    <td class="lesson">33.4 #17</td>
-    <td class="wrong">doesn't have to waiting</td>
-    <td class="right">doesn't have to wait</td>
+    <td class="lesson">33.4 #2</td>
+    <td class="question">"Why is Sue waiting? She_____"<br><em>Write: don't/doesn't/didn't have to ...</em></td>
+    <td class="wrong">doesn't have to waiting.</td>
+    <td class="right">doesn't have to wait.</td>
     <td><span class="tag red">verb form</span> have to + bare infinitive, never -ing.</td>
   </tr>
   <tr>
-    <td class="lesson">33.5 #22</td>
-    <td class="wrong">must pay / have to pay</td>
+    <td class="lesson">33.5 #3</td>
+    <td class="question">"You can't park your car here for nothing. You must pay / have to pay."<br><em>Which is correct?</em></td>
+    <td class="wrong">must pay / have to pay (both)</td>
     <td class="right">have to pay (only)</td>
     <td><span class="tag red">must vs have to</span> Parking = external obligation (rule/law) → have to, not must.</td>
   </tr>
@@ -272,94 +274,107 @@
 
 <h3>Lesson 34 — Would you like...? I'd like...</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">34.2 #7</td>
-    <td class="wrong">come for a concert</td>
-    <td class="right">come to a concert</td>
+    <td class="lesson">34.2 #3</td>
+    <td class="question">"You have an extra ticket for a concert next week. Perhaps Sue will come. (come) You say:"</td>
+    <td class="wrong">Would you like to come for a concert next week?</td>
+    <td class="right">Would you like to come to a concert next week?</td>
     <td><span class="tag red">preposition</span> Events take "to": come to a concert/party/meeting.</td>
   </tr>
   <tr>
     <td class="lesson">34.1 #2</td>
-    <td class="wrong">coffe</td>
-    <td class="right">coffee</td>
-    <td><span class="tag amber">typo</span></td>
+    <td class="question">Picture of coffee.<br><em>Write: Would you like ...?</em></td>
+    <td class="wrong">Would you like some coffe?</td>
+    <td class="right">Would you like some coffee?</td>
+    <td><span class="tag amber">typo</span> coffee = two e's, two f's.</td>
   </tr>
 </table>
 
 <h3>Lesson 35 — Do this! Don't do that! Let's do this!</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
     <td class="lesson">35.1 #2</td>
+    <td class="question">Picture: photographer about to take a photo, saying "cheese".<br><em>Use verb: smile</em></td>
     <td class="wrong">Let's smile</td>
     <td class="right">Smile</td>
-    <td><span class="tag red">imperative vs suggestion</span> Photographer says "Smile!" (command). "Let's smile" = suggestion (we together).</td>
+    <td><span class="tag red">imperative vs suggestion</span> Photographer commands "Smile!" (imperative). "Let's smile" = suggestion (we together).</td>
   </tr>
   <tr>
     <td class="lesson">35.1 #6</td>
-    <td class="wrong">sleep (lowercase)</td>
+    <td class="question">"I'm going to bed now. OK. _____ well."<br><em>Use verb: sleep</em></td>
+    <td class="wrong">sleep</td>
     <td class="right">Sleep</td>
     <td><span class="tag amber">capitalization</span> New sentence → capital letter.</td>
   </tr>
   <tr>
     <td class="lesson">35.1 #7</td>
-    <td class="wrong">don't (lowercase)</td>
-    <td class="right">Don't</td>
-    <td><span class="tag amber">capitalization</span> New sentence → capital letter.</td>
+    <td class="question">"_____ careful with that vase. _____ it!"<br><em>Use verbs: be, don't drop</em></td>
+    <td class="wrong">Be don't drop</td>
+    <td class="right">Be ... Don't drop</td>
+    <td><span class="tag amber">capitalization</span> "Don't" starts a new sentence → capitalize D.</td>
   </tr>
   <tr>
-    <td class="lesson">35.2 #10</td>
-    <td class="wrong">lest's</td>
-    <td class="right">let's</td>
-    <td><span class="tag amber">typo</span></td>
+    <td class="lesson">35.2 #4</td>
+    <td class="question">"Shall we eat at home? No, _____."<br><em>Use: let's + go to a restaurant</em></td>
+    <td class="wrong">lest's go to a restaurant</td>
+    <td class="right">let's go to a restaurant</td>
+    <td><span class="tag amber">typo</span> lest's → let's.</td>
   </tr>
 </table>
 
 <h3>Lesson 36 — I used to...</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
     <td class="lesson">36.1 #6</td>
+    <td class="question">Picture of an old building.<br>"This building_____"<br><em>Write: used to ...</em></td>
     <td class="wrong">used to be new</td>
     <td class="right">used to be a hotel</td>
-    <td><span class="tag red">wrong content</span> Picture shows a building's former function, not its age.</td>
+    <td><span class="tag red">wrong content</span> Picture shows former function (hotel), not age.</td>
   </tr>
   <tr>
-    <td class="lesson">36.2 #7</td>
-    <td class="wrong">go out much</td>
-    <td class="right">play volleyball</td>
-    <td><span class="tag red">two issues</span> Wrong activity + "much" doesn't work in positive statements (use "a lot").</td>
+    <td class="lesson">36.2 #2</td>
+    <td class="question">"She_____" (Karen's activities item 2)<br><em>Karen: swam, played volleyball, went out, played guitar, read, travelled</em></td>
+    <td class="wrong">used to go out much</td>
+    <td class="right">used to play volleyball</td>
+    <td><span class="tag red">two issues</span> Wrong activity (should be volleyball) + "much" doesn't work in positive (use "a lot").</td>
   </tr>
   <tr>
-    <td class="lesson">36.2 #8</td>
-    <td class="wrong">play guitar</td>
-    <td class="right">play the guitar</td>
+    <td class="lesson">36.2 #4</td>
+    <td class="question">"She_____" (Karen's activities item 4)<br><em>Activity: played the guitar</em></td>
+    <td class="wrong">She used to play guitar</td>
+    <td class="right">She used to play the guitar</td>
     <td><span class="tag amber">article</span> Instruments take "the": play the guitar/piano/violin.</td>
   </tr>
   <tr>
-    <td class="lesson">36.2 #10</td>
-    <td class="wrong">travell</td>
-    <td class="right">travel</td>
-    <td><span class="tag amber">typo</span></td>
+    <td class="lesson">36.2 #5</td>
+    <td class="question">Karen's activities item 5.<br><em>Activity: travelled two or three times a year</em></td>
+    <td class="wrong">She used to travell two or three times a year.</td>
+    <td class="right">She used to travel a lot.</td>
+    <td><span class="tag amber">typo</span> travell → travel.</td>
   </tr>
   <tr>
-    <td class="lesson">36.2 #11</td>
-    <td class="wrong">have long hair</td>
-    <td class="right">travel / go away</td>
-    <td><span class="tag red">wrong activity</span> Not one of Karen's listed activities; copied from 36.1.</td>
+    <td class="lesson">36.2 #6</td>
+    <td class="question">Karen's activities item 6.<br><em>Activity: (should be about travelling)</em></td>
+    <td class="wrong">She used to have long hair</td>
+    <td class="right">She used to go away / travel a lot</td>
+    <td><span class="tag red">wrong activity</span> "Have long hair" is from 36.1 — not one of Karen's activities.</td>
   </tr>
   <tr>
-    <td class="lesson">36.3 #17</td>
-    <td class="wrong">eat</td>
+    <td class="lesson">36.3 #6</td>
+    <td class="question">"When I was a child, I never _____ meat, but I eat it now."<br><em>used to or present simple</em></td>
+    <td class="wrong"> eat</td>
     <td class="right">used to eat</td>
     <td><span class="tag red">missing "used to"</span> Past habit ("when I was a child") → used to eat, not just eat.</td>
   </tr>
   <tr>
-    <td class="lesson">36.3 #21</td>
+    <td class="lesson">36.3 #10</td>
+    <td class="question">"What games _____ you _____ when you were a child?"<br><em>used to or present simple</em></td>
     <td class="wrong">did play</td>
-    <td class="right">did use to play</td>
-    <td><span class="tag amber">form</span> Valid English but exercise tests "used to" question form: Did you use to...?</td>
+    <td class="right">did you use to play</td>
+    <td><span class="tag amber">form</span> Valid English but exercise tests "used to" question: Did you use to...?</td>
   </tr>
 </table>
 <div class="rule-box">
@@ -369,30 +384,34 @@
 
 <h3>Lesson 37 — there is, there are</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">37.3 #15</td>
-    <td class="wrong">There aren't much traffic</td>
-    <td class="right">There isn't much traffic</td>
+    <td class="lesson">37.3 #6</td>
+    <td class="question">"The road is usually very quiet. _____ much traffic."<br><em>Write there is/are/isn't/aren't/is there/are there</em></td>
+    <td class="wrong">There aren't</td>
+    <td class="right">There isn't</td>
     <td><span class="tag red">uncountable</span> Traffic = uncountable → singular (is/isn't), never are/aren't.</td>
   </tr>
   <tr>
-    <td class="lesson">37.4 #23</td>
-    <td class="wrong">There fifty states</td>
-    <td class="right">There are fifty states</td>
+    <td class="lesson">37.4 #6</td>
+    <td class="question">"There are fifty states in the USA."<br><em>Write: there are + (number) + (noun) + (context)</em></td>
+    <td class="wrong">There fifty states in the USA.</td>
+    <td class="right">There are fifty states in the USA.</td>
     <td><span class="tag red">missing verb</span> "There are" needs the verb "are" — can't drop it.</td>
   </tr>
   <tr>
-    <td class="lesson">37.5 #26 (2nd)</td>
-    <td class="wrong">It's yours?</td>
-    <td class="right">Is it yours?</td>
-    <td><span class="tag red">question form</span> Asking → "Is it...?" not statement "It's...?"</td>
+    <td class="lesson">37.5 #4</td>
+    <td class="question">"_____ a red car outside your house. _____ yours?"<br><em>Write there's/is there or it's/is it</em></td>
+    <td class="wrong">There's / It's</td>
+    <td class="right">There's / Is it</td>
+    <td><span class="tag red">question form</span> 2nd blank: asking → "Is it...?" not statement "It's...?"</td>
   </tr>
   <tr>
-    <td class="lesson">37.5 #27 (2nd)</td>
-    <td class="wrong">it's a programme</td>
-    <td class="right">there's a programme</td>
-    <td><span class="tag red">it vs there</span> Introducing something new → there's; identifying something known → it's.</td>
+    <td class="lesson">37.5 #5</td>
+    <td class="question">"'_____ anything good on TV tonight?' 'Yes, _____ a programme I want to see at 8.15.'"<br><em>Write there's/is there or it's/is it</em></td>
+    <td class="wrong">Is there / it's</td>
+    <td class="right">Is there / there's</td>
+    <td><span class="tag red">it vs there</span> 2nd blank: introducing something new → there's, not it's.</td>
   </tr>
 </table>
 <div class="rule-box">
@@ -400,32 +419,36 @@
   traffic, money, water, time → <strong>is/isn't</strong> — never are/aren't.
 </div>
 
-<h3>Lesson 38 — there was/were, there has/have been, there will be</h3>
+<h3>Lesson 38 — there was/were, has/have been, will be</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">38.2 #17</td>
-    <td class="wrong">there were many tourists</td>
-    <td class="right">there weren't many tourists</td>
+    <td class="lesson">38.2 #10</td>
+    <td class="question">"Twenty years ago _____ many tourists here. Now there are a lot."<br><em>Write there was/wasn't/were/weren't</em></td>
+    <td class="wrong">there were</td>
+    <td class="right">there weren't</td>
     <td><span class="tag red">polarity</span> Contrast "Now there are a lot" → first sentence is negative.</td>
   </tr>
   <tr>
-    <td class="lesson">38.3 #22</td>
-    <td class="wrong">There's a robbery</td>
+    <td class="lesson">38.3 #5</td>
+    <td class="question">"'Why are the police outside the bank?' '_____ a robbery.'"<br><em>Write there + is/are/was/were/has been/have been/will be</em></td>
+    <td class="wrong">There's</td>
     <td class="right">There's been / There was</td>
     <td><span class="tag red">tense</span> Police are there because robbery already happened → present perfect or past, not present simple.</td>
   </tr>
   <tr>
-    <td class="lesson">38.3 #23</td>
-    <td class="wrong">There's been (when we arrived)</td>
+    <td class="lesson">38.3 #6</td>
+    <td class="question">"When we arrived at the theatre, _____ a long queue outside."<br><em>Write there + correct tense</em></td>
+    <td class="wrong">There's been</td>
     <td class="right">there was</td>
     <td><span class="tag red">tense</span> "When we arrived" = past → there was, not present perfect.</td>
   </tr>
   <tr>
-    <td class="lesson">38.3 #25 (2nd)</td>
-    <td class="wrong">there have been (Now)</td>
-    <td class="right">there are</td>
-    <td><span class="tag red">tense</span> "Now" = present fact → there are (present simple), not present perfect.</td>
+    <td class="lesson">38.3 #8</td>
+    <td class="question">"Ten years ago _____ 500 children at the school. Now _____ more than a thousand."<br><em>Write there + correct tense (two blanks)</em></td>
+    <td class="wrong">there were / there have been</td>
+    <td class="right">there were / there are</td>
+    <td><span class="tag red">tense</span> 2nd blank: "Now" = present fact → there are (present simple), not present perfect.</td>
   </tr>
 </table>
 <div class="rule-box">
@@ -435,12 +458,13 @@
 
 <h3>Lesson 39 — It...</h3>
 <table>
-  <tr><th>#</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
   <tr>
-    <td class="lesson">39.4 #22 (2nd)</td>
-    <td class="wrong">it isn't much rain</td>
-    <td class="right">there isn't much rain</td>
-    <td><span class="tag red">it vs there</span> Rain amount → existence → there. "it" = weather quality (it's raining), not amount.</td>
+    <td class="lesson">39.4 #7</td>
+    <td class="question">"_____'s often cold here, but _____ isn't much rain."<br><em>Write it or there</em></td>
+    <td class="wrong">It / it</td>
+    <td class="right">It / there</td>
+    <td><span class="tag red">it vs there</span> 2nd blank: rain amount → existence → there. "it" = weather quality (it's raining), not amount.</td>
   </tr>
 </table>
 <div class="rule-box">
@@ -456,10 +480,10 @@
     <div class="pc-count">5 errors</div>
     <div class="pc-title">Wrong pronoun / subject</div>
     <ul>
-      <li>Karen → he (should be she)</li>
-      <li>I/we → kept as I/we in questions (should be you)</li>
-      <li>there were → should be negative (contrast clue)</li>
-      <li>it → should be there (rain amount)</li>
+      <li>Karen → he (should be she) — L32</li>
+      <li>I/we → kept as I/we in questions (should be you) — L33</li>
+      <li>there were → should be negative (contrast clue) — L38</li>
+      <li>it → should be there (rain amount) — L39</li>
     </ul>
     <div class="pc-fix">Fix: Match pronouns to names. Convert I/we → you in questions. Check contrast clues for polarity.</div>
   </div>
@@ -468,10 +492,10 @@
     <div class="pc-count">4 errors</div>
     <div class="pc-title">Wrong tense for time marker</div>
     <ul>
-      <li>had to for future (should be must)</li>
-      <li>must for past (should be had to)</li>
-      <li>present perfect for past (when we arrived)</li>
-      <li>present perfect for present fact (Now)</li>
+      <li>had to for future (should be must) — L31</li>
+      <li>must for past (should be had to) — L31</li>
+      <li>present perfect for past (when we arrived) — L38</li>
+      <li>present perfect for present fact (Now) — L38</li>
     </ul>
     <div class="pc-fix">Fix: Check the time marker first — past → was/had to, now → is/must, result-up-to-now → has been.</div>
   </div>
@@ -480,9 +504,9 @@
     <div class="pc-count">3 errors</div>
     <div class="pc-title">Modal + wrong verb form</div>
     <ul>
-      <li>have to + waiting → have to + wait</li>
-      <li>must/have to confusion (external obligation → have to)</li>
-      <li>There's (present) instead of There's been (perfect)</li>
+      <li>have to + waiting → have to + wait — L33</li>
+      <li>must/have to confusion (external → have to) — L33</li>
+      <li>There's (present) instead of There's been (perfect) — L38</li>
     </ul>
     <div class="pc-fix">Fix: All modals (can, could, should, must, have to) take the bare infinitive. Never -ing, never "to".</div>
   </div>
@@ -491,9 +515,9 @@
     <div class="pc-count">3 errors</div>
     <div class="pc-title">Wrong content / activity</div>
     <ul>
-      <li>borrow vs lend (I borrow, you lend)</li>
-      <li>"used to be new" instead of "used to be a hotel"</li>
-      <li>"have long hair" — not Karen's activity</li>
+      <li>borrow vs lend (I borrow, you lend) — L30</li>
+      <li>"used to be new" instead of "used to be a hotel" — L36</li>
+      <li>"have long hair" — not Karen's activity — L36</li>
     </ul>
     <div class="pc-fix">Fix: Read the prompt carefully. Don't reuse words from other exercises. borrow = take, lend = give.</div>
   </div>
@@ -502,8 +526,8 @@
     <div class="pc-count">2 errors</div>
     <div class="pc-title">it vs there confusion</div>
     <ul>
-      <li>it's for new info → should be there's</li>
-      <li>it for rain amount → should be there</li>
+      <li>it's for new info → should be there's — L37</li>
+      <li>it for rain amount → should be there — L39</li>
     </ul>
     <div class="pc-fix">Fix: there = existence/amount/new info. it = identity/quality/known thing.</div>
   </div>
@@ -512,137 +536,22 @@
     <div class="pc-count">7 errors</div>
     <div class="pc-title">Typos & minor issues</div>
     <ul>
-      <li>coffe → coffee</li>
-      <li>lest's → let's</li>
-      <li>travell → travel</li>
-      <li>sleep → Sleep (capitalize)</li>
-      <li>don't → Don't (capitalize)</li>
-      <li>play guitar → play the guitar</li>
-      <li>did play → did use to play</li>
+      <li>coffe → coffee — L34</li>
+      <li>lest's → let's — L35</li>
+      <li>travell → travel — L36</li>
+      <li>sleep → Sleep (capitalize) — L35</li>
+      <li>don't → Don't (capitalize) — L35</li>
+      <li>play guitar → play the guitar — L36</li>
+      <li>did play → did use to play — L36</li>
     </ul>
     <div class="pc-fix">Fix: Slow down on spelling. Capitalize at sentence starts. Instruments take "the".</div>
   </div>
 
 </div>
 
-<h2>Quick-Reference: One-Line Rules for Units 30–39</h2>
-
-<div class="unit-card">
-  <h3>Unit 30 — can / could</h3>
-  <table>
-    <tr><th>Use</th><th>Form</th></tr>
-    <tr><td>present ability</td><td>can / can't + bare verb</td></tr>
-    <tr><td>past ability</td><td>could / couldn't + bare verb</td></tr>
-    <tr><td>polite request</td><td>Could you...?</td></tr>
-  </table>
-  <div class="key-rule"><strong>borrow = take</strong> (I borrow from you); <strong>lend = give</strong> (you lend to me). Never say "borrow something to me."</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 31 — must / mustn't / don't need to</h3>
-  <table>
-    <tr><th>Modal</th><th>Meaning</th></tr>
-    <tr><td>must</td><td>necessary now/future</td></tr>
-    <tr><td>had to</td><td>necessary in the past (must has no past)</td></tr>
-    <tr><td>mustn't</td><td>important NOT to do (prohibition)</td></tr>
-    <tr><td>don't need to</td><td>not necessary (optional)</td></tr>
-  </table>
-  <div class="key-rule">Future → <strong>must</strong>. Past → <strong>had to</strong>. mustn't = don't do it (bad); don't need to = optional.</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 32 — should</h3>
-  <table>
-    <tr><th>Pattern</th><th>Example</th></tr>
-    <tr><td>should / shouldn't + verb</td><td>You should go. / You shouldn't eat so much.</td></tr>
-    <tr><td>I think ... should</td><td>I think you should sell it.</td></tr>
-    <tr><td>I don't think ... should</td><td>I don't think you should go to work.</td></tr>
-    <tr><td>Do you think I should...?</td><td>Do you think I should learn to drive?</td></tr>
-  </table>
-  <div class="key-rule"><strong>should + bare infinitive</strong>. "not" goes after "think": I <strong>don't think</strong> you should (not I think you shouldn't).</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 33 — have to</h3>
-  <table>
-    <tr><th>Tense</th><th>Form</th></tr>
-    <tr><td>present</td><td>have to / has to</td></tr>
-    <tr><td>past</td><td>had to</td></tr>
-    <tr><td>negative</td><td>don't have to (not necessary)</td></tr>
-    <tr><td>question</td><td>do you have to?</td></tr>
-  </table>
-  <div class="key-rule"><strong>must</strong> = personal necessity; <strong>have to</strong> = external obligation (rules, laws). In questions, I/we → <strong>you</strong>. <strong>have to + bare infinitive</strong> (never -ing).</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 34 — Would you like...? I'd like...</h3>
-  <table>
-    <tr><th>Question</th><th>Meaning</th><th>When</th></tr>
-    <tr><td>Do you like X?</td><td>general preference</td><td>always</td></tr>
-    <tr><td>Would you like X?</td><td>want now</td><td>offer/invitation</td></tr>
-    <tr><td>I like X.</td><td>enjoy in general</td><td>always</td></tr>
-    <tr><td>I'd like X.</td><td>want now (polite)</td><td>request</td></tr>
-  </table>
-  <div class="key-rule">"now" → <strong>would like</strong>; "general" → <strong>do you like</strong>. Events take "to": come <strong>to</strong> a concert.</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 35 — Imperatives</h3>
-  <table>
-    <tr><th>Form</th><th>Type</th><th>Example</th></tr>
-    <tr><td>Verb!</td><td>command</td><td>Smile! / Buy! / Have a nice time!</td></tr>
-    <tr><td>Don't + verb!</td><td>negative</td><td>Don't buy it!</td></tr>
-    <tr><td>Let's + verb</td><td>suggestion</td><td>Let's take a taxi.</td></tr>
-  </table>
-  <div class="key-rule">Declining: "No, <strong>don't</strong> [verb]" (about you) vs "No, <strong>let's not</strong> [verb]" (about us). Capitalize at sentence starts.</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 36 — I used to...</h3>
-  <table>
-    <tr><th>Form</th><th>Use</th></tr>
-    <tr><td>used to + verb</td><td>past habit/state, no longer true</td></tr>
-    <tr><td>didn't use to / never used to</td><td>past negative</td></tr>
-    <tr><td>Did you use to...?</td><td>past question (no -d after "did")</td></tr>
-  </table>
-  <div class="key-rule">"a lot" in positive, "much" only in negative/question. "play <strong>the</strong> guitar." Question: "Did you <strong>use to</strong>...?" (no -d).</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 37 — there is, there are</h3>
-  <table>
-    <tr><th>Subject</th><th>Form</th></tr>
-    <tr><td>singular</td><td>there is / there's</td></tr>
-    <tr><td>plural</td><td>there are / there aren't</td></tr>
-    <tr><td>uncountable</td><td>there is / there isn't (singular!)</td></tr>
-    <tr><td>question (singular)</td><td>is there?</td></tr>
-    <tr><td>question (plural)</td><td>are there?</td></tr>
-  </table>
-  <div class="key-rule">Uncountable (traffic, money, water) → always <strong>is/isn't</strong>. <strong>there's</strong> = new info; <strong>it's</strong> = identity/known.</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 38 — there was/were, has/have been, will be</h3>
-  <table>
-    <tr><th>Tense</th><th>Singular</th><th>Plural</th></tr>
-    <tr><td>past</td><td>there was</td><td>there were</td></tr>
-    <tr><td>present perfect</td><td>there has been</td><td>there have been</td></tr>
-    <tr><td>future</td><td>there will be</td><td>there will be</td></tr>
-  </table>
-  <div class="key-rule">Past (when we arrived) → <strong>there was/were</strong>. Result now → <strong>there has/have been</strong>. Present fact (Now) → <strong>there are</strong>. Contrast ("Now there are a lot") → first is negative.</div>
-</div>
-
-<div class="unit-card">
-  <h3>Unit 39 — It...</h3>
-  <table>
-    <tr><th>Use</th><th>Example</th></tr>
-    <tr><td>weather quality</td><td>It's cold / It's raining.</td></tr>
-    <tr><td>time / day</td><td>It's late. / What day is it?</td></tr>
-    <tr><td>distance</td><td>It's ten kilometres. / How far is it?</td></tr>
-    <tr><td>it's + adj + to + infinitive</td><td>It's nice to see you. / It's dangerous to go out alone.</td></tr>
-  </table>
-  <div class="key-rule"><strong>it</strong> = weather quality (it's cold). <strong>there</strong> = amount/events (there isn't much rain, there was a storm).</div>
-</div>
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-030-039-unit-summary.html">Unit 30–39 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
 
 <div class="footer">
   Generated 2026-08-09 — Essential Grammar in Use, Units 30–39
