@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 49–54)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 18px 60px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 49–54 (Indirect Questions, Reported Speech & Verb Patterns)</h1>
+<p class="subtitle">Essential Grammar in Use — reviewed 2026-08-08</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">9</div><div class="label">Hard errors</div></div>
+  <div class="stat"><div class="num amber">8</div><div class="label">Typos / minor</div></div>
+  <div class="stat"><div class="num">~95</div><div class="label">Total answers</div></div>
+  <div class="stat"><div class="num" style="color:var(--green)">83%</div><div class="label">Overall accuracy</div></div>
+</div>
+
+<h2>Error Details by Lesson</h2>
+
+<h3>Lesson 49 — Do you know where...? I don't know what... etc.</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">49.1 #6</td>
+    <td class="question">"Has Emily lived here a long time?" (how long)<br><em>Complete: I don't know _____</em></td>
+    <td class="wrong">I don't know how long Emily lived here.</td>
+    <td class="right">I don't know how long she has lived here.</td>
+    <td><span class="tag red">tense</span> present perfect → past simple (dropped "has"). Indirect questions keep the same tense. Also: Emily → she (pronoun).</td>
+  </tr>
+  <tr>
+    <td class="lesson">49.2 #2</td>
+    <td class="question">"(Where does Susan work?) I don't know _____"</td>
+    <td class="wrong">where Susan work</td>
+    <td class="right">where Susan works</td>
+    <td><span class="tag red">3rd person -s</span> 3rd person singular → -s (Susan works, not work).</td>
+  </tr>
+  <tr>
+    <td class="lesson">49.2 #5</td>
+    <td class="question">"(What time does the meeting begin?) Do you know _____"</td>
+    <td class="wrong">what time the meetting begin</td>
+    <td class="right">what time the meeting begins</td>
+    <td><span class="tag red">3rd person -s</span> the meeting begins (not begin). Also typo: "meetting" → "meeting".</td>
+  </tr>
+  <tr>
+    <td class="lesson">49.5 #7</td>
+    <td class="question">"(Did they go to Jane's party?) Do you know if...?"</td>
+    <td class="wrong">Do you know if they went go Jane's party?</td>
+    <td class="right">Do you know if they went to Jane's party?</td>
+    <td><span class="tag red">preposition</span> "went go" → "went to" ("go" should be preposition "to"; "went" is already past of "go").</td>
+  </tr>
+  <tr>
+    <td class="lesson">49.6 #2</td>
+    <td class="question">"Do you know what time _____?"</td>
+    <td class="wrong">he get up</td>
+    <td class="right">he gets up</td>
+    <td><span class="tag red">3rd person -s</span> he gets (not get). 3rd person singular requires -s even in indirect questions.</td>
+  </tr>
+  <tr>
+    <td class="lesson">49.1 #2-4</td>
+    <td class="question">Various — pronoun preference</td>
+    <td class="wrong">Kate / castle / Paul (kept names)</td>
+    <td class="right">she / it / he (key prefers pronouns)</td>
+    <td><span class="tag amber">pronoun preference</span> key prefers pronoun substitution: Kate → she, castle → it, Paul → he.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: Indirect questions — word order and tense</div>
+  Indirect questions use <strong>subject + verb</strong> order (no inversion). Keep the <strong>same tense</strong> as the direct question. 3rd person singular still takes <strong>-s</strong>: "where Susan works", "what time he gets up".
+</div>
+
+<h3>Lesson 50 — She said that... He told me that...</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">50.1 #3</td>
+    <td class="question">"I can't go to the party." (She said...)</td>
+    <td class="wrong">She sad she couldn't go...</td>
+    <td class="right">She said she couldn't go...</td>
+    <td><span class="tag amber">typo</span> sad → said (wrong word — "sad" = emotion, "said" = spoke).</td>
+  </tr>
+  <tr>
+    <td class="lesson">50.1 #6</td>
+    <td class="question">"I don't feel very well." (She said...)</td>
+    <td class="wrong">She said she didn't feel very well</td>
+    <td class="right">She said she didn't feel very well.</td>
+    <td><span class="tag amber">punctuation</span> missing period at end of sentence.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: say vs tell</div>
+  <strong>say</strong> (no object): She said that... / <strong>tell</strong> (with object): She told me that... Tenses shift back one step in reported speech: present → past, can → could, will → would.
+</div>
+
+<h3>Lesson 51 — work/working go/going do/doing</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">51.2 #7</td>
+    <td class="question">"I'm not _____ to it." (radio context)</td>
+    <td class="wrong">watching</td>
+    <td class="right">listening</td>
+    <td><span class="tag red">wrong verb</span> watch TV (visual), listen to radio (audio). Match verb to media type.</td>
+  </tr>
+  <tr>
+    <td class="lesson">51.3 #9</td>
+    <td class="question">"Would you like _____ on a trip?" (go)</td>
+    <td class="wrong">go</td>
+    <td class="right">to go</td>
+    <td><span class="tag red">verb pattern</span> would like + to + infinitive (never bare). "Would you like to go?" not "Would you like go?"</td>
+  </tr>
+  <tr>
+    <td class="lesson">51.1 #3-10</td>
+    <td class="question">All 8 answers: "phone Paul" or "to phone Paul"</td>
+    <td class="wrong">phone Pual / to phone Pual</td>
+    <td class="right">phone Paul / to phone Paul</td>
+    <td><span class="tag amber">typo</span> consistent typo: Pual → Paul (all 8 answers).</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: Verb forms after different triggers</div>
+  Bare infinitive after modals (can/must/should/might). <strong>to + infinitive</strong> after want/would like/have to/used to. <strong>-ing</strong> after be (continuous) and enjoy/finish/stop/mind.
+</div>
+
+<h3>Lesson 52 — to... (I want to do) and -ing (I enjoy doing)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">52.3 #5</td>
+    <td class="question">"Have you been to New York? I'd love _____ one day."</td>
+    <td class="wrong">to be there</td>
+    <td class="right">to go there</td>
+    <td><span class="tag amber">word choice</span> key prefers "go" (movement, matches "been to"). Both grammatically correct.</td>
+  </tr>
+  <tr>
+    <td class="lesson">52.4 #3</td>
+    <td class="question">"If it's a nice day, I'd like _____"</td>
+    <td class="wrong">to go to shopping</td>
+    <td class="right">to go shopping</td>
+    <td><span class="tag red">verb pattern</span> "shopping" = activity (gerund), not a place. "go shopping" (no "to"). "go to the shops" (place needs "to").</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: go + -ing (activities)</div>
+  <strong>go + -ing</strong> for activities: go shopping, go swimming, go skiing. No "to" before the -ing word. "go to the shops" (place) vs "go shopping" (activity).
+</div>
+
+<h3>Lesson 53 — I want you to... I told you to...</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">53.2 #3</td>
+    <td class="question">"You should go to the doctor." (I advised _____)</td>
+    <td class="wrong">he to go to the doctor.</td>
+    <td class="right">him to go to the doctor.</td>
+    <td><span class="tag red">object pronoun</span> he → him (object pronoun after "advised"). Subject: he; Object: him. Verbs like advised/told/asked take object pronouns.</td>
+  </tr>
+  <tr>
+    <td class="lesson">53.2 #5</td>
+    <td class="question">"Come back in ten minutes." (I told _____)</td>
+    <td class="wrong">him to wait for me.</td>
+    <td class="right">him to come back in ten minutes.</td>
+    <td><span class="tag red">wrong content</span> reported speech must match what was said. "Wait for me" was never said.</td>
+  </tr>
+  <tr>
+    <td class="lesson">53.2 #8</td>
+    <td class="question">"My mother taught me." (Amy's mother taught _____)</td>
+    <td class="wrong">her to play piano.</td>
+    <td class="right">her to play the piano.</td>
+    <td><span class="tag red">article</span> instruments always take "the": play the piano/guitar/violin.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: verb + object + to + infinitive</div>
+  want/tell/advise/ask/teach + <strong>object pronoun</strong> + to + infinitive: "I told <strong>him</strong> to go." Use object pronouns (me/him/her/us/them), not subject pronouns (he/she/they).
+</div>
+
+<h3>Lesson 54 — I went to the shop to...</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">54.2 #6</td>
+    <td class="question">"The doorbell rang, I looked out the window _____"</td>
+    <td class="wrong">to see who is it</td>
+    <td class="right">to see who it was</td>
+    <td><span class="tag red">indirect question</span> indirect question (subject + verb, not inverted) + past tense (was, not is). "who it was" not "who is it".</td>
+  </tr>
+  <tr>
+    <td class="lesson">54.1 #1</td>
+    <td class="question">"I went to a coffee shop to meet a _____"</td>
+    <td class="wrong">freind</td>
+    <td class="right">friend</td>
+    <td><span class="tag amber">typo</span> freind → friend.</td>
+  </tr>
+  <tr>
+    <td class="lesson">54.2 #3</td>
+    <td class="question">"Do I need a key _____?"</td>
+    <td class="wrong">to open the door</td>
+    <td class="right">to open this door</td>
+    <td><span class="tag amber">word choice</span> "the" vs "this" — minor word choice difference.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: Purpose with to + infinitive</div>
+  Use <strong>to + infinitive</strong> to express why: "I went to the shop <strong>to buy</strong> milk." Indirect questions inside purpose clauses keep subject + verb order: "to see <strong>who it was</strong>" (not "who is it").
+</div>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">3 errors</div>
+    <div class="pc-title">3rd person singular → -s</div>
+    <ul>
+      <li>Susan works (not work) — L49</li>
+      <li>the meeting begins (not begin) — L49</li>
+      <li>he gets up (not get up) — L49</li>
+    </ul>
+    <div class="pc-fix">Fix: Even in indirect questions, 3rd person singular takes -s. "where Susan works", "what time he gets up".</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Indirect question word order & tense</div>
+    <ul>
+      <li>"who is it" → "who it was" (subject + verb, past tense) — L54</li>
+      <li>"has lived" → kept as "lived" (should keep same tense) — L49</li>
+    </ul>
+    <div class="pc-fix">Fix: Indirect questions use subject + verb (no inversion). Keep the same tense as the direct question.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">to + infinitive vs bare infinitive</div>
+    <ul>
+      <li>would like → to + inf (to go, not go) — L51</li>
+      <li>"go to shopping" → "go shopping" (no "to" before activity) — L52</li>
+    </ul>
+    <div class="pc-fix">Fix: would like always takes to + infinitive (never bare). go + -ing for activities (no "to").</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Object pronouns after verbs</div>
+    <ul>
+      <li>he → him (after advised) — L53</li>
+    </ul>
+    <div class="pc-fix">Fix: Subject vs object: I/me, he/him, she/her, we/us, they/them. Verbs like advised/told/asked take object pronouns.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">3 errors</div>
+    <div class="pc-title">Wrong verb or word</div>
+    <ul>
+      <li>watch vs listen (TV vs radio) — L51</li>
+      <li>went go → went to (preposition) — L49</li>
+      <li>play piano → play the piano (instruments take "the") — L53</li>
+    </ul>
+    <div class="pc-fix">Fix: Match verb to media type (watch TV, listen to radio). Instruments always take "the".</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">go + -ing pattern</div>
+    <ul>
+      <li>"go to shopping" → "go shopping" — L52</li>
+    </ul>
+    <div class="pc-fix">Fix: Activity = gerund, no "to" before -ing. "go shopping / swimming / skiing". "go to the shops" (place needs "to").</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">4 minor</div>
+    <div class="pc-title">Pronoun substitution</div>
+    <ul>
+      <li>Kate → she — L49</li>
+      <li>castle → it — L49</li>
+      <li>Paul → he — L49</li>
+      <li>Tom → him (carried from related lessons)</li>
+    </ul>
+    <div class="pc-fix">Fix: Answer key prefers pronouns over names. When a name has been established, use the matching pronoun.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">5 errors</div>
+    <div class="pc-title">Typos</div>
+    <ul>
+      <li>sad → said — L50</li>
+      <li>Pual → Paul (x8) — L51</li>
+      <li>meetting → meeting — L49</li>
+      <li>freind → friend — L54</li>
+      <li>neartest → nearest (related lessons)</li>
+    </ul>
+    <div class="pc-fix">Fix: Slow down on spelling. said (not sad), friend (not freind), meeting (not meetting).</div>
+  </div>
+
+</div>
+
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-049-054-unit-summary.html">Units 49–54 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 49–54
+</div>
+
+</body>
+</html>

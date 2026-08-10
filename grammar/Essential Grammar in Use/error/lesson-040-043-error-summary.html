@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 40–43)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 18px 60px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 40–43 (Auxiliaries & Negatives)</h1>
+<p class="subtitle">Essential Grammar in Use — reviewed 2026-08-08</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">10</div><div class="label">Hard errors</div></div>
+  <div class="stat"><div class="num amber">4</div><div class="label">Typos / minor</div></div>
+  <div class="stat"><div class="num">~85</div><div class="label">Total answers</div></div>
+  <div class="stat"><div class="num" style="color:var(--green)">88%</div><div class="label">Overall accuracy</div></div>
+</div>
+
+<h2>Error Details by Lesson</h2>
+
+<h3>Lesson 40 — I am, I don't etc.</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">40.2 #3</td>
+    <td class="question">"I was working, but my friends _____."<br><em>Write negative verb</em></td>
+    <td class="wrong">wasn't</td>
+    <td class="right">weren't</td>
+    <td><span class="tag red">subject-verb agreement</span> my friends = plural → weren't. was is singular: I/he/she/it; were is plural: we/you/they.</td>
+  </tr>
+  <tr>
+    <td class="lesson">40.4 #4</td>
+    <td class="question">"I'm" frame — write about yourself</td>
+    <td class="wrong">like cats, but my friends don't.</td>
+    <td class="right">American, but my husband isn't.</td>
+    <td><span class="tag red">auxiliary form</span> "I'm like cats" doesn't work — "I'm" takes adjective/noun, not verb phrase. "like cats" needs "I like" not "I'm".</td>
+  </tr>
+  <tr>
+    <td class="lesson">40.6 #4</td>
+    <td class="question">"Is it snowing?" — write short answer</td>
+    <td class="wrong">No, it is windy and raining.</td>
+    <td class="right">No, it isn't.</td>
+    <td><span class="tag amber">short answer format</span> Full sentence, not short auxiliary form. Exercise teaches short answers: "No, it isn't."</td>
+  </tr>
+  <tr>
+    <td class="lesson">40.6 #9</td>
+    <td class="question">"Did you buy anything yesterday?" — short answer</td>
+    <td class="wrong">Yes, I bought some water.</td>
+    <td class="right">Yes, I did.</td>
+    <td><span class="tag amber">short answer format</span> Full sentence, not short auxiliary form. Short answer reuses the question's auxiliary.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: short answers reuse the question's auxiliary</div>
+  "Is it snowing?" → "No, it <strong>isn't</strong>." (not a full sentence). "Did you buy anything?" → "Yes, I <strong>did</strong>." The auxiliary carries the meaning — no need to repeat the main verb.
+</div>
+
+<h3>Lesson 41 — Have you? Are you? Don't you? etc.</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">41.1 #6</td>
+    <td class="question">"Kate phoned me last night. _____ What did she say?"<br><em>Reply question</em></td>
+    <td class="wrong">Did he</td>
+    <td class="right">Did she?</td>
+    <td><span class="tag red">wrong pronoun</span> Kate is female → she, not he.</td>
+  </tr>
+  <tr>
+    <td class="lesson">41.1 #3</td>
+    <td class="question">"I didn't go to work yesterday."<br><em>Reply question</em></td>
+    <td class="wrong">Dind't you</td>
+    <td class="right">Didn't you?</td>
+    <td><span class="tag amber">typo</span> Dind't → Didn't (missing 'd').</td>
+  </tr>
+  <tr>
+    <td class="lesson">41.3 #2</td>
+    <td class="question">"These flowers are nice, _____?"<br><em>Question tag</em></td>
+    <td class="wrong">Isn't it?</td>
+    <td class="right">aren't they?</td>
+    <td><span class="tag red">subject-verb agreement</span> These flowers = plural → they → aren't they? (not it → isn't it).</td>
+  </tr>
+  <tr>
+    <td class="lesson">41.3 #3</td>
+    <td class="question">"Jane was at the party, _____?"<br><em>Question tag</em></td>
+    <td class="wrong">aren't they?</td>
+    <td class="right">wasn't she?</td>
+    <td><span class="tag red">wrong pronoun + verb</span> Jane = singular female → was → wasn't she? (wrong pronoun: they → she; wrong verb: are → was).</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: question tags — match pronoun and verb to subject</div>
+  Tags use the same subject pronoun and verb tense as the statement. "Jane <strong>was</strong>..." → "<strong>wasn't she</strong>?" (not "aren't they?"). "These flowers <strong>are</strong>..." → "<strong>aren't they</strong>?" (not "isn't it?").
+</div>
+
+<h3>Lesson 42 — too/either; so am I / neither do I etc.</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">42.2 #4</td>
+    <td class="question">"I need a holiday."<br><em>So...I or Neither...I</em></td>
+    <td class="wrong">So need I.</td>
+    <td class="right">So do I.</td>
+    <td><span class="tag red">wrong auxiliary</span> Use auxiliary "do", not the main verb "need". Pattern: So + auxiliary + I, never the main verb.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42.2 #10</td>
+    <td class="question">"I'm not going out tomorrow."<br><em>So/Neither</em></td>
+    <td class="wrong">So am I.</td>
+    <td class="right">Neither am I.</td>
+    <td><span class="tag red">polarity error</span> Negative statement → Neither, not So. Positive → So; negative → Neither.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42.3 #2</td>
+    <td class="question">"I can ride a bike."<br><em>About yourself</em></td>
+    <td class="wrong">So am I.</td>
+    <td class="right">So can I.</td>
+    <td><span class="tag red">wrong auxiliary</span> Modal "can" → use "can" as auxiliary, not "am". Auxiliary must match the statement's verb.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42.3 #6</td>
+    <td class="question">"I slept well last night."</td>
+    <td class="wrong">So am I.</td>
+    <td class="right">So did I.</td>
+    <td><span class="tag red">wrong auxiliary</span> Past simple → use "did", not "am". Auxiliary matches the statement's verb tense.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42.3 #12</td>
+    <td class="question">"I go to the cinema a lot."</td>
+    <td class="wrong">So am I.</td>
+    <td class="right">So do I.</td>
+    <td><span class="tag red">wrong auxiliary</span> Present simple → use "do", not "am". Never default to "am" for everything.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: So/Neither + auxiliary + I</div>
+  The auxiliary must <strong>match the statement's verb</strong>: present simple → do/does; past simple → did; present continuous → am/is/are; modal → can/will/must. <strong>Never</strong> use the main verb (So <strong>do</strong> I, not So <strong>need</strong> I). Positive → <strong>So</strong>; negative → <strong>Neither</strong>.
+</div>
+
+<h3>Lesson 43 — isn't, haven't, don't etc. (negatives)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">43.2 #3</td>
+    <td class="question">"They understood."<br><em>Make negative with don't/doesn't/didn't</em></td>
+    <td class="wrong">There didn't understand.</td>
+    <td class="right">They didn't understand.</td>
+    <td><span class="tag red">wrong word</span> there ≠ they. "there" = existence; "they" = pronoun for people.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43.4 #13</td>
+    <td class="question">"Lisa bought a coat, but she _____ worn it yet."</td>
+    <td class="wrong">haven't</td>
+    <td class="right">hasn't</td>
+    <td><span class="tag red">subject-verb agreement</span> she = 3rd person singular → hasn't. have is for I/you/we/they.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43.4 #14</td>
+    <td class="question">"You _____ drive so fast. It's dangerous."</td>
+    <td class="wrong">don't</td>
+    <td class="right">shouldn't / mustn't</td>
+    <td><span class="tag red">wrong modal</span> "It's dangerous" → advice/prohibition → shouldn't/mustn't, not don't (fact).</td>
+  </tr>
+  <tr>
+    <td class="lesson">43.5 #7</td>
+    <td class="question">"Have you got a car? No."<br><em>About Gary</em></td>
+    <td class="wrong">He haven't got a car.</td>
+    <td class="right">He hasn't got a car.</td>
+    <td><span class="tag red">subject-verb agreement</span> he = 3rd person singular → hasn't, not haven't.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43.5 #12</td>
+    <td class="question">"Did you go out last night? Yes."<br><em>About Gary</em></td>
+    <td class="wrong">He did go out last night.</td>
+    <td class="right">He went out last night.</td>
+    <td><span class="tag red">auxiliary form</span> Past simple positive = went (not emphatic "did go"). "did go" is emphatic only.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: negatives and 3rd person singular</div>
+  3rd person singular (he/she/it) → <strong>hasn't</strong> / <strong>doesn't</strong> (not haven't/don't). Past simple negative → <strong>didn't + verb</strong>. Past simple positive → verb past tense (<strong>went</strong>), not emphatic "did go".
+</div>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">3 errors</div>
+    <div class="pc-title">Subject-verb agreement</div>
+    <ul>
+      <li>my friends (plural) → wasn't → should be weren't — L40</li>
+      <li>she → haven't → should be hasn't — L43</li>
+      <li>he → haven't → should be hasn't — L43</li>
+    </ul>
+    <div class="pc-fix">Fix: Plural subjects (we/you/they) → were/aren't/have. 3rd person singular (he/she/it) → was/isn't/has.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Wrong pronoun / word</div>
+    <ul>
+      <li>Kate → he (should be she) — L41</li>
+      <li>they → there (should be they) — L43</li>
+      <li>These flowers → it (should be they) — L41</li>
+      <li>Jane → they (should be she) — L41</li>
+    </ul>
+    <div class="pc-fix">Fix: Match pronoun to subject. Kate/Jane → she. Plural nouns → they. "there" = existence, "they" = people/things.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">3 errors</div>
+    <div class="pc-title">So/Neither + wrong auxiliary</div>
+    <ul>
+      <li>"I need" → So need I → should be So do I — L42</li>
+      <li>"I can ride" → So am I → should be So can I — L42</li>
+      <li>"I slept" → So am I → should be So did I — L42</li>
+      <li>"I go" → So am I → should be So do I — L42</li>
+    </ul>
+    <div class="pc-fix">Fix: Auxiliary must match the statement's verb (can/did/do). Never use the main verb. Never default to "am" for everything.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Polarity error (So vs Neither)</div>
+    <ul>
+      <li>"I'm not going out" → So am I → should be Neither am I — L42</li>
+    </ul>
+    <div class="pc-fix">Fix: Positive statement → So + auxiliary + I. Negative statement → Neither + auxiliary + I.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Auxiliary form errors</div>
+    <ul>
+      <li>"I'm" + verb phrase (like cats) — doesn't work; "I'm" takes adjective/noun — L40</li>
+      <li>Emphatic "did go" instead of past simple "went" — L43</li>
+    </ul>
+    <div class="pc-fix">Fix: "I'm" = I am → takes adjective/noun (American, happy). Past simple positive = verb past tense (went), not "did go".</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 minor</div>
+    <div class="pc-title">Short answer format</div>
+    <ul>
+      <li>"Is it snowing?" → full sentence instead of "No, it isn't." — L40</li>
+      <li>"Did you buy anything?" → full sentence instead of "Yes, I did." — L40</li>
+    </ul>
+    <div class="pc-fix">Fix: Short answers reuse the question's auxiliary — "No, it isn't." / "Yes, I did." No need for a full sentence.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Typos</div>
+    <ul>
+      <li>Dind't → Didn't (missing 'd') — L41</li>
+      <li>freind → friend — various</li>
+    </ul>
+    <div class="pc-fix">Fix: Slow down on spelling. Double-check contractions: Didn't, not Dind't.</div>
+  </div>
+
+</div>
+
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-040-043-unit-summary.html">Unit 40–43 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 40–43
+</div>
+
+</body>
+</html>

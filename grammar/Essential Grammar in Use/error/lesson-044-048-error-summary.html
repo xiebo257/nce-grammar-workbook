@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 44–48)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 18px 60px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 44–48 (Questions)</h1>
+<p class="subtitle">Essential Grammar in Use — reviewed 2026-08-08</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">6</div><div class="label">Hard errors</div></div>
+  <div class="stat"><div class="num amber">6</div><div class="label">Typos / minor</div></div>
+  <div class="stat"><div class="num">~70</div><div class="label">Total answers</div></div>
+  <div class="stat"><div class="num" style="color:var(--green)">86%</div><div class="label">Overall accuracy</div></div>
+</div>
+
+<h2>Error Details by Lesson</h2>
+
+<h3>Lesson 44 — is it...? have you...? do they...? etc. (questions 1)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">44.1 #3</td>
+    <td class="question">"I was late. (and you?)" — write question</td>
+    <td class="wrong">Was you late this morning?</td>
+    <td class="right">Were you late this morning?</td>
+    <td><span class="tag red">verb form</span> "you" takes were/weren't (always), never was. "you" takes were/weren't even when singular.</td>
+  </tr>
+  <tr>
+    <td class="lesson">44.4 #5</td>
+    <td class="question">"My parents are going on holiday. When _____?"</td>
+    <td class="wrong">are your parents going on holiday</td>
+    <td class="right">When are they going (on holiday)?</td>
+    <td><span class="tag amber">pronoun preferred</span> Use "they" instead of repeating "your parents". Pronoun preferred over repeating noun.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: "you" always takes were</div>
+  <strong>you</strong> → <strong>were/weren't</strong> (always), never was. Even when "you" refers to one person, the verb is always "were".
+</div>
+
+<h3>Lesson 45 — Who saw you? Who did you see? (questions 2)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">45.2 #8</td>
+    <td class="question">"Something woke me up." (make question)</td>
+    <td class="wrong">Who woke me up?</td>
+    <td class="right">What woke me up?</td>
+    <td><span class="tag red">question word</span> something → what (things), not who (people). somebody → who; something → what.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: who vs what for subject questions</div>
+  <strong>somebody</strong> → <strong>who</strong> (people). <strong>something</strong> → <strong>what</strong> (things). Match the question word to the type of unknown: person = who, thing = what.
+</div>
+
+<h3>Lesson 46 — Who is she talking to? What is it like? (questions 3)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">46.1 #6</td>
+    <td class="question">"The book was written by XXXXX."</td>
+    <td class="wrong">Who wrote the book?</td>
+    <td class="right">Who was the book written by?</td>
+    <td><span class="tag amber">active vs passive</span> Grammatically correct but exercise keeps preposition "by" at the end — preserves passive structure.</td>
+  </tr>
+  <tr>
+    <td class="lesson">46.2 #3</td>
+    <td class="question">Picture: a man going to a restaurant. "Which restaurant _____?"</td>
+    <td class="wrong">are you going to</td>
+    <td class="right">is he going to</td>
+    <td><span class="tag red">pronoun</span> Picture shows a man → he (3rd person), not you. Match pronoun to picture subject.</td>
+  </tr>
+  <tr>
+    <td class="lesson">46.3 #3</td>
+    <td class="question">"Jack plays for a football team." → Which...?</td>
+    <td class="wrong">Which team is he play for?</td>
+    <td class="right">Which team does he play for?</td>
+    <td><span class="tag red">auxiliary</span> Present simple Q = does + base verb, not is + base verb. Mixed continuous+simple forms incorrectly.</td>
+  </tr>
+  <tr>
+    <td class="lesson">46.4 #4</td>
+    <td class="question">"What is the weather like?" (about another country)</td>
+    <td class="wrong">What is the waether like?</td>
+    <td class="right">What is the weather like?</td>
+    <td><span class="tag amber">typo</span> waether → weather.</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: present simple question form</div>
+  Present simple question = <strong>do/does + subject + base verb</strong>. Never mix "is" (continuous auxiliary) with a base verb. "is he play" → "does he play".
+</div>
+
+<h3>Lesson 47 — What...? Which...? How...? (questions 4)</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">47.3 #3</td>
+    <td class="question">"You can have tea or coffee. _____ do you prefer?"</td>
+    <td class="wrong">Which drink</td>
+    <td class="right">Which</td>
+    <td><span class="tag amber">extra word</span> Just "Which" needed — the noun "drink" is understood from context.</td>
+  </tr>
+  <tr>
+    <td class="lesson">47.3 #4</td>
+    <td class="question">"'_____ day is it today?' 'Friday.'"</td>
+    <td class="wrong">Which</td>
+    <td class="right">What</td>
+    <td><span class="tag red">question word</span> What day (open-ended, not choosing from limited set). What = open-ended; Which = limited choice.</td>
+  </tr>
+  <tr>
+    <td class="lesson">47.3 #8</td>
+    <td class="question">"_____ is older, Liz or Steve?"</td>
+    <td class="wrong">Which</td>
+    <td class="right">Who</td>
+    <td><span class="tag amber">pronoun</span> People → Who preferred (Which also acceptable but less natural for people).</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: What vs Which vs Who</div>
+  <strong>What</strong> = open-ended (infinite options). <strong>Which</strong> = limited choice (from a known set). <strong>Who</strong> = people (preferred over Which for people).
+</div>
+
+<h3>Lesson 48 — How long does it take...?</h3>
+<table>
+  <tr><th>#</th><th>Question</th><th>Your answer</th><th>Correct</th><th>Issue</th></tr>
+  <tr>
+    <td class="lesson">48.2 #4</td>
+    <td class="question">"Walk from your home to the nearest shop"</td>
+    <td class="wrong">It takes ten minutes to walk to the neartest shop.</td>
+    <td class="right">(personal — correct grammar)</td>
+    <td><span class="tag amber">typo</span> neartest → nearest.</td>
+  </tr>
+  <tr>
+    <td class="lesson">48.3 #4</td>
+    <td class="question">"Tom painted the bathroom." → How long did it take...?</td>
+    <td class="wrong">How long did it take Tom to...?</td>
+    <td class="right">How long did it take him to...?</td>
+    <td><span class="tag amber">pronoun preferred</span> Key prefers pronoun "him" (but "Tom" is grammatically correct).</td>
+  </tr>
+  <tr>
+    <td class="lesson">48.3 #5</td>
+    <td class="question">"They repaired the car." → How long did it take...?</td>
+    <td class="wrong">How long did it take they to repair the car?</td>
+    <td class="right">How long did it take them to repair the car?</td>
+    <td><span class="tag red">pronoun case</span> they → them (object pronoun after "take"). Subject: I/he/she/we/they; Object: me/him/her/us/them.</td>
+  </tr>
+  <tr>
+    <td class="lesson">48.4 #2</td>
+    <td class="question">"left 10:00, arrived 10:20"</td>
+    <td class="wrong">It took us twenty mintues to walk to home.</td>
+    <td class="right">It took us 20 minutes to walk home.</td>
+    <td><span class="tag red">two issues</span> "to home" → "home" (home = adverb, no "to"); also typo "mintues" → "minutes".</td>
+  </tr>
+  <tr>
+    <td class="lesson">48.4 #5</td>
+    <td class="question">"began a long time ago, got a job last week"</td>
+    <td class="wrong">It took Lisa a week to look for a job.</td>
+    <td class="right">It took Lisa a long time to find a job.</td>
+    <td><span class="tag red">two issues</span> Wrong duration ("a week" vs "a long time") + wrong verb ("look for" = searching, "find" = result).</td>
+  </tr>
+</table>
+<div class="rule-box">
+  <div class="rule-title">Rule: object pronouns after "take"</div>
+  After "take", use <strong>object pronouns</strong>: me / him / her / us / them. Subject pronouns (I, he, she, we, they) are wrong here. "It took <strong>them</strong> to repair the car."
+</div>
+<div class="rule-box">
+  <div class="rule-title">Rule: "home" is an adverb</div>
+  <strong>home</strong> = adverb (no preposition needed). "walk <strong>home</strong>" (not "walk to home"). Same for: go home, come home, get home, arrive home.
+</div>
+<div class="rule-box">
+  <div class="rule-title">Rule: look for vs find</div>
+  <strong>look for</strong> = the process of searching (ongoing). <strong>find</strong> = the result (completed). "It took a long time to <strong>find</strong> a job" = the result was achieved after a long search.
+</div>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">"you" always takes were</div>
+    <ul>
+      <li>Was you late? → Were you late? — L44</li>
+    </ul>
+    <div class="pc-fix">Fix: "you" → were/weren't (always), never was. Even for singular "you".</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Object vs subject pronouns</div>
+    <ul>
+      <li>they → them (after "take" — object position) — L48</li>
+    </ul>
+    <div class="pc-fix">Fix: After "take", use object pronouns: me/him/her/us/them. Subject: I/he/she/we/they.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Wrong question word</div>
+    <ul>
+      <li>something → what (not who) — L45</li>
+      <li>Which day → What day (open-ended vs limited) — L47</li>
+    </ul>
+    <div class="pc-fix">Fix: something → what (things); somebody → who (people). What = open-ended; Which = limited choice from known set.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">Wrong auxiliary / verb form</div>
+    <ul>
+      <li>is he play → does he play (present simple Q = does + base) — L46</li>
+    </ul>
+    <div class="pc-fix">Fix: Present simple question = do/does + subject + base verb. Never mix "is" with a base verb.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">2 errors</div>
+    <div class="pc-title">Pronoun matching</div>
+    <ul>
+      <li>picture man → he (not you) — L46</li>
+      <li>parents → they (not repeating noun) — L44</li>
+    </ul>
+    <div class="pc-fix">Fix: Match pronoun to picture subject (man → he). Use pronouns instead of repeating nouns ("my parents" → "they").</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">"home" = adverb, no "to"</div>
+    <ul>
+      <li>walk to home → walk home — L48</li>
+    </ul>
+    <div class="pc-fix">Fix: "home" is an adverb — no preposition needed. go home / walk home / come home (never "to home").</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">1 error</div>
+    <div class="pc-title">look for vs find</div>
+    <ul>
+      <li>"look for a job" → "find a job" — L48</li>
+    </ul>
+    <div class="pc-fix">Fix: "look for" = process of searching. "find" = result achieved. Use "find" when the outcome is completed.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">3 errors</div>
+    <div class="pc-title">Typos</div>
+    <ul>
+      <li>waether → weather — L46</li>
+      <li>neartest → nearest — L48</li>
+      <li>mintues → minutes — L48</li>
+    </ul>
+    <div class="pc-fix">Fix: Slow down on spelling. Double-check common words: weather, nearest, minutes.</div>
+  </div>
+
+</div>
+
+<p style="margin: 20px 0; font-size: 15px;">
+  See also: <a href="lesson-044-048-unit-summary.html">Unit 44–48 Grammar Reference</a> — detailed explanations of when/why to use each form.
+</p>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 44–48
+</div>
+
+</body>
+</html>
