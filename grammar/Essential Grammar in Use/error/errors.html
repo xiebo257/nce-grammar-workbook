@@ -198,6 +198,33 @@
     font-size: 12px;
     transition: background 0.2s;
   }
+
+  .toc-grid a .badge-g {
+    display: inline-block;
+    background: #c0392b;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 4px;
+    min-width: 16px;
+    text-align: center;
+  }
+  .toc-grid a .badge-t {
+    display: inline-block;
+    background: #f39c12;
+    color: #fff;
+    border-radius: 8px;
+    padding: 1px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 2px;
+    min-width: 16px;
+    text-align: center;
+  }
+  .toc-grid a:has(.badge-g) .badge-g { background: #c0392b; }
+  .toc-grid a { display: flex; align-items: center; justify-content: space-between; }
   .toc-grid a:hover { background: #d4e8ea; }
   @media (max-width: 1200px) {
     .toc { display: none; }
@@ -227,75 +254,75 @@
 <div class="toc">
   <h3>Table of Contents</h3>
   <div class="toc-grid">
-    <a href="#u15">Unit 15 — Present Perfect 1</a>
-    <a href="#u16">Unit 16 — Present Perfect 2</a>
-    <a href="#u17">Unit 17 — Present Perfect 3</a>
-    <a href="#u18">Unit 18 — Present Perfect 4</a>
-    <a href="#u19">Unit 19 — for / since / ago</a>
-    <a href="#u20">Unit 20 — Present Perfect vs Past</a>
-    <a href="#u21">Unit 21 — Passive 1</a>
-    <a href="#u22">Unit 22 — Passive 2</a>
-    <a href="#u23">Unit 23 — be/have/do in Tenses</a>
-    <a href="#u24">Unit 24 — Regular & Irregular Verbs</a>
-    <a href="#u25">Unit 25 — Present Continuous for Future</a>
-    <a href="#u26">Unit 26 — Going to</a>
-    <a href="#u27">Unit 27 — Will / Shall 1</a>
-    <a href="#u28">Unit 28 — Will / Shall 2</a>
-    <a href="#u29">Unit 29 — Might</a>
-    <a href="#u30">Unit 30 — Can / Could</a>
-    <a href="#u31">Unit 31 — Must / Mustn't</a>
-    <a href="#u32">Unit 32 — Should</a>
-    <a href="#u33">Unit 33 — Have to</a>
-    <a href="#u34">Unit 34 — Would You Like</a>
-    <a href="#u35">Unit 35 — Imperatives</a>
-    <a href="#u36">Unit 36 — Used to</a>
-    <a href="#u37">Unit 37 — There is / are</a>
-    <a href="#u38">Unit 38 — There was / were</a>
-    <a href="#u39">Unit 39 — It</a>
-    <a href="#u40">Unit 40 — I am / I don't</a>
-    <a href="#u41">Unit 41 — Have You? / Isn't It?</a>
-    <a href="#u42">Unit 42 — Too / Either / So / Neither</a>
-    <a href="#u43">Unit 43 — Negatives</a>
-    <a href="#u44">Unit 44 — Questions 1</a>
-    <a href="#u45">Unit 45 — Questions 2</a>
-    <a href="#u46">Unit 46 — Questions 3</a>
-    <a href="#u47">Unit 47 — What / Which / How</a>
-    <a href="#u48">Unit 48 — How Long Does It Take</a>
-    <a href="#u49">Unit 49 — Indirect Questions</a>
-    <a href="#u50">Unit 50 — Reported Speech</a>
-    <a href="#u51">Unit 51 — To / -ing</a>
-    <a href="#u52">Unit 52 — To... and -ing</a>
-    <a href="#u53">Unit 53 — Want You to</a>
-    <a href="#u54">Unit 54 — Went to... to...</a>
-    <a href="#u55">Unit 55 — Go to / on / for / -ing</a>
-    <a href="#u56">Unit 56 — Get</a>
-    <a href="#u57">Unit 57 — Do / Make</a>
-    <a href="#u58">Unit 58 — Have</a>
-    <a href="#u59">Unit 59 — Pronouns</a>
-    <a href="#u61">Unit 61 — Possessive Pronouns</a>
-    <a href="#u62">Unit 62 — I/me/my/mine</a>
-    <a href="#u63">Unit 63 — Myself / Themselves</a>
-    <a href="#u64">Unit 64 — Possessive 's</a>
-    <a href="#u65">Unit 65 — A / An</a>
-    <a href="#u66">Unit 66 — Singular / Plural</a>
-    <a href="#u67">Unit 67 — Countable / Uncountable 1</a>
-    <a href="#u68">Unit 68 — Countable / Uncountable 2</a>
-    <a href="#u69">Unit 69 — A/An and The</a>
-    <a href="#u70">Unit 70 — The...</a>
-    <a href="#u71">Unit 71 — Go to Work / Go Home</a>
-    <a href="#u72">Unit 72 — I Like Music</a>
-    <a href="#u73">Unit 73 — The... Names of Places</a>
-    <a href="#u74">Unit 74 — This / That / These / Those</a>
-    <a href="#u75">Unit 75 — One / Ones</a>
-    <a href="#u76">Unit 76 — Some and Any</a>
-    <a href="#u77">Unit 77 — Not+any / No / None</a>
-    <a href="#u78">Unit 78 — Nobody / Nothing</a>
-    <a href="#u79">Unit 79 — Somebody / Anything / Nowhere</a>
-    <a href="#u80">Unit 80 — Every and All</a>
-    <a href="#u81">Unit 81 — All / Most / Some / Any / No / None</a>
-    <a href="#u82">Unit 82 — Both / Either / Neither</a>
-    <a href="#u83">Unit 83 — A Lot / Much / Many</a>
-    <a href="#u84">Unit 84 — (A) Little / (A) Few</a>
+    <a href="#u15"><span>Unit 15 — Present Perfect 1</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u16"><span>Unit 16 — Present Perfect 2</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u17"><span>Unit 17 — Present Perfect 3</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u18"><span>Unit 18 — Present Perfect 4</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span><span class="badge-t">1</span></span></a>
+    <a href="#u19"><span>Unit 19 — for / since / ago</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u20"><span>Unit 20 — Present Perfect vs Past</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span><span class="badge-t">1</span></span></a>
+    <a href="#u21"><span>Unit 21 — Passive 1</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span><span class="badge-t">3</span></span></a>
+    <a href="#u22"><span>Unit 22 — Passive 2</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u23"><span>Unit 23 — be/have/do in Tenses</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u24"><span>Unit 24 — Regular & Irregular Verbs</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u25"><span>Unit 25 — Present Continuous for Future</span><span style="display:flex;gap:2px;"><span class="badge-g">6</span><span class="badge-t">4</span></span></a>
+    <a href="#u26"><span>Unit 26 — Going to</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u27"><span>Unit 27 — Will / Shall 1</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u28"><span>Unit 28 — Will / Shall 2</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u29"><span>Unit 29 — Might</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span><span class="badge-t">1</span></span></a>
+    <a href="#u30"><span>Unit 30 — Can / Could</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u31"><span>Unit 31 — Must / Mustn't</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u32"><span>Unit 32 — Should</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u33"><span>Unit 33 — Have to</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u34"><span>Unit 34 — Would You Like</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span><span class="badge-t">1</span></span></a>
+    <a href="#u35"><span>Unit 35 — Imperatives</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span><span class="badge-t">3</span></span></a>
+    <a href="#u36"><span>Unit 36 — Used to</span><span style="display:flex;gap:2px;"><span class="badge-g">6</span><span class="badge-t">1</span></span></a>
+    <a href="#u37"><span>Unit 37 — There is / are</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u38"><span>Unit 38 — There was / were</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u39"><span>Unit 39 — It</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u40"><span>Unit 40 — I am / I don't</span><span style="display:flex;gap:2px;"><span class="badge-g">4</span></span></a>
+    <a href="#u41"><span>Unit 41 — Have You? / Isn't It?</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span></span></a>
+    <a href="#u42"><span>Unit 42 — Too / Either / So / Neither</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span></span></a>
+    <a href="#u43"><span>Unit 43 — Negatives</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span></span></a>
+    <a href="#u44"><span>Unit 44 — Questions 1</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u45"><span>Unit 45 — Questions 2</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u46"><span>Unit 46 — Questions 3</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u47"><span>Unit 47 — What / Which / How</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u48"><span>Unit 48 — How Long Does It Take</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span></span></a>
+    <a href="#u49"><span>Unit 49 — Indirect Questions</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span></span></a>
+    <a href="#u50"><span>Unit 50 — Reported Speech</span><span style="display:flex;gap:2px;"><span class="badge-t">2</span></span></a>
+    <a href="#u51"><span>Unit 51 — To / -ing</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u52"><span>Unit 52 — To... and -ing</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u53"><span>Unit 53 — Want You to</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span></span></a>
+    <a href="#u54"><span>Unit 54 — Went to... to...</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u55"><span>Unit 55 — Go to / on / for / -ing</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u56"><span>Unit 56 — Get</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span></span></a>
+    <a href="#u57"><span>Unit 57 — Do / Make</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u58"><span>Unit 58 — Have</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u59"><span>Unit 59 — Pronouns</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u61"><span>Unit 61 — Possessive Pronouns</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span><span class="badge-t">1</span></span></a>
+    <a href="#u62"><span>Unit 62 — I/me/my/mine</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u63"><span>Unit 63 — Myself / Themselves</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u64"><span>Unit 64 — Possessive 's</span><span style="display:flex;gap:2px;"><span class="badge-t">1</span></span></a>
+    <a href="#u65"><span>Unit 65 — A / An</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u66"><span>Unit 66 — Singular / Plural</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span><span class="badge-t">3</span></span></a>
+    <a href="#u67"><span>Unit 67 — Countable / Uncountable 1</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span></span></a>
+    <a href="#u68"><span>Unit 68 — Countable / Uncountable 2</span><span style="display:flex;gap:2px;"><span class="badge-g">5</span><span class="badge-t">1</span></span></a>
+    <a href="#u69"><span>Unit 69 — A/An and The</span><span style="display:flex;gap:2px;"><span class="badge-t">1</span></span></a>
+    <a href="#u70"><span>Unit 70 — The...</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u71"><span>Unit 71 — Go to Work / Go Home</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u72"><span>Unit 72 — I Like Music</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span><span class="badge-t">1</span></span></a>
+    <a href="#u73"><span>Unit 73 — The... Names of Places</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u74"><span>Unit 74 — This / That / These / Those</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u75"><span>Unit 75 — One / Ones</span><span style="display:flex;gap:2px;"><span class="badge-g">3</span></span></a>
+    <a href="#u76"><span>Unit 76 — Some and Any</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u77"><span>Unit 77 — Not+any / No / None</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span><span class="badge-t">1</span></span></a>
+    <a href="#u78"><span>Unit 78 — Nobody / Nothing</span><span style="display:flex;gap:2px;"><span class="badge-t">1</span></span></a>
+    <a href="#u79"><span>Unit 79 — Somebody / Anything / Nowhere</span><span style="display:flex;gap:2px;"><span class="badge-g">2</span></span></a>
+    <a href="#u80"><span>Unit 80 — Every and All</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u81"><span>Unit 81 — All / Most / Some / Any / No / None</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span></span></a>
+    <a href="#u82"><span>Unit 82 — Both / Either / Neither</span><span style="display:flex;gap:2px;"><span class="badge-g">6</span></span></a>
+    <a href="#u83"><span>Unit 83 — A Lot / Much / Many</span><span style="display:flex;gap:2px;"><span class="badge-t">1</span></span></a>
+    <a href="#u84"><span>Unit 84 — (A) Little / (A) Few</span><span style="display:flex;gap:2px;"><span class="badge-g">1</span><span class="badge-t">1</span></span></a>
   </div>
 </div>
 
