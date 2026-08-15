@@ -1,0 +1,1769 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Essential Grammar in Use — Error Summary (Lessons 15–84)</title>
+<style>
+  :root {
+    --bg: #f6f8f7;
+    --card: #fff;
+    --border: #cad7da;
+    --text: #17252f;
+    --primary: #075b69;
+    --primary-light: #086b78;
+    --accent: #d96b00;
+    --red: #c0392b;
+    --green: #27ae60;
+    --amber: #f39c12;
+    --gray: #7f8c8d;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 300px 60px 18px;
+    font: 15px/1.6 Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+  }
+  @media (max-width: 1200px) {
+    body { padding: 0 18px 60px; }
+  }
+  h1 {
+    color: var(--primary);
+    font-size: 28px;
+    margin: 32px 0 4px;
+  }
+  .subtitle { color: var(--gray); font-size: 14px; margin-bottom: 24px; }
+  h2 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 36px 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border);
+  }
+  h3 {
+    color: var(--primary-light);
+    font-size: 18px;
+    margin: 24px 0 12px;
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin: 20px 0 8px;
+  }
+  .stat {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat .num { font-size: 32px; font-weight: bold; color: var(--primary); }
+  .stat .num.red { color: var(--red); }
+  .stat .num.amber { color: var(--amber); }
+  .stat .label { font-size: 13px; color: var(--gray); margin-top: 4px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+    margin: 12px 0 24px;
+    font-size: 14px;
+  }
+  th {
+    background: var(--primary);
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+    font-size: 13px;
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #e8edee;
+    vertical-align: top;
+  }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #f9fbfb; }
+  td.wrong { color: var(--red); font-weight: bold; }
+  td.right { color: var(--green); font-weight: bold; }
+  td.lesson { color: var(--primary); font-weight: bold; white-space: nowrap; }
+  td.question { color: var(--text); }
+
+  .rule-box {
+    background: #eef7f8;
+    border-left: 4px solid var(--primary-light);
+    padding: 14px 18px;
+    margin: 16px 0;
+    border-radius: 0 6px 6px 0;
+  }
+  .rule-box .rule-title { font-weight: bold; color: var(--primary); margin-bottom: 4px; }
+
+  .patterns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .pattern-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .pattern-card .pc-title {
+    font-weight: bold;
+    color: var(--red);
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-count {
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  .pattern-card .pc-fix {
+    color: var(--green);
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  .pattern-card ul { margin: 6px 0 0 18px; font-size: 14px; }
+  .pattern-card li { margin-bottom: 4px; }
+
+  .unit-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+  .unit-card h3 { margin-top: 0; }
+  .unit-card table { margin: 8px 0; }
+  .unit-card .key-rule {
+    background: #fff8e1;
+    border-left: 4px solid var(--amber);
+    padding: 10px 14px;
+    margin: 12px 0;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .tag.red { background: #fdeaea; color: var(--red); }
+  .tag.amber { background: #fef5e7; color: var(--amber); }
+
+  .toc {
+    position: fixed;
+    right: 18px;
+    top: 18px;
+    width: 260px;
+    max-height: calc(100vh - 36px);
+    overflow-y: auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .toc h3 { margin-top: 0; margin-bottom: 10px; font-size: 15px; }
+  .toc-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .toc-grid a {
+    display: block;
+    padding: 4px 8px;
+    background: #eef7f8;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 12px;
+    transition: background 0.2s;
+  }
+  .toc-grid a:hover { background: #d4e8ea; }
+  @media (max-width: 1200px) {
+    .toc { display: none; }
+  }
+
+  .footer {
+    text-align: center;
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+<body>
+
+<h1>Error Summary — Lessons 15–84</h1>
+<p class="subtitle">Essential Grammar in Use — all errors, organized by unit</p>
+
+<div class="stats">
+  <div class="stat"><div class="num red">120+</div><div class="label">Total errors</div></div>
+  <div class="stat"><div class="num">70</div><div class="label">Units covered</div></div>
+  <div class="stat"><div class="num amber">~40</div><div class="label">Typos / spelling</div></div>
+  <div class="stat"><div class="num red">~80</div><div class="label">Grammar errors</div></div>
+</div>
+
+<div class="toc">
+  <h3>Table of Contents</h3>
+  <div class="toc-grid">
+    <a href="#u15">Unit 15 — Present Perfect 1</a>
+    <a href="#u16">Unit 16 — Present Perfect 2</a>
+    <a href="#u17">Unit 17 — Present Perfect 3</a>
+    <a href="#u18">Unit 18 — Present Perfect 4</a>
+    <a href="#u19">Unit 19 — for / since / ago</a>
+    <a href="#u20">Unit 20 — Present Perfect vs Past</a>
+    <a href="#u21">Unit 21 — Passive 1</a>
+    <a href="#u22">Unit 22 — Passive 2</a>
+    <a href="#u23">Unit 23 — be/have/do in Tenses</a>
+    <a href="#u24">Unit 24 — Regular & Irregular Verbs</a>
+    <a href="#u25">Unit 25 — Present Continuous for Future</a>
+    <a href="#u26">Unit 26 — Going to</a>
+    <a href="#u27">Unit 27 — Will / Shall 1</a>
+    <a href="#u28">Unit 28 — Will / Shall 2</a>
+    <a href="#u29">Unit 29 — Might</a>
+    <a href="#u30">Unit 30 — Can / Could</a>
+    <a href="#u31">Unit 31 — Must / Mustn't</a>
+    <a href="#u32">Unit 32 — Should</a>
+    <a href="#u33">Unit 33 — Have to</a>
+    <a href="#u34">Unit 34 — Would You Like</a>
+    <a href="#u35">Unit 35 — Imperatives</a>
+    <a href="#u36">Unit 36 — Used to</a>
+    <a href="#u37">Unit 37 — There is / are</a>
+    <a href="#u38">Unit 38 — There was / were</a>
+    <a href="#u39">Unit 39 — It</a>
+    <a href="#u40">Unit 40 — I am / I don't</a>
+    <a href="#u41">Unit 41 — Have You? / Isn't It?</a>
+    <a href="#u42">Unit 42 — Too / Either / So / Neither</a>
+    <a href="#u43">Unit 43 — Negatives</a>
+    <a href="#u44">Unit 44 — Questions 1</a>
+    <a href="#u45">Unit 45 — Questions 2</a>
+    <a href="#u46">Unit 46 — Questions 3</a>
+    <a href="#u47">Unit 47 — What / Which / How</a>
+    <a href="#u48">Unit 48 — How Long Does It Take</a>
+    <a href="#u49">Unit 49 — Indirect Questions</a>
+    <a href="#u50">Unit 50 — Reported Speech</a>
+    <a href="#u51">Unit 51 — To / -ing</a>
+    <a href="#u52">Unit 52 — To... and -ing</a>
+    <a href="#u53">Unit 53 — Want You to</a>
+    <a href="#u54">Unit 54 — Went to... to...</a>
+    <a href="#u55">Unit 55 — Go to / on / for / -ing</a>
+    <a href="#u56">Unit 56 — Get</a>
+    <a href="#u57">Unit 57 — Do / Make</a>
+    <a href="#u58">Unit 58 — Have</a>
+    <a href="#u59">Unit 59 — Pronouns</a>
+    <a href="#u61">Unit 61 — Possessive Pronouns</a>
+    <a href="#u62">Unit 62 — I/me/my/mine</a>
+    <a href="#u63">Unit 63 — Myself / Themselves</a>
+    <a href="#u64">Unit 64 — Possessive 's</a>
+    <a href="#u65">Unit 65 — A / An</a>
+    <a href="#u66">Unit 66 — Singular / Plural</a>
+    <a href="#u67">Unit 67 — Countable / Uncountable 1</a>
+    <a href="#u68">Unit 68 — Countable / Uncountable 2</a>
+    <a href="#u69">Unit 69 — A/An and The</a>
+    <a href="#u70">Unit 70 — The...</a>
+    <a href="#u71">Unit 71 — Go to Work / Go Home</a>
+    <a href="#u72">Unit 72 — I Like Music</a>
+    <a href="#u73">Unit 73 — The... Names of Places</a>
+    <a href="#u74">Unit 74 — This / That / These / Those</a>
+    <a href="#u75">Unit 75 — One / Ones</a>
+    <a href="#u76">Unit 76 — Some and Any</a>
+    <a href="#u77">Unit 77 — Not+any / No / None</a>
+    <a href="#u78">Unit 78 — Nobody / Nothing</a>
+    <a href="#u79">Unit 79 — Somebody / Anything / Nowhere</a>
+    <a href="#u80">Unit 80 — Every and All</a>
+    <a href="#u81">Unit 81 — All / Most / Some / Any / No / None</a>
+    <a href="#u82">Unit 82 — Both / Either / Neither</a>
+    <a href="#u83">Unit 83 — A Lot / Much / Many</a>
+    <a href="#u84">Unit 84 — (A) Little / (A) Few</a>
+  </div>
+</div>
+
+<h2>Error Details by Unit</h2>
+
+<!-- UNIT 15 -->
+<h3 id="u15">Unit 15 — Present Perfect 1 (Lesson 15)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">15</td>
+    <td class="question">"I'm looking for Paula. _____ you _____ her?" (verb: see)</td>
+    <td><span class="tag red">capitalization</span> Answer used lowercase at the start of a question. A question must begin with a capital letter.</td>
+  </tr>
+  <tr>
+    <td class="lesson">15</td>
+    <td class="question">"I can't find my umbrella. Somebody _____ it." (verb box provided)</td>
+    <td><span class="tag red">wrong verb</span> Answer used "steal" which is NOT in the given verb box. You must choose from the verbs provided in the exercise.</td>
+  </tr>
+  <tr>
+    <td class="lesson">15</td>
+    <td class="question">"What are you going to do? _____ you _____?" (verb: decide)</td>
+    <td><span class="tag red">capitalization</span> Answer used lowercase at the start of a question. Questions must begin with a capital letter.</td>
+  </tr>
+  <tr>
+    <td class="lesson">15</td>
+    <td class="question">"I _____ with this magazine. Do you want it?" (verb: finish)</td>
+    <td><span class="tag red">wrong verb</span> Answer used the wrong verb. "Finish with" means done using something; the context "Do you want it?" signals the speaker is done with the magazine.</td>
+  </tr>
+</table>
+
+<!-- UNIT 16 -->
+<h3 id="u16">Unit 16 — Present Perfect 2 (Lesson 16)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">16</td>
+    <td class="question">"Tom was trying to sell his car. Perhaps he has sold it. You ask a friend about Tom:"</td>
+    <td><span class="tag red">proper noun</span> Answer wrote "tom" in lowercase. Tom is a proper noun (a person's name) and must always be capitalized.</td>
+  </tr>
+</table>
+
+<!-- UNIT 17 -->
+<h3 id="u17">Unit 17 — Present Perfect 3 (Lesson 17)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">17</td>
+    <td class="question">"Mary is 65. She has had an interesting life." (travel all over the world)</td>
+    <td><span class="tag amber">spelling</span> Spelling error in "traveled." Double-check spelling of irregular past participles.</td>
+  </tr>
+  <tr>
+    <td class="lesson">17</td>
+    <td class="question">"Mary..." (write ten books)</td>
+    <td><span class="tag red">past participle</span> Answer used "has wrote." The past participle of "write" is NOT the same as the past simple form. "Write" is an irregular verb with three different forms.</td>
+  </tr>
+  <tr>
+    <td class="lesson">17</td>
+    <td class="question">"Rebecca loves Paris. She's _____ there many times." (gone or been)</td>
+    <td><span class="tag red">gone vs been</span> Answer used "gone." Repeated completed visits use "been" — "gone" implies she is still there, which contradicts "many times."</td>
+  </tr>
+</table>
+
+<!-- UNIT 18 -->
+<h3 id="u18">Unit 18 — Present Perfect 4 (Lesson 18)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">18</td>
+    <td class="question">"My brother lives in Canada. _____?"</td>
+    <td><span class="tag red">pronoun</span> Answer used "your brother" instead of a pronoun. The exercise expects pronoun substitution (like using "she" for Helen).</td>
+  </tr>
+  <tr>
+    <td class="lesson">18</td>
+    <td class="question">"I'm a teacher. _____?"</td>
+    <td><span class="tag amber">punctuation</span> Stray period. The question mark is already present in the HTML frame — adding a period creates double punctuation.</td>
+  </tr>
+</table>
+
+<!-- UNIT 19 -->
+<h3 id="u19">Unit 19 — for / since / ago (Lesson 19)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">19</td>
+    <td class="question">"(David plays the piano – he started when he was seven years old) David has"</td>
+    <td><span class="tag red">voice</span> Answer wrote "been played." "Has been played" is passive voice — the sentence needs active voice because David does the playing, not the piano.</td>
+  </tr>
+  <tr>
+    <td class="lesson">19</td>
+    <td class="question">"Write sentences about yourself. Begin with: I've had ..."</td>
+    <td><span class="tag red">semantic</span> Answer wrote about "lunch." "Lunch" is an event, not a possession — "have had lunch since 12:00" is awkward and doesn't fit the "have had" = possess meaning.</td>
+  </tr>
+</table>
+
+<!-- UNIT 20 -->
+<h3 id="u20">Unit 20 — Present Perfect vs Past (Lesson 20)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">20</td>
+    <td class="question">"Has Sarah gone away? Yes, _____ on Friday."</td>
+    <td><span class="tag amber">capitalization</span> Lowercase needed after "Yes," — this is a continuation, not a new sentence.</td>
+  </tr>
+  <tr>
+    <td class="lesson">20</td>
+    <td class="question">"I _____ (switch) off the light before going out this morning."</td>
+    <td><span class="tag red">tense</span> Answer used present perfect. "This morning" + "before going out" = a finished past context, so past simple is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">20</td>
+    <td class="question">"I live in New York now, but I _____ (live) in Mexico for many years."</td>
+    <td><span class="tag red">tense</span> Answer used present perfect. "Now" signals the Mexico period is finished, so past simple is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">20</td>
+    <td class="question">"Before that she was a waitress. She _____ (work) there for two years"</td>
+    <td><span class="tag red">tense</span> Answer used "has worked" for a past period. Waitressing is in the past (before current job), so past simple is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">20</td>
+    <td class="question">"I _____ (see) her a few times"</td>
+    <td><span class="tag red">tense</span> Answer used past simple. "A few times" = life experience with no finished time reference, so present perfect is needed.</td>
+  </tr>
+</table>
+
+<!-- UNIT 21 -->
+<h3 id="u21">Unit 21 — Passive 1 (Lesson 21)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"(we / allow / to park here?)"</td>
+    <td><span class="tag amber">spelling</span> "allowd" — missing the "e." The correct spelling is "allowed."</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"(when / this bridge / build?)"</td>
+    <td><span class="tag amber">typo</span> "thi" — missing the "s." The word is "this."</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"(I / not / wake up / by the noise)"</td>
+    <td><span class="tag red">verb form</span> Answer used "woke" (past simple). Passive voice requires the past participle, not the past simple form.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"A film studio is a place where films make."</td>
+    <td><span class="tag red">agreement</span> Answer used "is" for the plural subject "films." Plural subjects require plural verbs.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"'Where did you get this picture?' 'It _____ to me by a friend.'"</td>
+    <td><span class="tag red">wrong verb</span> Answer used the wrong verb. The context = received as a gift.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"Many American programmes _____ on British TV."</td>
+    <td><span class="tag red">tense</span> Answer used past passive. This is a general ongoing fact (no past time marker), so present passive is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">21</td>
+    <td class="question">"(your mother / ???)"</td>
+    <td><span class="tag amber">typo</span> "monther" — extra "n." The word is "mother."</td>
+  </tr>
+</table>
+
+<!-- UNIT 22 -->
+<h3 id="u22">Unit 22 — Passive 2 (Lesson 22)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">22</td>
+    <td class="question">"(the car / damage)"</td>
+    <td><span class="tag red">missing subject</span> No starter text in this item. A full sentence with subject is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">22</td>
+    <td class="question">"How old are these houses? When _____ (they/build)?"</td>
+    <td><span class="tag red">tense</span> Answer used present passive. The houses already exist, so building is completed in the past, requiring past passive.</td>
+  </tr>
+</table>
+
+<!-- UNIT 23 -->
+<h3 id="u23">Unit 23 — be/have/do in Tenses (Lesson 23)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">23</td>
+    <td class="question">"My parents are usually at home. They _____ go out very often."</td>
+    <td><span class="tag red">auxiliary</span> Answer used "aren't." With the bare verb "go," the do-family (don't) is needed, not the be-family (aren't). "Aren't go out" is grammatically broken.</td>
+  </tr>
+</table>
+
+<!-- UNIT 24 -->
+<h3 id="u24">Unit 24 — Regular and Irregular Verbs (Lesson 24)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">24</td>
+    <td class="question">"I know Gary, but I've never _____ his wife." (verb from box: meet)</td>
+    <td><span class="tag red">wrong verb</span> Answer used "known." "Know" is in the sentence, but the verb box has "meet." The contrast is: know Gary vs. never met his wife.</td>
+  </tr>
+</table>
+
+<!-- UNIT 25 -->
+<h3 id="u25">Unit 25 — Present Continuous for Future (Lesson 25)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"Karen _____ lunch with Will."</td>
+    <td><span class="tag red">wrong form</span> Answer used "is gong to have." The exercise tests present continuous ("is having"), not "going to" future. Also typo: "gong" instead of "going."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"Sue and Tom _____ to a party."</td>
+    <td><span class="tag red">agreement</span> Answer used "is" for a plural subject. "Sue and Tom" = two people, so the plural verb "are" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">Personal sentence about Saturday.</td>
+    <td><span class="tag amber">spelling</span> "Satruday" — letters transposed. The correct spelling is "Saturday."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">Personal sentence about playing.</td>
+    <td><span class="tag amber">spelling</span> "palying" — letters transposed. The correct spelling is "playing."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"I'm going to the cinema at tomorrow night."</td>
+    <td><span class="tag red">preposition</span> No preposition is needed before "tomorrow" + time of day. "At tomorrow night" is incorrect.</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"I'm going to make my bed in tomorrow afternoon."</td>
+    <td><span class="tag red">preposition</span> Same issue — no preposition before "tomorrow afternoon."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"The course _____ (finish) on Friday."</td>
+    <td><span class="tag red">agreement</span> Answer used "finish." Third person singular subject requires adding "-es."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"_____ (I/go) out with some friends tonight."</td>
+    <td><span class="tag amber">typo</span> "goint" — typo for "going." Also, the word "out" was already in the frame, creating redundancy.</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"The last bus _____ (leave) at midnight."</td>
+    <td><span class="tag red">agreement</span> Answer used "leave." Third person singular subject requires adding "-s."</td>
+  </tr>
+  <tr>
+    <td class="lesson">25</td>
+    <td class="question">"_____ (you/come) with us to the cinema tonight?"</td>
+    <td><span class="tag amber">spelling</span> "comming" — double "m" is incorrect. The correct spelling is "coming" (one "m").</td>
+  </tr>
+</table>
+
+<!-- UNIT 26 -->
+<h3 id="u26">Unit 26 — Going to (Lesson 26)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">26</td>
+    <td class="question">Picture: someone about to take a bath. "I" + input</td>
+    <td><span class="tag red">wrong word</span> Answer wrote "batch." "Batch" (a group) is a completely different word from "bath" (washing).</td>
+  </tr>
+</table>
+
+<!-- UNIT 27 -->
+<h3 id="u27">Unit 27 — Will / Shall 1 (Lesson 27)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">27</td>
+    <td class="question">"Complete with she was, she's or she'll be" (6 answers)</td>
+    <td><span class="tag red">missing subject</span> All 6 answers were missing the subject "she." The instructions explicitly say to include "she" — the blank needs the full phrase including the subject.</td>
+  </tr>
+</table>
+
+<!-- UNIT 28 -->
+<h3 id="u28">Unit 28 — Will / Shall 2 (Lesson 28)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">28</td>
+    <td class="question">"This camera is too expensive. _____ it." (I don't think I'll + buy)</td>
+    <td><span class="tag red">wrong word</span> Answer wrote "but." "But" (conjunction) is a completely different word from "buy" (verb).</td>
+  </tr>
+  <tr>
+    <td class="lesson">28</td>
+    <td class="question">"I haven't done the shopping yet. I do / I'll do it later."</td>
+    <td><span class="tag red">incomplete</span> Answer was incomplete — the main verb was missing from the response.</td>
+  </tr>
+  <tr>
+    <td class="lesson">28</td>
+    <td class="question">"I like sport. I watch / I'll watch a lot of sport on TV."</td>
+    <td><span class="tag red">incomplete</span> Answer was incomplete — the subject pronoun was missing from the response.</td>
+  </tr>
+  <tr>
+    <td class="lesson">28</td>
+    <td class="question">"Carl is going to buy / will buy a new car. He told me last week."</td>
+    <td><span class="tag red">incomplete</span> Answer was incomplete — only part of the correct option was written.</td>
+  </tr>
+</table>
+
+<!-- UNIT 29 -->
+<h3 id="u29">Unit 29 — Might (Lesson 29)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">29</td>
+    <td class="question">"(it's possible that Mark will not be here next week)"</td>
+    <td><span class="tag red">wrong subject</span> Answer used "I" instead of "Mark." The prompt is about Mark, not about the speaker.</td>
+  </tr>
+  <tr>
+    <td class="lesson">29</td>
+    <td class="question">"When will you see Kate again? I'm not sure."</td>
+    <td><span class="tag red">pronoun</span> Answer used "him." Kate is a female name, so the correct pronoun is "her."</td>
+  </tr>
+  <tr>
+    <td class="lesson">29</td>
+    <td class="question">"Write three things you might do tomorrow"</td>
+    <td><span class="tag red">verb form</span> Answer wrote "might cooking." Modals (might) take the bare infinitive (might cook), never the -ing form.</td>
+  </tr>
+  <tr>
+    <td class="lesson">29</td>
+    <td class="question">Same exercise — cinema sentence</td>
+    <td><span class="tag amber">spelling</span> "cenima" — incorrect spelling. The correct spelling is "cinema."</td>
+  </tr>
+</table>
+
+<!-- UNIT 30 -->
+<h3 id="u30">Unit 30 — Can / Could (Lesson 30)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">30</td>
+    <td class="question">Situation: you want to borrow someone's newspaper.</td>
+    <td><span class="tag red">borrow vs lend</span> Answer wrote "Could you borrow the newspaper to me?" Borrow = take (I borrow), not give (you lend). "To me" doesn't work with borrow.</td>
+  </tr>
+</table>
+
+<!-- UNIT 31 -->
+<h3 id="u31">Unit 31 — Must / Mustn't / Don't Need to (Lesson 31)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">31</td>
+    <td class="question">"I forgot to phone David yesterday. _____ phone him later today."</td>
+    <td><span class="tag red">tense</span> Answer used past necessity. "Later today" = future, so present necessity (must) is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">31</td>
+    <td class="question">"I was very busy last week. I _____ work every evening."</td>
+    <td><span class="tag red">tense</span> Answer used present necessity. "Last week" = past, so past necessity (had to) is needed. "Must" has no past form.</td>
+  </tr>
+</table>
+
+<!-- UNIT 32 -->
+<h3 id="u32">Unit 32 — Should (Lesson 32)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">32</td>
+    <td class="question">"Karen needs a rest. (have a holiday)"</td>
+    <td><span class="tag red">pronoun</span> Answer used "he." Karen is a female name, so the correct pronoun is "she."</td>
+  </tr>
+</table>
+
+<!-- UNIT 33 -->
+<h3 id="u33">Unit 33 — Have to (Lesson 33)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">33</td>
+    <td class="question">"We had to pay a lot of money. How much _____?"</td>
+    <td><span class="tag red">subject shift</span> Answer kept "we" as the subject. In questions, 1st person (I/we) shifts to "you."</td>
+  </tr>
+  <tr>
+    <td class="lesson">33</td>
+    <td class="question">"I have to do some work. What exactly _____?"</td>
+    <td><span class="tag red">subject shift</span> Same issue — "I" shifts to "you" in questions.</td>
+  </tr>
+  <tr>
+    <td class="lesson">33</td>
+    <td class="question">"Why is Sue waiting? She_____"</td>
+    <td><span class="tag red">verb form</span> Answer used "have to + -ing." "Have to" takes the bare infinitive, never the -ing form.</td>
+  </tr>
+  <tr>
+    <td class="lesson">33</td>
+    <td class="question">"You can't park your car here for nothing. You must pay / have to pay."</td>
+    <td><span class="tag red">must vs have to</span> Answer said both are correct. Parking = external obligation (rule/law), so only "have to" applies, not "must."</td>
+  </tr>
+</table>
+
+<!-- UNIT 34 -->
+<h3 id="u34">Unit 34 — Would You Like (Lesson 34)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">34</td>
+    <td class="question">"You have an extra ticket for a concert next week."</td>
+    <td><span class="tag red">preposition</span> Answer used "come for a concert." Events take "to" (come to a concert), not "for."</td>
+  </tr>
+  <tr>
+    <td class="lesson">34</td>
+    <td class="question">Picture of coffee.</td>
+    <td><span class="tag amber">spelling</span> "coffe" — missing the final "e." The correct spelling is "coffee" (two e's, two f's).</td>
+  </tr>
+</table>
+
+<!-- UNIT 35 -->
+<h3 id="u35">Unit 35 — Imperatives (Lesson 35)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">35</td>
+    <td class="question">Picture: photographer about to take a photo.</td>
+    <td><span class="tag red">imperative vs suggestion</span> Answer wrote "Let's smile." A photographer commands "Smile!" (imperative). "Let's smile" = a suggestion (we together), which is the wrong function.</td>
+  </tr>
+  <tr>
+    <td class="lesson">35</td>
+    <td class="question">"I'm going to bed now. OK. _____ well."</td>
+    <td><span class="tag amber">capitalization</span> Lowercase at the start of a new sentence. New sentences must begin with a capital letter.</td>
+  </tr>
+  <tr>
+    <td class="lesson">35</td>
+    <td class="question">"_____ careful with that vase. _____ it!"</td>
+    <td><span class="tag amber">capitalization</span> Lowercase "don't" at the start of a new sentence. New sentences must begin with a capital letter.</td>
+  </tr>
+  <tr>
+    <td class="lesson">35</td>
+    <td class="question">"Shall we eat at home? No, _____."</td>
+    <td><span class="tag amber">typo</span> "lest's" — letters transposed. The correct spelling is "let's."</td>
+  </tr>
+</table>
+
+<!-- UNIT 36 -->
+<h3 id="u36">Unit 36 — Used to (Lesson 36)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">Picture of an old building. "This building"</td>
+    <td><span class="tag red">wrong content</span> Answer wrote "used to be new." The picture shows former function (hotel), not age.</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">"She" (Karen's activities item 2)</td>
+    <td><span class="tag red">two issues</span> Answer wrote "go out much." "Much" doesn't work in positive statements (use "a lot"). Also wrong activity slot.</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">"She" (Karen's activities — guitar)</td>
+    <td><span class="tag red">article</span> Answer wrote "play guitar." Instruments always take "the" (play the guitar).</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">Karen's activities — travel</td>
+    <td><span class="tag amber">spelling</span> "travell" — extra "l." The correct spelling is "travel."</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">Karen's activities item 6</td>
+    <td><span class="tag red">wrong activity</span> Answer wrote "have long hair." This is not one of Karen's listed activities — it was copied from another exercise.</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">"When I was a child, I never _____ meat, but I eat it now."</td>
+    <td><span class="tag red">missing used to</span> Answer used bare verb only. Past habit ("when I was a child") needs "used to" + verb.</td>
+  </tr>
+  <tr>
+    <td class="lesson">36</td>
+    <td class="question">"What games _____ you _____ when you were a child?"</td>
+    <td><span class="tag red">form</span> Answer used past simple form. The exercise tests the "used to" question form.</td>
+  </tr>
+</table>
+
+<!-- UNIT 37 -->
+<h3 id="u37">Unit 37 — There is / are (Lesson 37)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">37</td>
+    <td class="question">"The road is usually very quiet. _____ much traffic."</td>
+    <td><span class="tag red">uncountable</span> Answer used plural verb. Traffic = uncountable noun, so singular (is/isn't) is required.</td>
+  </tr>
+  <tr>
+    <td class="lesson">37</td>
+    <td class="question">"There are fifty states in the USA."</td>
+    <td><span class="tag red">missing verb</span> Answer dropped the verb. "There are" needs the verb "are" — it cannot be omitted.</td>
+  </tr>
+  <tr>
+    <td class="lesson">37</td>
+    <td class="question">"_____ a red car outside your house. _____ yours?"</td>
+    <td><span class="tag red">question form</span> 2nd blank: answer used statement form. Since it's a question, question form is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">37</td>
+    <td class="question">"'_____ anything good on TV tonight?' 'Yes, _____ a programme...'"</td>
+    <td><span class="tag red">pronoun</span> 2nd blank: answer used identity pronoun. Introducing something new requires the existence pronoun.</td>
+  </tr>
+</table>
+
+<!-- UNIT 38 -->
+<h3 id="u38">Unit 38 — There was / were / has been / will be (Lesson 38)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">38</td>
+    <td class="question">"Twenty years ago _____ many tourists here. Now there are a lot."</td>
+    <td><span class="tag red">polarity</span> Answer used positive. The contrast "Now there are a lot" signals the first sentence is negative.</td>
+  </tr>
+  <tr>
+    <td class="lesson">38</td>
+    <td class="question">"'Why are the police outside the bank?' '_____ a robbery.'"</td>
+    <td><span class="tag red">tense</span> Answer used present simple. The police are there because the robbery already happened, so present perfect or past is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">38</td>
+    <td class="question">"When we arrived at the theatre, _____ a long queue outside."</td>
+    <td><span class="tag red">tense</span> Answer used present perfect. "When we arrived" = past time marker, so past simple (there was) is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">38</td>
+    <td class="question">"Ten years ago _____ 500 children at the school. Now _____ more than a thousand."</td>
+    <td><span class="tag red">tense</span> 2nd blank: answer used present perfect. "Now" = present fact, so present simple (there are) is needed.</td>
+  </tr>
+</table>
+
+<!-- UNIT 39 -->
+<h3 id="u39">Unit 39 — It (Lesson 39)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">39</td>
+    <td class="question">"_____'s often cold here, but _____ isn't much rain."</td>
+    <td><span class="tag red">it vs there</span> 2nd blank: answer used "it." Rain amount = existence, which requires "there." "It" is for weather quality (it's raining), not amount.</td>
+  </tr>
+</table>
+
+<!-- UNIT 40 -->
+<h3 id="u40">Unit 40 — I am / I don't (Lesson 40)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">40</td>
+    <td class="question">"I was working, but my friends _____."</td>
+    <td><span class="tag red">agreement</span> Answer used singular. "My friends" = plural, so the plural verb (were/weren't) is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">40</td>
+    <td class="question">"I'm" frame — write about yourself</td>
+    <td><span class="tag red">verb after I'm</span> Answer wrote "like cats." "I'm" takes an adjective or noun, not a verb phrase — "I'm like cats" doesn't work.</td>
+  </tr>
+  <tr>
+    <td class="lesson">40</td>
+    <td class="question">"Is it snowing?" — short answer</td>
+    <td><span class="tag red">answer form</span> Answer used a full sentence. The exercise teaches short auxiliary answers.</td>
+  </tr>
+  <tr>
+    <td class="lesson">40</td>
+    <td class="question">"Did you buy anything yesterday?" — short answer</td>
+    <td><span class="tag red">answer form</span> Same issue — short auxiliary form is expected, not a full sentence.</td>
+  </tr>
+</table>
+
+<!-- UNIT 41 -->
+<h3 id="u41">Unit 41 — Have You? / Isn't It? (Lesson 41)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">41</td>
+    <td class="question">"Kate phoned me last night. _____ What did she say?"</td>
+    <td><span class="tag red">pronoun</span> Answer used "he." Kate is a female name, so the correct pronoun is "she."</td>
+  </tr>
+  <tr>
+    <td class="lesson">41</td>
+    <td class="question">"These flowers are nice, _____?"</td>
+    <td><span class="tag red">agreement</span> Answer used singular. "These flowers" = plural, so "they" is needed, leading to "aren't they?"</td>
+  </tr>
+  <tr>
+    <td class="lesson">41</td>
+    <td class="question">"Jane was at the party, _____?"</td>
+    <td><span class="tag red">agreement</span> Answer used plural + present. Jane = singular female, past tense, so "wasn't she?" is needed.</td>
+  </tr>
+</table>
+
+<!-- UNIT 42 -->
+<h3 id="u42">Unit 42 — Too / Either / So / Neither (Lesson 42)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">42</td>
+    <td class="question">"I need a holiday." (So...I)</td>
+    <td><span class="tag red">auxiliary</span> Answer used the main verb instead of an auxiliary. The pattern is So + auxiliary + I, never the main verb.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42</td>
+    <td class="question">"I'm not going out tomorrow."</td>
+    <td><span class="tag red">polarity</span> Answer used "So" for a negative statement. Negative statements require "Neither," not "So."</td>
+  </tr>
+  <tr>
+    <td class="lesson">42</td>
+    <td class="question">"I can ride a bike."</td>
+    <td><span class="tag red">auxiliary mismatch</span> Answer used "am" for the modal "can." The auxiliary must match the statement's verb.</td>
+  </tr>
+  <tr>
+    <td class="lesson">42</td>
+    <td class="question">"I slept well last night."</td>
+    <td><span class="tag red">auxiliary mismatch</span> Answer used "am" for past simple. Past simple requires the auxiliary "did."</td>
+  </tr>
+  <tr>
+    <td class="lesson">42</td>
+    <td class="question">"I go to the cinema a lot."</td>
+    <td><span class="tag red">auxiliary mismatch</span> Answer used "am" for present simple. Present simple requires the auxiliary "do."</td>
+  </tr>
+</table>
+
+<!-- UNIT 43 -->
+<h3 id="u43">Unit 43 — Negatives (Lesson 43)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">43</td>
+    <td class="question">"They understood." (make negative)</td>
+    <td><span class="tag red">pronoun</span> Answer used "There." "There" = existence; "they" = pronoun for people.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43</td>
+    <td class="question">"Lisa bought a coat, but she _____ worn it yet."</td>
+    <td><span class="tag red">agreement</span> Answer used plural form. "She" = 3rd person singular, so the singular form is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43</td>
+    <td class="question">"You _____ drive so fast. It's dangerous."</td>
+    <td><span class="tag red">modal choice</span> Answer used "don't." "It's dangerous" signals advice/prohibition, not a factual statement.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43</td>
+    <td class="question">"Have you got a car? No." (about Gary)</td>
+    <td><span class="tag red">agreement</span> Answer used "haven't" for "he." "He" = 3rd person singular, so the singular form is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">43</td>
+    <td class="question">"Did you go out last night? Yes." (about Gary)</td>
+    <td><span class="tag red">verb form</span> Answer used emphatic form. Past simple positive = verb+-ed (went), not emphatic "did go."</td>
+  </tr>
+</table>
+
+<!-- UNIT 44 -->
+<h3 id="u44">Unit 44 — Questions 1 (Lesson 44)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">44</td>
+    <td class="question">"I was late. (and you?)"</td>
+    <td><span class="tag red">agreement</span> Answer used "Was you." "You" always takes "were" (never "was").</td>
+  </tr>
+</table>
+
+<!-- UNIT 45 -->
+<h3 id="u45">Unit 45 — Questions 2 (Lesson 45)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">45</td>
+    <td class="question">"Something woke me up." (make question)</td>
+    <td><span class="tag red">question word</span> Answer used "Who." "Something" refers to things, so "What" is needed, not "Who" (people).</td>
+  </tr>
+</table>
+
+<!-- UNIT 46 -->
+<h3 id="u46">Unit 46 — Questions 3 (Lesson 46)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">46</td>
+    <td class="question">Picture: a man going to a restaurant.</td>
+    <td><span class="tag red">pronoun</span> Answer used "you" instead of "he." The picture shows a man, so 3rd person "he" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">46</td>
+    <td class="question">"Jack plays for a football team." -> Which...?</td>
+    <td><span class="tag red">verb form</span> Answer mixed continuous + simple. Present simple question = does + base verb, not is + base verb.</td>
+  </tr>
+</table>
+
+<!-- UNIT 47 -->
+<h3 id="u47">Unit 47 — What / Which / How (Lesson 47)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">47</td>
+    <td class="question">"'_____ day is it today?' 'Friday.'"</td>
+    <td><span class="tag red">question word</span> Answer used "Which." "What day" = open-ended; "Which" requires a limited set to choose from.</td>
+  </tr>
+</table>
+
+<!-- UNIT 48 -->
+<h3 id="u48">Unit 48 — How Long Does It Take (Lesson 48)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">48</td>
+    <td class="question">"They repaired the car." -> How long did it take...?</td>
+    <td><span class="tag red">pronoun type</span> Answer used subject pronoun. After "take," an object pronoun is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">48</td>
+    <td class="question">"left 10:00, arrived 10:20"</td>
+    <td><span class="tag red">preposition</span> Answer wrote "walk to home." "Home" is an adverb, so no "to" is needed before it.</td>
+  </tr>
+  <tr>
+    <td class="lesson">48</td>
+    <td class="question">"began a long time ago, got a job last week"</td>
+    <td><span class="tag red">two issues</span> Answer used wrong duration + wrong verb. "A long time ago" = duration is "a long time"; "look for" = searching, "find" = result.</td>
+  </tr>
+</table>
+
+<!-- UNIT 49 -->
+<h3 id="u49">Unit 49 — Indirect Questions (Lesson 49)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">49</td>
+    <td class="question">"Has Emily lived here a long time? (how long)"</td>
+    <td><span class="tag red">missing auxiliary</span> Answer dropped "has." Indirect questions keep the same tense — don't drop the auxiliary.</td>
+  </tr>
+  <tr>
+    <td class="lesson">49</td>
+    <td class="question">"(Where does Susan work?) I don't know _____"</td>
+    <td><span class="tag red">agreement</span> Answer used "work" without -s. 3rd person singular requires -s even in indirect questions.</td>
+  </tr>
+  <tr>
+    <td class="lesson">49</td>
+    <td class="question">"(What time does the meeting begin?) Do you know _____"</td>
+    <td><span class="tag red">agreement + typo</span> Answer used "begin" without -s. 3rd person singular requires -s. Also typo in "meeting."</td>
+  </tr>
+  <tr>
+    <td class="lesson">49</td>
+    <td class="question">"(Did they go to Jane's party?) Do you know if...?"</td>
+    <td><span class="tag red">verb form</span> Answer wrote "went go." "Go" should be the preposition "to"; "went" is already the past form of "go."</td>
+  </tr>
+  <tr>
+    <td class="lesson">49</td>
+    <td class="question">"Do you know what time _____?"</td>
+    <td><span class="tag red">agreement</span> Answer used "get" without -s. 3rd person singular requires -s.</td>
+  </tr>
+</table>
+
+<!-- UNIT 50 -->
+<h3 id="u50">Unit 50 — Reported Speech (Lesson 50)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">50</td>
+    <td class="question">"I can't go to the party." (She said...)</td>
+    <td><span class="tag amber">typo</span> "sad" — wrong word. "Sad" = emotion; "said" = spoke. Completely different meanings.</td>
+  </tr>
+  <tr>
+    <td class="lesson">50</td>
+    <td class="question">"I don't feel very well." (She said...)</td>
+    <td><span class="tag amber">punctuation</span> Missing period at the end of the sentence.</td>
+  </tr>
+</table>
+
+<!-- UNIT 51 -->
+<h3 id="u51">Unit 51 — To / -ing (Lesson 51)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">51</td>
+    <td class="question">"I'm not _____ to it." (radio context)</td>
+    <td><span class="tag red">verb choice</span> Answer used "watching." You watch TV (visual), but you listen to the radio (audio).</td>
+  </tr>
+  <tr>
+    <td class="lesson">51</td>
+    <td class="question">"Would you like _____ on a trip?" (verb: go)</td>
+    <td><span class="tag red">verb form</span> Answer used bare infinitive. "Would like" + to + infinitive is required (never bare infinitive).</td>
+  </tr>
+  <tr>
+    <td class="lesson">51</td>
+    <td class="question">All 8 answers in exercise 51.1</td>
+    <td><span class="tag amber">spelling</span> "Pual" — consistent spelling error throughout. The correct spelling is "Paul" (a before u).</td>
+  </tr>
+</table>
+
+<!-- UNIT 52 -->
+<h3 id="u52">Unit 52 — To... and -ing (Lesson 52)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">52</td>
+    <td class="question">"If it's a nice day, I'd like _____"</td>
+    <td><span class="tag red">preposition</span> Answer wrote "go to shopping." "Shopping" = activity (gerund), not a place. The correct pattern is "go shopping" (no "to").</td>
+  </tr>
+</table>
+
+<!-- UNIT 53 -->
+<h3 id="u53">Unit 53 — Want You to (Lesson 53)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">53</td>
+    <td class="question">"You should go to the doctor." (I advised _____)</td>
+    <td><span class="tag red">pronoun type</span> Answer used subject pronoun. After "advised," an object pronoun is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">53</td>
+    <td class="question">"Come back in ten minutes." (I told _____)</td>
+    <td><span class="tag red">content mismatch</span> Answer wrote wrong content. Reported speech must match what was actually said.</td>
+  </tr>
+  <tr>
+    <td class="lesson">53</td>
+    <td class="question">"My mother taught me." (Amy's mother taught _____)</td>
+    <td><span class="tag red">article</span> Answer wrote "play piano." Instruments always take "the" (play the piano).</td>
+  </tr>
+</table>
+
+<!-- UNIT 54 -->
+<h3 id="u54">Unit 54 — Went to... to... (Lesson 54)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">54</td>
+    <td class="question">"The doorbell rang, I looked out the window _____"</td>
+    <td><span class="tag red">form + tense</span> Answer wrote "who is it." An indirect question needs subject+verb order (not inverted), and past tense (was, not is).</td>
+  </tr>
+</table>
+
+<!-- UNIT 55 -->
+<h3 id="u55">Unit 55 — Go to / on / for / -ing (Lesson 55)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">55</td>
+    <td class="question">"Are you going _____ soon? We're going _____" (holiday/Portugal)</td>
+    <td><span class="tag red">preposition</span> 2nd blank: missing "to" before Portugal. Portugal is a place, so "to" is needed (go to Portugal).</td>
+  </tr>
+</table>
+
+<!-- UNIT 56 -->
+<h3 id="u56">Unit 56 — Get (Lesson 56)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">56</td>
+    <td class="question">"I hope he _____ (job)"</td>
+    <td><span class="tag red">agreement</span> Answer used "get" without -s. "He" = 3rd person singular, so -s is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">56</td>
+    <td class="question">"She _____ (salary)"</td>
+    <td><span class="tag red">agreement</span> Answer used "get" without -s. "She" = 3rd person singular, so -s is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">56</td>
+    <td class="question">"Isabel _____ the car, shut the door and went into a shop"</td>
+    <td><span class="tag red">wrong direction</span> Answer wrote "got in." The context "went into shop" means she got OUT of the car, not in.</td>
+  </tr>
+</table>
+
+<!-- UNIT 57 -->
+<h3 id="u57">Unit 57 — Do / Make (Lesson 57)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">57</td>
+    <td class="question">"I didn't _____ anything wrong."</td>
+    <td><span class="tag red">do vs make</span> Answer used "make." "Do anything wrong" = perform a wrong action; "make" = create/produce.</td>
+  </tr>
+  <tr>
+    <td class="lesson">57</td>
+    <td class="question">"I haven't _____ an appointment."</td>
+    <td><span class="tag red">verb form</span> Answer used base form. After "haven't," the past participle is needed.</td>
+  </tr>
+</table>
+
+<!-- UNIT 58 -->
+<h3 id="u58">Unit 58 — Have (Lesson 58)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">58</td>
+    <td class="question">"He is _____ a bath."</td>
+    <td><span class="tag amber">spelling</span> "haveing" — the silent 'e' in "have" must be dropped before adding -ing. Correct: "having."</td>
+  </tr>
+  <tr>
+    <td class="lesson">58</td>
+    <td class="question">"Paul has just come home after playing tennis. Ask about the game."</td>
+    <td><span class="tag red">have = experience</span> Answer asked about winning. The exercise tests "have" = experience ("Did you have a good game?"), not present perfect.</td>
+  </tr>
+  <tr>
+    <td class="lesson">58</td>
+    <td class="question">"Can you _____ at it? (engine)"</td>
+    <td><span class="tag red">fixed expression</span> Answer wrote "have look." "Have a look" is a fixed expression — the article "a" is required.</td>
+  </tr>
+</table>
+
+<!-- UNIT 59 -->
+<h3 id="u59">Unit 59 — Pronouns (Lesson 59)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">59</td>
+    <td class="question">"He wants to see us, but _____ don't want to see _____."</td>
+    <td><span class="tag red">pronoun case</span> Answer used "she" for the first blank. "Us" = object form of "we," so the subject form is "we," not "she."</td>
+  </tr>
+  <tr>
+    <td class="lesson">59</td>
+    <td class="question">"This jacket isn't very nice."</td>
+    <td><span class="tag red">pronoun</span> Answer used "him." A jacket is a thing, so "it" is needed, not "him" (person).</td>
+  </tr>
+</table>
+
+<!-- UNIT 61 -->
+<h3 id="u61">Unit 61 — Possessive Pronouns (Lesson 61)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">61</td>
+    <td class="question">"They're her shoes. They're _____."</td>
+    <td><span class="tag red">number</span> Answer used "theirs" (for "their"). "Her" = female singular, so "hers" is needed, not "their" = "theirs" (plural).</td>
+  </tr>
+  <tr>
+    <td class="lesson">61</td>
+    <td class="question">"It's their house. It's _____."</td>
+    <td><span class="tag amber">spelling</span> "thiers" — the "ei" order in "their" must be preserved when adding -s. Correct: "theirs."</td>
+  </tr>
+  <tr>
+    <td class="lesson">61</td>
+    <td class="question">"Tom is going to meet a _____."</td>
+    <td><span class="tag red">pronoun type</span> Answer used "friend of him." The "of" pattern requires a possessive pronoun, not an object pronoun.</td>
+  </tr>
+  <tr>
+    <td class="lesson">61</td>
+    <td class="question">Picture-based: "Whose money is this?"</td>
+    <td><span class="tag red">wrong referent</span> Answer used "mine." Based on the picture, the money belongs to "you," not "me."</td>
+  </tr>
+</table>
+
+<!-- UNIT 62 -->
+<h3 id="u62">Unit 62 — I/me/my/mine (Lesson 62)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">62</td>
+    <td class="question">"Do you know those people? Yes, I know them, but I can't remember their _____."</td>
+    <td><span class="tag red">number</span> Answer used singular "name." "Those people" = plural, so "names" (plural) is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">62</td>
+    <td class="question">"they gave us _____"</td>
+    <td><span class="tag amber">spelling</span> "theris" — the correct spelling is "theirs" (t-h-e-i-r-s, keep the "ei" order).</td>
+  </tr>
+  <tr>
+    <td class="lesson">62</td>
+    <td class="question">"Do you know me? Yes, I _____, but I can't remember _____."</td>
+    <td><span class="tag red">missing verb</span> Missing the verb "know" in the first blank.</td>
+  </tr>
+</table>
+
+<!-- UNIT 63 -->
+<h3 id="u63">Unit 63 — Myself / Themselves (Lesson 63)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">63</td>
+    <td class="question">"I'm sitting next to her." -> They're sitting _____</td>
+    <td><span class="tag red">preposition</span> Answer wrote "next each other." "Next to" is a compound preposition — the "to" is required.</td>
+  </tr>
+  <tr>
+    <td class="lesson">63</td>
+    <td class="question">"I gave her a present. She gave me a present." -> They gave _____</td>
+    <td><span class="tag red">article</span> Answer wrote "present" without an article. Singular countable nouns need "a" or must be pluralized with "s."</td>
+  </tr>
+</table>
+
+<!-- UNIT 64 -->
+<h3 id="u64">Unit 64 — Possessive 's (Lesson 64)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">64</td>
+    <td class="question">"Helen is _____ wife."</td>
+    <td><span class="tag amber">spelling</span> "Brain's" — the name is "Brian" (B-r-i-a-n, i before a), not "Brain" (B-r-a-i-n, the organ).</td>
+  </tr>
+</table>
+
+<!-- UNIT 65 -->
+<h3 id="u65">Unit 65 — A / An (Lesson 65)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">65</td>
+    <td class="question">Picture 5: He _____ (electrician)</td>
+    <td><span class="tag red">missing verb</span> Answer wrote "an electrician" without a verb. The frame "He _____" needs the verb "is" — "He is an electrician."</td>
+  </tr>
+</table>
+
+<!-- UNIT 66 -->
+<h3 id="u66">Unit 66 — Singular / Plural (Lesson 66)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">woman -> plural</td>
+    <td><span class="tag amber">spelling</span> "wemen" — the correct spelling is "women" (w-o-m-e-n, keep the "o," only change "a" to "e").</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">family -> plural</td>
+    <td><span class="tag amber">spelling</span> "familes" — missing the "i." The rule is y -> ies: famil + ies = families.</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">child -> plural</td>
+    <td><span class="tag amber">spelling</span> "childrent" — extra "t." The word "children" has no "t" at the end.</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">"Most of my friends are _____."</td>
+    <td><span class="tag red">number</span> Answer used singular "student." "Friends" = plural, so "students" (plural) is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">"We went fishing, but we didn't catch _____ fish."</td>
+    <td><span class="tag red">countable</span> Answer changed "many" to "much." Fish caught = countable, so "many" is needed, not "much."</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">"I like your trouser. Where did you get it?"</td>
+    <td><span class="tag red">number</span> Answer kept "it." Trousers are always plural, so "them" is needed (not "it").</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">"I don't like mice."</td>
+    <td><span class="tag red">false correction</span> Answer changed "mice" to "mouse." "Mice" was already correct (plural of mouse) — don't change correct sentences.</td>
+  </tr>
+  <tr>
+    <td class="lesson">66</td>
+    <td class="question">"This scissors isn't very sharp."</td>
+    <td><span class="tag red">number</span> Answer wrote "OK." Scissors are always plural, so "These scissors aren't" is needed (not "This...isn't").</td>
+  </tr>
+</table>
+
+<!-- UNIT 67 -->
+<h3 id="u67">Unit 67 — Countable / Uncountable 1 (Lesson 67)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">67</td>
+    <td class="question">"some toothpaste, _____ and a comb"</td>
+    <td><span class="tag red">uncountable</span> Answer wrote "a soap." Soap = uncountable, so "some soap" is needed (not "a soap").</td>
+  </tr>
+  <tr>
+    <td class="lesson">67</td>
+    <td class="question">"Jamaica is _____ island."</td>
+    <td><span class="tag red">article</span> Answer used "a." "Island" starts with a vowel sound "ai," so "an" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">67</td>
+    <td class="question">"I've got good idea."</td>
+    <td><span class="tag red">article + content</span> Answer wrote "an idea." The article goes before the adjective "good" (consonant sound) -> "a," and "good" shouldn't be dropped.</td>
+  </tr>
+  <tr>
+    <td class="lesson">67</td>
+    <td class="question">"a _____ of wood"</td>
+    <td><span class="tag red">container word</span> Answer used the wrong container. Wood -> "piece," not "bar."</td>
+  </tr>
+  <tr>
+    <td class="lesson">67</td>
+    <td class="question">"a _____ of chocolate"</td>
+    <td><span class="tag red">container word</span> Answer used the wrong container. Based on the picture, chocolate -> "bar," not "piece."</td>
+  </tr>
+</table>
+
+<!-- UNIT 68 -->
+<h3 id="u68">Unit 68 — Countable / Uncountable 2 (Lesson 68)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">"some toothpaste, _____ and a comb"</td>
+    <td><span class="tag red">uncountable</span> Answer wrote "a soap." Same as Unit 67 — soap = uncountable, so "some" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">All 5 offer questions</td>
+    <td><span class="tag red">missing subject</span> Answer wrote "Would like" without "you" in all 5 questions. The correct form is "Would you like...?"</td>
+  </tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">"Would you like _____?" (chocolate)</td>
+    <td><span class="tag red">countability</span> Answer used "some chocolate." The key expects countable singular (one piece).</td>
+  </tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">"I'm going to give you _____ advice."</td>
+    <td><span class="tag red">uncountable</span> Answer used "an." Advice = uncountable, so "some" is needed, never "a/an."</td>
+  </tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">"Mark has brown eye / eyes."</td>
+    <td><span class="tag red">wrong content</span> Answer wrote "shoes." The context is about eyes — "shoes" isn't even an option.</td>
+  </tr>
+  <tr>
+    <td class="lesson">68</td>
+    <td class="question">"some new chair / chairs."</td>
+    <td><span class="tag amber">spelling</span> "charis" — the correct spelling is "chairs" (c-h-a-i-r-s, not c-h-a-r-i-s).</td>
+  </tr>
+</table>
+
+<!-- UNIT 69 -->
+<h3 id="u69">Unit 69 — A/An and The (Lesson 69)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">69</td>
+    <td class="question">"Canada is very big country."</td>
+    <td><span class="tag amber">spelling</span> "bit" — the word is "big" (b-i-g), not "bit" (b-i-t).</td>
+  </tr>
+</table>
+
+<!-- UNIT 70 -->
+<h3 id="u70">Unit 70 — The... (Lesson 70)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">70</td>
+    <td class="question">"I woke up in _____ of the night."</td>
+    <td><span class="tag red">missing article</span> Answer wrote "middle" without "the." "The middle of..." is a fixed expression — "the" is required.</td>
+  </tr>
+</table>
+
+<!-- UNIT 71 -->
+<h3 id="u71">Unit 71 — Go to Work / Go Home (Lesson 71)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">71</td>
+    <td class="question">"If you have a problem with your teeth, you _____."</td>
+    <td><span class="tag red">wrong specialist</span> Answer wrote "go to the doctor." Teeth require a dentist (specialist for teeth), not a general doctor.</td>
+  </tr>
+</table>
+
+<!-- UNIT 72 -->
+<h3 id="u72">Unit 72 — I Like Music (Lesson 72)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">72</td>
+    <td class="question">"I don't know much _____ economics."</td>
+    <td><span class="tag red">missing preposition</span> The pattern "know [amount] about [subject]" requires the preposition "about."</td>
+  </tr>
+  <tr>
+    <td class="lesson">72</td>
+    <td class="question">"play basketball / the basketball"</td>
+    <td><span class="tag amber">spelling</span> "baskteball" — the correct spelling is "basketball" (e before t, not t before e).</td>
+  </tr>
+</table>
+
+<!-- UNIT 73 -->
+<h3 id="u73">Unit 73 — The... Names of Places (Lesson 73)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">73</td>
+    <td class="question">"Have you ever been to Philippines?"</td>
+    <td><span class="tag red">missing article</span> Answer wrote "OK." "The Philippines" = plural country name, so "the" is required.</td>
+  </tr>
+  <tr>
+    <td class="lesson">73</td>
+    <td class="question">"Did you go to National Gallery?"</td>
+    <td><span class="tag red">missing article</span> Answer wrote "OK." Gallery requires "the" (the National Gallery).</td>
+  </tr>
+  <tr>
+    <td class="lesson">73</td>
+    <td class="question">"Panama Canal joins Atlantic Ocean and Pacific Ocean."</td>
+    <td><span class="tag amber">spelling + article</span> Spelling: "Atalantic" -> "Atlantic" (A-t-l-a-n-t-i-c). Also "The Panama Canal" (canal -> "the") and "the Atlantic/Pacific Ocean" require "the."</td>
+  </tr>
+</table>
+
+<!-- UNIT 74 -->
+<h3 id="u74">Unit 74 — This / That / These / Those (Lesson 74)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">74</td>
+    <td class="question">5 items with plural demonstratives (these/those)</td>
+    <td><span class="tag red">agreement</span> All used "Is" instead of "Are." Plural demonstratives (these/those) require "Are"; singular uses "Is," plural uses "Are."</td>
+  </tr>
+</table>
+
+<!-- UNIT 75 -->
+<h3 id="u75">Unit 75 — One / Ones (Lesson 75)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">75</td>
+    <td class="question">"a/an + old + one"</td>
+    <td><span class="tag red">article</span> Answer used "a" before a vowel sound. "Old" starts with a vowel sound "o," so "an" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">75</td>
+    <td class="question">"The one _____ moustache and glasses"</td>
+    <td><span class="tag red">preposition vs verb</span> Answer used verb "has." Describing features uses the preposition "with" (= having), not the verb "has."</td>
+  </tr>
+  <tr>
+    <td class="lesson">75</td>
+    <td class="question">"The ones _____ at the party last week"</td>
+    <td><span class="tag red">missing subject</span> The relative clause needs a subject for "took."</td>
+  </tr>
+</table>
+
+<!-- UNIT 76 -->
+<h3 id="u76">Unit 76 — Some and Any (Lesson 76)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">76</td>
+    <td class="question">"Do you know _____ about politics?"</td>
+    <td><span class="tag red">pronoun choice</span> Answer used "somebody." "Know [anything] about [topic]" = knowledge, so "anything" is needed, not "somebody" (a person).</td>
+  </tr>
+</table>
+
+<!-- UNIT 77 -->
+<h3 id="u77">Unit 77 — Not+any / No / None (Lesson 77)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">77</td>
+    <td class="question">"Carla doesn't have any free time." -> rewrite with "no"</td>
+    <td><span class="tag red">agreement</span> Answer used "have" instead of "has." Transforming "doesn't have" -> "has" (positive 3rd person form).</td>
+  </tr>
+  <tr>
+    <td class="lesson">77</td>
+    <td class="question">"Tom has no brothers." -> rewrite with "any"</td>
+    <td><span class="tag red">agreement</span> Answer used "don't." "Tom" = 3rd person singular, so "doesn't" is needed, not "don't."</td>
+  </tr>
+  <tr>
+    <td class="lesson">77</td>
+    <td class="question">"There is _____ between these two machines." (difference)</td>
+    <td><span class="tag amber">spelling</span> "diffrence" — missing an "f." The correct spelling is "difference" (d-i-f-f-e-r-e-n-c-e, double "f").</td>
+  </tr>
+</table>
+
+<!-- UNIT 78 -->
+<h3 id="u78">Unit 78 — Nobody / Nothing (Lesson 78)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">78</td>
+    <td class="question">"What happened?"</td>
+    <td><span class="tag amber">spelling</span> Answer wrote "Noting." "Nothing" = N-o-t-h-i-n-g (has an "h"), not "Noting" (which means taking notes).</td>
+  </tr>
+</table>
+
+<!-- UNIT 79 -->
+<h3 id="u79">Unit 79 — Somebody / Anything / Nowhere (Lesson 79)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">79</td>
+    <td class="question">"there isn't _____ to sit"</td>
+    <td><span class="tag red">pronoun category</span> Answer used "anything." "Sit" = place, so "anywhere" (place) is needed, not "anything" (thing).</td>
+  </tr>
+  <tr>
+    <td class="lesson">79</td>
+    <td class="question">"Would you like _____?" (drink)</td>
+    <td><span class="tag red">compound pronoun</span> Answer wrote "some to drink." "Some" alone isn't a compound pronoun — it needs "something" (some + thing).</td>
+  </tr>
+</table>
+
+<!-- UNIT 80 -->
+<h3 id="u80">Unit 80 — Every and All (Lesson 80)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">80</td>
+    <td class="question">"everyone _____ asleep"</td>
+    <td><span class="tag red">verb choice</span> Answer used "has." "Asleep" = adjective, so a be-verb ("was") is needed, not "has" (possession).</td>
+  </tr>
+</table>
+
+<!-- UNIT 81 -->
+<h3 id="u81">Unit 81 — All / Most / Some / Any / No / None (Lesson 81)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">81</td>
+    <td class="question">"How much of the money is Ben's?"</td>
+    <td><span class="tag red">pronoun</span> Answer wrote "None of the money." Should use pronoun "it" per the exercise pattern (of them / of it).</td>
+  </tr>
+</table>
+
+<!-- UNIT 82 -->
+<h3 id="u82">Unit 82 — Both / Either / Neither (Lesson 82)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"but _____ us liked the film. It was really bad."</td>
+    <td><span class="tag red">polarity</span> Answer used "both." "Really bad" = nobody liked it, so "neither of" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"I haven't met _____ her sisters."</td>
+    <td><span class="tag red">polarity</span> Answer used "Both." Negative verb "haven't" requires "either of" (not "both").</td>
+  </tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"_____ wearing a hat." (men without hats)</td>
+    <td><span class="tag red">missing verb</span> "Neither man is wearing" — the verb "is" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"_____ correct." (answers incorrect)</td>
+    <td><span class="tag red">missing verb</span> "Neither answer is correct" — the verb "is" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"Both of them are _____." (student)</td>
+    <td><span class="tag red">number</span> Answer used singular noun. "Both" = plural, so the plural noun "students" is needed.</td>
+  </tr>
+  <tr>
+    <td class="lesson">82</td>
+    <td class="question">"Can you play the piano? Both: No."</td>
+    <td><span class="tag red">auxiliary mismatch</span> Answer used "plays." The question uses "can," so the answer should use "can" (ability), not "plays" (habit).</td>
+  </tr>
+</table>
+
+<!-- UNIT 83 -->
+<h3 id="u83">Unit 83 — A Lot / Much / Many (Lesson 83)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">83</td>
+    <td class="question">"Mark doesn't like driving. (use his car)"</td>
+    <td><span class="tag amber">spelling</span> "cat" — the word is "car" (c-a-r = vehicle), not "cat" (c-a-t = animal).</td>
+  </tr>
+</table>
+
+<!-- UNIT 84 -->
+<h3 id="u84">Unit 84 — (A) Little / (A) Few (Lesson 84)</h3>
+<table>
+  <tr><th>Unit</th><th>Question (context)</th><th>What was wrong</th></tr>
+  <tr>
+    <td class="lesson">84</td>
+    <td class="question">"going with _____" (friends)</td>
+    <td><span class="tag amber">spelling</span> "firends" — the correct spelling is "friends" (f-r-i-e-n-d-s, not f-i-r-e-n-d-s).</td>
+  </tr>
+  <tr>
+    <td class="lesson">84</td>
+    <td class="question">"There were little people on the bus."</td>
+    <td><span class="tag red">countability</span> Answer wrote "OK." "People" = countable, so "few" is needed (not "little"). "Little people" = short people (wrong meaning).</td>
+  </tr>
+</table>
+
+<h2>Recurring Mistake Patterns</h2>
+
+<div class="patterns">
+
+  <div class="pattern-card">
+    <div class="pc-count">25+ errors</div>
+    <div class="pc-title">Wrong pronoun / subject agreement</div>
+    <ul>
+      <li>Karen/Kate -> he (should be she) — U32, U41</li>
+      <li>I/we -> kept as I/we in questions (should be you) — U33, U48, U53</li>
+      <li>Plural subject with singular verb (isn't, was) — U25, U40, U41, U66, U74</li>
+      <li>it/him for things (should be it) — U59</li>
+      <li>Object pronoun where possessive needed — U61, U63</li>
+    </ul>
+    <div class="pc-fix">Fix: Match pronouns to names (Karen = she). Convert I/we to you in questions. Plural subjects need plural verbs. Things take "it."</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">15+ errors</div>
+    <div class="pc-title">Wrong tense for time marker</div>
+    <ul>
+      <li>Present perfect for finished past (this morning, Mexico/now) — U20</li>
+      <li>Past simple for life experience (a few times) — U20</li>
+      <li>Present for past (when we arrived) — U38</li>
+      <li>had to for future / must for past — U31</li>
+      <li>Present passive for past completed (houses built) — U22</li>
+    </ul>
+    <div class="pc-fix">Fix: Check the time marker first — past markers (yesterday, when, ago) trigger past; "now" triggers present; no marker triggers present perfect for experience.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">12+ errors</div>
+    <div class="pc-title">Modal + wrong verb form</div>
+    <ul>
+      <li>have to + -ing -> bare infinitive — U33</li>
+      <li>might + -ing -> bare infinitive — U29</li>
+      <li>would like + bare infinitive -> to + infinitive — U51</li>
+      <li>3rd person singular without -s after modals/auxiliaries — U49, U56</li>
+    </ul>
+    <div class="pc-fix">Fix: All modals (can, could, should, must, have to, might) take the bare infinitive. "Would like" takes to + infinitive. 3rd person -s applies in present simple, not after modals.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">10+ errors</div>
+    <div class="pc-title">Countable vs uncountable / articles</div>
+    <ul>
+      <li>traffic, soap, advice = uncountable -> singular/some — U37, U67, U68</li>
+      <li>scissors, trousers, police = always plural -> plural verb — U66</li>
+      <li>"a" before vowel sound (island, old) -> "an" — U67, U75</li>
+      <li>Missing "the" for instruments, galleries, canals, oceans — U36, U53, U73</li>
+    </ul>
+    <div class="pc-fix">Fix: Learn the uncountable noun list. Plural-only nouns (scissors, trousers) take plural verbs. Vowel sounds need "an." Instruments and place names often need "the."</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">20+ errors</div>
+    <div class="pc-title">Spelling & typos</div>
+    <ul>
+      <li>Name spellings: tom, Pual, Brain, Sad/said — U16, U51, U64, U50</li>
+      <li>Letter transposition: Satruday, palying, lest's, diffrence — U25, U35, U77</li>
+      <li>Word confusion: batch/bath, but/buy, cat/car, coffe/coffee — U26, U28, U83, U34</li>
+      <li>Plural spellings: wemen, familes, childrent, charis — U66</li>
+    </ul>
+    <div class="pc-fix">Fix: Slow down on spelling. Double-check names and common words. Don't confuse similar words (bath/batch, buy/but, car/cat).</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">8+ errors</div>
+    <div class="pc-title">Capitalization & punctuation</div>
+    <ul>
+      <li>Lowercase at sentence/question start — U15, U20, U35</li>
+      <li>Stray periods, double punctuation — U18, U50</li>
+      <li>Missing subjects in responses — U27, U68</li>
+    </ul>
+    <div class="pc-fix">Fix: Always capitalize the first letter of a sentence or question. Check for duplicate punctuation. Include full phrases when instructed.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">6+ errors</div>
+    <div class="pc-title">it vs there confusion</div>
+    <ul>
+      <li>"it" for rain amount -> "there" — U39</li>
+      <li>"it's" for new information -> "there's" — U37</li>
+      <li>"there" for people -> "they" — U43</li>
+    </ul>
+    <div class="pc-fix">Fix: "there" = existence/amount/new info. "it" = identity/quality/known thing. "they" = pronoun for people.</div>
+  </div>
+
+  <div class="pattern-card">
+    <div class="pc-count">5+ errors</div>
+    <div class="pc-title">Auxiliary matching in response patterns</div>
+    <ul>
+      <li>So/Neither + wrong auxiliary — U42</li>
+      <li>Question tags with wrong auxiliary — U41</li>
+      <li>Short answers using full sentences — U40</li>
+    </ul>
+    <div class="pc-fix">Fix: Match the auxiliary to the statement's verb/tense. "So do I" (present), "So did I" (past), "So can I" (modal). Negative -> Neither. Keep short answers short.</div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Generated 2026-08-08 — Essential Grammar in Use, Units 15–84
+</div>
+
+</body>
+</html>
