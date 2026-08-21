@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Essential Grammar in Use - Additional Exercise 1</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { max-width: 850px; margin: 32px auto; padding: 0 18px; background: #f6f8f7; color: #17252f; font: 17px/1.55 Arial, sans-serif; }
+    h1 { color: #075b69; line-height: 1.25; }
+    section { margin: 20px 0; padding: 22px; border: 1px solid #cad7da; border-radius: 6px; background: #fff; }
+    .word-boxes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 18px 0; }
+    .word-box { margin: 0; padding: 14px 18px 14px 38px; border: 1px solid #d6b45f; background: #fffaf0; }
+    li { margin: 12px 0; }
+    input { display: block; width: min(100%, 620px); margin-top: 5px; padding: 8px; border: 1px solid #8fa8ae; border-radius: 3px; font: inherit; }
+    button { padding: 9px 12px; border: 0; border-radius: 3px; background: #086b78; color: #fff; font: inherit; font-weight: bold; cursor: pointer; }
+    button:hover, button:focus-visible { background: #075b69; }
+    input:focus-visible, button:focus-visible { outline: 3px solid #f0c75e; outline-offset: 2px; }
+    @media (max-width: 560px) { .word-boxes { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <h1>Additional Exercise 1: am/is/are</h1>
+  <p>Essential Grammar in Use, Units 1-2. Your answers are saved in this browser.</p>
+
+  <section>
+    <h2>Write sentences for the pictures</h2>
+    <p>Use the words in the boxes with <em>is/isn't/are/aren't</em>.</p>
+    <div class="word-boxes">
+      <ul class="word-box">
+        <li>The windows</li>
+        <li>Lisa</li>
+        <li>Kate</li>
+        <li>The children</li>
+        <li>Gary</li>
+        <li>The books</li>
+        <li>The hotel</li>
+        <li>The bus</li>
+      </ul>
+      <ul class="word-box">
+        <li>on the table</li>
+        <li>hungry</li>
+        <li>asleep</li>
+        <li>open</li>
+        <li>full</li>
+        <li>near the station</li>
+        <li>a doctor</li>
+        <li>happy</li>
+      </ul>
+    </div>
+    <ol>
+      <li>(The windows are open.) <em>The windows are open.</em></li>
+      <li>(Lisa looks unhappy.) <em>Lisa isn't happy.</em></li>
+      <li>(Kate is standing outside a hospital in a white coat.)<input aria-label="Answer 3"></li>
+      <li>(Two children are sleeping in bunk beds.)<input aria-label="Answer 4"></li>
+      <li>(Gary refuses more food and says, "No, thank you.")<input aria-label="Answer 5"></li>
+      <li>(The books are on the floor beside a table.)<input aria-label="Answer 6"></li>
+      <li>(A map shows the hotel beside the station.)<input aria-label="Answer 7"></li>
+      <li>(There are empty seats on the bus.)<input aria-label="Answer 8"></li>
+    </ol>
+  </section>
+
+  <button id="export" type="button">Export answers</button>
+  <script>
+    const fields = [...document.querySelectorAll('input')];
+    const storageKey = 'essential-grammar-additional-exercise-001';
+    let savedAnswers = [];
+    try {
+      savedAnswers = JSON.parse(localStorage.getItem(storageKey) || '[]');
+    } catch {
+      savedAnswers = [];
+    }
+    fields.forEach((field, index) => {
+      field.value = savedAnswers[index] || '';
+      field.addEventListener('input', () => {
+        localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
+      });
+    });
+    document.querySelector('#export').addEventListener('click', () => {
+      const lines = fields.map((field, index) => `${index + 3}. ${field.value}`);
+      const link = document.createElement('a');
+      const url = URL.createObjectURL(new Blob([lines.join('\n')], { type: 'text/plain' }));
+      link.href = url;
+      link.download = 'additional-exercise-001-answers.txt';
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
+    });
+  </script>
+</body>
+</html>
