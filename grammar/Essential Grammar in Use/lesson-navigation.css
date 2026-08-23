@@ -1,0 +1,131 @@
+/* Shared fixed lesson controls for Essential Grammar in Use pages. */
+body {
+  padding-bottom: 106px;
+}
+
+nav.lesson-navigation {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 10px max(18px, calc((100% - 850px) / 2));
+  border-top: 1px solid #cad7da;
+  background: rgba(246, 248, 247, .97);
+  box-shadow: 0 -4px 18px rgba(23, 37, 47, .14);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+nav.lesson-navigation a,
+nav.lesson-navigation button {
+  min-height: 40px;
+  padding: 8px 13px;
+  border: 1px solid #086b78;
+  border-radius: 4px;
+  background: #fff;
+  color: #075b69;
+  font: inherit;
+  font-size: .92rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav.lesson-navigation a:hover,
+nav.lesson-navigation a:focus-visible,
+nav.lesson-navigation button:not(:disabled):hover,
+nav.lesson-navigation button:not(:disabled):focus-visible {
+  background: #086b78;
+  color: #fff;
+}
+
+nav.lesson-navigation a:focus-visible,
+nav.lesson-navigation button:focus-visible {
+  outline: 3px solid #f0c75e;
+  outline-offset: 2px;
+}
+
+nav.lesson-navigation button:disabled {
+  border-color: #cad7da;
+  background: #edf1f1;
+  color: #95a5a8;
+  cursor: not-allowed;
+}
+
+nav.lesson-navigation .lesson-submit {
+  min-width: 88px;
+  background: #086b78;
+  color: #fff;
+}
+
+nav.lesson-navigation .lesson-submit:hover,
+nav.lesson-navigation .lesson-submit:focus-visible {
+  background: #075b69;
+}
+
+nav.lesson-navigation .lesson-progress {
+  color: #52656c;
+  font-size: .86rem;
+  white-space: nowrap;
+}
+
+nav.lesson-navigation .lesson-previous {
+  justify-self: start;
+}
+
+nav.lesson-navigation .lesson-next {
+  justify-self: end;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-bottom: 134px;
+  }
+
+  nav.lesson-navigation {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    grid-template-areas:
+      'progress progress progress'
+      'previous submit next';
+    gap: 7px;
+    padding: 8px 12px max(8px, env(safe-area-inset-bottom));
+  }
+
+  nav.lesson-navigation > .lesson-progress {
+    grid-area: progress;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  nav.lesson-navigation > .lesson-previous {
+    grid-area: previous;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  nav.lesson-navigation > .lesson-submit {
+    grid-area: submit;
+    grid-row: 2;
+  }
+
+  nav.lesson-navigation > .lesson-next {
+    grid-area: next;
+    grid-row: 2;
+    justify-self: end;
+  }
+
+  nav.lesson-navigation a,
+  nav.lesson-navigation button {
+    min-height: 38px;
+    padding: 8px 10px;
+    font-size: .84rem;
+  }
+}
