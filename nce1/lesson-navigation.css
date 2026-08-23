@@ -1,0 +1,131 @@
+/* Shared fixed controls for every lesson page. */
+.page {
+  padding-bottom: 108px;
+}
+
+nav.lesson-navigation {
+  position: fixed;
+  z-index: 20;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 10px max(18px, calc((100% - 900px) / 2));
+  border-top: 1px solid var(--line);
+  background: rgba(255, 254, 250, .97);
+  box-shadow: 0 -4px 18px rgba(23, 37, 47, .12);
+  backdrop-filter: blur(8px);
+  text-align: center;
+}
+
+nav.lesson-navigation a,
+nav.lesson-navigation button {
+  min-height: 42px;
+  padding: 8px 13px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  background: #fff;
+  color: var(--accent-dark);
+  font: inherit;
+  font-size: .92rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav.lesson-navigation a:hover,
+nav.lesson-navigation a:focus-visible,
+nav.lesson-navigation button:not(:disabled):hover,
+nav.lesson-navigation button:not(:disabled):focus-visible {
+  background: var(--accent);
+  color: #fff;
+}
+
+nav.lesson-navigation a:focus-visible,
+nav.lesson-navigation button:focus-visible {
+  outline: 3px solid var(--highlight);
+  outline-offset: 2px;
+}
+
+nav.lesson-navigation button:disabled {
+  border-color: var(--line);
+  background: #f2f5f5;
+  color: #9aa8ad;
+  cursor: not-allowed;
+}
+
+nav.lesson-navigation .lesson-submit {
+  min-width: 96px;
+  background: var(--accent);
+  color: #fff;
+}
+
+nav.lesson-navigation .lesson-submit:hover,
+nav.lesson-navigation .lesson-submit:focus-visible {
+  background: var(--accent-dark);
+}
+
+nav.lesson-navigation .lesson-progress {
+  color: var(--muted);
+  font-size: .86rem;
+  white-space: nowrap;
+}
+
+nav.lesson-navigation .lesson-previous {
+  justify-self: start;
+}
+
+nav.lesson-navigation .lesson-next {
+  justify-self: end;
+}
+
+@media (max-width: 600px) {
+  .page {
+    padding-bottom: 136px;
+  }
+
+  nav.lesson-navigation {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    grid-template-areas:
+      'progress progress progress'
+      'previous submit next';
+    gap: 7px;
+    padding: 8px 12px max(8px, env(safe-area-inset-bottom));
+  }
+
+  nav.lesson-navigation > .lesson-progress {
+    grid-area: progress;
+    grid-column: 1 / -1;
+    grid-row: 1;
+  }
+
+  nav.lesson-navigation > .lesson-previous {
+    grid-area: previous;
+    grid-row: 2;
+    justify-self: start;
+  }
+
+  nav.lesson-navigation > .lesson-submit {
+    grid-area: submit;
+    grid-row: 2;
+  }
+
+  nav.lesson-navigation > .lesson-next {
+    grid-area: next;
+    grid-row: 2;
+    justify-self: end;
+  }
+
+  nav.lesson-navigation a,
+  nav.lesson-navigation button {
+    min-height: 40px;
+    padding: 8px 10px;
+    font-size: .84rem;
+  }
+}

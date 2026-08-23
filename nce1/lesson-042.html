@@ -36,6 +36,7 @@
     nav a:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
     @media (max-width: 600px) { body { font-size: 16px; } .page { width: min(100% - 24px, 900px); padding-top: 28px; } article { padding: 3px 20px 22px; } nav { grid-template-columns: 1fr 1fr; } nav > span:nth-child(2) { grid-column: 1 / -1; grid-row: 1; } nav > a, nav > span:first-child, nav > span:last-child { grid-row: 2; } nav a:last-child { justify-self: end; } }
   </style>
+  <link rel="stylesheet" href="lesson-navigation.css">
 </head>
 <body>
   <main class="page">
@@ -59,7 +60,7 @@
         <textarea rows="8" aria-label="Your notes and answers"></textarea>
       </section>
     </article>
-    <nav aria-label="Lesson navigation"><a href="lesson-041.html" rel="prev">Previous lesson</a><span>Lesson 42 of 144</span><a href="lesson-043.html" rel="next">Next lesson</a></nav>
+    <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-041.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><span>Lesson 42 of 144</span><a href="lesson-043.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
   </main>
   <script>
     const storageKey = 'nce-grammar:' + location.pathname;
@@ -102,5 +103,6 @@
       URL.revokeObjectURL(link.href);
     });
   </script>
+  <script src="lesson-navigation.js"></script>
 </body>
 </html>
