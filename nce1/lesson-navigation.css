@@ -10,7 +10,7 @@ nav.lesson-navigation {
   bottom: 0;
   left: 0;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto auto auto minmax(0, 1fr);
   align-items: center;
   gap: 10px;
   width: 100%;
@@ -81,6 +81,10 @@ nav.lesson-navigation .lesson-previous {
   justify-self: start;
 }
 
+nav.lesson-navigation .lesson-download {
+  white-space: nowrap;
+}
+
 nav.lesson-navigation .lesson-next {
   justify-self: end;
 }
@@ -94,7 +98,8 @@ nav.lesson-navigation .lesson-next {
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     grid-template-areas:
       'progress progress progress'
-      'previous submit next';
+      'previous submit next'
+      'download download download';
     gap: 7px;
     padding: 8px 12px max(8px, env(safe-area-inset-bottom));
   }
@@ -114,6 +119,12 @@ nav.lesson-navigation .lesson-next {
   nav.lesson-navigation > .lesson-submit {
     grid-area: submit;
     grid-row: 2;
+  }
+
+  nav.lesson-navigation > .lesson-download {
+    grid-area: download;
+    grid-row: 3;
+    justify-self: center;
   }
 
   nav.lesson-navigation > .lesson-next {

@@ -43,7 +43,6 @@
     <header>
       <p class="series">NCE Grammar Practice 1</p>
       <h1>Lesson 58: What&#39;s the time?</h1>
-      <div class="lesson-actions"><button class="export-button" type="button" id="export-answers">Export answers</button></div>
     </header>
     <article>
       <h2>I. Answer the questions, using the cues given according to the examples</h2>
@@ -65,7 +64,7 @@
         <textarea rows="8" aria-label="Your notes and answers"></textarea>
       </section>
     </article>
-    <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-057.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><span>Lesson 58 of 144</span><a href="lesson-059.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
+    <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-057.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 58 of 144</span><a href="lesson-059.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
   </main>
   <script>
     const storageKey = 'nce-grammar:' + location.pathname;
@@ -77,7 +76,7 @@
         localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
       });
     });
-    document.querySelector('#export-answers').addEventListener('click', () => {
+    document.querySelector('#download-answers').addEventListener('click', () => {
       const completedAnswers = fields
         .map((field, index) => ({ field, index, answer: field.value.trim() }))
         .filter(({ answer }) => answer);

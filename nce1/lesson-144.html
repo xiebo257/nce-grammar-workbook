@@ -43,7 +43,6 @@
     <header>
       <p class="series">NCE Grammar Practice 1</p>
       <h1>Lesson 144: He didn&#39;t need to ...</h1>
-      <div class="lesson-actions"><button class="export-button" type="button" id="export-answers">Export answers</button></div>
     </header>
     <article>
       <h2>I. Choose between <code>needn&#39;t</code> and <code>didn&#39;t need to</code></h2>
@@ -56,7 +55,7 @@
         <textarea rows="8" aria-label="Your notes and answers"></textarea>
       </section>
     </article>
-    <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-143.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><span>Lesson 144 of 144</span><button type="button" class="lesson-next" disabled aria-disabled="true">Next lesson</button></nav>
+    <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-143.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 144 of 144</span><button type="button" class="lesson-next" disabled aria-disabled="true">Next lesson</button></nav>
   </main>
   <script>
     const storageKey = 'nce-grammar:' + location.pathname;
@@ -68,13 +67,13 @@
         localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
       });
     });
-    document.querySelector('#export-answers').addEventListener('click', () => {
+    document.querySelector('#download-answers').addEventListener('click', () => {
       const completedAnswers = fields
         .map((field, index) => ({ field, index, answer: field.value.trim() }))
         .filter(({ answer }) => answer);
       const exportedAt = new Date().toLocaleString();
       const sections = [
-        '# NCE Grammar Practice 1 - Lesson 144: He didn't need to ...',
+        '# NCE Grammar Practice 1 - Lesson 144: He didn\'t need to ...',
         '',
         'Exported: ' + exportedAt,
         '',
