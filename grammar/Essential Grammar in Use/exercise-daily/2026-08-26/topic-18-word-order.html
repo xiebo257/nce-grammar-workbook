@@ -38,7 +38,8 @@
     textarea { min-height: 84px; resize: vertical; }
     .actions { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 28px; }
     button { min-height: 44px; border: 0; border-radius: 4px; padding: 10px 16px; font: inherit; font-weight: 700; cursor: pointer; }
-    button[type="submit"] { color: #fff; background: #087b87; }
+    button.copy-button { color: #fff; background: #087b87; }
+    button.export-button { color: #fff; background: #496a78; }
     button[type="reset"] { color: #17212b; background: #dce7e9; }
     button:hover { filter: brightness(.95); }
     button:focus-visible, input:focus-visible, textarea:focus-visible { outline: 3px solid #e5a900; outline-offset: 2px; }
@@ -56,7 +57,7 @@
     <header>
       <h1>Study Guide Topic 18: Word Order <time datetime="2026-08-26">- 2026-08-26</time></h1>
       <p class="scope">Source scope: Essential Grammar in Use Study Guide Topic 18, rewritten from Book Units 93, 94, 95, and 96.</p>
-      <p class="instruction">Please answer all 15 questions. Your responses stay on this page until you export them.</p>
+      <p class="instruction">Please answer all 15 questions. Submit copies the questions and responses; Export Answers saves them locally.</p>
     </header>
 
     <form id="test-form">
@@ -143,7 +144,8 @@
       </section>
 
       <div class="actions">
-        <button type="submit">Submit &amp; Export Answers</button>
+        <button class="copy-button" id="copy-answers" type="button">Submit</button>
+        <button class="export-button" id="export-answers" type="button">Export Answers</button>
         <button type="reset">Reset</button>
       </div>
       <p id="export-status" role="status" aria-live="polite"></p>
@@ -154,16 +156,52 @@
     (function () {
       var form = document.getElementById('test-form');
       var status = document.getElementById('export-status');
+      var copyButton = document.getElementById('copy-answers');
+      var exportButton = document.getElementById('export-answers');
 
-      form.addEventListener('submit', function (event) {
-        event.preventDefault();
+      function questionAndAnswerText() {
         var lines = [];
-        Array.prototype.forEach.call(form.querySelectorAll('input[name], textarea[name]'), function (field) {
-          var value = field.value.trim();
-          lines.push(field.name + ': ' + (value || '[blank]'));
+        Array.prototype.forEach.call(form.querySelectorAll('.question'), function (question) {
+          var label = question.querySelector('label');
+          var field = question.querySelector('input[name], textarea[name]');
+          if (!label || !field) return;
+          var prompt = label.textContent.trim().replace(/\s+/g, ' ');
+          var example = question.querySelector('.example');
+          if (example) prompt += ' ' + example.textContent.trim().replace(/\s+/g, ' ');
+          var value = field.value.trim() || '[blank]';
+          lines.push(field.name + ' Question: ' + prompt);
+          lines.push(field.name + ' Answer: ' + value);
         });
+        return lines.join('\n') + '\n';
+      }
 
-        var blob = new Blob([lines.join('\n') + '\n'], { type: 'text/plain;charset=utf-8' });
+      function fallbackCopy(text) {
+        var area = document.createElement('textarea');
+        area.value = text;
+        area.setAttribute('readonly', '');
+        area.style.position = 'fixed';
+        area.style.opacity = '0';
+        document.body.appendChild(area);
+        area.select();
+        var copied = document.execCommand('copy');
+        area.remove();
+        return copied;
+      }
+
+      copyButton.addEventListener('click', function () {
+        var text = questionAndAnswerText();
+        var copy = navigator.clipboard && navigator.clipboard.writeText
+          ? navigator.clipboard.writeText(text)
+          : Promise.resolve(fallbackCopy(text) ? undefined : Promise.reject(new Error('Clipboard unavailable')));
+        copy.then(function () {
+          status.textContent = 'Questions and answers copied to the clipboard.';
+        }).catch(function () {
+          status.textContent = 'Copy was blocked by the browser. Use Export Answers instead.';
+        });
+      });
+
+      exportButton.addEventListener('click', function () {
+        var blob = new Blob([questionAndAnswerText()], { type: 'text/plain;charset=utf-8' });
         var url = URL.createObjectURL(blob);
         var link = document.createElement('a');
         link.href = url;
@@ -172,7 +210,7 @@
         link.click();
         link.remove();
         URL.revokeObjectURL(url);
-        status.textContent = 'Answers exported to answers.txt.';
+        status.textContent = 'Questions and answers exported to answers.txt.';
       });
 
       form.addEventListener('reset', function () {
