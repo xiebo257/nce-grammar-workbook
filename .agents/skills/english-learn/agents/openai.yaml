@@ -1,0 +1,4 @@
+interface:
+  display_name: "English Learn"
+  short_description: "Generate rewritten topic tests or grade workbook answers"
+  default_prompt: "Use $english-learn in `test` mode to select a Study Guide topic, rewrite patterns from every mapped book unit into HTML practice with answer export, or use `correct` mode to grade answers against the PDF key."
