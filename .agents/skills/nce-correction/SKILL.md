@@ -49,11 +49,13 @@ If HTML line breaks were collapsed by the exporter, preserve the raw exported pr
 
 ## Grade the answers
 
-Review every answer against both the prompt and the exercise instruction. Use these statuses consistently:
+Review every answer against both the prompt and the exercise instruction. Use these statuses consistently, including the icon in every correction-report status cell:
 
-- `Right`: correct grammar, meaning, target form, spelling, and required content.
-- `Error`: grammar, meaning, word choice, spelling, or completeness must change to satisfy the exercise.
-- `Note`: the target grammar and meaning are correct, but there is a minor punctuation, formatting, optional wording, or omitted-explanation issue.
+- `🟢 Right`: correct grammar, meaning, target form, spelling, and required content.
+- `🔴 Error`: grammar, meaning, word choice, spelling, or completeness must change to satisfy the exercise.
+- `🟡❗ Note`: the target grammar and meaning are correct, but there is a minor punctuation, formatting, optional wording, or omitted-explanation issue.
+
+Do not use the plain words `Right`, `Error`, or `Note` by themselves in the report table. The icon makes the result scannable: green means correct, red means a required correction, and yellow plus an exclamation mark means a non-scoring note.
 
 Scoring rules:
 
@@ -84,6 +86,9 @@ Status: ...
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
+| 1 | 🟢 Right | `...` | `...` | ... |
+| 2 | 🔴 Error | `...` | `...` | ... |
+| 3 | 🟡❗ Note | `...` | `...` | ... |
 ```
 
 Include one row per submitted item, in original order. Keep explanations specific to that item and concise enough for table readability. Use `<br>` inside table cells for multi-line answers.
