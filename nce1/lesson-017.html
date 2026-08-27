@@ -45,8 +45,8 @@
       <h1>Lesson 17: How do you do?</h1>
     </header>
     <article>
-      <h2>I. Write the plural forms</h2>
-<p><code>a watch</code>, <code>a man</code>, <code>a policeman</code>, <code>an air hostess</code>, <code>an assistant</code>, <code>a box</code>, <code>a housewife</code>, <code>a policewoman</code>, <code>a postman</code>, <code>a dress</code>, <code>a woman</code>, <code>a class</code>.</p>
+      <h2>I. Write the plural form of each word</h2>
+<ol><li><div class="question-text">a watch - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a man - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a policeman - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">an air hostess - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">an assistant - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a box - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a housewife - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a policewoman - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a postman - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a dress - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a woman - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">a class - two ___</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
 <h2>II. Answer using the cues</h2>
 <p>Example: <em>What are their jobs? (policeman)</em> -&gt; <em>They&#39;re policemen.</em></p>
 <ol><li><div class="question-text">What are these men&#39;s jobs? <code>(milkman)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are your two brothers&#39; jobs? <code>(engineer)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are these women&#39;s jobs? <code>(housewife)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are the girls&#39; jobs? <code>(nurse)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are your jobs? <code>(policewoman)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are their jobs? <code>(office assistant)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are these young men&#39;s jobs? <code>(sales rep)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are the girls&#39; jobs? <code>(air hostesses)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">What are your jobs? <code>(postman)</code></div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
@@ -64,7 +64,11 @@
   <script>
     const storageKey = 'nce-grammar:' + location.pathname;
     const fields = [...document.querySelectorAll('textarea')];
-    const savedAnswers = JSON.parse(localStorage.getItem(storageKey) || '[]');
+    let savedAnswers = JSON.parse(localStorage.getItem(storageKey) || '[]');
+    if (savedAnswers.length === 23) {
+      savedAnswers = [...Array(12).fill(''), ...savedAnswers];
+      localStorage.setItem(storageKey, JSON.stringify(savedAnswers));
+    }
     fields.forEach((field, index) => {
       field.value = savedAnswers[index] || '';
       field.addEventListener('input', () => {
