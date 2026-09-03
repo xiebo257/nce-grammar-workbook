@@ -1,63 +1,55 @@
-# NCE Grammar Practice 1 - Lesson 58: What's the time? — Correction
+# Correction: NCE Grammar Practice 1 - Lesson 58
 
 **Date:** 2026-09-03
-**Source:** NCE Grammar Practice 1, Lesson 58.
-**Learner answers:** `lesson-058-answers.md` in the same directory.
+**Source scope:** NCE Grammar Practice 1, Lesson 58, "What's the time?"
+**Reference:** `nce1/lesson-058.html`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
+**Learner file:** `nce1/lesson-058-answers.md`
 
-## Legend
+Status: 17 of 17 correct. No errors. One note: Q4 (comma splice — missing `but` between negation and correction). The present simple vs present continuous contrast, time-telling, and the negation + correction frame are all fully correct across all 17 items. Third-person singular `-s`/`-es` is correctly applied throughout.
 
-| Icon | Status |
-|------|--------|
-| ✅ | Right — matches the key or an accepted alternative |
-| ❌ | Error — incorrect grammar or wrong form |
-| ⚠️ | Note — grammatically plausible but spelling error or minor structural issue; not a strict key match |
+Note on structure: the export omits Q1 (Section I.1 example "a"), Q6 (Section I.2 example "a"), and Q11 (Section II example "1"). Section I.1 uses a two-line frame: present continuous answer + negation-with-`but` correction. Section I.2 uses a three-line frame: present continuous + short negation (`No, he doesn't.`) + separate correction sentence. Section II states the time + usual activity.
 
-## Grammar Pattern
+**Strict score: 17/17**
 
-- **Section I**: Present continuous for "now" (She's cleaning...) + present simple with frequency adverb for habitual (She doesn't... every day, but she sometimes...).
-- **Section II**: "It's [time] o'clock. [Subject] usually [verb] at [time]." — present simple with "usually" for habitual actions tied to clock times.
-- **Key rule**: present continuous = happening now; present simple + adverb of frequency = habit/routine. Third-person singular (he/she/it) adds **-s** in present simple.
+| Item | Status | Learner answer | Correct answer / expected form | Explanation |
+|---|---|---|---|---|
+| 2 | 🟢 Right | `I'm writing a letter to my mother. No, I don't write home every week, but I sometimes write home.` | Same | Present continuous + negation-with-`but` correction. First person: `don't` + base form. |
+| 3 | 🟢 Right | `She's cleaning her shoes. No, she doesn't clean her shoes every day, but she cleans her shoes every week.` | Same | Present continuous + negation-with-`but`. Third-person singular: `doesn't` + `cleans` (+s). |
+| 4 | 🟡❗ Note | `She's sweeping the floor. No, she doesn't often sweep the floor, she sometimes sweeps the floor.` | `…doesn't often sweep the floor, but she sometimes sweeps the floor.` | Grammar is fully correct. Missing `but` between the two clauses — comma splice. The example uses `but` to join negation and correction. `sweeping` (double p) and `sweeps` (+s) are correct. |
+| 5 | 🟢 Right | `They're watching television. No, they don't always watch television at night, but they sometimes watch television at night.` | Same | Plural: `don't` + base form. `but` joins negation and correction. |
+| 7 | 🟢 Right | `He's taking our son to school. No, he doesn't. He usually takes our son to school at seven every morning.` | Same | Three-line frame: present continuous + short negation (`doesn't`) + correction with `takes` (+s). |
+| 8 | 🟢 Right | `I'm waiting for a bus. No, I don't. I usually wait for a bus at seven thirty.` | Same | Three-line frame: present continuous + short negation (`don't`) + correction with base form. |
+| 9 | 🟢 Right | `They're doing their homework. No, they don't. They usually do their homework in the evening.` | Same | Three-line frame: plural `don't` + base form `do`. |
+| 10 | 🟢 Right | `He's typing letters. No, he doesn't. He usually types letters at nine in the morning.` | Same | Three-line frame: `typing` (drop -e), `doesn't`, `types` (+s). |
+| 12 | 🟢 Right | `It's two o'clock. We usually go to work at two.` | Same | Time + usual activity. Plural `we` → `go` (base form). |
+| 13 | 🟢 Right | `It's five o'clock. You usually cook a meal at five.` | Same | `you` → `cook` (base form). |
+| 14 | 🟢 Right | `It's four o'clock. The children usually come home from school at four.` | Same | Plural `children` → `come` (base form). |
+| 15 | 🟢 Right | `It's ten o'clock. She usually goes to bed at ten.` | Same | Singular `she` → `goes` (+es, -o). |
+| 16 | 🟢 Right | `It's eight o'clock. I usually do my homework at eight.` | Same | First person → `do` (base form). |
+| 17 | 🟢 Right | `It's nine o'clock. He usually reads a newspaper at nine.` | Same | Singular `he` → `reads` (+s). |
+| 18 | 🟢 Right | `It's eleven o'clock. I usually go to the shops at eleven.` | Same | First person → `go` (base form). |
+| 19 | 🟢 Right | `It's one o'clock. She usually cooks a meal at one.` | Same | Singular `she` → `cooks` (+s). |
+| 20 | 🟢 Right | `It's four o'clock. We usually drink tea at four.` | Same | Plural `we` → `drink` (base form). |
 
-## Correction Table — Section I, Part 1 (Q2–Q5)
+## Usage table
 
-| # | Status | Learner Answer | Target | Explanation |
-|---|--------|----------------|--------|-------------|
-| 2 | ✅ Right | I'm writing a letter to my mother. No, I don't write home every week, but I sometimes write home. | (same) | Present continuous ✅, present simple with "sometimes" ✅. Correct pattern. |
-| 3 | ✅ Right | She's cleaning her shoes. No, she doesn't clean her shoes every day, but she cleans her shoes every week. | (same) | Present continuous ✅, "doesn't... every day, but... every week" ✅. Correct. |
-| 4 | ⚠️ Note | She's sweeping the floor. No, she doesn't **oftem** sweep the floor, she sometimes sweeps the floor. | She's sweeping the floor. No, she doesn't **often** sweep the floor, **but** she sometimes sweeps the floor. | Present continuous ✅. But: (1) "oftem" is a spelling error → **often**. (2) Missing **but** connector between the two clauses — the pattern uses "but" to link the negative and positive. |
-| 5 | ✅ Right | They're watching television. No, they don't always watch television at night, but they sometimes watch television at night. | (same) | Present continuous ✅, "don't always... but... sometimes" ✅. Correct. |
+| Pattern | Example | Reminder |
+|---|---|---|
+| Present continuous answer | `I'm writing a letter.` / `She's cleaning her shoes.` / `He's typing letters.` | `am/is/are + verb-ing`. Used for actions happening now. |
+| Negation-with-`but` correction (I.1) | `No, I don't write home every week, but I sometimes write home.` | Negate the assumed frequency, then correct with `but` + actual frequency. |
+| Short negation + separate correction (I.2) | `No, he doesn't. He usually takes our son to school at seven.` | Short negation (`No, [pronoun] doesn't/don't.`) as a separate sentence, then correction. |
+| Time + usual activity (Section II) | `It's two o'clock. We usually go to work at two.` | `It's [time] o'clock. [Subject] usually [verb] at [time].` |
+| Third-person singular `-s`/`-es` in present simple | `she cleans`, `she sweeps`, `he takes`, `he types`, `she goes`, `she cooks`, `he reads` | Singular subject → verb + `-s`/`-es`. `-o` → `-es` (`goes`); most others → `-s`. |
+| Plural/first-person base form | `we go`, `you cook`, `they come`, `I do`, `we drink` | Plural or first-person subject → base form (no `-s`). |
+| CVC doubling in `-ing` | `sweep` → `sweeping` | One-syllable CVC verbs double the final consonant before `-ing`. |
+| `-e` dropping in `-ing` | `type` → `typing`, `take` → `taking` | Verbs ending in silent `-e` drop the `e` before `-ing`. |
 
-## Correction Table — Section I, Part 2 (Q7–Q10)
+## Key takeaway
 
-| # | Status | Learner Answer | Target | Explanation |
-|---|--------|----------------|--------|-------------|
-| 7 | ✅ Right | He's taking our son to school. No, he doesn't. He usually takes our son to school at seven every morning. | (same) | Present continuous ✅, "No, he doesn't. He usually takes..." ✅. Correct pattern. |
-| 8 | ⚠️ Note | I'm waiting for a bus. No, I don't. I usually wait for a **but** at seven thirty. | I'm waiting for a bus. No, I don't. I usually wait for a **bus** at seven thirty. | Present continuous ✅, pattern ✅. But "but" is a typo for **bus**. |
-| 9 | ✅ Right | They're doing their homework. No, they don't. They usually do their homework in the evening. | (same) | Present continuous ✅, "No, they don't. They usually do..." ✅. Correct. |
-| 10 | ❌ Error | He's typing letters. No, he doesn't. He usually **type** letters at nine in the morning. | He usually **types** letters at nine in the morning. | Present continuous ✅. But "He usually type" is wrong — **he** is third-person singular, so the verb needs **-s**: "He usually **types** letters." |
+- **Perfect score — 17/17.** No errors. One note (Q4: comma splice, missing `but`).
+- **Present simple vs present continuous — fully mastered.** All Section I items correctly use present continuous for "now" actions and present simple for habitual/usual actions. The two-line and three-line frames are both correctly applied.
+- **Singular vs plural verb agreement — fully mastered.** Section II correctly applies `-s`/`-es` for singular subjects (`goes`, `cooks`, `reads`) and base form for plural/first-person (`go`, `cook`, `drink`, `do`, `come`). This is the fourth consecutive lesson (55–58) with correct verb agreement.
+- **Time-telling pattern secure.** All 9 Section II items correctly use `It's [time] o'clock. [Subject] usually [verb] at [time].`
+- **Q4 — comma splice.** The negation and correction should be joined with `but`, not just a comma: "...doesn't often sweep the floor, **but** she sometimes sweeps the floor." Two independent clauses need a conjunction.
 
-## Correction Table — Section II (Q12–Q20)
-
-| # | Status | Learner Answer | Target | Explanation |
-|---|--------|----------------|--------|-------------|
-| 12 | ✅ Right | It's two o'clock. We usually go to work at two. | (same) | Pattern correct: It's [time] + subject + usually + verb + at [time]. "We" takes base form "go." ✅ |
-| 13 | ✅ Right | It's five o'clock. You usually cook a meal at five. | (same) | "You" takes base form "cook." ✅ |
-| 14 | ✅ Right | It's four o'clock. The children usually come home from school at four. | (same) | "Children" (plural) takes base form "come." ✅ |
-| 15 | ✅ Right | It's ten o'clock. She usually **goes** to bed at ten. | (same) | "She" → third-person singular "goes" (+es). ✅ |
-| 16 | ✅ Right | It's eight o'clock. I usually do my homework at eight. | (same) | "I" takes base form "do." ✅ |
-| 17 | ✅ Right | It's nine o'clock. He usually **reads** a newspaper at nine. | (same) | "He" → third-person singular "reads" (+s). ✅ |
-| 18 | ✅ Right | It's eleven o'clock. I usually go to the shops at eleven. | (same) | "I" takes base form "go." ✅ |
-| 19 | ✅ Right | It's one o'clock. She usually **cooks** a meal at one. | (same) | "She" → third-person singular "cooks" (+s). ✅ |
-| 20 | ✅ Right | It's four o'clock. We usually drink tea at four. | (same) | "We" takes base form "drink." ✅ |
-
-## Key Takeaway
-
-1. **Third-person singular -s (present simple)**: after he/she/it, always add **-s** or **-es** to the verb: he types, she goes, he reads, she cooks. "He usually type" is wrong → "He usually types." This is the most common error in present simple.
-2. **Present continuous vs present simple**: use **present continuous** (is/are + -ing) for something happening **now** ("She's cleaning her shoes"). Use **present simple** + adverb of frequency for **habits** ("She doesn't clean them every day, but she sometimes cleans them").
-3. **Frequency adverbs**: often, sometimes, usually, always — place between the subject and the main verb: "She sometimes sweeps," "He usually takes." In negative: "She doesn't often sweep."
-4. **"but" connector**: the pattern links negative + positive with **but**: "No, I don't [verb] every day, **but** I [adverb] [verb]." Don't use just a comma.
-5. **Spelling matters**: "oftem" → "often", "but" (when you mean "bus") — always proofread before submitting.
-
-## One-line Summary
-
-Strict score 14/17 (2 spelling/structure notes + 1 verb agreement error); main focus: always add -s to the verb after he/she/it in present simple (he types, not he type).
+**Summary:** 17/17; a perfect score with no errors. The present simple vs present continuous contrast, time-telling, singular/plural verb agreement, and both negation-correction frames are all fully correct. One note flags a missing `but` (comma splice) in Q4.
