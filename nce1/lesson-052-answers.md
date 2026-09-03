@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 52: What nationality are they? Where do they come from?
 
-Exported: 2026/9/2 21:55:19
+Exported: 2026/9/3 12:28:06
 
 ## Answers
 
@@ -10,7 +10,7 @@ Exported: 2026/9/2 21:55:19
 
 **Your answer:**
 
-speaks comes is is
+is comes speaks is
 
 ### Question 2
 
@@ -18,7 +18,7 @@ speaks comes is is
 
 **Your answer:**
 
-speaks comes is is
+is comes speaks is
 
 ### Question 3
 
@@ -26,7 +26,7 @@ speaks comes is is
 
 **Your answer:**
 
-Are am am come am am
+Are am am come speak is
 
 ### Question 4
 
@@ -34,7 +34,7 @@ Are am am come am am
 
 **Your answer:**
 
-are Are am am come am is
+are Are am am come speak is
 
 ### Question 5
 
@@ -42,7 +42,7 @@ are Are am am come am is
 
 **Your answer:**
 
-speak come are is
+are come speak is
 
 ### Question 6
 
@@ -50,7 +50,7 @@ speak come are is
 
 **Your answer:**
 
-are come come speak are is
+do come come are speak is
 
 ### Question 7
 
@@ -58,7 +58,7 @@ are come come speak are is
 
 **Your answer:**
 
-Are come come speak are is
+Do come come are speak is
 
 ### Question 8
 
@@ -82,7 +82,7 @@ is comes speaks is
 
 **Your answer:**
 
-is comes is is
+is comes speaks is
 
 ### Question 11
 
@@ -98,7 +98,7 @@ A year has four seasons, spring, summer, autumn and winter, and each season has 
 
 **Your answer:**
 
-A year has twelve months, a month has thirty or thirty one days.
+A year has twelve months, and a month has thirty or thirty-one days.
 
 ### Question 13
 
@@ -106,7 +106,7 @@ A year has twelve months, a month has thirty or thirty one days.
 
 **Your answer:**
 
-A year has three hundred sixty and five days.
+A year has three hundred and sixty-five days.
 
 ### Question 14
 
@@ -114,7 +114,7 @@ A year has three hundred sixty and five days.
 
 **Your answer:**
 
-It's warm in sping, and it sometimes rains.
+It's warm in spring, and it sometimes rains.
 
 ### Question 15
 
@@ -122,7 +122,7 @@ It's warm in sping, and it sometimes rains.
 
 **Your answer:**
 
-It's very hot in summer, the sun shines every day.
+It's very hot in summer, and the sun shines every day.
 
 ### Question 16
 
@@ -130,7 +130,7 @@ It's very hot in summer, the sun shines every day.
 
 **Your answer:**
 
-It's often windy, and it sometimes rains.
+It's often windy in autumn, and it sometimes rains.
 
 ### Question 17
 
@@ -138,7 +138,7 @@ It's often windy, and it sometimes rains.
 
 **Your answer:**
 
-It's always cold in winter, it's often snows in December and January.
+It's always cold in winter, and it often snows in December and January.
 
 ### Question 18
 
