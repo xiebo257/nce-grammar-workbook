@@ -1,0 +1,12 @@
+# 3-person dialogue - At the car race
+[M] Tom: Here we are! The car race is about to start.
+[F] Mary: This is so exciting! How many cars are in the race?
+[M] Mr. Sawyer: There are twenty cars this year. Five more than last year.
+[F] Mary: Twenty! That's a lot. Who is driving the red car?
+[M] Tom: That's my friend, Jack. He was at the race last year too.
+[F] Mary: Was he in first place?
+[M] Tom: No, he wasn't. He was in third place.
+[M] Mr. Sawyer: The race starts in five minutes. Let's find our seats.
+[F] Mary: I want to sit near the finish line!
+[M] Tom: Good idea. There are some empty seats right over there.
+[M] Mr. Sawyer: Hurry! The first race is about to begin.

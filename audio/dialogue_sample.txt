@@ -1,0 +1,20 @@
+# NCE Lesson 69 style dialogue - The Car Race
+# Format: [M]/[F] Speaker: text (explicit gender)
+# Or: Speaker: text (gender inferred from name)
+
+[M] Tom: Look at this! There's a car race in our town next Saturday.
+[F] Mary: Really? Where is it?
+[M] Tom: It's at the new stadium. There were fifteen cars in the race last year.
+[F] Mary: That sounds exciting! Are you going?
+[M] Tom: Yes, I went to the car race on May 16th last year. It was great.
+[F] Mary: Was it? How many people were there?
+[M] Tom: There were hundreds of people. My wife and I were at the car race.
+[F] Mary: Were Tom and Susan at the race too?
+[M] Tom: No, they weren't. They were at the game on Friday night.
+[F] Mary: What about the Sawyers? Were they at the car race?
+[M] Tom: Yes, the Sawyers were at the car race on Saturday.
+[F] Mary: I'd love to go! What time does it start?
+[M] Tom: It starts at two thirty. We can go together.
+[F] Mary: That's a great idea! Let's meet at the park at two.
+[M] Tom: Perfect. See you on Saturday at the park!
+[F] Mary: See you there. I can't wait!
