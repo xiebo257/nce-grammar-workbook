@@ -1,0 +1,12 @@
+# Audio binary files
+*.mp3
+*.aiff
+*.wav
+*.aif
+
+# Test recordings
+my_recording.mp3
+
+# Python
+__pycache__/
+*.pyc
