@@ -1,58 +1,92 @@
 # Correction: NCE Grammar Practice 1 - Lesson 81
 
-**Date:** 2026-09-09 (resubmission)
+**Date:** 2026-09-09 (resubmission 3)
 **Source scope:** NCE Grammar Practice 1, Lesson 81, "Roast beef and potatoes"
 **Reference:** `nce1/lesson-081.html`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-081-answers.md`
 
-Status: 22 of 26 correct. Four errors: Q2 (partial `have` conversion — "has eggs and drinks milk" → "has eggs and milk"), Q4 (spelling `saland`→`salad`), Q5 (spelling `potetoes`→`potatoes` + `fo`→`for`), Q14 (spelling `ang`→`and`). One note: Q3 (converted to `had` ✓ but dropped "an apple"). Score improved from 21/26 to 22/26 — the `have` conversion pattern is now mostly applied; remaining errors are spelling + one partial conversion.
+Status: 26 of 26 correct. No errors, no notes. All previous errors from submissions 1 (21/26) and 2 (22/26) are now fixed. The `have` conversion pattern (eat/drink → have), third-person singular agreement (`has`), and all spelling are fully correct.
 
-Changes from previous submission (21/26 → 22/26):
-- Q2: `eats`→`has` (first verb converted ✓, but `drinks` not converted — partial fix)
-- Q3: `ate`/`drank`→`had` ✓ (pattern fixed; "an apple" dropped — note)
-- Q4: `eating`→`having` ✓ (pattern fixed; spelling persists)
-- Q5: `ate`/`drank`→`had` ✓ (pattern fixed; spelling persists)
-- Q6: `eat`→`have` ✓ (now fully converted)
-- Q14: `have`→`has` ✓ (verb agreement fixed; spelling persists)
+**Strict score: 26/26**
 
-**Strict score: 22/26**
+| Item | Status | Learner answer | Explanation |
+|---|---|---|---|
+| 1 | 🟢 Right | `Mr. Scott usually has coffee and bread for breakfast.` | Example. `drinks`+`eats` → `has`. ✓ |
+| 2 | 🟢 Right | `Jane usually has eggs and milk for breakfast.` | **Fixed** (was: "has eggs and drinks milk"). Both verbs now converted to `has` + objects. ✓ |
+| 3 | 🟢 Right | `Sam had two sandwiches, an apple and a glass of beer for lunch yesterday.` | **Fixed** (was: dropped "an apple"). `ate`+`drank` → `had`. All objects included. ✓ |
+| 4 | 🟢 Right | `Ann is having an apple and salad for lunch.` | **Fixed** (was: "saland"). `eating`→`having`. Spelling `salad` correct. ✓ |
+| 5 | 🟢 Right | `My friends and I had roast beef, potatoes and six glasses of beer for dinner.` | **Fixed** (was: "potetoes"+"fo"). `ate`+`drank` → `had`. Spelling correct. ✓ |
+| 6 | 🟢 Right | `I sometimes have cheese and biscuits after a meal.` | `eat`→`have`. ✓ |
+| 7 | 🟢 Right | `I usually have a bath at six thirty in the morning.` | ✓ |
+| 8 | 🟢 Right | `They had a meal in the restaurant at six yesterday evening.` | ✓ |
+| 9 | 🟢 Right | `We had a party two weeks ago in my house.` | ✓ |
+| 10 | 🟢 Right | `All the boys and girls had a good time in the park last weekend.` | ✓ |
+| 11 | 🟢 Right | `They have their summer holiday in July and August.` | ✓ |
+| 12 | 🟢 Right | `He had a swim in the sea last Sunday evening.` | ✓ |
+| 13 | 🟢 Right | `They're having their English lesson in their classroom.` | ✓ |
+| 14 | 🟢 Right | `He usually has two slices of bread with cheese, an egg and milk for breakfast.` | **Fixed** (was: "have"+"ang"). `has` (3rd person) ✓. `and` spelling ✓. ✓ |
+| 15-26 | 🟢 Right | (all matching correct) | 12/12 question-answer matches. ✓ |
 
-| Item | Status | Learner answer | Correct answer / expected form | Explanation |
+## `have` Usage Classification
+
+This lesson teaches two main uses of `have`:
+
+### Type 1: have = eat/drink (food/drink consumption)
+
+`have` replaces the verbs `eat` and `drink`. Used with food/drink nouns directly (no article needed).
+
+| Item | Example | What it replaces |
+|---|---|---|
+| Q1 | `has coffee and bread` | drinks coffee + eats bread |
+| Q2 | `has eggs and milk` | eats eggs + drinks milk |
+| Q3 | `had two sandwiches, an apple and a glass of beer` | ate sandwiches/apple + drank beer |
+| Q4 | `is having an apple and salad` | is eating apple + salad |
+| Q5 | `had roast beef, potatoes and six glasses of beer` | ate beef/potatoes + drank beer |
+| Q6 | `have cheese and biscuits` | eat cheese + eat biscuits |
+| Q14 | `has bread, an egg and milk` | eats bread/egg + drinks milk |
+| Q18 | `have vegetables and fruit` | eat vegetables + eat fruit |
+| Q20 | `have tea` | drink tea |
+| Q25 | `have a drink` | drink something |
+
+**Key rule:** When combining two sentences with different eat/drink verbs, convert ALL verbs to one `have` → one verb + all objects joined by `and`.
+
+### Type 2: have + a/an + noun = take part in / experience an activity
+
+`have` means "take" or "experience." Used with `a/an + activity noun` — these are fixed collocations.
+
+| Item | Collocation | Meaning |
+|---|---|---|
+| Q7, Q21 | `have a bath` | take a bath (wash oneself) |
+| Q8 | `have a meal` | eat a meal (borderline Type 1/2) |
+| Q9, Q19 | `have a party` | host/attend a party |
+| Q10, Q16 | `have a good time` | enjoy oneself |
+| Q11 | `have their summer holiday` | take a holiday |
+| Q12, Q22 | `have a swim` | take a swim |
+| Q13, Q15 | `have a lesson` | attend a lesson |
+| Q17 | `have a haircut` | get a haircut |
+| Q23 | `have a rest` | take a rest |
+| Q24 | `have a holiday` | take a holiday |
+| Q26 | `have a talk` | have a conversation |
+
+**Key rule:** These collocations use `have + a/an + noun` and can appear in all tenses: `have` (present), `had` (past), `having` (continuous), `going to have` (future), `must have` (obligation), `can have` (permission).
+
+### Summary Table
+
+| Type | Meaning | Pattern | Example | Tenses used in this lesson |
 |---|---|---|---|---|
-| 1 | 🟢 Right | `Mr. Scott usually has coffee and bread for breakfast.` | Same | Example reproduced. ✓ |
-| 2 | 🔴 Error | `Jane usually has eggs and drinks milk for breakfast.` | `Jane usually has eggs and milk for breakfast.` | Partial conversion: first verb `eats`→`has` ✓, but `drinks milk` was kept as a second verb phrase instead of being converted to an object. The pattern is: one verb `has` + two objects joined by `and` → "has eggs and milk." The learner wrote "has eggs and drinks milk" — keeping `drinks` as a second verb. |
-| 3 | 🟡❗ Note | `Sam had two sandwiches and a glass of beer for lunch yesterday.` | `Sam had two sandwiches, an apple and a glass of beer for lunch yesterday.` | `had` conversion ✓ (fixed from previous `ate`/`drank`). But "an apple" was dropped from the first sentence — the combined sentence should include all objects. |
-| 4 | 🔴 Error | `Ann is having an apple and saland for lunch.` | `Ann is having an apple and salad for lunch.` | `having` conversion ✓ (fixed from previous `eating`). Spelling persists: `saland` → `salad` (extra `n`: s-a-l-a-**n**-d → s-a-l-a-d). |
-| 5 | 🔴 Error | `My friends and I had roast beef, potetoes and six glasses of beer fo dinner.` | `My friends and I had roast beef, potatoes and six glasses of beer for dinner.` | `had` conversion ✓ (fixed from previous `ate`/`drank`). Two spelling errors persist: `potetoes` → `potatoes` (missing `a`) and `fo` → `for` (missing `r`). |
-| 6 | 🟢 Right | `I sometimes have cheese and biscuits after a meal.` | Same | Now converted to `have` ✓ (fixed from previous `eat`). |
-| 7 | 🟢 Right | `I usually have a bath at six thirty in the morning.` | Same | ✓ |
-| 8 | 🟢 Right | `They had a meal in the restaurant at six yesterday evening.` | Same | ✓ |
-| 9 | 🟢 Right | `We had a party two weeks ago in my house.` | Same | ✓ |
-| 10 | 🟢 Right | `All the boys and girls had a good time in the park last weekend.` | Same | ✓ |
-| 11 | 🟢 Right | `They have their summer holiday in July and August.` | Same | ✓ |
-| 12 | 🟢 Right | `He had a swim in the sea last Sunday evening.` | Same | ✓ |
-| 13 | 🟢 Right | `They're having their English lesson in their classroom.` | Same | ✓ |
-| 14 | 🔴 Error | `He usually has two slices of bread with cheese, an egg ang milk for breakfast.` | `He usually has two slices of bread with cheese, an egg and milk for breakfast.` | `has` agreement ✓ (fixed from previous `have`). Spelling persists: `ang` → `and` (`d`→`g`: a-n-**d** → a-n-**g**). |
-| 15 | 🟢 Right | `I'm having a French lesson.` | Same | ✓ |
-| 16 | 🟢 Right | `Yes, we did.` | Same | ✓ |
-| 17 | 🟢 Right | `I'm going to have a haircut.` | Same | ✓ |
-| 18 | 🟢 Right | `I usually have vegetables and fruit.` | Same | ✓ |
-| 19 | 🟢 Right | `Those tourists from Korea did.` | Same | ✓ |
-| 20 | 🟢 Right | `We usually have tea at four in the afternoon.` | Same | ✓ |
-| 21 | 🟢 Right | `He's having a bath.` | Same | ✓ |
-| 22 | 🟢 Right | `No, they aren't. They are having a swim in the sea.` | Same | ✓ |
-| 23 | 🟢 Right | `He's going to have a rest.` | Same | ✓ |
-| 24 | 🟢 Right | `They're going to have a holiday in the country.` | Same | ✓ |
-| 25 | 🟢 Right | `I must have a drink.` | Same | ✓ |
-| 26 | 🟢 Right | `Yes, we can.` | Same | ✓ |
+| **1. eat/drink** | consume food/drink | `have + food/drink noun` | `has coffee and bread` | present (`has`), past (`had`), continuous (`is having`) |
+| **2. activity** | take part in/experience | `have + a/an + activity noun` | `have a bath`, `have a swim` | present, past, continuous, future (`going to have`), modal (`must/can have`) |
+
+**Common collocations to memorize (Type 2):**
+- Personal care: have a bath, have a haircut, have a rest
+- Leisure: have a swim, have a party, have a good time, have a holiday, have a talk
+- Education: have a lesson
 
 ## Key takeaway
 
-- **Resubmission improved from 21/26 to 22/26.** The `have` conversion pattern (the lesson's core point) is now applied in Q3 (`had`), Q4 (`having`), Q5 (`had`), Q6 (`have`) — all fixed from the previous attempt. The verb agreement in Q14 (`have`→`has`) is also fixed.
-- **Q2 — partial conversion.** "has eggs and **drinks** milk" — the first verb was converted to `has`, but `drinks` was kept as a second verb phrase. The pattern requires: one verb `has` + both objects → "has eggs and milk" (no second verb). When converting eat/drink to `have`, ALL verbs become `have` — there's only ONE verb in the combined sentence.
-- **Q4/Q5/Q14 — spelling persists.** `saland`→`salad`, `potetoes`→`potatoes`, `fo`→`for`, `ang`→`and` — all carried over from the previous attempt. These are high-frequency words that need focused spelling practice.
-- **Q3 — content omission.** "an apple" was dropped from the combined sentence. When combining, ALL objects from both sentences should appear in the result.
-- **Section II — fully correct.** All 8 `have` Q&A items are correct (Q14 now has `has` ✓).
-- **Section III — fully correct.** All 12 question-answer matches are correct.
-
-**Summary:** 22/26 (resubmission); four errors — one partial `have` conversion (Q2: "has eggs and drinks milk" → "has eggs and milk"), and three spelling errors (Q4: `saland`, Q5: `potetoes`/`fo`, Q14: `ang`). Score improved from 21/26 — the `have` conversion pattern and the third-person `-s` agreement are now fixed. The remaining errors are spelling + one partial conversion where the second verb wasn't fully converted to an object.
+- **Perfect score — 26/26.** All errors from previous submissions are fixed:
+  - `have` conversion pattern: Q2 (both verbs → `has`), Q3-Q6 (eat/drink → have/had/having) ✓
+  - Third-person singular: Q14 (`has` not `have`) ✓
+  - Spelling: `salad` (Q4), `potatoes` (Q5), `for` (Q5), `and` (Q14) ✓
+  - Content: "an apple" included in Q3 ✓
+- The `have` verb has two main uses in this lesson: (1) eat/drink (replacing eat/drink verbs) and (2) activity collocations (have a bath/swim/rest/party/lesson/haircut/holiday/talk/good time). Both are now fully mastered.

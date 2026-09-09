@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 81: Roast beef and potatoes
 
-Exported: 2026/9/9 21:27:46
+Exported: 2026/9/9 21:33:39
 
 ## Answers
 
@@ -18,7 +18,7 @@ Mr. Scott usually has coffee and bread for breakfast.
 
 **Your answer:**
 
-Jane usually has eggs and drinks milk for breakfast.
+Jane usually has eggs and milk for breakfast.
 
 ### Question 3
 
@@ -26,7 +26,7 @@ Jane usually has eggs and drinks milk for breakfast.
 
 **Your answer:**
 
-Sam had two sandwiches and a glass of beer for lunch yesterday.
+Sam had two sandwiches, an apple and a glass of beer for lunch yesterday.
 
 ### Question 4
 
@@ -34,7 +34,7 @@ Sam had two sandwiches and a glass of beer for lunch yesterday.
 
 **Your answer:**
 
-Ann is having an apple and saland for lunch.
+Ann is having an apple and salad for lunch.
 
 ### Question 5
 
@@ -42,7 +42,7 @@ Ann is having an apple and saland for lunch.
 
 **Your answer:**
 
-My friends and I had roast beef, potetoes and six glasses of beer fo dinner.
+My friends and I had roast beef, potatoes and six glasses of beer for dinner.
 
 ### Question 6
 
@@ -114,7 +114,7 @@ They're having their English lesson in their classroom.
 
 **Your answer:**
 
-He usually has two slices of bread with cheese, an egg ang milk for breakfast.
+He usually has two slices of bread with cheese, an egg and milk for breakfast.
 
 ### Question 15
 
