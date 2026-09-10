@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 84: Have you had ...?
 
-Exported: 2026/9/10 18:24:21
+Exported: 2026/9/10 18:29:51
 
 ## Answers
 
@@ -114,7 +114,7 @@ No, I haven't. I haven't had a lot of steak.
 
 **Your answer:**
 
-No, they haven't. They havan't had a lot of beef.
+No, they haven't. They haven't had a lot of beef.
 
 ### Question 15
 
@@ -162,7 +162,7 @@ But I've already had some.
 
 **Your answer:**
 
-But I've already had some apples.
+But I've already had some.
 
 ### Question 21
 
@@ -170,7 +170,7 @@ But I've already had some apples.
 
 **Your answer:**
 
-But I've alread had lunch.
+But I've already had lunch.
 
 ### Question 22
 
@@ -202,7 +202,7 @@ But I've already had one.
 
 **Your answer:**
 
-But I've already had a swim.
+But I've already had one.
 
 ### Question 26
 
