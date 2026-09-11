@@ -1,33 +1,33 @@
-5.1 Question: 5.1. Complete with the -ing form: She is _____ (run) in the park.
-5.1 Answer: running
-5.2 Question: 5.2. Complete with the past participle: Somebody has _____ (break) this window.
-5.2 Answer: broken
-5.3 Question: 5.3. Complete with the -ing form: The baby is _____ (lie) on the bed.
-5.3 Answer: lying
-5.4 Question: 5.4. Correct the sentence: He is writeing a letter.
-5.4 Answer: He is writing a letter.
-5.5 Question: 5.5. Correct the sentence: She has went home.
-5.5 Answer: She has gone home.
-5.6 Question: 5.6. Correct the sentence: They are runing fast.
-5.6 Answer: They run fast.
-5.7 Question: 5.7. 他正在睡觉。
-5.7 Answer: He's sleeping.
-5.8 Question: 5.8. 她已经完成了作业。
-5.8 Answer: She has already finished homework.
-5.9 Question: 5.9. 他们在踢足球。
-5.9 Answer: They are playing football.
-5.10 Question: 5.10. Complete both with the correct form of go, then explain the difference. A. She is _____ to school now. (happening now)B. She has _____ to school. (completed before now)
-5.10 Answer: going (happening now)
-gone  (completed before now)
-5.11 Question: 5.11. Complete both with the correct form of write, then explain the difference. A. He is _____ a letter. (in progress now)B. He has _____ three letters today. (completed up to now)
-5.11 Answer: writing (in progress now)
-written (completed up to now)
-5.12 Question: 5.12. Complete both with the -ing form, then explain the spelling rule that differs. A. I am _____ (write) an email. (verb ends in silent -e)B. He is _____ (run) for the bus. (short verb, one consonant + vowel + one consonant)
-5.12 Answer: writing  (verb ends in silent -e)
-running (short verb, one consonant + vowel + one consonant)
-5.13 Question: 5.13. Write one sentence about what you are doing right now, using the present continuous (I am ...-ing).
-5.13 Answer: I'm working.
-5.14 Question: 5.14. Write one sentence about something you have done today, using the present perfect (I have ...).
-5.14 Answer: I've jsut eaten an egg.
-5.15 Question: 5.15. Write one sentence about what someone in your family is doing right now, using the present continuous.
-5.15 Answer: My wife is sleeping at home.
+3.1 Question: 3.1. Complete the sentence with the present perfect form of the verb in brackets: I _____ my keys. I can't find them anywhere. (lose)
+3.1 Answer: have lost
+3.2 Question: 3.2. Complete the sentence with just, already, or yet: Don't tell me the ending — I _____ haven't watched that film.
+3.2 Answer: yet
+3.3 Question: 3.3. Complete the sentence with for or since: She has worked here _____ 2019.
+3.3 Answer: since
+3.4 Question: 3.4. Correct the sentence: I have seen that film yesterday.
+3.4 Answer: I saw that film yesterday.
+3.5 Question: 3.5. Correct the sentence: She has gone to Paris three times.
+3.5 Answer: She has been to Paris three times.
+3.6 Question: 3.6. Correct the sentence: How long do you live here?
+3.6 Answer: How long have you lived here?
+3.7 Question: 3.7. 我刚吃完午饭。
+3.7 Answer: I've just eaten lunch.
+3.8 Question: 3.8. 你去过日本吗？
+3.8 Answer: Have you been to Japan.
+3.9 Question: 3.9. 她学英语已经三年了。
+3.9 Answer: She's learnt English for three years.
+3.10 Question: 3.10. Explain the difference in meaning: She has gone to London. / She has been to London.
+3.10 Answer: 1, she isn't here now.
+2, she is here now.
+3.11 Question: 3.11. Complete both sentences, then explain the difference. A. I _____ my homework. Can I go out now? (finish — just completed)B. I _____ my homework at 8 o'clock. (finish — specific past time)
+3.11 Answer: have just finished,(finish — just completed)
+finished,(finish — specific past time)
+3.12 Question: 3.12. Complete both sentences with for or since, then explain why the choices differ. A. I've known her _____ five years. (a duration — use for)B. I've known her _____ 2021. (a starting point — use since)
+3.12 Answer: for (a duration — use for)
+since  (a starting point — use since)
+3.13 Question: 3.13. Write one sentence about something you have never done but would like to try. Use I have never ....
+3.13 Answer: I have never played parachute.
+3.14 Question: 3.14. Write one sentence about how long you have lived in your current home. Use I have lived ... for/since ....
+3.14 Answer: I've lived in Shanghai since 2016.
+3.15 Question: 3.15. Write one sentence about something you have just done or have already done today.
+3.15 Answer: I've just eaten dinner.
