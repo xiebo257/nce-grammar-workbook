@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 93: Our new neighbour
 
-Exported: 2026/9/13 16:14:04
+Exported: 2026/9/13 16:21:59
 
 ## Answers
 
@@ -38,7 +38,7 @@ No, they won't. They went there last month.
 **Your answer:**
 
 Will he visit Seoul next May?
-No, he won't. He visited there last May.
+No, he won't. He visited Seoul last May.
 
 ### Question 5
 
@@ -73,7 +73,7 @@ No, they won't. They flew there the month before last.
 
 **Your answer:**
 
-Will she stay in Berlin next Octorber?
+Will she stay in Berlin next October?
 No, she won't. She stayed in Berlin last October.
 
 ### Question 9
@@ -92,7 +92,7 @@ No, he won't. He worked there last year.
 **Your answer:**
 
 Will you see the film tomorrow?
-No, I won't. I sat it yesterday.
+No, I won't. I saw it yesterday.
 
 ### Question 11
 
@@ -154,7 +154,7 @@ His wife will do it with him.
 
 **Your answer:**
 
-We shall go to the beach tomorrow morning.
+We shall go to the beach tomorrow evening.
 Our children will go with us.
 
 ### Question 18
@@ -163,7 +163,7 @@ Our children will go with us.
 
 **Your answer:**
 
-She'll visit her sich uncle next Monday.
+She'll visit her sick uncle next Monday.
 Her brother will go with her.
 
 ### Question 19
