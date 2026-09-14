@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 99: Ow!
 
-Exported: 2026/9/14 21:49:30
+Exported: 2026/9/14 22:27:02
 
 ## Answers
 
@@ -98,7 +98,7 @@ I feel cold. I'm afraid that I've got a temperature.
 
 **Your answer:**
 
-He fall downstars. He thinks that he's hurt his left leg.
+He fell downstars. He thinks that he's hurt his left leg.
 
 ### Question 13
 
@@ -122,7 +122,7 @@ I've got a headache. I believe that I've got flu.
 
 **Your answer:**
 
-He'd a car crash yesterday. He know that he must take it to a garage.
+He'd a car crash yesterday. He knows that he must take it to a garage.
 
 ### Question 16
 
@@ -138,7 +138,7 @@ I shaved this morning and cut myself. I think that I must be careful next time.
 
 **Your answer:**
 
-I have a toothache. I think that I must see the dentist.
+she has a toothache. she thinks that she must see the dentist.
 
 ### Question 18
 
@@ -146,7 +146,7 @@ I have a toothache. I think that I must see the dentist.
 
 **Your answer:**
 
-I fall off my bike and hurt my back.  I think that I need an X-ray.
+I fell off my bike and hurt my back.  I think that I need an X-ray.
 
 ### Question 19
 
