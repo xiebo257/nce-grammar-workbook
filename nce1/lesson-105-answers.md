@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 105: Full of mistakes
 
-Exported: 2026/9/15 22:35:29
+Exported: 2026/9/15 22:42:19
 
 ## Answers
 
@@ -66,7 +66,7 @@ Tell them to open their books.
 
 **Your answer:**
 
-Tell him to stay here.
+Tell him to stay there.
 
 ### Question 9
 
@@ -82,7 +82,7 @@ Tell her to bring it to me.
 
 **Your answer:**
 
-She wants you be careful.
+She wants you to be careful.
 
 ### Question 11
 
@@ -122,7 +122,7 @@ Tell him to work hard.
 
 **Your answer:**
 
-He wants you to turn off the lights.
+He wants you to turn on the lights.
 
 ### Question 16
 
@@ -154,7 +154,7 @@ I don't want you to swim in the river.
 
 **Your answer:**
 
-Tell him not be lazy.
+Tell him not to be lazy.
 
 ### Question 20
 
@@ -170,7 +170,7 @@ Tell her not to forget the telephone number.
 
 **Your answer:**
 
-He don't want you be late.
+He doesn't want you to be late.
 
 ### Question 22
 
@@ -178,7 +178,7 @@ He don't want you be late.
 
 **Your answer:**
 
-He don't want us to wait for him.
+He doesn't want us to wait for him.
 
 ### Question 23
 
@@ -186,7 +186,7 @@ He don't want us to wait for him.
 
 **Your answer:**
 
-She don't want him to open the window.
+She doesn't want him to open the window.
 
 ### Question 24
 
@@ -194,7 +194,7 @@ She don't want him to open the window.
 
 **Your answer:**
 
-She don't want you to break the vase.
+She doesn't want you to break the vase.
 
 ### Question 25
 
@@ -226,7 +226,7 @@ Tell her not to hurt herself.
 
 **Your answer:**
 
-He don't want them miss their train.
+He doesn't want them to miss their train.
 
 ### Question 29
 
@@ -242,7 +242,7 @@ Tell him not to cut himself.
 
 **Your answer:**
 
-He don't want you to use a pencil.
+He doesn't want you to use a pencil.
 
 ### Question 31
 
@@ -258,4 +258,4 @@ Tell them not to fall.
 
 **Your answer:**
 
-She don't want him to paint the door yellow.
+She doesn't want him to paint the door yellow.
