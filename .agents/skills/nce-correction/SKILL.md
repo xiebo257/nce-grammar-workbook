@@ -26,6 +26,8 @@ Read the lesson number and title from the export heading or target filename. Nor
 Use these paths:
 
 - Lesson page: `nce1/lesson-NNN.html`
+- Extracted answer key: `nce1/answer-key/lesson-NNN.md`
+- Answer-key index: `nce1/answer-key/README.md`
 - Preserved export: `nce1/lesson-NNN-answers.md`
 - Correction report: `nce1/lesson-NNN-correction.md`
 - Source workbook: `nce1/新概念英语语法练习1_按课程索引.pdf`
@@ -34,10 +36,11 @@ Never overwrite an existing answer or correction artifact without first reading 
 
 ## Establish the source of truth
 
-1. Read the target lesson HTML and compare its prompts, examples, section headings, and expected answer units with the learner export.
-2. Use the source workbook when the HTML is missing, compressed, ambiguous, or specifically challenged by the user. The PDF is image-only, so render the relevant pages and inspect them visually; do not trust empty text extraction.
-3. Historical Git transcriptions may help locate material, but the rendered workbook page is authoritative when sources disagree.
-4. Put temporary renders under `tmp/pdfs/` and remove only the files created for the task after verification.
+1. Read the lesson-specific extracted answer key before grading. Compare every submitted item with the corresponding key entry; do not reconstruct expected answers from grammar intuition when a keyed answer exists.
+2. Read the target lesson HTML and compare its prompts, examples, section headings, and answer-unit order with both the learner export and answer key. Worked examples are often omitted from the key, so use the HTML to map exported item numbers to key sections accurately.
+3. The extracted keys were produced by OCR. If a key line is missing, malformed, or inconsistent with the prompt, use the answer-key index to locate and visually inspect the cited scanned PDF page. The rendered scan is authoritative over OCR, HTML, historical Git transcriptions, and inferred grammar rules.
+4. Use the lesson's exercise pages from the source workbook when the HTML prompt itself is missing, compressed, ambiguous, or specifically challenged by the user. The PDF is image-only, so render the relevant pages and inspect them visually; do not trust empty text extraction.
+5. Put temporary renders under `tmp/pdfs/` and remove only the files created for the task after verification.
 
 Do not replace, duplicate, or modify the source PDF.
 
@@ -77,7 +80,7 @@ Use this shape:
 
 **Date:** YYYY-MM-DD
 **Source scope:** NCE Grammar Practice 1, Lesson N, "Title"
-**Reference:** `nce1/lesson-NNN.html`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
+**Reference:** `nce1/lesson-NNN.html`; answer key: `nce1/answer-key/lesson-NNN.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-NNN-answers.md`
 
 Status: ...
@@ -122,6 +125,7 @@ Run checks proportional to the change:
 
 - `git diff --check`
 - Count exported question headings and correction table rows; each must equal the submitted item count.
+- Confirm the report's expected forms and score against the lesson-specific extracted answer key, visually checking any uncertain OCR against its cited PDF page.
 - Check the target page's inline JavaScript syntax when HTML changed.
 - Run `node --check nce1/lesson-navigation.js` when lesson behavior is involved.
 - Serve the repository root and require HTTP 200 for the changed page.
