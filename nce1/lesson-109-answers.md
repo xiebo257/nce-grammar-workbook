@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 109: A good idea
 
-Exported: 2026/9/16 20:45:46
+Exported: 2026/9/16 20:54:30
 
 ## Answers
 
@@ -74,7 +74,7 @@ lighter lightest
 
 **Your answer:**
 
-littler littlest
+less least
 
 ### Question 10
 
@@ -82,7 +82,7 @@ littler littlest
 
 **Your answer:**
 
-smaller samllest
+smaller smallest
 
 ### Question 11
 
@@ -204,7 +204,7 @@ little a little
 
 **Your answer:**
 
-Few
+few
 
 ### Question 25
 
@@ -320,7 +320,7 @@ You're right. But the Small Cafe is worse. And the Sun Restaurant is the worst.
 **Your answer:**
 
 She earns very little money.
-You're right. But he earns littler. And his brother earns the littlest.
+You're right. But he earns less. And his brother earns the least.
 
 ### Question 39
 
@@ -338,4 +338,4 @@ You're right. But Jenny has more friends. And Robert has the most friends.
 **Your answer:**
 
 Charlotte makes good coffee.
-You're right. But My sister makes better coffee. And my mother makes the best coffe.
+You're right. But my sister makes better coffee. And my mother makes the best coffee.

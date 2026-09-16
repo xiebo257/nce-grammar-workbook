@@ -2,12 +2,12 @@
 
 **Date:** 2026-09-16
 **Source scope:** NCE Grammar Practice 1, Lesson 109, "A good idea"
-**Reference:** `nce1/lesson-109.html`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
+**Reference:** `nce1/lesson-109.html`; answer key: `nce1/answer-key/lesson-109.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-109-answers.md`
 
-Status: 34 right, 5 errors, and 1 non-scoring capitalization note.
+Status: 39 right and 1 error.
 
-**Strict score: 35/40 (87.5%).** The note does not reduce the grammar score.
+**Strict score: 39/40 (97.5%).**
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
@@ -19,8 +19,8 @@ Status: 34 right, 5 errors, and 1 non-scoring capitalization note.
 | 6 | 🟢 Right | `slower slowest` | `slower; slowest` | The regular forms are correct. |
 | 7 | 🟢 Right | `worse worst` | `worse; worst` | `Bad` has the irregular forms `worse` and `worst`. |
 | 8 | 🟢 Right | `lighter lightest` | `lighter; lightest` | The regular forms are correct. |
-| 9 | 🔴 Error | `littler littlest` | `less; least` | For quantity, `little` has the irregular forms `less` and `least`. |
-| 10 | 🔴 Error | `smaller samllest` | `smaller; smallest` | `Samllest` is misspelled; the correct form is `smallest`. |
+| 9 | 🟢 Right | `less least` | `less; least` | For quantity, `little` has the irregular forms `less` and `least`. |
+| 10 | 🟢 Right | `smaller smallest` | `smaller; smallest` | The regular forms and spelling are correct. |
 | 11 | 🟢 Right | `I've got very little.`<br>`I still have a little.` | Same | Butter and milk are uncountable, so `little/a little` are correct. |
 | 12 | 🟢 Right | `I've got very little.`<br>`I still have a little.` | Same | Fruit and soup are treated as uncountable here. |
 | 13 | 🟢 Right | `I've got very little.`<br>`I still have a little.` | Same | Ink and glue are uncountable. |
@@ -34,7 +34,7 @@ Status: 34 right, 5 errors, and 1 non-scoring capitalization note.
 | 21 | 🟢 Right | `a few` | `a few` | Tickets are countable, and the sentence means some are available. |
 | 22 | 🟢 Right | `few` | `few` | `Few` means almost none, which fits the negative idea. |
 | 23 | 🟢 Right | `little a little` | `little; a little` | Money is uncountable; `very little` means hardly any, while `a little` means some. |
-| 24 | 🟡❗ Note | `Few` | `few` | The choice is correct, but the blank follows a semicolon, so lowercase `few` is expected. |
+| 24 | 🟢 Right | `few` | `few` | `Few` means almost none and correctly follows the semicolon in lowercase. |
 | 25 | 🟢 Right | `a few` | `a few` | Months are countable, and the meaning is a small number of months. |
 | 26 | 🟢 Right | `a little` | `a little` | Sugar is uncountable, and the request asks for some more. |
 | 27 | 🟢 Right | `a little` | `a little` | Work is uncountable, and some work remains. |
@@ -48,9 +48,9 @@ Status: 34 right, 5 errors, and 1 non-scoring capitalization note.
 | 35 | 🟢 Right | `good ... better ... best` | Same | The irregular comparison is used correctly. |
 | 36 | 🟢 Right | `few ... fewer ... fewest` | Same | The comparison of a countable quantity is correct. |
 | 37 | 🟢 Right | `bad ... worse ... worst` | Same | The irregular comparison is used correctly. |
-| 38 | 🔴 Error | `he earns littler`<br>`his brother earns the littlest` | `he earns less money`<br>`his brother earns the least money` | When `little` describes an amount of money, use `less` and `least`, not `littler` and `littlest`. |
+| 38 | 🟢 Right | `he earns less`<br>`his brother earns the least` | Key: `he earns less money`<br>`his brother earns the least of all` | The learner's wording is a natural equivalent: the amount of money is understood, so `less` and `the least` may stand alone. |
 | 39 | 🟢 Right | `a lot of ... more ... most` | Same | The comparison of a countable quantity is correct. |
-| 40 | 🔴 Error | `But My sister ...`<br>`the best coffe` | `But my sister makes better coffee.`<br>`And my mother makes the best coffee.` | Use lowercase `my` mid-sentence and spell `coffee` with two final `e`s. |
+| 40 | 🟢 Right | `better coffee`<br>`the best coffee` | Key: `better coffee`<br>`the best (coffee) of all` | The comparative and superlative forms are correct; repeating `coffee` is explicitly allowed by the key. |
 
 ## Usage table
 
@@ -71,6 +71,5 @@ Status: 34 right, 5 errors, and 1 non-scoring capitalization note.
 - Memorize the irregular quantity series: `many/much → more → most`, `few → fewer → fewest`, and `little → less → least`.
 - Use `little/a little` with uncountable nouns and `few/a few` with plural countable nouns.
 - After `very`, use `very little` or `very few`, never `very a little` or `very a few`.
-- Check spelling and capitalization even when the comparison itself is correct.
 
-Summary: 35/40; focus on `little → less → least`, the fixed phrase `very few`, and careful spelling.
+Summary: 39/40; the only correction is the fixed phrase `very few`, not `very a few`.
