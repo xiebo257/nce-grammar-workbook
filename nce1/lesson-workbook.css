@@ -1,0 +1,34 @@
+.question-text,
+.worked-example {
+  overflow-wrap: anywhere;
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-scroll table {
+  width: 100%;
+  min-width: 480px;
+  border-collapse: collapse;
+}
+
+.table-scroll caption {
+  margin-bottom: 8px;
+  color: var(--muted);
+  text-align: left;
+}
+
+.table-scroll th,
+.table-scroll td {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  text-align: left;
+  white-space: normal;
+}
+
+.table-scroll th {
+  background: #e7f1f2;
+  color: var(--accent-dark);
+}

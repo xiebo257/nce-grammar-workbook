@@ -9,7 +9,7 @@ Status: 19 right, 2 errors, and 1 non-scoring source-mismatch note.
 
 **Strict score: 20/22 (90.9%).** Question 4 is correct for the displayed prompt and is not penalized.
 
-Source verification: PDF page 333 gives Jane $60, Mary $150, and Ann $100; the HTML and export instead give Mary $100 and Ann $150. The scanned key on PDF page 542 agrees with the original table. The learner is graded on the information actually presented. The HTML has not been changed in this correction-only task. The subject-score table was also visually verified on PDF page 334.
+Source verification: PDF page 333 gives Jane $60, Mary $150, and Ann $100; the HTML at submission time and the preserved export instead give Mary $100 and Ann $150. The scanned key on PDF page 542 agrees with the original table. The learner is graded on the information actually presented. After grading, the HTML was repaired to match the original source at the learner's request; the submitted export and score remain unchanged. The subject-score table was also visually verified on PDF page 334.
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
