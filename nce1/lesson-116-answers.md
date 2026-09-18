@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 116: Every, no, any and some
 
-Exported: 2026/9/18 22:29:01
+Exported: 2026/9/18 22:33:50
 
 ## Answers
 
@@ -9,7 +9,7 @@ Exported: 2026/9/18 22:29:01
 
 **Your answer:**
 
-sometihng
+something
 
 ### Question 2
 **Prompt:** Can _____ read French? We've got _____ here in French, but we can't understand _____ in French.
@@ -23,14 +23,14 @@ anyone something anything
 
 **Your answer:**
 
-somewhere
+nowhere
 
 ### Question 4
 **Prompt:** I know _____ here. I'm a stranger myself.
 
 **Your answer:**
 
-nothing
+nobody
 
 ### Question 5
 **Prompt:** Is there _____ cheap in the shop? I haven't got much money.
@@ -59,7 +59,7 @@ Everything
 
 **Your answer:**
 
-somewhere something
+everywhere something
 
 ### Question 9
 **Prompt:** He goes _____ by aeroplane. He thinks an aeroplane is the fastest.
@@ -178,7 +178,7 @@ There's nobody in the library.
 
 **Your answer:**
 
-There's on one in the classroom.
+There's no one in the classroom.
 
 ### Question 26
 **Prompt:** I'd like some more milk, please._____ We haven't drunk all of it, have we?_____
@@ -193,7 +193,7 @@ Yes, we have. There's none left.
 
 **Your answer:**
 
-I'm sorry. There isn't any left.
+I'm sorry. There aren't any left.
 Yes, we have. There's none left.
 
 ### Question 28
@@ -209,7 +209,7 @@ Yes, we have. There's none left.
 
 **Your answer:**
 
-I'm sorry. There isn't any left.
+I'm sorry. There aren't any left.
 Yes, we have. There's none left.
 
 ### Question 30
