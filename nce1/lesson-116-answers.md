@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 116: Every, no, any and some
 
-Exported: 2026/9/18 22:48:50
+Exported: 2026/9/18 22:54:10
 
 ## Answers
 
@@ -194,7 +194,7 @@ Yes, we have. There's none left.
 **Your answer:**
 
 I'm sorry. There aren't any left.
-Yes, we have. There's none left.
+Yes, we have. There're none left.
 
 ### Question 28
 **Prompt:** I'd like some more paper, please._____ We haven't used all of it, have we?_____
@@ -218,4 +218,4 @@ Yes, we have. There're none left.
 **Your answer:**
 
 I'm sorry. There isn't any left.
-Yes, we have. There're none left.
+Yes, we have. There's none left.

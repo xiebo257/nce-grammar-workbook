@@ -5,9 +5,9 @@
 **Reference:** `nce1/lesson-116.html`; answer key: `nce1/answer-key/lesson-116.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-116-answers.md`
 
-Status: 27 right, 1 non-scoring style note, and 2 errors.
+Status: 28 right, 2 non-scoring style notes, and 0 errors.
 
-**Strict score: 28/30 (93.3%).**
+**Strict score: 30/30 (100%).**
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
@@ -37,10 +37,10 @@ Status: 27 right, 1 non-scoring style note, and 2 errors.
 | 24 | 🟢 Right | `There's nobody in the library.` | Same | Correct person-word transformation. |
 | 25 | 🟢 Right | `There's no one in the classroom.` | Same | Correct negative person phrase. |
 | 26 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Milk is uncountable; singular `is/isn't` agrees. |
-| 27 | 🔴 Error | `There aren't any left.`<br>`There's none left.` | `There aren't any left.`<br>`There are none left.` | The first clause is corrected, but `grapes` is plural, so the second needs `are`, not `is`. |
+| 27 | 🟡❗ Note | `There aren't any left.`<br>`There're none left.` | `There aren't any left.`<br>`There are none left.` | Plural `are` agrees with grapes; `There are` is clearer and more usual in writing. Style note only; no score deducted. |
 | 28 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Paper is uncountable; singular `is/isn't` agrees. |
 | 29 | 🟡❗ Note | `There aren't any left.`<br>`There're none left.` | `There aren't any left.`<br>`There are none left.` | `There're` retains plural `are` and is grammatical, but the uncontracted form is clearer and more usual in writing. Style note only; no score deducted. |
-| 30 | 🔴 Error | `There isn't any left.`<br>`There're none left.` | `There isn't any left.`<br>`There's none left.` | Bread is uncountable: the second clause needs singular `is`, not plural `are`. |
+| 30 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Bread is uncountable, so both clauses correctly use singular `is`. |
 
 ## Usage table
 
@@ -59,4 +59,4 @@ Status: 27 right, 1 non-scoring style note, and 2 errors.
 - Distinguish thing-words, person-words, and place-words by context.
 - `None` does not force singular verb agreement: use `are` for plural grapes or envelopes and `is` for uncountable bread.
 
-Summary: 28/30; correct item 27 to `There are none left` and item 30 to `There's none left`; item 29 has a non-scoring style note.
+Summary: 30/30; no errors remain. Items 27 and 29 have non-scoring style notes about writing `There are` in full.
