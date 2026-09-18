@@ -5,7 +5,7 @@
 **Reference:** `nce1/lesson-116.html`; answer key: `nce1/answer-key/lesson-116.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-116-answers.md`
 
-Status: 28 right and 2 errors.
+Status: 27 right, 1 non-scoring style note, and 2 errors.
 
 **Strict score: 28/30 (93.3%).**
 
@@ -39,8 +39,8 @@ Status: 28 right and 2 errors.
 | 26 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Milk is uncountable; singular `is/isn't` agrees. |
 | 27 | 🔴 Error | `There aren't any left.`<br>`There's none left.` | `There aren't any left.`<br>`There are none left.` | The first clause is corrected, but `grapes` is plural, so the second needs `are`, not `is`. |
 | 28 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Paper is uncountable; singular `is/isn't` agrees. |
-| 29 | 🔴 Error | `There aren't any left.`<br>`There's none left.` | `There aren't any left.`<br>`There are none left.` | The first clause is corrected, but `envelopes` is plural, so the second needs `are`, not `is`. |
-| 30 | 🟢 Right | `There isn't any left.`<br>`There's none left.` | Same | Bread is uncountable; singular `is/isn't` agrees. |
+| 29 | 🟡❗ Note | `There aren't any left.`<br>`There're none left.` | `There aren't any left.`<br>`There are none left.` | `There're` retains plural `are` and is grammatical, but the uncontracted form is clearer and more usual in writing. Style note only; no score deducted. |
+| 30 | 🔴 Error | `There isn't any left.`<br>`There're none left.` | `There isn't any left.`<br>`There's none left.` | Bread is uncountable: the second clause needs singular `is`, not plural `are`. |
 
 ## Usage table
 
@@ -57,6 +57,6 @@ Status: 28 right and 2 errors.
 ## Key takeaway
 
 - Distinguish thing-words, person-words, and place-words by context.
-- `None` does not force singular verb agreement: use `are` when it stands for plural grapes or envelopes.
+- `None` does not force singular verb agreement: use `are` for plural grapes or envelopes and `is` for uncountable bread.
 
-Summary: 28/30; the remaining corrections are plural `There are none left` in items 27 and 29.
+Summary: 28/30; correct item 27 to `There are none left` and item 30 to `There's none left`; item 29 has a non-scoring style note.
