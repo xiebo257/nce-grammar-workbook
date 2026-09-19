@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 118: What were you doing?
 
-Exported: 2026/9/19 10:57:14
+Exported: 2026/9/19 11:07:19
 
 ## Answers
 
@@ -12,12 +12,12 @@ was sitting threw
 ### Question 2
 **Prompt:** When the telephone _____ (ring), she _____ (do) her housework.
 **Your answer:**
-was ringing was doing
+rang was doing
 
 ### Question 3
 **Prompt:** When I _____ (leave) the party, the people _____ (enjoy) themselves.
 **Your answer:**
-was leaving were enjoying
+left were enjoying
 
 ### Question 4
 **Prompt:** He _____ (not go) to school yesterday because he _____ (not feel) very well.
@@ -27,7 +27,7 @@ didn't go didn't feel
 ### Question 5
 **Prompt:** Just as the bus _____ (begin) to move, he _____ (run) quickly and _____ (jump) on it.
 **Your answer:**
-was begining ran jumped
+was beginning ran jumped
 
 ### Question 6
 **Prompt:** The teacher _____ (go) into the classroom while the boy _____ (draw) on the blackboard.
@@ -47,12 +47,12 @@ was talking brought
 ### Question 9
 **Prompt:** When my brother _____ (come) into the room, I _____ (telephone) Mary.
 **Your answer:**
-was coming was telephoning
+came was telephoning
 
 ### Question 10
 **Prompt:** I _____ (listen) to the stereo when you _____ (knock) at the door the first time, so I _____ (not hear) you.
 **Your answer:**
-was listening was knocking didn't hear
+was listening knocked didn't hear
 
 ### Question 11
 **Prompt:** I'm afraid there's no more cake left. We _____ (eat) it all this morning.
@@ -72,7 +72,7 @@ were playing was cooking
 ### Question 14
 **Prompt:** It _____ (rain) heavily when we _____ (leave) the house, but it _____ (clear) up later.
 **Your answer:**
-was raining were leaving cleared
+was raining left cleared
 
 ### Question 15
 **Prompt:** We _____ (walk) home this evening when we _____ (see) an accident involving a car and a bike.
@@ -97,7 +97,7 @@ my wife was watching TV
 ### Question 19
 **Prompt:** While I was putting on shoes this morning, _____
 **Your answer:**
-the telepone rang
+the telephone rang
 
 ### Question 20
 **Prompt:** When I was walking to school this morning, _____
@@ -107,7 +107,7 @@ I saw an accident.
 ### Question 21
 **Prompt:** While our class was having an English lesson, _____
 **Your answer:**
-the broadcast played a news
+the radio broadcast the news
 
 ### Question 22
 **Prompt:** Just as I was leaving the classroom after class, _____
@@ -122,7 +122,7 @@ I heard some noise
 ### Question 24
 **Prompt:** _____ when I was lying in bed last night.
 **Your answer:**
-The light turnd off suddenly
+The light goes out suddenly
 
 ### Question 25
 **Prompt:** _____ when it started to rain.
@@ -142,4 +142,4 @@ the doorbell rang
 ### Question 28
 **Prompt:** while I was watching television with my friends. _____
 **Your answer:**
-the neighbour knocked the door
+the neighbour knocked at the door

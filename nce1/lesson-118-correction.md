@@ -5,40 +5,40 @@
 **Reference:** `nce1/lesson-118.html`; answer key: `nce1/answer-key/lesson-118.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-118-answers.md`
 
-Status: 17 right and 11 errors.
+Status: 26 right and 2 errors.
 
-**Strict score: 17/28 (60.7%).**
+**Strict score: 26/28 (92.9%).**
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
 | 1 | 🟢 Right | `was sitting; threw` | Same | Ongoing background plus completed event. |
-| 2 | 🔴 Error | `was ringing; was doing` | `rang; was doing` | The telephone's ring is the completed interrupting event. |
-| 3 | 🔴 Error | `was leaving; were enjoying` | `left; were enjoying` | The key uses past simple `left` for the event during the ongoing party. |
+| 2 | 🟢 Right | `rang; was doing` | Same | The completed ring interrupts the ongoing housework. |
+| 3 | 🟢 Right | `left; were enjoying` | Same | Correct completed event and ongoing background action. |
 | 4 | 🟢 Right | `didn't go; didn't feel` | Same | Both keyed past-simple forms are correct. |
-| 5 | 🔴 Error | `was begining; ran; jumped` | `was beginning; ran; jumped` | Double the final `n`: `beginning`. |
+| 5 | 🟢 Right | `was beginning; ran; jumped` | Same | Correct tense forms and spelling. |
 | 6 | 🟢 Right | `went; was drawing` | Same | Correct tense contrast. |
 | 7 | 🟢 Right | `broke; was playing` | Same | Correct completed event and background action. |
 | 8 | 🟢 Right | `was talking; brought` | Same | Correct tense contrast. |
-| 9 | 🔴 Error | `was coming; was telephoning` | `came; was telephoning` | `Came` is the completed event that occurred during the call. |
-| 10 | 🔴 Error | `was listening; was knocking; didn't hear` | `was listening; knocked; didn't hear` | A particular knock is a completed event, so use past simple. |
+| 9 | 🟢 Right | `came; was telephoning` | Same | Correct completed event and ongoing call. |
+| 10 | 🟢 Right | `was listening; knocked; didn't hear` | Same | Correct background action, completed knock, and result. |
 | 11 | 🟢 Right | `ate` | Same | Correct past simple. |
 | 12 | 🟢 Right | `was still moving; jumped` | Same | Correct tense contrast. |
 | 13 | 🟢 Right | `were playing; was cooking` | Same | Two simultaneous ongoing actions can both use past continuous. |
-| 14 | 🔴 Error | `was raining; were leaving; cleared` | `was raining; left; cleared` | Use past simple `left` for the completed departure. |
+| 14 | 🟢 Right | `was raining; left; cleared` | Same | All three tense choices match the key. |
 | 15 | 🟢 Right | `were walking; saw` | Same | Correct background action and event. |
 | 16 | 🔴 Error | `didn't want; studying; shut` | `didn't want; was studying; shut` | Past continuous requires `was + -ing`. |
 | 17 | 🟢 Right | `my cats were playing` | Same | Grammatical personal completion. |
 | 18 | 🟢 Right | `my wife was watching TV` | Same | Grammatical simultaneous action. |
-| 19 | 🔴 Error | `the telepone rang` | `the telephone rang` | Correct the spelling of `telephone`. |
+| 19 | 🟢 Right | `the telephone rang` | Same | Correct spelling and past-simple event. |
 | 20 | 🟢 Right | `I saw an accident.` | Same | Grammatical and natural completion. |
-| 21 | 🔴 Error | `the broadcast played a news` | e.g. `the radio broadcast the news` | `News` is uncountable and does not take `a`; the original subject/verb combination is also unnatural. |
+| 21 | 🟢 Right | `the radio broadcast the news` | Same | Natural wording; `news` correctly has no indefinite article. |
 | 22 | 🟢 Right | `the teacher came in` | Same | Grammatical completion. |
 | 23 | 🟢 Right | `I heard some noise` | Same | Grammatical completion; `a noise` would also be natural. |
-| 24 | 🔴 Error | `The light turnd off suddenly` | e.g. `The light suddenly went out.` | `Turnd` is misspelled, and a light normally `goes out` when it stops shining. |
+| 24 | 🔴 Error | `The light goes out suddenly` | `The light suddenly went out.` | The context is `last night`, so use past simple `went`, not present simple `goes`. |
 | 25 | 🟢 Right | `I was leaving home` | Same | Correct past-continuous completion. |
 | 26 | 🟢 Right | `it started to rain.` | Same | With normal capitalization and punctuation, the two clauses form a correct sentence. |
 | 27 | 🟢 Right | `the doorbell rang` | Same | The completed event correctly uses past simple. |
-| 28 | 🔴 Error | `the neighbour knocked the door` | `the neighbour knocked on/at the door` | `Knock` requires `on` or `at` before `the door`. |
+| 28 | 🟢 Right | `the neighbour knocked at the door` | Same | Correct use of `knock at the door`. |
 
 ## Usage table
 
@@ -56,6 +56,6 @@ Status: 17 right and 11 errors.
 
 - Choose past simple for the shorter completed event and past continuous for the ongoing background action.
 - A continuous form needs `was/were + verb-ing`.
-- Review spelling and fixed expressions: `telephone`, `beginning`, `the news`, `go out`, and `knock on the door`.
+- Match open-ended completions to the time marker: `last night` requires past simple `went out`.
 
-Summary: 17/28; focus on past-simple interruptions, complete past-continuous forms, and natural word combinations.
+Summary: 26/28; add `was` before `studying` in item 16 and change `goes out` to `went out` in item 24.
