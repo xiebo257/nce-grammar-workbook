@@ -5,9 +5,9 @@
 **Reference:** `nce1/lesson-118.html`; answer key: `nce1/answer-key/lesson-118.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-118-answers.md`
 
-Status: 26 right and 2 errors.
+Status: 28 right and 0 errors.
 
-**Strict score: 26/28 (92.9%).**
+**Strict score: 28/28 (100%).**
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ Status: 26 right and 2 errors.
 | 13 | 🟢 Right | `were playing; was cooking` | Same | Two simultaneous ongoing actions can both use past continuous. |
 | 14 | 🟢 Right | `was raining; left; cleared` | Same | All three tense choices match the key. |
 | 15 | 🟢 Right | `were walking; saw` | Same | Correct background action and event. |
-| 16 | 🔴 Error | `didn't want; studying; shut` | `didn't want; was studying; shut` | Past continuous requires `was + -ing`. |
+| 16 | 🟢 Right | `didn't want; was studying; shut` | Same | The past continuous correctly uses `was + studying`. |
 | 17 | 🟢 Right | `my cats were playing` | Same | Grammatical personal completion. |
 | 18 | 🟢 Right | `my wife was watching TV` | Same | Grammatical simultaneous action. |
 | 19 | 🟢 Right | `the telephone rang` | Same | Correct spelling and past-simple event. |
@@ -34,7 +34,7 @@ Status: 26 right and 2 errors.
 | 21 | 🟢 Right | `the radio broadcast the news` | Same | Natural wording; `news` correctly has no indefinite article. |
 | 22 | 🟢 Right | `the teacher came in` | Same | Grammatical completion. |
 | 23 | 🟢 Right | `I heard some noise` | Same | Grammatical completion; `a noise` would also be natural. |
-| 24 | 🔴 Error | `The light goes out suddenly` | `The light suddenly went out.` | The context is `last night`, so use past simple `went`, not present simple `goes`. |
+| 24 | 🟢 Right | `The light went out suddenly` | Same | Past simple `went out` correctly matches `last night`. |
 | 25 | 🟢 Right | `I was leaving home` | Same | Correct past-continuous completion. |
 | 26 | 🟢 Right | `it started to rain.` | Same | With normal capitalization and punctuation, the two clauses form a correct sentence. |
 | 27 | 🟢 Right | `the doorbell rang` | Same | The completed event correctly uses past simple. |
@@ -56,6 +56,6 @@ Status: 26 right and 2 errors.
 
 - Choose past simple for the shorter completed event and past continuous for the ongoing background action.
 - A continuous form needs `was/were + verb-ing`.
-- Match open-ended completions to the time marker: `last night` requires past simple `went out`.
+- Match open-ended completions to their time markers and use complete continuous forms.
 
-Summary: 26/28; add `was` before `studying` in item 16 and change `goes out` to `went out` in item 24.
+Summary: 28/28; all keyed tense forms and open-ended completions are correct.

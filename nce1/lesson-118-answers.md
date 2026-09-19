@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 118: What were you doing?
 
-Exported: 2026/9/19 11:07:19
+Exported: 2026/9/19 11:10:19
 
 ## Answers
 
@@ -82,7 +82,7 @@ were walking saw
 ### Question 16
 **Prompt:** Because he _____ (not want) the noise to disturb his daughter while she _____ (study), he _____ (shut) the door.
 **Your answer:**
-didn't want studying shut
+didn't want was studying shut
 
 ### Question 17
 **Prompt:** While I was having my breakfast this morning, _____
@@ -122,7 +122,7 @@ I heard some noise
 ### Question 24
 **Prompt:** _____ when I was lying in bed last night.
 **Your answer:**
-The light goes out suddenly
+The light went out suddenly
 
 ### Question 25
 **Prompt:** _____ when it started to rain.
