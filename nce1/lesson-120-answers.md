@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 120: It had already happened.
 
-Exported: 2026/9/19 20:58:32
+Exported: 2026/9/19 21:00:46
 
 ## Answers
 
@@ -14,23 +14,23 @@ Exported: 2026/9/19 20:58:32
 
 ### Question 3
 **Prompt:** The rain stopped. She opened her umbrella.
-**Your answer:** When she opened her umbrella, the rain had stopped.
+**Your answer:** When she opened her umbrella, the rain had already stopped.
 
 ### Question 4
 **Prompt:** The thief ran away. The policeman arrived.
-**Your answer:** When the policeman arrived, the thief had run away.
+**Your answer:** When the policeman arrived, the thief had already run away.
 
 ### Question 5
 **Prompt:** Mrs. Smith finished cooking. Her husband went to help.
-**Your answer:** When her husband went to help, Mrs. Smith had finished cooking.
+**Your answer:** When her husband went to help, Mrs. Smith had already finished cooking.
 
 ### Question 6
 **Prompt:** They took him to hospital. I got to his home.
-**Your answer:** When I got to his home, they had taken him to hospital.
+**Your answer:** When I got to his home, they had already taken him to hospital.
 
 ### Question 7
 **Prompt:** I had driving lessons for three weeks. I got my licence.
-**Your answer:** When I got my licence, I'd had driving lessons for three weeks.
+**Your answer:** When I got my licence, I'd already had driving lessons for three weeks.
 
 ### Question 8
 **Prompt:** I _____ (reach) the gate when someone closed it.
@@ -67,7 +67,7 @@ Exported: 2026/9/19 20:58:32
 ### Question 16
 **Prompt:** he/work for twelve hours/be tired
 **Your answer:**
-He'd worked for twelve hourse so he was tired.
+He'd worked for twelve hours so he was tired.
 He'd never been so tired before.
 
 ### Question 17
