@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 119: A true story
 
-Exported: 2026/9/19 20:44:15
+Exported: 2026/9/19 20:47:45
 
 ## Answers
 
@@ -10,7 +10,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 2
 **Prompt:** Why didn't you give the book back to him?
-**Your answer:** Becuase I'd already given it back to him.
+**Your answer:** Because I'd already given it back to him.
 
 ### Question 3
 **Prompt:** Why didn't you sweep the floor?
@@ -34,7 +34,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 8
 **Prompt:** After Jimmy had washed and dressed,
-**Your answer:** he had breakfast.
+**Your answer:** he had his breakfast.
 
 ### Question 9
 **Prompt:** After Jimmy had had his breakfast,
@@ -82,7 +82,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 20
 **Prompt:** Before the English lesson began,
-**Your answer:** the teacher had came into the classroom.
+**Your answer:** the teacher had come into the classroom.
 
 ### Question 21
 **Prompt:** Before the Maths lesson began,
@@ -94,7 +94,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 23
 **Prompt:** Before the Science lesson began,
-**Your answer:** He'd ate bread and drank coffee.
+**Your answer:** He'd eaten bread and drank coffee.
 
 ### Question 24
 **Prompt:** Before the Chinese lesson began,
@@ -106,7 +106,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 26
 **Prompt:** She corrected the students' papers. She went to bed.
-**Your answer:** When she'd corrected the student's papers, she went to bed.
+**Your answer:** When she'd corrected the students' papers, she went to bed.
 
 ### Question 27
 **Prompt:** I cleaned my teeth. I had breakfast.
@@ -126,7 +126,7 @@ Exported: 2026/9/19 20:44:15
 
 ### Question 31
 **Prompt:** The rain stopped. They all went out.
-**Your answer:** Then the rain had stopped, they all went out.
+**Your answer:** When the rain had stopped, they all went out.
 
 ### Question 32
 **Prompt:** She read the letter. She told us the news.
