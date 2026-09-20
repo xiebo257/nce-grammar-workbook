@@ -1,44 +1,44 @@
 # NCE Grammar Practice 1 - Lesson 121: The man in a hat
 
-Exported: 2026/9/20 18:51:12
+Exported: 2026/9/20 18:57:42
 
 ## Answers
 
 ### Question 1
 **Prompt:** A nurse is _____ (look after sick people).
-**Your answer:** someone who look after sick people.
+**Your answer:** someone who looks after sick people.
 
 ### Question 2
 **Prompt:** A tailor is _____ (make clothes).
-**Your answer:** someone who made clothes.
+**Your answer:** someone who makes clothes.
 
 ### Question 3
 **Prompt:** A cook is _____ (cook food).
-**Your answer:** someone who cook food.
+**Your answer:** someone who cooks food.
 
 ### Question 4
 **Prompt:** A mechanic is _____ (repair machines).
-**Your answer:** someone who repair machines.
+**Your answer:** someone who repairs machines.
 
 ### Question 5
 **Prompt:** A sailor is _____ (sail on a ship).
-**Your answer:** someone who sail on a ship.
+**Your answer:** someone who sails on a ship.
 
 ### Question 6
 **Prompt:** A carpenter is _____ (make things with wood).
-**Your answer:** someone who make things with wood.
+**Your answer:** someone who makes things with wood.
 
 ### Question 7
 **Prompt:** A gardener is _____ (work in a garden).
-**Your answer:** someone who work in a garden.
+**Your answer:** someone who works in a garden.
 
 ### Question 8
 **Prompt:** She served me last week. (That/the assistant)
-**Your answer:** That's the assistant whom served me last week.
+**Your answer:** That's the assistant who served me last week.
 
 ### Question 9
 **Prompt:** That mechanic repaired my car. (That/the mechanic)
-**Your answer:** That's the mechanic whom repaired my car.
+**Your answer:** That's the mechanic who repaired my car.
 
 ### Question 10
 **Prompt:** We visited that house a month ago. (That/the house)
@@ -50,7 +50,7 @@ Exported: 2026/9/20 18:51:12
 
 ### Question 12
 **Prompt:** I bought these magazines yesterday. (These/magazines)
-**Your answer:** These are magazinse that I bought yesterday.
+**Your answer:** These are magazines that I bought yesterday.
 
 ### Question 13
 **Prompt:** My father wants to buy that car. (That/the car)

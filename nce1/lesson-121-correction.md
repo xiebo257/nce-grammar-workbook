@@ -5,24 +5,24 @@
 **Reference:** `nce1/lesson-121.html`; answer key: `nce1/answer-key/lesson-121.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-121-answers.md`
 
-Status: 22 right and 10 errors.
+Status: 32 right and 0 errors.
 
-**Strict score: 22/32 (68.8%).**
+**Strict score: 32/32 (100%).**
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
-| 1 | 🔴 Error | `someone who look after sick people` | `someone who looks after sick people` | Singular `someone` takes the third-person singular verb `looks`. |
-| 2 | 🔴 Error | `someone who made clothes` | `someone who makes clothes` | Use present simple for a job definition: `makes`; `made` is past tense. |
-| 3 | 🔴 Error | `someone who cook food` | `someone who cooks food` | Singular `someone` takes `cooks`. |
-| 4 | 🔴 Error | `someone who repair machines` | `someone who repairs machines` | Singular `someone` takes `repairs`. |
-| 5 | 🔴 Error | `someone who sail on a ship` | `someone who sails on a ship` | Singular `someone` takes `sails`. |
-| 6 | 🔴 Error | `someone who make things with wood` | `someone who makes things with wood` | Singular `someone` takes `makes`. |
-| 7 | 🔴 Error | `someone who work in a garden` | `someone who works in a garden` | Singular `someone` takes `works`. |
-| 8 | 🔴 Error | `That's the assistant whom served me last week.` | `That's the assistant who/that served me last week.` | The relative pronoun is the subject of `served`; use `who` or `that`, not object-form `whom`. |
-| 9 | 🔴 Error | `That's the mechanic whom repaired my car.` | `That's the mechanic who/that repaired my car.` | The relative pronoun is the subject of `repaired`; use `who` or `that`. |
+| 1 | 🟢 Right | `someone who looks after sick people` | Same | Correct third-person singular form. |
+| 2 | 🟢 Right | `someone who makes clothes` | Same | Correct present-simple job definition. |
+| 3 | 🟢 Right | `someone who cooks food` | Same | Correct third-person singular form. |
+| 4 | 🟢 Right | `someone who repairs machines` | Same | Correct third-person singular form. |
+| 5 | 🟢 Right | `someone who sails on a ship` | Same | Correct third-person singular form. |
+| 6 | 🟢 Right | `someone who makes things with wood` | Same | Correct third-person singular form. |
+| 7 | 🟢 Right | `someone who works in a garden` | Same | Correct third-person singular form. |
+| 8 | 🟢 Right | `That's the assistant who served me last week.` | Same | `Who` is the subject of `served`. |
+| 9 | 🟢 Right | `That's the mechanic who repaired my car.` | Same | `Who` is the subject of `repaired`. |
 | 10 | 🟢 Right | `That's the house that we visited a month ago.` | Same | `That` correctly introduces an object relative clause. |
 | 11 | 🟢 Right | `That's the dog that chased our cat on Saturday.` | Same | `That` correctly introduces a subject relative clause for an animal. |
-| 12 | 🔴 Error | `These are magazinse that I bought yesterday.` | `These are the magazines that/which I bought yesterday.` | Correct spelling is `magazines`; the workbook sentence includes `the`. |
+| 12 | 🟢 Right | `These are magazines that I bought yesterday.` | Same | Correct spelling and relative clause. |
 | 13 | 🟢 Right | `That's the car that my father wants to buy.` | Same | Correct object relative clause. |
 | 14 | 🟢 Right | `That's the thief that the policeman caught last night.` | Same | `That` is an accepted object relative pronoun. |
 | 15 | 🟢 Right | `who` | `who/that` | `Who` is the subject of `is locking`. |
@@ -60,4 +60,4 @@ Status: 22 right and 10 errors.
 - Use `who` for people and `which` for things; `that` can often replace either in defining clauses.
 - Use `who/that` when the relative pronoun is the subject; use `whom/that` for a formal object relative clause.
 
-Summary: 22/32; review third-person `-s`, subject versus object relative pronouns, and the spelling of `magazines`.
+Summary: 32/32; all profession definitions and relative-pronoun answers are correct.
