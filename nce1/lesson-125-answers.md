@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 125: Tea for two
 
-Exported: 2026/9/21 18:29:54
+Exported: 2026/9/21 18:36:15
 
 ## Answers
 
@@ -10,7 +10,7 @@ Exported: 2026/9/21 18:29:54
 
 **Your answer:**
 
-Yes, I have to see the doctor today, and I shall have to see him tomorrow, too.
+Yes, I have to see him today, and I shall have to see him tomorrow, too.
 
 ### Question 2
 
@@ -18,7 +18,7 @@ Yes, I have to see the doctor today, and I shall have to see him tomorrow, too.
 
 **Your answer:**
 
-Yes, you have to cook lunch today, and you will have to cook it tomorrow, too.
+Yes, you have to cook it today, and you will have to cook it tomorrow, too.
 
 ### Question 3
 
@@ -26,7 +26,7 @@ Yes, you have to cook lunch today, and you will have to cook it tomorrow, too.
 
 **Your answer:**
 
-Yes, he have to serve in the shop today, and he will have to serve there tomorrow, too.
+Yes, he have to serve there today, and he will have to serve there tomorrow, too.
 
 ### Question 4
 
@@ -34,7 +34,7 @@ Yes, he have to serve in the shop today, and he will have to serve there tomorro
 
 **Your answer:**
 
-Yes, I have to see the dentist today, and I shall have to see him tomorrow, too.
+Yes, I have to see him today, and I shall have to see him tomorrow, too.
 
 ### Question 5
 
@@ -42,7 +42,7 @@ Yes, I have to see the dentist today, and I shall have to see him tomorrow, too.
 
 **Your answer:**
 
-Yes, he have to wear that tie today, and he will have to wear it tomorrow, too.
+Yes, he has to wear it today, and he will have to wear it tomorrow, too.
 
 ### Question 6
 
@@ -50,7 +50,7 @@ Yes, he have to wear that tie today, and he will have to wear it tomorrow, too.
 
 **Your answer:**
 
-Yes, she have to help her mother today, and she will have to help her tomorrow, too.
+Yes, she has to help her today, and she will have to help her tomorrow, too.
 
 ### Question 7
 
@@ -58,7 +58,7 @@ Yes, she have to help her mother today, and she will have to help her tomorrow, 
 
 **Your answer:**
 
-Yes, I have to water the garden today, and I shall have to water it tomorrow, too.
+Yes, I have to water it today, and I shall have to water it tomorrow, too.
 
 ### Question 8
 
@@ -130,7 +130,7 @@ No, you don't, and you won't have to do it tomorrow, either.
 
 **Your answer:**
 
-No, we don't, and we won't have to hand in them tomorrow, either.
+No, we don't, and we won't have to hand them in tomorrow, either.
 
 ### Question 17
 
