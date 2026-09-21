@@ -5,18 +5,18 @@
 **Reference:** `nce1/lesson-125.html`; answer key: `nce1/answer-key/lesson-125.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-125-answers.md`
 
-Status: 15 right, 1 error, and 9 non-scoring notes. The previous third-person `have to` agreement errors (Q5, Q6) and the phrasal-verb word-order error (Q16) are now fixed. One agreement error remains in Q3.
+Status: 16 right, 0 errors, and 9 non-scoring notes. The last third-person agreement error (Q3 `he have` → `he has`) is now fixed.
 
-**Strict score: 24/25 (96%).** There is **1 error** and **9 non-scoring notes**.
+**Strict score: 25/25 (100%).** There are **0 errors** and **9 non-scoring notes**.
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
 | 1 | 🟢 Right | `Yes, I have to see him today, and I shall have to see him tomorrow, too.` | `Yes, I have to see him today and I shall have to see him tomorrow, too.` | Pronoun `him` in both clauses; the added comma before `and` is harmless. |
-| 2 | 🟢 Right | `Yes, you have to cook it today, and you will have to cook it tomorrow, too.` | `Yes, you have to cook lunch today and you will have to cook lunch tomorrow, too.` | Pronoun `it` substitutes for `lunch`, following the worked-example pattern (`clean it`). |
-| 3 | 🔴 Error | `Yes, he have to serve there today, and he will have to serve there tomorrow, too.` | `Yes, he has to serve in the shop today and he will have to serve in the shop tomorrow, too.` | `he have` must be `he has` (third-person singular). `there` is a valid substitution for `in the shop`. |
+| 2 | 🟢 Right | `Yes, you have to cook it today, and you will have to cook it tomorrow, too.` | `Yes, you have to cook lunch today and you will have to cook lunch tomorrow, too.` | Pronoun `it` substitutes for `lunch`, following the worked-example pattern. |
+| 3 | 🟢 Right | `Yes, he has to serve there today, and he will have to serve there tomorrow, too.` | `Yes, he has to serve in the shop today and he will have to serve in the shop tomorrow, too.` | Agreement fixed: `he has to`. `there` substitutes for `in the shop`. |
 | 4 | 🟢 Right | `Yes, I have to see him today, and I shall have to see him tomorrow, too.` | Same | Pronoun `him` in both clauses. |
-| 5 | 🟢 Right | `Yes, he has to wear it today, and he will have to wear it tomorrow, too.` | Same | Agreement fixed: `he has to`. Pronoun `it` in both clauses. |
-| 6 | 🟢 Right | `Yes, she has to help her today, and she will have to help her tomorrow, too.` | Same | Agreement fixed: `she has to`. Pronoun `her` in both clauses. |
+| 5 | 🟢 Right | `Yes, he has to wear it today, and he will have to wear it tomorrow, too.` | Same | Agreement `he has to`; pronoun `it` in both clauses. |
+| 6 | 🟢 Right | `Yes, she has to help her today, and she will have to help her tomorrow, too.` | Same | Agreement `she has to`; pronoun `her` in both clauses. |
 | 7 | 🟢 Right | `Yes, I have to water it today, and I shall have to water it tomorrow, too.` | Same | Pronoun `it` in both clauses. |
 | 8 | 🟢 Right | `No, you don't have to water them today, but you had to water them yesterday.` | Same | Correct viewpoint (`Do I` → `you`) and past-tense `had to`. |
 | 9 | 🟢 Right | `No, I don't have to clean it today, but I had to clean it yesterday.` | Same | Correct viewpoint (`Do you` → `I`) and pronoun substitution. |
@@ -26,7 +26,7 @@ Status: 15 right, 1 error, and 9 non-scoring notes. The previous third-person `h
 | 13 | 🟡❗ Note | `No, I don't, and I won't have to do it tomorrow, either.` | `No, I don't, and I won't have to do my homework tomorrow, either.` | Pronoun `it` substitutes for `my homework`; both are valid. |
 | 14 | 🟡❗ Note | `No, she doesn't, and she won't have to wash any tomorrow, either.` | `No, she doesn't, and she won't have to wash any clothes tomorrow, either.` | `any` alone substitutes for `any clothes`; both are valid. |
 | 15 | 🟡❗ Note | `No, you don't, and you won't have to do it tomorrow, either.` | `No, you don't, and you won't have to do the shopping tomorrow, either.` | Pronoun `it` substitutes for `the shopping`; both are valid. |
-| 16 | 🟢 Right | `No, we don't, and we won't have to hand them in tomorrow, either.` | `No, you don't, and you won't have to hand in your papers tomorrow, either.` | Word-order error fixed: `hand them in` is now correct. `we` viewpoint is a valid alternative to `you`; `them` substitutes for `your papers`. |
+| 16 | 🟢 Right | `No, we don't, and we won't have to hand them in tomorrow, either.` | `No, you don't, and you won't have to hand in your papers tomorrow, either.` | Phrasal-verb word order correct: `hand them in`. `we` viewpoint is a valid alternative to `you`; `them` substitutes for `your papers`. |
 | 17 | 🟢 Right | `You must wash your hands but you don't need to wash your face.` | Same | Correct `must` / `don't need to` split and viewpoint. |
 | 18 | 🟡❗ Note | `We must close the door but we don't need to close the windows.` | `You must close the door but you don't need to close the windows.` | Learner uses `we` (inclusive) instead of `you`; both are valid. |
 | 19 | 🟢 Right | `He must wear a shirt but he doesn't need to wear a tie.` | Same | Correct `must` / `doesn't need to` split. |
@@ -53,9 +53,9 @@ Status: 15 right, 1 error, and 9 non-scoring notes. The previous third-person `h
 
 ## Key takeaway
 
-- Third-person singular present takes `has to`, not `have to` — the one remaining error in Q3.
-- With a phrasal verb like `hand in`, a pronoun object must precede the particle: `hand them in` (now fixed).
+- Third-person singular present takes `has to`, not `have to`.
+- With a phrasal verb like `hand in`, a pronoun object must precede the particle: `hand them in`.
 - `must` asserts necessity; `don't need to` denies necessity — use both to split a paired question.
 - Pronoun substitution (`the doctor` → `him`, `lunch` → `it`) and viewpoint choice (`you` vs `we`) are free variations that do not affect correctness.
 
-Summary: 24/25; the single remaining error is `he have` → `he has` in Q3. The nine notes record valid alternative pronoun, viewpoint, and ellipsis choices.
+Summary: 25/25; all answers are grammatically correct. The nine notes record valid alternative pronoun, viewpoint, and ellipsis choices.

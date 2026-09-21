@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 125: Tea for two
 
-Exported: 2026/9/21 18:36:15
+Exported: 2026/9/21 18:38:59
 
 ## Answers
 
@@ -26,7 +26,7 @@ Yes, you have to cook it today, and you will have to cook it tomorrow, too.
 
 **Your answer:**
 
-Yes, he have to serve there today, and he will have to serve there tomorrow, too.
+Yes, he has to serve there today, and he will have to serve there tomorrow, too.
 
 ### Question 4
 
