@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 126: Have to and do not need to
 
-Exported: 2026/9/21 18:51:52
+Exported: 2026/9/21 18:56:49
 
 ## Answers
 
@@ -10,7 +10,7 @@ Exported: 2026/9/21 18:51:52
 
 **Your answer:**
 
-don't need to
+didn't need to
 
 ### Question 2
 
@@ -42,7 +42,7 @@ didn't need to
 
 **Your answer:**
 
-have to
+don't need to
 
 ### Question 6
 
@@ -111,7 +111,7 @@ I must sweep the floor now because I'm on duty today.
 No, you don't need to do it because I'll do it for you.
 Then I shall have to sweep it tomorrow.
 
-No, you won't have to it then, either, because I'll sweep it for you.
+No, you won't have to do it then, either, because I'll sweep it for you.
 
 ### Question 14
 

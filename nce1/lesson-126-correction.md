@@ -5,17 +5,17 @@
 **Reference:** `nce1/lesson-126.html`; answer key: `nce1/answer-key/lesson-126.md`; source PDF: `nce1/新概念英语语法练习1_按课程索引.pdf`
 **Learner file:** `nce1/lesson-126-answers.md`
 
-Status: 10 right, 3 errors, and 4 non-scoring notes. The errors are: Q1 (tense mismatch — `don't need to` → `didn't need to`), Q5 (wrong choice — `have to` → `don't need to`), and Q13 (missing verb — `have to it` → `have to do it`).
+Status: 13 right, 0 errors, and 4 non-scoring notes. All three previous errors are now fixed: Q1 (`didn't need to`), Q5 (`don't need to`), and Q13 (`have to do it`).
 
-**Strict score: 14/17 (82%).** There are **3 errors** and **4 non-scoring notes**.
+**Strict score: 17/17 (100%).** There are **0 errors** and **4 non-scoring notes**.
 
 | Item | Status | Learner answer | Correct answer / expected form | Explanation |
 |---|---|---|---|---|
-| 1 | 🔴 Error | `don't need to` | `didn't need to` | The result clause `so I bought only one` is past tense; the cause must also be past. `don't need to` (present) creates a tense mismatch. |
+| 1 | 🟢 Right | `didn't need to` | Same | Past tense matches the result clause `so I bought only one`. |
 | 2 | 🟢 Right | `have to` | Same | `We have to hurry. We are very late.` — necessity in the present. |
 | 3 | 🟢 Right | `don't need to` | Same | `We don't need to hurry. There is plenty of time.` — no necessity. |
 | 4 | 🟢 Right | `didn't need to` | Same | Past: `last night` + `had finished`. |
-| 5 | 🔴 Error | `have to` | `don't need to` | `There is a bus coming` removes the necessity for a taxi. `have to` contradicts the context. |
+| 5 | 🟢 Right | `don't need to` | Same | `There is a bus coming` removes the necessity for a taxi. |
 | 6 | 🟢 Right | `didn't need to` | Same | Past: `yesterday` + `it was a holiday`. |
 | 7 | 🟢 Right | `don't need to` | Same | `I can do it by myself` removes the necessity. |
 | 8 | 🟢 Right | `have to` | Same | `I can't wait for a bus` establishes the necessity. |
@@ -23,9 +23,9 @@ Status: 10 right, 3 errors, and 4 non-scoring notes. The errors are: Q1 (tense m
 | 10 | 🟢 Right | `don't need to` | Same | Present state of not needing, caused by a past event (`bought yesterday`). |
 | 11 | 🟢 Right | `didn't need to` | Same | Past: `yesterday` + `had done it all`. |
 | 12 | 🟢 Right | `don't need to` | Same | `I can help you if you want` removes the necessity. |
-| 13 | 🔴 Error | `No, you won't have to it then, either, …` | `No, you won't have to do it then, either, …` | `have to` requires a main verb: `have to do it` or `have to sweep it`. The learner dropped the verb, leaving the ungrammatical `have to it`. |
+| 13 | 🟢 Right | `… you won't have to do it then, either, …` | Same | Verb `do` now present after `have to`; dialogue pattern matches the worked example. |
 | 14 | 🟡❗ Note | `… don't need to do them … won't have to do them …` | `… don't need to do it … won't have to do it …` | Learner uses `do them` (plural, referring to the desks and chairs); the key uses `do it` (the task as a unit). Both are valid. |
-| 15 | 🟡❗ Note | `… don't need to do them … won't have to do them …` | `… don't need to do it … won't have to do it …` | Same as Q14: `do them` vs `do it`. Both are valid. |
+| 15 | 🟡❗ Note | `… don't need to do them … won't have to do them …` | `… don't need to do it … won't have to do it …` | Same: `do them` vs `do it`. Both are valid. |
 | 16 | 🟡❗ Note | `… don't need to do them … won't have to do them …` | `… don't need to do it … won't have to do it …` | Same: `do them` vs `do it`. Both are valid. |
 | 17 | 🟡❗ Note | `… don't need to do them … won't have to do them …` | `… don't need to do it … won't have to do it …` | Same: `do them` vs `do it`. Both are valid. |
 
@@ -50,4 +50,4 @@ Status: 10 right, 3 errors, and 4 non-scoring notes. The errors are: Q1 (tense m
 - `have to` is semi-modal — it always needs a main verb (`have to do it`, not `have to it`).
 - `do it` (the task) and `do them` (the objects) are interchangeable in the dialogue pattern.
 
-Summary: 14/17; the three errors are one tense mismatch (Q1), one wrong-context choice (Q5), and one dropped verb (Q13). The four notes record a consistent `do them` vs `do it` pronoun choice in the dialogue section.
+Summary: 17/17; all answers are grammatically correct. The four notes record a consistent `do them` vs `do it` pronoun choice in the dialogue section.
