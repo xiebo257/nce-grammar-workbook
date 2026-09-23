@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 136: He said (that) he ... He told me (that) he ...
 
-Exported: 2026/9/23 20:34:59
+Exported: 2026/9/23 20:37:34
 
 ## Answers
 
@@ -82,7 +82,7 @@ He said it might be the most sensational news of the year.
 
 **Your answer:**
 
-The woman said she would have to do all the housework today.
+The woman said she would have to do all the housework that day.
 
 ### Question 11
 
@@ -90,7 +90,7 @@ The woman said she would have to do all the housework today.
 
 **Your answer:**
 
-He told me he couldn't make a dress but he could make a cake.
+He told me he couldn't make a dress,  but he could make a cake.
 
 ### Question 12
 
@@ -98,7 +98,7 @@ He told me he couldn't make a dress but he could make a cake.
 
 **Your answer:**
 
-She said she thought he would be here on time.
+She said she thought he would be there on time.
 
 ### Question 13
 
