@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 135: The latest report
 
-Exported: 2026/9/23 20:19:58
+Exported: 2026/9/23 20:24:55
 
 ## Answers
 
@@ -26,7 +26,7 @@ he could watch television.
 
 **Your answer:**
 
-she thought she could help you
+she thought she could help me
 
 ### Question 4
 
@@ -34,7 +34,7 @@ she thought she could help you
 
 **Your answer:**
 
-he might go with you
+he might go with me
 
 ### Question 5
 
@@ -58,7 +58,7 @@ he might be getting married soon.
 
 **Your answer:**
 
-she would meet his teacher.
+she would meet my teacher.
 
 ### Question 8
 
@@ -114,7 +114,7 @@ she needed some sugar.
 
 **Your answer:**
 
-her friend might visi her.
+her friend might visit her.
 
 ### Question 15
 
