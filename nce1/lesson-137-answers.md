@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 137: A pleasant dream
 
-Exported: 2026/9/24 18:11:45
+Exported: 2026/9/24 18:16:04
 
 ## Answers
 
@@ -18,7 +18,7 @@ see
 
 **Your answer:**
 
-is
+will be
 
 ### Question 3
 
@@ -26,7 +26,7 @@ is
 
 **Your answer:**
 
-do say see
+will say
 
 ### Question 4
 
@@ -66,7 +66,7 @@ don't hurry will be
 
 **Your answer:**
 
-fall will hurt
+falls will hurt
 
 ### Question 9
 
@@ -106,7 +106,7 @@ passes will leave
 
 **Your answer:**
 
-If I go to New York, I'll go by bir.
+If I go to New York, I'll go by air.
 
 ### Question 14
 
@@ -162,7 +162,7 @@ If I go to the top, I'll take some photographs of New York.
 
 **Your answer:**
 
-If it's fine tomorrow, I'm going to have a swim.
+If it's fine tomorrow, I'll have a swim.
 
 ### Question 21
 
@@ -218,7 +218,7 @@ If I know the answer, I'll tell you.
 
 **Your answer:**
 
-If he pass the exam, he'll go to university.
+If he passes the exam, he'll go to university.
 
 ### Question 28
 
