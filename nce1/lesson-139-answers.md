@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 139: Is that you, John?
 
-Exported: 2026/9/24 18:45:57
+Exported: 2026/9/24 18:52:04
 
 ## Answers
 
@@ -58,7 +58,7 @@ He wants to know where my dresses are.
 
 **Your answer:**
 
-He wants to know when the next train will leave.
+He wants to know when the next train will be here.
 
 ### Question 8
 
@@ -146,7 +146,7 @@ He wants to know why she wants the book.
 
 **Your answer:**
 
-He wants to know how they go there.
+He wants to know how they went there.
 
 ### Question 19
 
@@ -162,7 +162,7 @@ He wants to know who Tim looks like.
 
 **Your answer:**
 
-He wants to know when I have my party.
+He wants to know when I had my party.
 
 ### Question 21
 
@@ -186,7 +186,7 @@ He wants to know why she wants to see me.
 
 **Your answer:**
 
-He wants to know when I do the job.
+He wants to know when I did the job.
 
 ### Question 24
 
@@ -234,7 +234,7 @@ He wants to know why I want to be a doctor.
 
 **Your answer:**
 
-He wants to know if I can all hear him.
+He wants to know if we can all hear him.
 
 ### Question 30
 
