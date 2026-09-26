@@ -1,6 +1,6 @@
 # NCE Grammar Practice 1 - Lesson 143: A walk through the woods
 
-Exported: 2026/9/26 21:59:09
+Exported: 2026/9/26 22:03:59
 
 ## Answers
 
@@ -114,7 +114,7 @@ The children will be sent to school next week.
 
 **Your answer:**
 
-The wall will be painted next week.
+The wall will be painted green next week.
 
 ### Question 15
 
@@ -146,7 +146,7 @@ The pictures will be put up on the wall soon.
 
 **Your answer:**
 
-The party will be held in two day's time.
+The party will be held in two days' time.
 
 ### Question 19
 
@@ -154,8 +154,8 @@ The party will be held in two day's time.
 
 **Your answer:**
 
-Has anyone caught the thief this week yet?
-No, it hasn't been caught yet, but it will be caught soon.
+Has anyone caught the thief yet?
+No, it hasn't been caught yet, but it will be caught this week.
 
 ### Question 20
 
@@ -164,7 +164,7 @@ No, it hasn't been caught yet, but it will be caught soon.
 **Your answer:**
 
 Has anyone emptied the litter bins yet?
-No, they haven't been emptied yet, but they will be emptied soon.
+No, they haven't been emptied yet, but they will be emptied tomorrow.
 
 ### Question 21
 
@@ -173,7 +173,7 @@ No, they haven't been emptied yet, but they will be emptied soon.
 **Your answer:**
 
 Has anyone repaired the telephone line yet?
-No, it hasn't been repaired yet, but it will be repaired soon.
+No, it hasn't been repaired yet, but it will be repaired next week.
 
 ### Question 22
 
@@ -182,7 +182,7 @@ No, it hasn't been repaired yet, but it will be repaired soon.
 **Your answer:**
 
 Has anyone waterd the garden yet?
-No, it hasn't been watered yet, but it will be watered soon.
+No, it hasn't been watered yet, but it will be watered this evening.
 
 ### Question 23
 
@@ -191,4 +191,4 @@ No, it hasn't been watered yet, but it will be watered soon.
 **Your answer:**
 
 Has anyone told them the good news yet?
-No, they haven't been told yet, but they will be told soon.
+No, they haven't been told yet, but they will be told this evening.
