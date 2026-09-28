@@ -59,6 +59,8 @@ An optional separate reading-aloud sample can help diagnose sounds or phrasing. 
 
 ## What to send me
 
+On your Mac, run `./audio/record_oral.sh --lesson 1 --mode test` from the repository root. Press Enter to start, then `q` or Ctrl+C to stop and save. Copy the recording path printed by the script into our chat. See the [recorder instructions](../../audio/README.md) for microphone selection, task labels, and retries.
+
 Send the actual recording as an audio attachment or provide its accessible local path. A common format such as M4A, MP3, or WAV is suitable for submission; decoding support will be checked when the file arrives. Use one clear speaker, an ordinary speaking volume, and a reasonably quiet place. A phone recording is enough.
 
 Include a short label:

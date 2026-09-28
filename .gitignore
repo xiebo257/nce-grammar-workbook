@@ -7,6 +7,9 @@
 # Test recordings
 my_recording.mp3
 
+# Local oral-practice audio, task metadata, and recorder logs
+/audio/recordings/
+
 # Python
 __pycache__/
 *.pyc
