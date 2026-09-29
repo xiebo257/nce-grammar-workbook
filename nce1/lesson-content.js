@@ -36,6 +36,7 @@
   const targets = [
     ['lesson-content', 'Content · 课文'],
     ['textbook-practice', 'Practice · 练习'],
+    ['original-images', 'Originals · 原图'],
     ['grammar-practice', 'Grammar · 语法'],
     ['lesson-notes', 'Notes · 笔记']
   ];

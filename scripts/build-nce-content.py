@@ -34,6 +34,34 @@ def table(data):
   return f'<div class="table-scroll"><table class="textbook-table"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table></div>'
 
 
+def original_images(number, lesson):
+  labels = {
+    'text': 'Lesson text and oral practice · 课文与口头练习',
+    'notes': 'Vocabulary, notes and written exercises · 生词、注释与书面练习',
+    'practice': 'Practice worksheet · 配套练习',
+  }
+  parts = ['''      <section class="lesson-section" id="original-images" aria-labelledby="originals-heading">
+        <h2 id="originals-heading">Original images · 原图对照</h2>
+        <p>Expand a page to compare it with the transcription. Open the original in a new tab to zoom in.<br>展开原图核对文字，也可以在新标签页打开原图放大查看。</p>''']
+  for kind, filename in lesson['referenceImages'].items():
+    path = f'images/lesson-{number:03}/originals/{filename}'
+    width, height = lesson['referenceImageLayout'][kind]['size']
+    rotation = lesson['referenceImageLayout'][kind]['rotation']
+    sideways = rotation in (90, 270)
+    display_width, display_height = (height, width) if sideways else (width, height)
+    image_width = 100 * width / display_width
+    label = labels[kind]
+    parts.append(f'''        <details class="original-page">
+          <summary>{escape(label)}</summary>
+          <p class="original-actions"><a href="{escape(path)}" target="_blank" rel="noopener noreferrer">Open original · 打开原图 ↗</a> <a href="{escape(path)}" download>Download original · 下载原图</a></p>
+          <div class="original-image-frame" style="aspect-ratio: {display_width} / {display_height}">
+            <img src="{escape(path)}" width="{width}" height="{height}" alt="Lesson {number}: {escape(label)} — original photographed page" loading="lazy" decoding="async" style="width: {image_width:.6f}%; transform: translate(-50%, -50%) rotate({rotation}deg)">
+          </div>
+        </details>''')
+  parts.append('      </section>')
+  return '\n'.join(parts)
+
+
 def exercise(group, prefix):
   title = group['title']
   parts = [f'        <h4>{escape(title)}</h4>', f'        <p>{escape(group["instruction"])}</p>']
@@ -104,7 +132,7 @@ def render(number, lesson):
     parts.append('        <details class="extra-review"><summary>Extra review · 补充复习</summary>')
     parts.append(exercise(lesson['previousCustomPractice'], 'review'))
     parts.append('        </details>')
-  parts += ['      </section>', END]
+  parts += ['      </section>', original_images(number, lesson), END]
   return '\n'.join(line.rstrip() for line in '\n'.join(parts).splitlines())
 
 
@@ -117,6 +145,9 @@ def main():
     lesson = data[str(number)]
     for image in lesson['illustrations']:
       assert (LESSONS / image['path']).is_file(), image['path']
+    for filename in lesson['referenceImages'].values():
+      path = LESSONS / f'images/lesson-{number:03}/originals' / filename
+      assert path.is_file(), path
     generated = render(number, lesson)
     if BEGIN in source:
       start = source.index(BEGIN)

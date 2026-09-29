@@ -226,6 +226,29 @@
       "text": "IMG_20260927_223758.jpg",
       "notes": "IMG_20260927_223804.jpg",
       "practice": "IMG_20260927_224742.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "2": {
@@ -546,6 +569,29 @@
       "text": "IMG_20260927_223811.jpg",
       "notes": "IMG_20260927_223858.jpg",
       "practice": "IMG_20260927_224745.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "3": {
@@ -732,6 +778,29 @@
       "text": "IMG_20260927_223908.jpg",
       "notes": "IMG_20260927_223914.jpg",
       "practice": "IMG_20260927_224750.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "4": {
@@ -1140,6 +1209,29 @@
       "text": "IMG_20260927_223923.jpg",
       "notes": "IMG_20260927_223929.jpg",
       "practice": "IMG_20260927_224754.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "5": {
@@ -1342,6 +1434,29 @@
       "text": "IMG_20260927_223936.jpg",
       "notes": "IMG_20260927_223948.jpg",
       "practice": "IMG_20260927_224800.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "6": {
@@ -1670,6 +1785,29 @@
       "text": "IMG_20260927_224031.jpg",
       "notes": "IMG_20260927_224051.jpg",
       "practice": "IMG_20260927_224803.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          4160,
+          3120
+        ],
+        "rotation": 270
+      },
+      "notes": {
+        "size": [
+          4160,
+          3120
+        ],
+        "rotation": 270
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "7": {
@@ -1874,6 +2012,29 @@
       "text": "IMG_20260927_224113.jpg",
       "notes": "IMG_20260927_224127.jpg",
       "practice": "IMG_20260927_224808.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "8": {
@@ -2240,6 +2401,29 @@
       "text": "IMG_20260927_224136.jpg",
       "notes": "IMG_20260927_224143.jpg",
       "practice": "IMG_20260927_224811.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "9": {
@@ -2411,6 +2595,29 @@
       "text": "IMG_20260927_224156.jpg",
       "notes": "IMG_20260927_224208.jpg",
       "practice": "IMG_20260927_224817.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          4160,
+          3120
+        ],
+        "rotation": 270
+      },
+      "notes": {
+        "size": [
+          4160,
+          3120
+        ],
+        "rotation": 270
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "10": {
@@ -2816,6 +3023,29 @@
       "text": "IMG_20260927_224223.jpg",
       "notes": "IMG_20260927_224238.jpg",
       "practice": "IMG_20260927_224820.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          4160,
+          3120
+        ],
+        "rotation": 270
+      },
+      "notes": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "11": {
@@ -2983,6 +3213,29 @@
       "text": "IMG_20260927_224301.jpg",
       "notes": "IMG_20260927_224307.jpg",
       "practice": "IMG_20260927_224827.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "12": {
@@ -3339,6 +3592,29 @@
       "text": "IMG_20260927_224315.jpg",
       "notes": "IMG_20260927_224321.jpg",
       "practice": "IMG_20260927_224829.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "13": {
@@ -3513,6 +3789,29 @@
       "text": "IMG_20260927_224328.jpg",
       "notes": "IMG_20260927_224336.jpg",
       "practice": "IMG_20260927_224834.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "14": {
@@ -3830,6 +4129,29 @@
       "text": "IMG_20260927_224343.jpg",
       "notes": "IMG_20260927_224348.jpg",
       "practice": "IMG_20260927_224838.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "15": {
@@ -4005,6 +4327,29 @@
       "text": "IMG_20260927_224357.jpg",
       "notes": "IMG_20260927_224407.jpg",
       "practice": "IMG_20260927_224843.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "16": {
@@ -4512,6 +4857,29 @@
       "text": "IMG_20260927_224414.jpg",
       "notes": "IMG_20260927_224421.jpg",
       "practice": "IMG_20260927_224846.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "17": {
@@ -4674,6 +5042,29 @@
       "text": "IMG_20260927_224433.jpg",
       "notes": "IMG_20260927_224439.jpg",
       "practice": "IMG_20260927_224851.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "18": {
@@ -5074,6 +5465,29 @@
       "text": "IMG_20260927_224449.jpg",
       "notes": "IMG_20260927_224459.jpg",
       "practice": "IMG_20260927_224855.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      },
+      "notes": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "19": {
@@ -5254,6 +5668,29 @@
       "text": "IMG_20260927_224508.jpg",
       "notes": "IMG_20260927_224519.jpg",
       "practice": "IMG_20260927_224904.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      },
+      "notes": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "20": {
@@ -5793,6 +6230,29 @@
       "text": "IMG_20260927_224527.jpg",
       "notes": "IMG_20260927_224538.jpg",
       "practice": "IMG_20260927_224907.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "21": {
@@ -5939,6 +6399,29 @@
       "text": "IMG_20260927_224547.jpg",
       "notes": "IMG_20260927_224556.jpg",
       "practice": "IMG_20260927_224913.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "22": {
@@ -6404,6 +6887,29 @@
       "text": "IMG_20260927_224606.jpg",
       "notes": "IMG_20260927_224613.jpg",
       "practice": "IMG_20260927_224915.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "23": {
@@ -6534,6 +7040,29 @@
       "text": "IMG_20260927_224630.jpg",
       "notes": "IMG_20260927_224633.jpg",
       "practice": "IMG_20260927_224921.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "24": {
@@ -6873,6 +7402,29 @@
       "text": "IMG_20260927_224640.jpg",
       "notes": "IMG_20260927_224643.jpg",
       "practice": "IMG_20260927_224923.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "25": {
@@ -7060,6 +7612,29 @@
       "text": "IMG_20260927_225209.jpg",
       "notes": "IMG_20260927_225216.jpg",
       "practice": "IMG_20260927_224930.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "26": {
@@ -7313,6 +7888,29 @@
       "text": "IMG_20260927_225223.jpg",
       "notes": "IMG_20260927_225228.jpg",
       "practice": "IMG_20260927_224932.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "27": {
@@ -7472,6 +8070,29 @@
       "text": "IMG_20260927_225234.jpg",
       "notes": "IMG_20260927_225238.jpg",
       "practice": "IMG_20260927_224940.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 270
+      }
     }
   },
   "28": {
@@ -7775,6 +8396,29 @@
       "text": "IMG_20260927_225247.jpg",
       "notes": "IMG_20260927_225258.jpg",
       "practice": "IMG_20260927_224943.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "29": {
@@ -7956,6 +8600,29 @@
       "text": "IMG_20260927_225305.jpg",
       "notes": "IMG_20260927_225319.jpg",
       "practice": "IMG_20260927_224949.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "30": {
@@ -8939,6 +9606,29 @@
       "text": "IMG_20260927_225340.jpg",
       "notes": "IMG_20260927_225352.jpg",
       "practice": "IMG_20260927_224952.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "31": {
@@ -9139,6 +9829,29 @@
       "text": "IMG_20260927_225409.jpg",
       "notes": "IMG_20260927_225417.jpg",
       "practice": "IMG_20260927_224956.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1437,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1980,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "32": {
@@ -9612,6 +10325,29 @@
       "text": "IMG_20260927_225442.jpg",
       "notes": "IMG_20260927_225456.jpg",
       "practice": "IMG_20260927_224958.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1459,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1589,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "33": {
@@ -9836,6 +10572,29 @@
       "text": "IMG_20260927_225504.jpg",
       "notes": "IMG_20260927_225509.jpg",
       "practice": "IMG_20260927_225005.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1459,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1604,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "34": {
@@ -10166,6 +10925,29 @@
       "text": "IMG_20260927_225516.jpg",
       "notes": "IMG_20260927_225525.jpg",
       "practice": "IMG_20260927_225007.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1372,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1710,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "35": {
@@ -10413,6 +11195,29 @@
       "text": "IMG_20260927_225534.jpg",
       "notes": "IMG_20260927_225542.jpg",
       "practice": "IMG_20260927_225013.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1608,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1535,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "36": {
@@ -10753,6 +11558,29 @@
       "text": "IMG_20260927_225547.jpg",
       "notes": "IMG_20260927_225555.jpg",
       "practice": "IMG_20260927_225017.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1481,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1894,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "37": {
@@ -10894,6 +11722,29 @@
       "text": "IMG_20260927_225623.jpg",
       "notes": "IMG_20260927_225628.jpg",
       "practice": "IMG_20260927_225024.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1457,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1396,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "38": {
@@ -11241,6 +12092,29 @@
       "text": "IMG_20260927_225637.jpg",
       "notes": "IMG_20260927_225644.jpg",
       "practice": "IMG_20260927_225027.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1412,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1592,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "39": {
@@ -11399,6 +12273,29 @@
       "text": "IMG_20260927_225656.jpg",
       "notes": "IMG_20260927_225702.jpg",
       "practice": "IMG_20260927_225032.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1382,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1575,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "40": {
@@ -11765,6 +12662,29 @@
       "text": "IMG_20260927_225712.jpg",
       "notes": "IMG_20260927_225717.jpg",
       "practice": "IMG_20260927_225037.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1364,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1584,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      }
     }
   },
   "41": {
@@ -11928,6 +12848,29 @@
       "text": "IMG_20260927_225723.jpg",
       "notes": "IMG_20260927_225730.jpg",
       "practice": "IMG_20260927_225043.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          1497,
+          2500
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          1695,
+          2500
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "42": {
@@ -12360,6 +13303,29 @@
       "text": "IMG_20260927_225752.jpg",
       "notes": "IMG_20260927_225756.jpg",
       "practice": "IMG_20260927_225049.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "43": {
@@ -12518,6 +13484,29 @@
       "text": "IMG_20260927_225802.jpg",
       "notes": "IMG_20260927_225808.jpg",
       "practice": "IMG_20260927_225100.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "44": {
@@ -12849,6 +13838,29 @@
       "text": "IMG_20260927_225816.jpg",
       "notes": "IMG_20260927_225820.jpg",
       "practice": "IMG_20260927_225104.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "45": {
@@ -13011,6 +14023,29 @@
       "text": "IMG_20260927_225825.jpg",
       "notes": "IMG_20260927_225847.jpg",
       "practice": "IMG_20260927_225114.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "46": {
@@ -13278,6 +14313,29 @@
       "text": "IMG_20260927_225857.jpg",
       "notes": "IMG_20260927_225902.jpg",
       "practice": "IMG_20260927_225124.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      }
     }
   },
   "47": {
@@ -13433,6 +14491,29 @@
       "text": "IMG_20260927_225909.jpg",
       "notes": "IMG_20260927_225914.jpg",
       "practice": "IMG_20260927_225134.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "practice": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      }
     }
   },
   "48": {
@@ -13862,6 +14943,29 @@
       "text": "IMG_20260927_225920.jpg",
       "notes": "IMG_20260927_225954.jpg",
       "practice": "IMG_20260927_225147.jpg"
+    },
+    "referenceImageLayout": {
+      "text": {
+        "size": [
+          3072,
+          4096
+        ],
+        "rotation": 0
+      },
+      "notes": {
+        "size": [
+          4096,
+          3072
+        ],
+        "rotation": 90
+      },
+      "practice": {
+        "size": [
+          3120,
+          4160
+        ],
+        "rotation": 0
+      }
     }
   }
 }

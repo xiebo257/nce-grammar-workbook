@@ -215,6 +215,50 @@ h4 {
   font-weight: 700;
 }
 
+.original-page {
+  margin: 14px 0;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.original-page summary {
+  padding: 12px 16px;
+  color: var(--accent-dark);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.original-page summary:focus-visible,
+.original-actions a:focus-visible {
+  outline: 3px solid var(--highlight);
+  outline-offset: 3px;
+}
+
+.original-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  padding: 0 16px;
+}
+
+.original-actions a {
+  color: var(--accent-dark);
+}
+
+.original-image-frame {
+  position: relative;
+  overflow: hidden;
+  margin: 0 12px 12px;
+}
+
+.original-image-frame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: none;
+  height: auto;
+}
+
 @media (max-width: 1259px) {
   body > main.page {
     margin-top: 64px;
