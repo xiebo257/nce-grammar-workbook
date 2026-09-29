@@ -1,0 +1,262 @@
+h3 {
+  margin: 26px 0 10px;
+  color: var(--accent-dark);
+  font-size: 1.08rem;
+}
+
+.lesson-section {
+  scroll-margin-top: 24px;
+}
+
+.lesson-section + .lesson-section {
+  margin-top: 36px;
+  border-top: 2px solid var(--line);
+}
+
+.dialogue {
+  padding: 8px 18px;
+  border-left: 4px solid var(--highlight);
+  background: #f7f4e9;
+}
+
+.dialogue p {
+  margin: 12px 0;
+}
+
+.dialogue .translation {
+  display: block;
+}
+
+.worked-example {
+  padding: 12px 16px;
+  border-left: 4px solid var(--highlight);
+  background: #f7f4e9;
+}
+
+.exercise-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.section-menu {
+  position: fixed;
+  z-index: 25;
+  top: 24px;
+  right: 16px;
+  width: 156px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+  box-shadow: 0 4px 16px rgba(23, 37, 47, .12);
+  font-size: .9rem;
+}
+
+.section-menu summary {
+  padding: 10px 12px;
+  color: var(--accent-dark);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.section-menu summary:focus-visible,
+.section-menu a:focus-visible,
+.extra-review summary:focus-visible {
+  outline: 3px solid var(--highlight);
+  outline-offset: 3px;
+}
+
+.section-menu-links {
+  display: grid;
+  gap: 4px;
+  padding: 0 8px 8px;
+}
+
+.section-menu a {
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: var(--accent-dark);
+  text-decoration: none;
+}
+
+.section-menu a:hover,
+.section-menu a[aria-current="location"] {
+  background: var(--accent);
+  color: #fff;
+}
+
+@media (max-width: 1259px) {
+  .section-menu {
+    top: 10px;
+    right: 10px;
+    width: auto;
+    max-width: calc(100vw - 20px);
+  }
+
+  .section-menu[open] {
+    width: 172px;
+  }
+
+  .section-menu summary {
+    padding: 8px 12px;
+  }
+
+  .lesson-section,
+  .lesson-notes {
+    scroll-margin-top: 64px;
+  }
+}
+
+h4 {
+  margin: 24px 0 10px;
+  color: var(--accent-dark);
+  font-size: 1rem;
+}
+
+.reading-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(140px, 24%);
+  align-items: start;
+  gap: 24px;
+}
+
+.reading-art {
+  display: grid;
+  gap: 12px;
+}
+
+.lesson-illustration {
+  margin: 0;
+  min-width: 0;
+}
+
+.lesson-illustration img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.oral-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px 18px;
+  margin: 22px 0;
+}
+
+.oral-grid .lesson-illustration {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fffdf6;
+}
+
+.oral-grid img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+}
+
+.lesson-illustration figcaption {
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: .95rem;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 16px 0;
+}
+
+.textbook-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .96rem;
+}
+
+.textbook-table th,
+.textbook-table td {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.textbook-table th {
+  background: #f0eddf;
+  color: var(--accent-dark);
+}
+
+.textbook-table td:nth-child(2) {
+  font-family: inherit;
+}
+
+.text-notes li {
+  margin-bottom: 14px;
+}
+
+.translation {
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.extra-review {
+  margin-top: 24px;
+}
+
+.extra-review summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+@media (max-width: 1259px) {
+  body > main.page {
+    margin-top: 64px;
+  }
+}
+
+@media (max-width: 600px) {
+  .reading-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .reading-art {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .oral-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px 10px;
+  }
+
+  .oral-grid .lesson-illustration {
+    padding: 8px;
+  }
+
+  .oral-grid img {
+    height: 100px;
+  }
+
+  .textbook-table th,
+  .textbook-table td {
+    padding: 8px;
+  }
+}
+
+@media print {
+  .section-menu {
+    display: none;
+  }
+
+  .lesson-illustration,
+  .textbook-table tr {
+    break-inside: avoid;
+  }
+}

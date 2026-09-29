@@ -37,6 +37,7 @@
     @media (max-width: 600px) { body { font-size: 16px; } .page { width: min(100% - 24px, 900px); padding-top: 28px; } article { padding: 3px 20px 22px; } nav { grid-template-columns: 1fr 1fr; } nav > span:nth-child(2) { grid-column: 1 / -1; grid-row: 1; } nav > a, nav > span:first-child, nav > span:last-child { grid-row: 2; } nav a:last-child { justify-self: end; } }
   </style>
   <link rel="stylesheet" href="lesson-navigation.css">
+  <link rel="stylesheet" href="lesson-content.css">
 </head>
 <body>
   <main class="page">
@@ -45,18 +46,163 @@
       <h1>Lesson 3: Sorry, sir.</h1>
     </header>
     <article>
-      <h2>I. Rewrite using short forms</h2>
-<p>Example: <em>It is a school.</em> -&gt; <em>It&#39;s a school.</em></p>
-<ol><li><div class="question-text">It is my book.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Here is my watch.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is not my pen.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Here is your ticket.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is not my suit.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your umbrella.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is not my teacher.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my house.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is not my shirt.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
-<h2>II. Change the statements into negative forms, then use short forms</h2>
-<p>Example: <em>This is my teacher.</em> -&gt; <em>This is not my teacher. / This isn&#39;t my teacher.</em></p>
-<ol><li><div class="question-text">This is my umbrella.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your ticket.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is your suit.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my handbag.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your car.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is my son.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is my daughter.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my school.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your dress.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
-<h2>III. Give short affirmative answers and then a complete statement</h2>
-<p>Example: <em>Is this your handbag?</em> -&gt; <em>Yes, it is. It&#39;s my handbag.</em></p>
-<ol><li><div class="question-text">Is this my ticket?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my shirt?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your house?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your suit?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my watch?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your pen?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my dress?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your class?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my chair?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your pencil?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my book?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
-<h2>IV. Give short negative answers, then make statements</h2>
-<p>Example: <em>Is this your umbrella?</em> -&gt; <em>No, it isn&#39;t. It isn&#39;t my umbrella. It&#39;s your umbrella.</em></p>
-<ol><li><div class="question-text">Is this my skirt?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your ticket?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my suit?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my pencil?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my book?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your handbag?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your coat?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your watch?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my pen?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my dress?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your house?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
+      <!-- BEGIN GENERATED TEXTBOOK -->
+      <section class="lesson-section" id="lesson-content" aria-labelledby="content-heading">
+        <h2 id="content-heading">Lesson content · 课文</h2>
+        <h3>Lesson 3: Sorry, sir. · 对不起，先生。</h3>
+        <p>Listen then answer this question. 听录音，然后回答问题。<br><strong>Does the man get his umbrella back?</strong><br>这位男士有没有要回他的雨伞？</p>
+        <div class="reading-layout"><div class="dialogue">
+          <p>My coat and my umbrella please.</p>
+          <p>Here is my ticket.</p>
+          <p>Thank you, sir. Number five.</p>
+          <p>Here’s your umbrella and your coat.</p>
+          <p>This is not my umbrella.</p>
+          <p>Sorry, sir.</p>
+          <p>Is this your umbrella?</p>
+          <p>No, it isn’t.</p>
+          <p>Is this it?</p>
+          <p>Yes, it is.</p>
+          <p>Thank you very much.</p>
+        </div><div class="reading-art">
+<figure class="lesson-illustration">
+          <img src="images/lesson-003/illustration-01.jpg" width="464" height="1800" alt="Lesson 3: Sorry, sir. — story illustrations" decoding="async">
+
+        </figure>
+        </div></div>
+        <h3>New words and expressions · 生词和短语</h3>
+<div class="table-scroll"><table class="textbook-table"><thead><tr><th scope="col">Word · 单词</th><th scope="col">Pronunciation · 音标</th><th scope="col">Meaning · 词义</th></tr></thead><tbody><tr><td>umbrella</td><td>/ʌmˈbrelə/</td><td>n. 伞</td></tr><tr><td>please</td><td>/pliːz/</td><td>int. 请</td></tr><tr><td>here</td><td>/hɪə/</td><td>adv. 这里</td></tr><tr><td>my</td><td>/maɪ/</td><td>possessive adjective 我的</td></tr><tr><td>ticket</td><td>/ˈtɪkɪt/</td><td>n. 票</td></tr><tr><td>number</td><td>/ˈnʌmbə/</td><td>n. 号码</td></tr><tr><td>five</td><td>/faɪv/</td><td>num. 五</td></tr><tr><td>sorry</td><td>/ˈsɒri/</td><td>adj. 对不起的</td></tr><tr><td>sir</td><td>/sɜː/</td><td>n. 先生</td></tr><tr><td>cloakroom</td><td>/ˈkləʊkrʊm/</td><td>n. 衣帽存放处</td></tr></tbody></table></div>
+        <h3>Notes on the text · 课文注释</h3><ol class="text-notes">
+          <li>Here’s 是 Here is 的缩写形式，类似的例子有 He’s（He is），It’s（It is）等。缩写形式和非缩写形式在英语的书面用语和口语中均有，但非缩写形式常用于比较正式的场合。</li>
+          <li>Sorry = I’m sorry. 这是口语中的缩略形式，用于社交场合，向他人表示歉意。</li>
+          <li>sir，先生，这是英美人对不相识的男子、年长者或上级的尊称。</li>
+          <li>Is this it? 本句中 it 是指 your umbrella。由于前面提到了，后面就用代词 it 来代替，以免重复。</li>
+        </ol>
+        <h3>Chinese translation · 参考译文</h3><div class="translation" lang="zh-Hans">
+          <p>请把我的大衣和伞拿给我。</p>
+          <p>这是我（寄存东西）的牌子。</p>
+          <p>谢谢，先生。</p>
+          <p>是5号。</p>
+          <p>这是您的伞和大衣。</p>
+          <p>这不是我的伞。</p>
+          <p>对不起，先生。</p>
+          <p>这把伞是您的吗？</p>
+          <p>不，不是！</p>
+          <p>这把是吗？</p>
+          <p>是，是这把。</p>
+          <p>非常感谢。</p>
+        </div>
+      </section>
+      <section class="lesson-section" id="textbook-practice" aria-labelledby="practice-heading" data-previous-count="18">
+        <h2 id="practice-heading">Practice · 课文练习</h2>
+        <h3>Understand the lesson · 课文理解</h3>
+        <h4>Comprehension · 理解题</h4>
+        <p>Answer the question about the lesson text. 根据课文回答问题。</p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-comprehension-1"><span class="exercise-label">comprehension: Comprehension · 理解题 — </span>Does the man get his umbrella back?</div>
+            <textarea class="answer-field" rows="2" aria-label="Comprehension · 理解题, item 1" aria-describedby="prompt-comprehension-1" data-previous-index="0"></textarea>
+          </li>
+        </ol>
+        <h3>Practice worksheet · 配套练习</h3>
+        <h4>A. Dialogue</h4>
+        <p>Copy this dialogue. 抄写这段对话。</p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-worksheet-0-1"><span class="exercise-label">worksheet: A. Dialogue — </span>Sue: My coat and my handbag please. Here is my ticket. It’s number ten.<br>Man: Thank you. Number ten. Here’s your handbag and here’s your coat.<br>Sue: Thank you very much.</div>
+            <textarea class="answer-field" rows="10" aria-label="A. Dialogue, item 1" aria-describedby="prompt-worksheet-0-1" data-previous-index="1"></textarea>
+          </li>
+        </ol>
+        <h4>B. Vocabulary</h4>
+        <p>Complete each answer. 完成以下句子。</p>
+        <p class="worked-example"><strong>Example · 例句</strong><br>Is this your school? — Yes, it is my school.</p>
+        <ol start="2">
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-2"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your ticket? — Yes, this is my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 2" aria-describedby="prompt-worksheet-1-2" data-previous-index="2"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-3"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your teacher? — Yes, this is my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 3" aria-describedby="prompt-worksheet-1-3" data-previous-index="3"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-4"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your watch? — No, it isn’t my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 4" aria-describedby="prompt-worksheet-1-4" data-previous-index="4"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-5"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your pencil? — Yes, this is my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 5" aria-describedby="prompt-worksheet-1-5" data-previous-index="5"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-6"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your daughter? — No, it isn’t my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 6" aria-describedby="prompt-worksheet-1-6" data-previous-index="6"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-7"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your umbrella? — Yes, it is my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 7" aria-describedby="prompt-worksheet-1-7" data-previous-index="7"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-1-8"><span class="exercise-label">worksheet: B. Vocabulary — </span>Is this your suit? — No, this isn’t my ____.</div>
+            <textarea class="answer-field" rows="2" aria-label="B. Vocabulary, item 8" aria-describedby="prompt-worksheet-1-8" data-previous-index="8"></textarea>
+          </li>
+        </ol>
+        <h4>C. Numbers</h4>
+        <p>Write these numbers in figures. 用阿拉伯数字表示以下数词。</p>
+        <p class="worked-example"><strong>Example · 例句</strong><br>twelve → 12</p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-1"><span class="exercise-label">worksheet: C. Numbers — </span>fourteen</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 1" aria-describedby="prompt-worksheet-2-1" data-previous-index="9"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-2"><span class="exercise-label">worksheet: C. Numbers — </span>thirteen</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 2" aria-describedby="prompt-worksheet-2-2" data-previous-index="10"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-3"><span class="exercise-label">worksheet: C. Numbers — </span>eleven</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 3" aria-describedby="prompt-worksheet-2-3" data-previous-index="11"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-4"><span class="exercise-label">worksheet: C. Numbers — </span>ten</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 4" aria-describedby="prompt-worksheet-2-4" data-previous-index="12"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-5"><span class="exercise-label">worksheet: C. Numbers — </span>eight</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 5" aria-describedby="prompt-worksheet-2-5" data-previous-index="13"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-6"><span class="exercise-label">worksheet: C. Numbers — </span>nine</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 6" aria-describedby="prompt-worksheet-2-6" data-previous-index="14"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-7"><span class="exercise-label">worksheet: C. Numbers — </span>fifteen</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 7" aria-describedby="prompt-worksheet-2-7" data-previous-index="15"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-8"><span class="exercise-label">worksheet: C. Numbers — </span>seven</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 8" aria-describedby="prompt-worksheet-2-8" data-previous-index="16"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-worksheet-2-9"><span class="exercise-label">worksheet: C. Numbers — </span>two</div>
+            <textarea class="answer-field" rows="2" aria-label="C. Numbers, item 9" aria-describedby="prompt-worksheet-2-9" data-previous-index="17"></textarea>
+          </li>
+        </ol>
+      </section>
+      <!-- END GENERATED TEXTBOOK -->
+      <section class="lesson-section" id="grammar-practice" aria-labelledby="grammar-heading">
+        <h2 id="grammar-heading">Grammar practice · 语法练习</h2>
+        <h3>I. Rewrite using short forms</h3>
+        <p>Example: <em>It is a school.</em> -&gt; <em>It&#39;s a school.</em></p>
+        <ol><li><div class="question-text">It is my book.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Here is my watch.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is not my pen.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Here is your ticket.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is not my suit.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your umbrella.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is not my teacher.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my house.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is not my shirt.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
+        <h3>II. Change the statements into negative forms, then use short forms</h3>
+        <p>Example: <em>This is my teacher.</em> -&gt; <em>This is not my teacher. / This isn&#39;t my teacher.</em></p>
+        <ol><li><div class="question-text">This is my umbrella.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your ticket.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is your suit.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my handbag.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your car.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is my son.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">This is my daughter.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is my school.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">It is your dress.</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
+        <h3>III. Give short affirmative answers and then a complete statement</h3>
+        <p>Example: <em>Is this your handbag?</em> -&gt; <em>Yes, it is. It&#39;s my handbag.</em></p>
+        <ol><li><div class="question-text">Is this my ticket?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my shirt?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your house?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your suit?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my watch?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your pen?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my dress?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your class?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my chair?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your pencil?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my book?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
+        <h3>IV. Give short negative answers, then make statements</h3>
+        <p>Example: <em>Is this your umbrella?</em> -&gt; <em>No, it isn&#39;t. It isn&#39;t my umbrella. It&#39;s your umbrella.</em></p>
+        <ol><li><div class="question-text">Is this my skirt?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your ticket?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my suit?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my pencil?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my book?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your handbag?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your coat?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your watch?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my pen?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this my dress?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li><li><div class="question-text">Is this your house?</div><textarea class="answer-field" rows="2" aria-label="Write your answer"></textarea></li></ol>
+      </section>
       <section class="lesson-notes" aria-labelledby="notes-heading">
         <h2 id="notes-heading">Your notes and answers</h2>
         <p>Use this space for longer responses or exercises that do not have an individual answer box.</p>
@@ -65,6 +211,7 @@
     </article>
     <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-002.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 3 of 144</span><a href="lesson-004.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
   </main>
+  <script src="lesson-content.js"></script>
   <script>
     const storageKey = 'nce-grammar:' + location.pathname;
     const fields = [...document.querySelectorAll('textarea')];
