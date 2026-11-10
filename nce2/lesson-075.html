@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 75: SOS</title>
+  <style>
+    :root { color-scheme: light; --ink: #18202a; --muted: #5e6b78; --line: #d9d2c4; --paper: #fbf8f2; --card: #fff; --accent: #245e4e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #ede8df url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Ccircle cx='18' cy='22' r='1.6' fill='%2398a09b' opacity='.18'/%3E%3Ccircle cx='86' cy='64' r='2.2' fill='%23a08c6a' opacity='.12'/%3E%3Ccircle cx='118' cy='112' r='1.4' fill='%2398a09b' opacity='.18'/%3E%3Crect x='46' y='86' width='4' height='4' transform='rotate(24 48 88)' fill='%23a08c6a' opacity='.08'/%3E%3C/svg%3E"); font: 16px/1.65 "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: radial-gradient(circle at 12% 8%, rgba(255,255,255,.9), transparent 32%), radial-gradient(circle at 90% 14%, rgba(228,235,226,.55), transparent 26%), radial-gradient(circle at 50% 110%, rgba(216,203,178,.4), transparent 35%); }
+    .page { width: min(1120px, calc(100% - 32px)); margin: 28px auto 44px; padding: 42px 48px 28px; border: 1px solid #cdc3b1; border-radius: 22px; background: rgba(252,250,246,.96); box-shadow: 0 28px 70px rgba(54,47,36,.17), 0 5px 16px rgba(54,47,36,.09); }
+    header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 20px; border-bottom: 2px solid var(--line); }
+    .lesson-meta { margin: 0 0 8px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(32px, 4.2vw, 45px); line-height: 1.08; letter-spacing: -.02em; }
+    .subtitle { margin: 9px 0 0; color: var(--muted); font-size: 17px; }
+    .lesson-section { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--line); }
+    .lesson-section:first-of-type { border-top: 0; padding-top: 0; }
+    .lesson-section h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 26px; line-height: 1.2; color: var(--accent); }
+    .section-intro { margin: 10px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
+    .exercise-list, .passage-blanks { margin: 20px 0 0; padding: 0; list-style: none; counter-reset: exercise; display: grid; gap: 10px; }
+    .exercise-item { display: grid; grid-template-columns: 46px 1fr; gap: 12px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--card); box-shadow: 0 5px 14px rgba(62,54,41,.05); }
+    .item-index { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid #c8bfa9; border-radius: 50%; color: var(--muted); background: #f8f4eb; font-size: 15px; font-weight: 700; }
+    .exercise-label { display: block; margin-bottom: 5px; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+    .question-text { margin: 0 0 10px; font-size: 16.5px; line-height: 1.6; }
+    .example-text { margin: 20px 0 0; padding: 13px 15px; border-left: 3px solid var(--accent); border-radius: 9px; background: #f1f6f2; color: #32413c; font-size: 15.5px; line-height: 1.6; }
+    .answer-field { width: 100%; min-height: 56px; resize: vertical; padding: 11px 12px; border: 1px solid #c7bda9; border-radius: 9px; color: var(--ink); background: #fffef9; font: inherit; line-height: 1.55; }
+        .answer-field.answer-gap { display: inline-block; width: min(240px, 100%); height: auto; padding: 7px 10px; vertical-align: middle; }
+    .answer-field:focus { outline: 3px solid rgba(36,94,78,.18); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+    .passage-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+    .passage-item { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: center; }
+    .blank-index { width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid #c8bfa9; border-radius: 50%; color: var(--muted); background: #f8f4eb; font-size: 13px; font-weight: 700; }
+    .passage-blanks .answer-field { min-height: 44px; padding: 9px 10px; }
+    .passage-text { margin: 0 0 12px; font-size: 17px; line-height: 2; }
+    .passage-text code { padding: 0 6px; border-radius: 4px; color: var(--accent); background: #edf2ee; font-weight: 700; }
+    .original-images { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--line); }
+    .original-images h2 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 26px; line-height: 1.2; color: var(--accent); }
+    .original-images .section-intro { margin: 0; }
+    .original-page { margin-top: 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--card); overflow: hidden; box-shadow: 0 6px 16px rgba(62,54,41,.07); }
+    .original-page summary { padding: 14px 16px; cursor: pointer; list-style: none; font-weight: 700; }
+    .original-page summary::-webkit-details-marker { display: none; }
+    .original-page summary::before { content: "＋"; margin-right: 10px; color: var(--accent); font-size: 18px; }
+    .original-page[open] summary::before { content: "－"; }
+    .original-actions { margin: 0 0 14px 24px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+    .original-actions a { display: inline-block; padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--accent); background: #f8f4eb; text-decoration: none; font-size: 13.5px; font-weight: 700; }
+    .original-actions a:hover { background: #efe9da; }
+    .original-image-frame { display: block; margin: 0 24px 18px 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: #f5f1e8; line-height: 0; }
+    .original-image-frame img { width: 100%; height: auto; }
+    .lesson-notes { margin-top: 36px; padding: 18px 20px 22px; border: 1px solid var(--line); border-radius: 15px; background: #fffdf6; box-shadow: 0 8px 18px rgba(62,54,41,.05); }
+    .lesson-notes label { display: block; margin-bottom: 10px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    .lesson-notes textarea { width: 100%; min-height: 120px; resize: vertical; padding: 12px; border: 1px solid #c7bda9; border-radius: 10px; color: var(--ink); background: #fff; font: inherit; line-height: 1.6; }
+    .lesson-notes textarea:focus { outline: 3px solid rgba(36,94,78,.18); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+    .lesson-actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .lesson-actions button { padding: 11px 20px; border: 1px solid var(--accent); border-radius: 999px; color: #fff; background: var(--accent); font-size: 15px; font-weight: 700; cursor: pointer; }
+    .lesson-actions button.secondary { color: var(--accent); background: #f4f0e6; }
+    .lesson-navigation { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 14px; color: var(--muted); }
+    .lesson-navigation a { color: var(--accent); font-weight: 700; text-decoration: none; }
+    .lesson-navigation a:hover { text-decoration: underline; }
+    .lesson-navigation a.disabled { pointer-events: none; color: #a39d90; }
+    @media (max-width: 700px) {
+      .page { width: calc(100% - 20px); margin: 10px auto 22px; padding: 26px 20px 18px; }
+      header { display: block; }
+      .subtitle { margin-top: 8px; }
+      .exercise-item { grid-template-columns: 1fr; gap: 8px; padding: 13px; }
+      .item-index { margin-bottom: 2px; }
+      .passage-item { grid-template-columns: 32px 1fr; gap: 8px; }
+      .original-image-frame { margin: 0 14px 16px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <p class="lesson-meta">NCE Grammar Practice 2 · Lesson 75</p>
+        <h1>Lesson 75: SOS</h1>
+        <p class="subtitle">呼救信号</p>
+      </div>
+    </header>
+
+    <section id="grammar-practice" class="lesson-section">
+      <h2 id="grammar-heading">Grammar practice</h2>
+      <p class="section-intro">Exercise the grammar pattern in the lesson by completing the items below. Answers are saved automatically in your browser and can be downloaded as a Markdown file.</p>
+
+      <h3>I. Rewrite the following sentences with as… as possible</h3>
+      <p>用 as… as possible 改写下列句子</p>
+      <p class="example-text">Example: The woman kept near to the children. → The woman kept as near as possible to the children.</p>
+      <ol start="1" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">1</div>
+          <div>
+            <div class="question-text" id="prompt-i-1"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>You should copy down every word carefully.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.1" aria-describedby="prompt-i-1"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">2</div>
+          <div>
+            <div class="question-text" id="prompt-i-2"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>He brought many clothes when he visited us.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.2" aria-describedby="prompt-i-2"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">3</div>
+          <div>
+            <div class="question-text" id="prompt-i-3"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>We ran fast to catch the train.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.3" aria-describedby="prompt-i-3"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">4</div>
+          <div>
+            <div class="question-text" id="prompt-i-4"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>She spoke loudly so that everyone could hear her.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.4" aria-describedby="prompt-i-4"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">5</div>
+          <div>
+            <div class="question-text" id="prompt-i-5"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>Peter waited a long time.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.5" aria-describedby="prompt-i-5"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">6</div>
+          <div>
+            <div class="question-text" id="prompt-i-6"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>Keep the book clean.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.6" aria-describedby="prompt-i-6"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">7</div>
+          <div>
+            <div class="question-text" id="prompt-i-7"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>Keep the room tidy.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.7" aria-describedby="prompt-i-7"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">8</div>
+          <div>
+            <div class="question-text" id="prompt-i-8"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>Keep the children safe.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.8" aria-describedby="prompt-i-8"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">9</div>
+          <div>
+            <div class="question-text" id="prompt-i-9"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>He made his report short.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.9" aria-describedby="prompt-i-9"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">10</div>
+          <div>
+            <div class="question-text" id="prompt-i-10"><span class="exercise-label">I. Rewrite the following sentences with as… as possible — </span>Please walk quietly.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.10" aria-describedby="prompt-i-10"></textarea>
+          </div>
+        </li>
+      </ol>
+
+      <h3>II. Rewrite the following sentences beginning with It was not long before… or It will not be long before…</h3>
+      <p>用 It was not long before… 或 It will not be long before… 改写下列句子</p>
+      <p class="example-text">Example: Soon a helicopter arrived and rescued the survivors. → It was not long before a helicopter arrived and rescued the survivors.</p>
+      <ol start="1" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">1</div>
+          <div>
+            <div class="question-text" id="prompt-ii-1"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he was found by a party of mountaineers.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.1" aria-describedby="prompt-ii-1"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">2</div>
+          <div>
+            <div class="question-text" id="prompt-ii-2"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he left his hometown to seek his fortune in California.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.2" aria-describedby="prompt-ii-2"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">3</div>
+          <div>
+            <div class="question-text" id="prompt-ii-3"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he received a reply from the doctor.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.3" aria-describedby="prompt-ii-3"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">4</div>
+          <div>
+            <div class="question-text" id="prompt-ii-4"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he took the document and left for the airport.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.4" aria-describedby="prompt-ii-4"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">5</div>
+          <div>
+            <div class="question-text" id="prompt-ii-5"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon they discovered the mistake.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.5" aria-describedby="prompt-ii-5"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">6</div>
+          <div>
+            <div class="question-text" id="prompt-ii-6"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he finished the book.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.6" aria-describedby="prompt-ii-6"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">7</div>
+          <div>
+            <div class="question-text" id="prompt-ii-7"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon the water evaporated again.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.7" aria-describedby="prompt-ii-7"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">8</div>
+          <div>
+            <div class="question-text" id="prompt-ii-8"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon the ice broke.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.8" aria-describedby="prompt-ii-8"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">9</div>
+          <div>
+            <div class="question-text" id="prompt-ii-9"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon you will learn to speak Chinese.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.9" aria-describedby="prompt-ii-9"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">10</div>
+          <div>
+            <div class="question-text" id="prompt-ii-10"><span class="exercise-label">II. Rewrite the following sentences beginning with It was not long before… or It will not be long before… — </span>Soon he will become a world famous star.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.10" aria-describedby="prompt-ii-10"></textarea>
+          </div>
+        </li>
+      </ol>
+
+      <h3>III. Fill in the blanks with the verbs in their proper tenses</h3>
+      <p>用动词的正确时态填空</p>
+      <ol start="1" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">1</div>
+          <div>
+            <div class="question-text" id="prompt-iii-1"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Mary  <input type="text" class="answer-field answer-gap" aria-label="blank iii.1" aria-describedby="prompt-iii-1">  (dance) well. She  <input type="text" class="answer-field answer-gap" aria-label="blank iii.1-2" aria-describedby="prompt-iii-1">  (dance) now.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.1" aria-describedby="prompt-iii-1"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">2</div>
+          <div>
+            <div class="question-text" id="prompt-iii-2"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>What  <input type="text" class="answer-field answer-gap" aria-label="blank iii.2" aria-describedby="prompt-iii-2">  you usually  <input type="text" class="answer-field answer-gap" aria-label="blank iii.2-2" aria-describedby="prompt-iii-2">  (do) in the morning?</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.2" aria-describedby="prompt-iii-2"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">3</div>
+          <div>
+            <div class="question-text" id="prompt-iii-3"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>What  <input type="text" class="answer-field answer-gap" aria-label="blank iii.3" aria-describedby="prompt-iii-3">  he often  <input type="text" class="answer-field answer-gap" aria-label="blank iii.3-2" aria-describedby="prompt-iii-3">  (read) in the morning?</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.3" aria-describedby="prompt-iii-3"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">4</div>
+          <div>
+            <div class="question-text" id="prompt-iii-4"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Hardly anyone  <input type="text" class="answer-field answer-gap" aria-label="blank iii.4" aria-describedby="prompt-iii-4">  (wear) dark glasses indoors.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.4" aria-describedby="prompt-iii-4"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">5</div>
+          <div>
+            <div class="question-text" id="prompt-iii-5"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>I  <input type="text" class="answer-field answer-gap" aria-label="blank iii.5" aria-describedby="prompt-iii-5">  (want) to go to the party. But I  <input type="text" class="answer-field answer-gap" aria-label="blank iii.5-2" aria-describedby="prompt-iii-5">  (do) my homework now.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.5" aria-describedby="prompt-iii-5"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">6</div>
+          <div>
+            <div class="question-text" id="prompt-iii-6"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Mary seldom  <input type="text" class="answer-field answer-gap" aria-label="blank iii.6" aria-describedby="prompt-iii-6">  (go) to the theatre by herself.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.6" aria-describedby="prompt-iii-6"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">7</div>
+          <div>
+            <div class="question-text" id="prompt-iii-7"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>They  <input type="text" class="answer-field answer-gap" aria-label="blank iii.7" aria-describedby="prompt-iii-7">  (visit) their grandparents once a month.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.7" aria-describedby="prompt-iii-7"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">8</div>
+          <div>
+            <div class="question-text" id="prompt-iii-8"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>What  <input type="text" class="answer-field answer-gap" aria-label="blank iii.8" aria-describedby="prompt-iii-8">  you  <input type="text" class="answer-field answer-gap" aria-label="blank iii.8-2" aria-describedby="prompt-iii-8">  (think) right now?</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.8" aria-describedby="prompt-iii-8"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">9</div>
+          <div>
+            <div class="question-text" id="prompt-iii-9"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Sometimes we  <input type="text" class="answer-field answer-gap" aria-label="blank iii.9" aria-describedby="prompt-iii-9">  (misjudge) people if we only go by appearance.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.9" aria-describedby="prompt-iii-9"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">10</div>
+          <div>
+            <div class="question-text" id="prompt-iii-10"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>He  <input type="text" class="answer-field answer-gap" aria-label="blank iii.10" aria-describedby="prompt-iii-10">  (believe) you are right.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.10" aria-describedby="prompt-iii-10"></textarea>
+          </div>
+        </li>
+      </ol>
+      <ol start="11" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">11</div>
+          <div>
+            <div class="question-text" id="prompt-iii-11"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>The man who  <input type="text" class="answer-field answer-gap" aria-label="blank iii.11" aria-describedby="prompt-iii-11">  (talk) to our teacher  <input type="text" class="answer-field answer-gap" aria-label="blank iii.11-2" aria-describedby="prompt-iii-11">  (speak) five languages.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.11" aria-describedby="prompt-iii-11"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">12</div>
+          <div>
+            <div class="question-text" id="prompt-iii-12"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span> <input type="text" class="answer-field answer-gap" aria-label="blank iii.12" aria-describedby="prompt-iii-12">  you  <input type="text" class="answer-field answer-gap" aria-label="blank iii.12-2" aria-describedby="prompt-iii-12">  (mind) my smoking here?</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.12" aria-describedby="prompt-iii-12"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">13</div>
+          <div>
+            <div class="question-text" id="prompt-iii-13"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>He usually  <input type="text" class="answer-field answer-gap" aria-label="blank iii.13" aria-describedby="prompt-iii-13">  (get) up at five in the morning.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.13" aria-describedby="prompt-iii-13"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">14</div>
+          <div>
+            <div class="question-text" id="prompt-iii-14"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>He seldom  <input type="text" class="answer-field answer-gap" aria-label="blank iii.14" aria-describedby="prompt-iii-14">  (drink) coffee, but he  <input type="text" class="answer-field answer-gap" aria-label="blank iii.14-2" aria-describedby="prompt-iii-14">  (drink) a cup now.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.14" aria-describedby="prompt-iii-14"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">15</div>
+          <div>
+            <div class="question-text" id="prompt-iii-15"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Look at the girls. They  <input type="text" class="answer-field answer-gap" aria-label="blank iii.15" aria-describedby="prompt-iii-15">  (play) with their toys.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.15" aria-describedby="prompt-iii-15"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">16</div>
+          <div>
+            <div class="question-text" id="prompt-iii-16"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span> <input type="text" class="answer-field answer-gap" aria-label="blank iii.16" aria-describedby="prompt-iii-16">  you (not, think)  <input type="text" class="answer-field answer-gap" aria-label="blank iii.16-2" aria-describedby="prompt-iii-16">  these dresses  <input type="text" class="answer-field answer-gap" aria-label="blank iii.16-3" aria-describedby="prompt-iii-16">  (be) out of date?</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.16" aria-describedby="prompt-iii-16"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">17</div>
+          <div>
+            <div class="question-text" id="prompt-iii-17"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Neither I nor Peter  <input type="text" class="answer-field answer-gap" aria-label="blank iii.17" aria-describedby="prompt-iii-17">  (like) playing football.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.17" aria-describedby="prompt-iii-17"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">18</div>
+          <div>
+            <div class="question-text" id="prompt-iii-18"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>The bucket  <input type="text" class="answer-field answer-gap" aria-label="blank iii.18" aria-describedby="prompt-iii-18">  (be) full of water.  <input type="text" class="answer-field answer-gap" aria-label="blank iii.18-2" aria-describedby="prompt-iii-18">  (put) it on the fire now.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.18" aria-describedby="prompt-iii-18"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">19</div>
+          <div>
+            <div class="question-text" id="prompt-iii-19"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>Lily often  <input type="text" class="answer-field answer-gap" aria-label="blank iii.19" aria-describedby="prompt-iii-19">  (buy) a lottery ticket, but she seldom  <input type="text" class="answer-field answer-gap" aria-label="blank iii.19-2" aria-describedby="prompt-iii-19">  (win).</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.19" aria-describedby="prompt-iii-19"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">20</div>
+          <div>
+            <div class="question-text" id="prompt-iii-20"><span class="exercise-label">III. Fill in the blanks with the verbs in their proper tenses — </span>A person  <input type="text" class="answer-field answer-gap" aria-label="blank iii.20" aria-describedby="prompt-iii-20">  (have) no idea what an elephant  <input type="text" class="answer-field answer-gap" aria-label="blank iii.20-2" aria-describedby="prompt-iii-20">  (be) like if he  <input type="text" class="answer-field answer-gap" aria-label="blank iii.20-3" aria-describedby="prompt-iii-20">  never  <input type="text" class="answer-field answer-gap" aria-label="blank iii.20-4" aria-describedby="prompt-iii-20">  (see) one.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to III.20" aria-describedby="prompt-iii-20"></textarea>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="original-images" class="original-images">
+      <h2>Original lesson images</h2>
+      <p class="section-intro">The scanned pages below are the source material for this lesson.</p>
+      <details class="original-page" id="original-page-1">
+        <summary>Open original page 1</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-075/page-001.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-075/page-001.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-075/page-001.png" alt="Original scan page 1 for NCE Grammar Practice 2 Lesson 75" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-2">
+        <summary>Open original page 2</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-075/page-002.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-075/page-002.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-075/page-002.png" alt="Original scan page 2 for NCE Grammar Practice 2 Lesson 75" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-3">
+        <summary>Open original page 3</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-075/page-003.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-075/page-003.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-075/page-003.png" alt="Original scan page 3 for NCE Grammar Practice 2 Lesson 75" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-4">
+        <summary>Open original page 4</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-075/page-004.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-075/page-004.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-075/page-004.png" alt="Original scan page 4 for NCE Grammar Practice 2 Lesson 75" width="1240" height="1755">
+        </div>
+      </details>
+    </section>
+
+    <section id="lesson-notes" class="lesson-notes">
+      <label for="notes">Lesson notes</label>
+      <textarea id="notes" aria-label="Lesson notes"></textarea>
+    </section>
+
+        <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-074.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 75 of 96</span><a href="lesson-076.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
+  </main>
+
+  <script>
+    (() => {
+      const key = () => ["nce-grammar", "NCE Grammar Practice 2", "lesson-075", location.pathname.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")].join(":");
+      const fields = Array.from(document.querySelectorAll(".answer-field"));
+      const notes = document.getElementById("notes");
+      const submitButton = document.getElementById("submit-answers");
+      const downloadButton = document.getElementById("download-answers");
+      const readValue = (field) => (field.value || "").trim();
+      const save = () => {
+        const payload = { lesson: "lesson-075", title: "Lesson 75: SOS", answers: {}, notes: readValue(notes), savedAt: new Date().toISOString() };
+        fields.forEach((field, index) => { payload.answers[`answer-${index + 1}`] = readValue(field); });
+        localStorage.setItem(key(), JSON.stringify(payload));
+      };
+      const restore = () => {
+        const raw = localStorage.getItem(key());
+        if (!raw) return;
+        try {
+          const payload = JSON.parse(raw);
+          fields.forEach((field, index) => { field.value = payload?.answers?.[`answer-${index + 1}`] || ""; });
+          notes.value = payload?.notes || "";
+        } catch (error) { console.warn("Could not restore saved lesson answers.", error); }
+      };
+      const summarize = () => {
+        const answered = fields.filter((field) => readValue(field)).length;
+        const answeredNotes = readValue(notes) ? "yes" : "no";
+        return { answered, total: fields.length, notes: answeredNotes };
+      };
+      const toMarkdown = () => {
+        const summary = summarize();
+        const lines = [
+          "# NCE Grammar Practice 2 — Lesson 75: SOS",
+          "",
+          `Saved at: ${new Date().toLocaleString()}`,
+          `Answered: ${summary.answered} of ${summary.total}`,
+          `Notes: ${summary.notes}`,
+          "",
+          "## Answers",
+          ""
+        ];
+        fields.forEach((field, index) => {
+          const prompt = document.getElementById(field.getAttribute("aria-describedby"))?.textContent || `Question ${index + 1}`;
+          const answer = readValue(field) || "(not answered)";
+          lines.push(`${index + 1}. **${prompt.trim()}**`, "", `   ${answer}`, "");
+        });
+        lines.push("## Lesson notes", "", readValue(notes) || "(none)");
+        return lines.join("\n");
+      };
+      submitButton?.addEventListener("click", () => { save(); submitButton.textContent = "Submitted!"; window.setTimeout(() => { submitButton.textContent = "Submit lesson"; }, 1800); });
+      downloadButton?.addEventListener("click", () => {
+        const blob = new Blob([toMarkdown()], { type: "text/markdown;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "nce2-lesson-075-answers.md";
+        link.click();
+        URL.revokeObjectURL(url);
+      });
+      fields.forEach((field) => field.addEventListener("input", save));
+      notes?.addEventListener("input", save);
+      restore();
+    })();
+  </script>
+  <script src="lesson-navigation.js"></script>
+</body>
+</html>

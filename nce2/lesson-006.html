@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson 6: Percy Buttons | NCE Grammar Practice 2</title>
+  <style>
+    :root { color-scheme: light; --ink: #17252f; --muted: #61717c; --paper: #fffefa; --canvas: #e9f0f2; --line: #d0dade; --accent: #0b7285; --accent-dark: #075b69; --highlight: #f3b743; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--canvas); color: var(--ink); font: 17px/1.65 Arial, Helvetica, sans-serif; }
+    .page { width: min(900px, calc(100% - 36px)); margin: 0 auto; padding: 42px 0 64px; }
+    header { padding: 0 0 25px; border-bottom: 4px solid var(--highlight); }
+    .series { margin: 0 0 8px; color: var(--accent-dark); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    h1, h2 { line-height: 1.25; letter-spacing: 0; }
+    h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 600; }
+    h2 { margin: 36px 0 12px; color: var(--accent-dark); font-size: 1.25rem; }
+    .lesson-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+    .export-button { padding: 10px 14px; border: 1px solid var(--accent); border-radius: 4px; background: #fff; color: var(--accent-dark); font: inherit; font-weight: 700; cursor: pointer; }
+    .export-button:hover, .export-button:focus-visible { background: var(--accent); color: #fff; }
+    .export-button:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
+    article { margin-top: 28px; padding: 4px 32px 30px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+    p { margin: 15px 0; }
+    ol, ul { margin: 14px 0; padding-left: 1.7em; }
+    li { margin: 13px 0; padding-left: .25em; }
+    .answer-field, .lesson-notes textarea { display: block; width: 100%; margin: 8px 0 3px; padding: 9px 10px; resize: vertical; border: 1px solid #aebec5; border-radius: 4px; background: #fff; color: var(--ink); font: inherit; line-height: 1.45; }
+    .answer-field.answer-gap { display: inline-block; width: min(240px, 100%); height: auto; padding: 7px 10px; vertical-align: middle; }
+    answer-field:focus, .lesson-notes textarea:focus { border-color: var(--accent); outline: 3px solid rgba(11, 114, 133, .18); outline-offset: 1px; }
+    .lesson-notes { margin-top: 36px; padding: 18px; border: 1px solid #c5dadd; border-left: 4px solid var(--accent); background: #f1f8f8; }
+    .lesson-notes h2 { margin: 0 0 8px; }
+    .lesson-notes p { margin: 0 0 10px; color: var(--muted); font-size: .92rem; }
+    code { padding: .08em .3em; background: #e7f1f2; border-radius: 3px; color: #075b69; font: .92em/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    em { font-family: Georgia, 'Times New Roman', serif; }
+    nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; margin-top: 28px; color: var(--muted); font-size: .9rem; text-align: center; }
+    nav a { width: max-content; padding: 9px 12px; border: 1px solid var(--accent); border-radius: 4px; color: var(--accent-dark); font-weight: 700; text-decoration: none; }
+    nav a:hover, nav a:focus-visible { background: var(--accent); color: #fff; }
+    nav a:last-child { justify-self: end; }
+    nav a:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
+    @media (max-width: 600px) { body { font-size: 16px; } .page { width: min(100% - 24px, 900px); padding-top: 28px; } article { padding: 3px 20px 22px; } nav { grid-template-columns: 1fr 1fr; } nav > span:nth-child(2) { grid-column: 1 / -1; grid-row: 1; } nav > a, nav > span:first-child, nav > span:last-child { grid-row: 2; } nav a:last-child { justify-self: end; } }
+  </style>
+  <link rel="stylesheet" href="lesson-navigation.css">
+  <link rel="stylesheet" href="lesson-content.css">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="series">NCE Grammar Practice 2</p>
+      <h1>Lesson 6: Percy Buttons</h1>
+      <p style="margin: 10px 0 0; color: var(--muted);">珀西 · 巴顿斯 · Practice &amp; Progress</p>
+    </header>
+    <article>
+      <section class="lesson-section" id="grammar-practice" aria-labelledby="grammar-heading">
+        <h2 id="grammar-heading">Grammar exercises · 语法练习</h2>
+        <h3>I. Fill in the blanks with the correct phrases in the appropriate form.</h3>
+        <p>用下列短语的适当形式填空。</p>
+        <p><code>move about</code> · <code>move along</code> · <code>move back</code> · <code>move in</code> · <code>move off</code> · <code>move out</code></p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-i-1"><span class="exercise-label">I. Move — </span>The Smiths <input type="text" class="answer-field answer-gap" aria-label="Exercise I, blank 1" aria-describedby="prompt-i-1"> last week and the new tenants will  <input type="text" class="answer-field answer-gap" aria-label="blank i.1" aria-describedby="prompt-i-1">  next Saturday.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-2"><span class="exercise-label">I. Move — </span>Before we had time to get into the car, it had started to <input type="text" class="answer-field answer-gap" aria-label="Exercise I, blank 2" aria-describedby="prompt-i-2">.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-3"><span class="exercise-label">I. Move — </span>The couple left the city last year, but they want to <input type="text" class="answer-field answer-gap" aria-label="Exercise I, blank 3" aria-describedby="prompt-i-3"> now.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-4"><span class="exercise-label">I. Move — </span>You won't feel cold if you keep <input type="text" class="answer-field answer-gap" aria-label="Exercise I, blank 4" aria-describedby="prompt-i-4">.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-5"><span class="exercise-label">I. Move — </span>The bus conductor urged us to <input type="text" class="answer-field answer-gap" aria-label="Exercise I, blank 5" aria-describedby="prompt-i-5"> as soon as we got onto the bus.</div>
+          </li>
+        </ol>
+        <h3>II. Fill in the blanks with the correct phrases in the appropriate form.</h3>
+        <p>用下列短语的适当形式填空。</p>
+        <p><code>knock off</code> · <code>knock at/on</code> · <code>knock down</code> · <code>knock over</code> · <code>knock out</code></p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-ii-1"><span class="exercise-label">II. Knock — </span>The old lady was almost <input type="text" class="answer-field answer-gap" aria-label="Exercise II, blank 1" aria-describedby="prompt-ii-1"> when she was crossing the road.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-2"><span class="exercise-label">II. Knock — </span>These old buildings will be <input type="text" class="answer-field answer-gap" aria-label="Exercise II, blank 2" aria-describedby="prompt-ii-2"> to make way for a new one.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-3"><span class="exercise-label">II. Knock — </span>We usually <input type="text" class="answer-field answer-gap" aria-label="Exercise II, blank 3" aria-describedby="prompt-ii-3"> at five thirty every day.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-4"><span class="exercise-label">II. Knock — </span>I heard someone <input type="text" class="answer-field answer-gap" aria-label="Exercise II, blank 4" aria-describedby="prompt-ii-4"> the door, but when I opened it, there was nobody there.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-5"><span class="exercise-label">II. Knock — </span>The boxer <input type="text" class="answer-field answer-gap" aria-label="Exercise II, blank 5" aria-describedby="prompt-ii-5"> his opponent in the first round of the fight.</div>
+          </li>
+        </ol>
+        <h3>III. Fill in the blanks with the correct phrases in the appropriate form.</h3>
+        <p>用下列短语的适当形式填空。</p>
+        <p><code>look for trouble</code> · <code>look down upon/on</code> · <code>look forward to</code> · <code>look out</code></p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-iii-1"><span class="exercise-label">III. Look — </span>If you don't <input type="text" class="answer-field answer-gap" aria-label="Exercise III, blank 1" aria-describedby="prompt-iii-1">, you'll be cheated again.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-2"><span class="exercise-label">III. Look — </span>We'll be <input type="text" class="answer-field answer-gap" aria-label="Exercise III, blank 2" aria-describedby="prompt-iii-2"> by others if we cannot get the work done on time.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-3"><span class="exercise-label">III. Look — </span>He is <input type="text" class="answer-field answer-gap" aria-label="Exercise III, blank 3" aria-describedby="prompt-iii-3"> the day when he can be a student in Cambridge.</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-4"><span class="exercise-label">III. Look — </span>He's just <input type="text" class="answer-field answer-gap" aria-label="Exercise III, blank 4" aria-describedby="prompt-iii-4"> if he thinks he can speak to my big brother like that!</div>
+          </li>
+        </ol>
+        <h3>IV. Fill in the blanks with a, the or some where necessary.</h3>
+        <p>在必要处用 a, the 或 some 填空。</p>
+        <p>
+          1.
+          <code>a.</code> little white duck was sleeping under
+          <code>b.</code> tree in
+          <code>c.</code> wood. There were
+          <code>d.</code> nuts on
+          <code>e.</code> tree. While the duck was sleeping, one of
+          <code>f.</code> nuts fell off
+          <code>g.</code> tree and hit her on
+          <code>h.</code> head. She woke up very afraid.
+          2.
+          <code>a.</code> King of Persia sat in his hall. There was
+          <code>b.</code> great fire, for it was cold. The house was on
+          <code>c.</code> hill near
+          <code>d.</code> sea.
+          <code>e.</code> King got up from where he was sitting by
+          <code>f.</code> fire, and went to look at
+          <code>g.</code> sea; it was
+          <code>h.</code> angry night outside; the rain was falling and
+          <code>i.</code> sea made
+          <code>j.</code> great noise at
+          <code>k.</code> foot of
+          <code>l.</code> hill.
+        </p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-iv-1"><span class="exercise-label">IV. a/the/some — </span>1.a. <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1a" aria-describedby="prompt-iv-1"> little white duck was sleeping</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-2"><span class="exercise-label">IV. a/the/some — </span>1.b. sleeping under <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1b" aria-describedby="prompt-iv-2"> tree</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-3"><span class="exercise-label">IV. a/the/some — </span>1.c. under a tree in <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1c" aria-describedby="prompt-iv-3"> wood</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-4"><span class="exercise-label">IV. a/the/some — </span>1.d. There were <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1d" aria-describedby="prompt-iv-4"> nuts on the tree</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-5"><span class="exercise-label">IV. a/the/some — </span>1.e. nuts on <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1e" aria-describedby="prompt-iv-5"> tree</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-6"><span class="exercise-label">IV. a/the/some — </span>1.f. one of <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1f" aria-describedby="prompt-iv-6"> nuts fell off</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-7"><span class="exercise-label">IV. a/the/some — </span>1.g. fell off <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1g" aria-describedby="prompt-iv-7"> tree</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-8"><span class="exercise-label">IV. a/the/some — </span>1.h. hit her on <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 1h" aria-describedby="prompt-iv-8"> head</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-9"><span class="exercise-label">IV. a/the/some — </span>2.a. <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2a" aria-describedby="prompt-iv-9"> King of Persia sat in his hall</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-10"><span class="exercise-label">IV. a/the/some — </span>2.b. There was <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2b" aria-describedby="prompt-iv-10"> great fire</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-11"><span class="exercise-label">IV. a/the/some — </span>2.c. The house was on <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2c" aria-describedby="prompt-iv-11"> hill</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-12"><span class="exercise-label">IV. a/the/some — </span>2.d. hill near <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2d" aria-describedby="prompt-iv-12"> sea</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-13"><span class="exercise-label">IV. a/the/some — </span>2.e. <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2e" aria-describedby="prompt-iv-13"> King got up</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-14"><span class="exercise-label">IV. a/the/some — </span>2.f. sitting by <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2f" aria-describedby="prompt-iv-14"> fire</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-15"><span class="exercise-label">IV. a/the/some — </span>2.g. went to look at <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2g" aria-describedby="prompt-iv-15"> sea</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-16"><span class="exercise-label">IV. a/the/some — </span>2.h. it was <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2h" aria-describedby="prompt-iv-16"> angry night outside</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-17"><span class="exercise-label">IV. a/the/some — </span>2.i. and <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2i" aria-describedby="prompt-iv-17"> sea made</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-18"><span class="exercise-label">IV. a/the/some — </span>2.j. made <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2j" aria-describedby="prompt-iv-18"> great noise</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-19"><span class="exercise-label">IV. a/the/some — </span>2.k. at <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2k" aria-describedby="prompt-iv-19"> foot of the hill</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iv-20"><span class="exercise-label">IV. a/the/some — </span>2.l. foot of <input type="text" class="answer-field answer-gap" aria-label="Exercise IV, blank 2l" aria-describedby="prompt-iv-20"> hill</div>
+          </li>
+        </ol>
+        <h3>V. Choose from the alternatives the one which best fits into the blank.</h3>
+        <p>选择最恰当的答案填空。</p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-v-1"><span class="exercise-label">V. Multiple choice — </span>She asked <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 1" aria-describedby="prompt-v-1"> me where the money was and I told her. a) to&nbsp;&nbsp; b) ×&nbsp;&nbsp; c) for&nbsp;&nbsp; d) from</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-2"><span class="exercise-label">V. Multiple choice — </span>Pick <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 2" aria-describedby="prompt-v-2"> all the pieces of paper you have dropped. a) ×&nbsp;&nbsp; b) up&nbsp;&nbsp; c) away&nbsp;&nbsp; d) for</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-3"><span class="exercise-label">V. Multiple choice — </span>He was looking <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 3" aria-describedby="prompt-v-3"> his pen but he couldn't find it. a) about&nbsp;&nbsp; b) for&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) to</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-4"><span class="exercise-label">V. Multiple choice — </span>They entered <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 4" aria-describedby="prompt-v-4"> the old man's room very quietly. a) into&nbsp;&nbsp; b) in&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) inside</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-5"><span class="exercise-label">V. Multiple choice — </span>As it was hot, we took <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 5" aria-describedby="prompt-v-5"> the coats we were wearing. a) from&nbsp;&nbsp; b) off&nbsp;&nbsp; c) away from&nbsp;&nbsp; d) of</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-6"><span class="exercise-label">V. Multiple choice — </span>We thanked him <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 6" aria-describedby="prompt-v-6"> his help. a) for&nbsp;&nbsp; b) about&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) to</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-7"><span class="exercise-label">V. Multiple choice — </span>You'll have to explain <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 7" aria-describedby="prompt-v-7"> the teacher why you are late. a) with&nbsp;&nbsp; b) to&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) at</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-8"><span class="exercise-label">V. Multiple choice — </span>She has a lot of toys but she likes to play <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 8" aria-describedby="prompt-v-8"> her old doll. a) with&nbsp;&nbsp; b) at&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) about</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-9"><span class="exercise-label">V. Multiple choice — </span>The prisoner was locked <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 9" aria-describedby="prompt-v-9"> and could not escape. a) ×&nbsp;&nbsp; b) for&nbsp;&nbsp; c) on&nbsp;&nbsp; d) up</div>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-v-10"><span class="exercise-label">V. Multiple choice — </span>He can't pay <input type="text" class="answer-field answer-gap" aria-label="Exercise V, item 10" aria-describedby="prompt-v-10"> all the books he needs. a) for&nbsp;&nbsp; b) to&nbsp;&nbsp; c) ×&nbsp;&nbsp; d) by</div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="lesson-section" id="original-images" aria-labelledby="originals-heading">
+        <h2 id="originals-heading">Original images · 原图对照</h2>
+        <p>Expand a page to compare it with the transcription. Open the original in a new tab to zoom in.<br>展开原图核对文字，也可以在新标签页打开原图放大查看。</p>
+        <details class="original-page">
+          <summary>Book page 1 · Exercise I (move phrases) and Exercise II (knock, items 1–2)</summary>
+          <p class="original-actions"><a href="images/lesson-006/page-001.png" target="_blank" rel="noopener noreferrer">Open original · 打开原图 ↗</a> <a href="images/lesson-006/page-001.png" download>Download original · 下载原图</a></p>
+          <div class="original-image-frame" style="aspect-ratio: 1240 / 1755">
+            <img src="images/lesson-006/page-001.png" width="1240" height="1755" alt="Lesson 6, book page 1 — Exercise I move phrases and Exercise II knock items 1 to 2 — original scanned page" loading="lazy" decoding="async" style="width: 100%; transform: translate(-50%, -50%) rotate(0deg)">
+          </div>
+        </details>
+        <details class="original-page">
+          <summary>Book page 2 · Exercise II (items 3–5), Exercise III (look), and Exercise IV (items 1–2 start)</summary>
+          <p class="original-actions"><a href="images/lesson-006/page-002.png" target="_blank" rel="noopener noreferrer">Open original · 打开原图 ↗</a> <a href="images/lesson-006/page-002.png" download>Download original · 下载原图</a></p>
+          <div class="original-image-frame" style="aspect-ratio: 1240 / 1755">
+            <img src="images/lesson-006/page-002.png" width="1240" height="1755" alt="Lesson 6, book page 2 — Exercise II items 3 to 5, Exercise III look, Exercise IV start — original scanned page" loading="lazy" decoding="async" style="width: 100%; transform: translate(-50%, -50%) rotate(0deg)">
+          </div>
+        </details>
+        <details class="original-page">
+          <summary>Book page 3 · Exercise IV (item 2 continued) and Exercise V (items 1–7)</summary>
+          <p class="original-actions"><a href="images/lesson-006/page-003.png" target="_blank" rel="noopener noreferrer">Open original · 打开原图 ↗</a> <a href="images/lesson-006/page-003.png" download>Download original · 下载原图</a></p>
+          <div class="original-image-frame" style="aspect-ratio: 1240 / 1755">
+            <img src="images/lesson-006/page-003.png" width="1240" height="1755" alt="Lesson 6, book page 3 — Exercise IV item 2 and Exercise V items 1 to 7 — original scanned page" loading="lazy" decoding="async" style="width: 100%; transform: translate(-50%, -50%) rotate(0deg)">
+          </div>
+        </details>
+        <details class="original-page">
+          <summary>Book page 4 · Exercise V (items 8–10)</summary>
+          <p class="original-actions"><a href="images/lesson-006/page-004.png" target="_blank" rel="noopener noreferrer">Open original · 打开原图 ↗</a> <a href="images/lesson-006/page-004.png" download>Download original · 下载原图</a></p>
+          <div class="original-image-frame" style="aspect-ratio: 1240 / 1755">
+            <img src="images/lesson-006/page-004.png" width="1240" height="1755" alt="Lesson 6, book page 4 — Exercise V items 8 to 10 — original scanned page" loading="lazy" decoding="async" style="width: 100%; transform: translate(-50%, -50%) rotate(0deg)">
+          </div>
+        </details>
+      </section>
+
+      <section class="lesson-notes" aria-labelledby="notes-heading">
+        <h2 id="notes-heading">Your notes and answers</h2>
+        <p>Use this space for longer responses or exercises that do not have an individual answer box.</p>
+        <textarea rows="8" aria-label="Your notes and answers"></textarea>
+      </section>
+    </article>
+        <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-005.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 6 of 96</span><a href="lesson-007.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
+  </main>
+  <script src="lesson-content.js"></script>
+  <script>
+    const storageKey = 'nce-grammar:' + location.pathname;
+    const fields = [...document.querySelectorAll('textarea, input.answer-field')];
+    const savedAnswers = JSON.parse(localStorage.getItem(storageKey) || '[]');
+    fields.forEach((field, index) => {
+      field.value = savedAnswers[index] || '';
+      field.addEventListener('input', () => {
+        localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
+      });
+    });
+    document.querySelector('#download-answers').addEventListener('click', () => {
+      const completedAnswers = fields
+        .map((field, index) => ({ field, index, answer: field.value.trim() }))
+        .filter(({ answer }) => answer);
+      const exportedAt = new Date().toLocaleString();
+      const sections = [
+        '# NCE Grammar Practice 2 - Lesson 6: Percy Buttons',
+        '',
+        'Exported: ' + exportedAt,
+        '',
+        '## Answers',
+        ''
+      ];
+      if (completedAnswers.length === 0) {
+        sections.push('No answers have been entered yet.');
+      }
+      for (const { field, index, answer } of completedAnswers) {
+        const prompt = field.closest('li')?.querySelector('.question-text')?.textContent.trim();
+        const heading = prompt ? 'Question ' + (index + 1) : 'Notes and longer answers';
+        sections.push('### ' + heading, '');
+        if (prompt) sections.push('**Prompt:** ' + prompt, '');
+        sections.push('**Your answer:**', '', answer, '');
+      }
+      const blob = new Blob([sections.join('\n')], { type: 'text/markdown;charset=utf-8' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'nce2-lesson-006-answers.md';
+      link.click();
+      URL.revokeObjectURL(link.href);
+    });
+  </script>
+  <script src="lesson-navigation.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson 7: Too late | NCE Grammar Practice 2</title>
+  <style>
+    :root { color-scheme: light; --ink: #17252f; --muted: #61717c; --paper: #fffefa; --canvas: #e9f0f2; --line: #d0dade; --accent: #0b7285; --accent-dark: #075b69; --highlight: #f3b743; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--canvas); color: var(--ink); font: 17px/1.65 Arial, Helvetica, sans-serif; }
+    .page { width: min(900px, calc(100% - 36px)); margin: 0 auto; padding: 42px 0 64px; }
+    header { padding: 0 0 25px; border-bottom: 4px solid var(--highlight); }
+    .series { margin: 0 0 8px; color: var(--accent-dark); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    h1, h2 { line-height: 1.25; letter-spacing: 0; }
+    h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 600; }
+    h2 { margin: 36px 0 12px; color: var(--accent-dark); font-size: 1.25rem; }
+    .lesson-actions { display: flex; justify-content: flex-end; margin-top: 18px; }
+    .export-button { padding: 10px 14px; border: 1px solid var(--accent); border-radius: 4px; background: #fff; color: var(--accent-dark); font: inherit; font-weight: 700; cursor: pointer; }
+    .export-button:hover, .export-button:focus-visible { background: var(--accent); color: #fff; }
+    .export-button:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
+    article { margin-top: 28px; padding: 4px 32px 30px; background: var(--paper); border: 1px solid var(--line); border-radius: 6px; }
+    p { margin: 15px 0; }
+    ol, ul { margin: 14px 0; padding-left: 1.7em; }
+    li { margin: 13px 0; padding-left: .25em; }
+    .answer-field, .lesson-notes textarea { display: block; width: 100%; margin: 8px 0 3px; padding: 9px 10px; resize: vertical; border: 1px solid #aebec5; border-radius: 4px; background: #fff; color: var(--ink); font: inherit; line-height: 1.45; }
+    .answer-field.answer-gap { display: inline-block; width: min(240px, 100%); height: auto; padding: 7px 10px; vertical-align: middle; }
+    answer-field:focus, .lesson-notes textarea:focus { border-color: var(--accent); outline: 3px solid rgba(11, 114, 133, .18); outline-offset: 1px; }
+    .lesson-notes { margin-top: 36px; padding: 18px; border: 1px solid #c5dadd; border-left: 4px solid var(--accent); background: #f1f8f8; }
+    .lesson-notes h2 { margin: 0 0 8px; }
+    .lesson-notes p { margin: 0 0 10px; color: var(--muted); font-size: .92rem; }
+    code { padding: .08em .3em; background: #e7f1f2; border-radius: 3px; color: #075b69; font: .92em/1.2 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    em { font-family: Georgia, 'Times New Roman', serif; }
+    nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; margin-top: 28px; color: var(--muted); font-size: .9rem; text-align: center; }
+    nav a { width: max-content; padding: 9px 12px; border: 1px solid var(--accent); border-radius: 4px; color: var(--accent-dark); font-weight: 700; text-decoration: none; }
+    nav a:hover, nav a:focus-visible { background: var(--accent); color: #fff; }
+    nav a:last-child { justify-self: end; }
+    nav a:focus-visible { outline: 3px solid var(--highlight); outline-offset: 2px; }
+    @media (max-width: 600px) { body { font-size: 16px; } .page { width: min(100% - 24px, 900px); padding-top: 28px; } article { padding: 3px 20px 22px; } nav { grid-template-columns: 1fr 1fr; } nav > span:nth-child(2) { grid-column: 1 / -1; grid-row: 1; } nav > a, nav > span:first-child, nav > span:last-child { grid-row: 2; } nav a:last-child { justify-self: end; } }
+  </style>
+  <link rel="stylesheet" href="lesson-navigation.css">
+  <link rel="stylesheet" href="lesson-content.css">
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="series">NCE Grammar Practice 2</p>
+      <h1>Lesson 7: Too late</h1>
+      <p style="margin: 10px 0 0; color: var(--muted);">为时太晚 · Practice &amp; Progress</p>
+    </header>
+    <article>
+      <section class="lesson-section" id="grammar-practice" aria-labelledby="grammar-heading">
+        <h2 id="grammar-heading">Grammar exercises · 语法练习</h2>
+        <h3>I. Join the following sentences using the past continuous tense and the word in brackets.</h3>
+        <p>仿照例句用过去进行时和括号中的词连接下列句子。</p>
+        <p class="worked-example"><strong>Example · 例句</strong><br>They waited on the airfield. Then the plane arrived. (when)<br><strong>They were waiting on the airfield when the plane arrived.</strong></p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-i-1"><span class="exercise-label">I. Past continuous — </span>We expected a letter from Mary. Mary came to visit us. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 1" aria-describedby="prompt-i-1"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-2"><span class="exercise-label">I. Past continuous — </span>Two detectives kept guard at the door. Then two others opened the parcel. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 2" aria-describedby="prompt-i-2"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-3"><span class="exercise-label">I. Past continuous — </span>I phoned for the doctor from a phone-box. My wife was helping the old man. (while)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 3" aria-describedby="prompt-i-3"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-4"><span class="exercise-label">I. Past continuous — </span>The secretary wrote a letter to a client. The boss called her. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 4" aria-describedby="prompt-i-4"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-5"><span class="exercise-label">I. Past continuous — </span>The firemen hurried in the direction of the fire. Then we heard the alarm. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 5" aria-describedby="prompt-i-5"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-6"><span class="exercise-label">I. Past continuous — </span>The girl practised the violin at home. We enjoyed ourselves outside. (while)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 6" aria-describedby="prompt-i-6"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-7"><span class="exercise-label">I. Past continuous — </span>The lazy boy lay in bed. His sister was doing morning exercises outside. (while)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 7" aria-describedby="prompt-i-7"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-8"><span class="exercise-label">I. Past continuous — </span>The beautiful young lady wore a blue hat. I saw her at the party. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 8" aria-describedby="prompt-i-8"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-9"><span class="exercise-label">I. Past continuous — </span>He had a nap at one o'clock. We went back to work. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 9" aria-describedby="prompt-i-9"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-i-10"><span class="exercise-label">I. Past continuous — </span>I took a walk with my friend. We met our old teacher. (when)</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise I, item 10" aria-describedby="prompt-i-10"></textarea>
+          </li>
+        </ol>
+        <h3>II. Put the verbs in brackets into the past simple or past continuous tense.</h3>
+        <p>将括号中的动词改写成一般过去时或过去进行时。</p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-ii-1"><span class="exercise-label">II. Past simple/continuous — </span>I lit the fire at 6:00 and it  <input type="text" class="answer-field answer-gap" aria-label="blank ii.1" aria-describedby="prompt-ii-1">  (burn) brightly when my wife came back at 9:00.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 1" aria-describedby="prompt-ii-1"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-2"><span class="exercise-label">II. Past simple/continuous — </span>He  <input type="text" class="answer-field answer-gap" aria-label="blank ii.2" aria-describedby="prompt-ii-2">  (have) a bath when the phone rang. Very unwillingly he  <input type="text" class="answer-field answer-gap" aria-label="blank ii.2-2" aria-describedby="prompt-ii-2">  (get) out of the bath and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.2-3" aria-describedby="prompt-ii-2">  (go) to answer it.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 2" aria-describedby="prompt-ii-2"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-3"><span class="exercise-label">II. Past simple/continuous — </span>My dog  <input type="text" class="answer-field answer-gap" aria-label="blank ii.3" aria-describedby="prompt-ii-3">  (walk) along quietly when the boy attacked him.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 3" aria-describedby="prompt-ii-3"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-4"><span class="exercise-label">II. Past simple/continuous — </span>The burglar  <input type="text" class="answer-field answer-gap" aria-label="blank ii.4" aria-describedby="prompt-ii-4">  (open) the safe when he  <input type="text" class="answer-field answer-gap" aria-label="blank ii.4-2" aria-describedby="prompt-ii-4">  (hear) footsteps. He immediately  <input type="text" class="answer-field answer-gap" aria-label="blank ii.4-3" aria-describedby="prompt-ii-4">  (turn) off his torch and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.4-4" aria-describedby="prompt-ii-4">  (crawl) under the bed.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 4" aria-describedby="prompt-ii-4"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-5"><span class="exercise-label">II. Past simple/continuous — </span>You looked very busy when I saw you last night. What  <input type="text" class="answer-field answer-gap" aria-label="blank ii.5" aria-describedby="prompt-ii-5">  you  <input type="text" class="answer-field answer-gap" aria-label="blank ii.5-2" aria-describedby="prompt-ii-5">  (do)?</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 5" aria-describedby="prompt-ii-5"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-6"><span class="exercise-label">II. Past simple/continuous — </span>He  <input type="text" class="answer-field answer-gap" aria-label="blank ii.6" aria-describedby="prompt-ii-6">  (play) the guitar outside her house when someone opened the window and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.6-2" aria-describedby="prompt-ii-6">  (throw) a bucket of water over him.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 6" aria-describedby="prompt-ii-6"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-7"><span class="exercise-label">II. Past simple/continuous — </span>I looked over the wall and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.7" aria-describedby="prompt-ii-7">  (see) my neighbour. He  <input type="text" class="answer-field answer-gap" aria-label="blank ii.7-2" aria-describedby="prompt-ii-7">  (plant) cabbages and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.7-3" aria-describedby="prompt-ii-7">  (be) too busy to speak to me.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 7" aria-describedby="prompt-ii-7"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-8"><span class="exercise-label">II. Past simple/continuous — </span>While the guests  <input type="text" class="answer-field answer-gap" aria-label="blank ii.8" aria-describedby="prompt-ii-8">  (dance) thieves  <input type="text" class="answer-field answer-gap" aria-label="blank ii.8-2" aria-describedby="prompt-ii-8">  (break) into the house and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.8-3" aria-describedby="prompt-ii-8">  (steal) a lot of fur coats.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 8" aria-describedby="prompt-ii-8"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-9"><span class="exercise-label">II. Past simple/continuous — </span>When I  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9" aria-describedby="prompt-ii-9">  (hear) the knock I  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9-2" aria-describedby="prompt-ii-9">  (go) to the door and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9-3" aria-describedby="prompt-ii-9">  (open) it, but I  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9-4" aria-describedby="prompt-ii-9">  (not recognise) him at first because I  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9-5" aria-describedby="prompt-ii-9">  (not wear) my glasses.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 9" aria-describedby="prompt-ii-9"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-ii-10"><span class="exercise-label">II. Past simple/continuous — </span>He  <input type="text" class="answer-field answer-gap" aria-label="blank ii.10" aria-describedby="prompt-ii-10">  (clean) his gun when it accidentally  <input type="text" class="answer-field answer-gap" aria-label="blank ii.10-2" aria-describedby="prompt-ii-10">  (go) off and  <input type="text" class="answer-field answer-gap" aria-label="blank ii.10-3" aria-describedby="prompt-ii-10">  (kill) him.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise II, item 10" aria-describedby="prompt-ii-10"></textarea>
+          </li>
+        </ol>
+        <h3>III. Rewrite the following sentences according to the example.</h3>
+        <p>仿照例句改写下列句子。</p>
+        <p class="worked-example"><strong>Example · 例句</strong><br>He gave back all the books he had borrowed.<br><strong>He gave all the books back.</strong><br><strong>He gave them back.</strong></p>
+        <ol start="1">
+          <li>
+            <div class="question-text" id="prompt-iii-1"><span class="exercise-label">III. Rewrite — </span>I can't make out the postmark on this letter.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 1" aria-describedby="prompt-iii-1"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-2"><span class="exercise-label">III. Rewrite — </span>You must throw away all those old magazines.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 2" aria-describedby="prompt-iii-2"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-3"><span class="exercise-label">III. Rewrite — </span>I am sure you made up the story so I don't believe it.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 3" aria-describedby="prompt-iii-3"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-4"><span class="exercise-label">III. Rewrite — </span>They put up a statue of Florence Nightingale after her death.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 4" aria-describedby="prompt-iii-4"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-5"><span class="exercise-label">III. Rewrite — </span>I asked him to put out the lights if he was going to be the last to leave.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 5" aria-describedby="prompt-iii-5"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-6"><span class="exercise-label">III. Rewrite — </span>After his fourth attempt he gave up trying to pass the examination.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 6" aria-describedby="prompt-iii-6"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-7"><span class="exercise-label">III. Rewrite — </span>I could always put up the boy if he can't find a room in a hotel.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 7" aria-describedby="prompt-iii-7"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-8"><span class="exercise-label">III. Rewrite — </span>There was a man giving out leaflets outside the church.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 8" aria-describedby="prompt-iii-8"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-9"><span class="exercise-label">III. Rewrite — </span>Put on the blue dress. Blue suits you.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 9" aria-describedby="prompt-iii-9"></textarea>
+          </li>
+          <li>
+            <div class="question-text" id="prompt-iii-10"><span class="exercise-label">III. Rewrite — </span>He put down his name for the excursion.</div>
+            <textarea class="answer-field" rows="2" aria-label="Exercise III, item 10" aria-describedby="prompt-iii-10"></textarea>
+          </li>
+        </ol>
+      </section>
+
+      <section id="original-images">
+        <h2>Original scan pages</h2>
+        <details class="original-page">
+          <summary>Page 1</summary>
+          <img src="images/lesson-007/page-01.png" alt="Lesson 7 scan page 1" width="1240" height="1755" loading="lazy" style="aspect-ratio: 1240 / 1755;">
+        </details>
+        <details class="original-page">
+          <summary>Page 2</summary>
+          <img src="images/lesson-007/page-02.png" alt="Lesson 7 scan page 2" width="1240" height="1755" loading="lazy" style="aspect-ratio: 1240 / 1755;">
+        </details>
+        <details class="original-page">
+          <summary>Page 3</summary>
+          <img src="images/lesson-007/page-03.png" alt="Lesson 7 scan page 3" width="1240" height="1755" loading="lazy" style="aspect-ratio: 1240 / 1755;">
+        </details>
+        <details class="original-page">
+          <summary>Page 4</summary>
+          <img src="images/lesson-007/page-04.png" alt="Lesson 7 scan page 4" width="1240" height="1755" loading="lazy" style="aspect-ratio: 1240 / 1755;">
+        </details>
+      </section>
+
+      <aside class="lesson-notes">
+        <h2>Lesson notes</h2>
+        <p>Transcribed from the original scan pages in <code>images/lesson-007/</code>. Keep the original pages open while completing the workbook items above.</p>
+      </aside>
+    </article>
+
+        <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-006.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 7 of 96</span><a href="lesson-008.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
+  </main>
+
+    <script>
+      (function () {
+        const storageKey = 'nce-grammar:' + location.pathname;
+        const fields = [...document.querySelectorAll('textarea, input.answer-field')];
+        const savedAnswers = JSON.parse(localStorage.getItem(storageKey) || '[]');
+        fields.forEach((field, index) => {
+          field.value = savedAnswers[index] || '';
+          field.addEventListener('input', () => {
+            localStorage.setItem(storageKey, JSON.stringify(fields.map((item) => item.value)));
+          });
+        });
+        const downloadButton = document.getElementById('download-answers') || document.getElementById('download-answers');
+        if (downloadButton) {
+          downloadButton.addEventListener('click', () => {
+            const completed = fields
+              .map((field, index) => ({ index, answer: field.value.trim() }))
+              .filter(({ answer }) => answer);
+            const sections = ['# NCE Grammar Practice 2 - Lesson 7: Too late', '', '## Answers', ''];
+            if (!completed.length) sections.push('No answers have been entered yet.');
+            for (const { index, answer } of completed) {
+              const prompt = fields[index].closest('li')?.querySelector('.question-text')?.textContent.trim();
+              sections.push('### Question ' + (index + 1), '');
+              if (prompt) sections.push('**Prompt:** ' + prompt, '');
+              sections.push('**Your answer:**', '', answer, '');
+            }
+            const blob = new Blob([sections.join('\n')], { type: 'text/markdown;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'nce2-lesson-007-answers.md';
+            link.click();
+            URL.revokeObjectURL(link.href);
+          });
+        }
+      })();
+    </script>
+    <script src="lesson-navigation.js"></script>
+  </body>
+</html>
+

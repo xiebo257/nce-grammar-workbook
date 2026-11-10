@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 70: Red for danger</title>
+  <style>
+    :root { color-scheme: light; --ink: #18202a; --muted: #5e6b78; --line: #d9d2c4; --paper: #fbf8f2; --card: #fff; --accent: #245e4e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #ede8df url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Ccircle cx='18' cy='22' r='1.6' fill='%2398a09b' opacity='.18'/%3E%3Ccircle cx='86' cy='64' r='2.2' fill='%23a08c6a' opacity='.12'/%3E%3Ccircle cx='118' cy='112' r='1.4' fill='%2398a09b' opacity='.18'/%3E%3Crect x='46' y='86' width='4' height='4' transform='rotate(24 48 88)' fill='%23a08c6a' opacity='.08'/%3E%3C/svg%3E"); font: 16px/1.65 "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }
+    body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: radial-gradient(circle at 12% 8%, rgba(255,255,255,.9), transparent 32%), radial-gradient(circle at 90% 14%, rgba(228,235,226,.55), transparent 26%), radial-gradient(circle at 50% 110%, rgba(216,203,178,.4), transparent 35%); }
+    .page { width: min(1120px, calc(100% - 32px)); margin: 28px auto 44px; padding: 42px 48px 28px; border: 1px solid #cdc3b1; border-radius: 22px; background: rgba(252,250,246,.96); box-shadow: 0 28px 70px rgba(54,47,36,.17), 0 5px 16px rgba(54,47,36,.09); }
+    header { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 20px; border-bottom: 2px solid var(--line); }
+    .lesson-meta { margin: 0 0 8px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(32px, 4.2vw, 45px); line-height: 1.08; letter-spacing: -.02em; }
+    .subtitle { margin: 9px 0 0; color: var(--muted); font-size: 17px; }
+    .lesson-section { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--line); }
+    .lesson-section:first-of-type { border-top: 0; padding-top: 0; }
+    .lesson-section h2 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 26px; line-height: 1.2; color: var(--accent); }
+    .section-intro { margin: 10px 0 0; color: var(--muted); font-size: 15px; line-height: 1.7; }
+    .exercise-list, .passage-blanks { margin: 20px 0 0; padding: 0; list-style: none; counter-reset: exercise; display: grid; gap: 10px; }
+    .exercise-item { display: grid; grid-template-columns: 46px 1fr; gap: 12px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--card); box-shadow: 0 5px 14px rgba(62,54,41,.05); }
+    .item-index { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid #c8bfa9; border-radius: 50%; color: var(--muted); background: #f8f4eb; font-size: 15px; font-weight: 700; }
+    .exercise-label { display: block; margin-bottom: 5px; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+    .question-text { margin: 0 0 10px; font-size: 16.5px; line-height: 1.6; }
+    .example-text { margin: 20px 0 0; padding: 13px 15px; border-left: 3px solid var(--accent); border-radius: 9px; background: #f1f6f2; color: #32413c; font-size: 15.5px; line-height: 1.6; }
+    .answer-field { width: 100%; min-height: 56px; resize: vertical; padding: 11px 12px; border: 1px solid #c7bda9; border-radius: 9px; color: var(--ink); background: #fffef9; font: inherit; line-height: 1.55; }
+        .answer-field.answer-gap { display: inline-block; width: min(240px, 100%); height: auto; padding: 7px 10px; vertical-align: middle; }
+    .answer-field:focus { outline: 3px solid rgba(36,94,78,.18); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+    .passage-list { margin: 18px 0 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+    .passage-item { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: center; }
+    .blank-index { width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid #c8bfa9; border-radius: 50%; color: var(--muted); background: #f8f4eb; font-size: 13px; font-weight: 700; }
+    .passage-blanks .answer-field { min-height: 44px; padding: 9px 10px; }
+    .passage-text { margin: 0 0 12px; font-size: 17px; line-height: 2; }
+    .passage-text code { padding: 0 6px; border-radius: 4px; color: var(--accent); background: #edf2ee; font-weight: 700; }
+    .original-images { margin-top: 36px; padding-top: 22px; border-top: 1px solid var(--line); }
+    .original-images h2 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; font-size: 26px; line-height: 1.2; color: var(--accent); }
+    .original-images .section-intro { margin: 0; }
+    .original-page { margin-top: 16px; border: 1px solid var(--line); border-radius: 13px; background: var(--card); overflow: hidden; box-shadow: 0 6px 16px rgba(62,54,41,.07); }
+    .original-page summary { padding: 14px 16px; cursor: pointer; list-style: none; font-weight: 700; }
+    .original-page summary::-webkit-details-marker { display: none; }
+    .original-page summary::before { content: "＋"; margin-right: 10px; color: var(--accent); font-size: 18px; }
+    .original-page[open] summary::before { content: "－"; }
+    .original-actions { margin: 0 0 14px 24px; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+    .original-actions a { display: inline-block; padding: 9px 14px; border: 1px solid var(--line); border-radius: 999px; color: var(--accent); background: #f8f4eb; text-decoration: none; font-size: 13.5px; font-weight: 700; }
+    .original-actions a:hover { background: #efe9da; }
+    .original-image-frame { display: block; margin: 0 24px 18px 24px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: #f5f1e8; line-height: 0; }
+    .original-image-frame img { width: 100%; height: auto; }
+    .lesson-notes { margin-top: 36px; padding: 18px 20px 22px; border: 1px solid var(--line); border-radius: 15px; background: #fffdf6; box-shadow: 0 8px 18px rgba(62,54,41,.05); }
+    .lesson-notes label { display: block; margin-bottom: 10px; color: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    .lesson-notes textarea { width: 100%; min-height: 120px; resize: vertical; padding: 12px; border: 1px solid #c7bda9; border-radius: 10px; color: var(--ink); background: #fff; font: inherit; line-height: 1.6; }
+    .lesson-notes textarea:focus { outline: 3px solid rgba(36,94,78,.18); border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+    .lesson-actions { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .lesson-actions button { padding: 11px 20px; border: 1px solid var(--accent); border-radius: 999px; color: #fff; background: var(--accent); font-size: 15px; font-weight: 700; cursor: pointer; }
+    .lesson-actions button.secondary { color: var(--accent); background: #f4f0e6; }
+    .lesson-navigation { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 14px; color: var(--muted); }
+    .lesson-navigation a { color: var(--accent); font-weight: 700; text-decoration: none; }
+    .lesson-navigation a:hover { text-decoration: underline; }
+    .lesson-navigation a.disabled { pointer-events: none; color: #a39d90; }
+    @media (max-width: 700px) {
+      .page { width: calc(100% - 20px); margin: 10px auto 22px; padding: 26px 20px 18px; }
+      header { display: block; }
+      .subtitle { margin-top: 8px; }
+      .exercise-item { grid-template-columns: 1fr; gap: 8px; padding: 13px; }
+      .item-index { margin-bottom: 2px; }
+      .passage-item { grid-template-columns: 32px 1fr; gap: 8px; }
+      .original-image-frame { margin: 0 14px 16px 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <p class="lesson-meta">NCE Grammar Practice 2 · Lesson 70</p>
+        <h1>Lesson 70: Red for danger</h1>
+        <p class="subtitle">危险的红色</p>
+      </div>
+    </header>
+
+    <section id="grammar-practice" class="lesson-section">
+      <h2 id="grammar-heading">Grammar practice</h2>
+      <p class="section-intro">Exercise the grammar pattern in the lesson by completing the items below. Answers are saved automatically in your browser and can be downloaded as a Markdown file.</p>
+
+      <h3>I. Fill in the blanks with the correct prepositions at, of, in, to, with or for</h3>
+      <p>用介词 at, of, in, to, with 或 for 填空</p>
+      <ol start="1" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">1</div>
+          <div>
+            <div class="question-text" id="prompt-i-1"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Sam dare not go to the basement by himself. He is afraid <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 1" aria-describedby="passage-text-iii"> the dark.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.1" aria-describedby="prompt-i-1"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">2</div>
+          <div>
+            <div class="question-text" id="prompt-i-2"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The boy turned  <input type="text" class="answer-field answer-gap" aria-label="blank i.2" aria-describedby="prompt-i-2">  his father  <input type="text" class="answer-field answer-gap" aria-label="blank i.2-2" aria-describedby="prompt-i-2">  help.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.2" aria-describedby="prompt-i-2"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">3</div>
+          <div>
+            <div class="question-text" id="prompt-i-3"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The woman went wild  <input type="text" class="answer-field answer-gap" aria-label="blank i.3" aria-describedby="prompt-i-3">  joy when her son won the peace prize.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.3" aria-describedby="prompt-i-3"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">4</div>
+          <div>
+            <div class="question-text" id="prompt-i-4"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Joe was sorry he shouted  <input type="text" class="answer-field answer-gap" aria-label="blank i.4" aria-describedby="prompt-i-4">  his friends the other day.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.4" aria-describedby="prompt-i-4"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">5</div>
+          <div>
+            <div class="question-text" id="prompt-i-5"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Contrary  <input type="text" class="answer-field answer-gap" aria-label="blank i.5" aria-describedby="prompt-i-5">  my estimate, the girl turned out to be only thirteen.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.5" aria-describedby="prompt-i-5"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">6</div>
+          <div>
+            <div class="question-text" id="prompt-i-6"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Before he boarded the plane, he had a look  <input type="text" class="answer-field answer-gap" aria-label="blank i.6" aria-describedby="prompt-i-6">  the man beside him.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.6" aria-describedby="prompt-i-6"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">7</div>
+          <div>
+            <div class="question-text" id="prompt-i-7"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The room was filled  <input type="text" class="answer-field answer-gap" aria-label="blank i.7" aria-describedby="prompt-i-7">  a horrible smell.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.7" aria-describedby="prompt-i-7"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">8</div>
+          <div>
+            <div class="question-text" id="prompt-i-8"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The lecture hall was full  <input type="text" class="answer-field answer-gap" aria-label="blank i.8" aria-describedby="prompt-i-8">  enthusiastic students.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.8" aria-describedby="prompt-i-8"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">9</div>
+          <div>
+            <div class="question-text" id="prompt-i-9"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Get out  <input type="text" class="answer-field answer-gap" aria-label="blank i.9" aria-describedby="prompt-i-9">  the room, or I will call the police.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.9" aria-describedby="prompt-i-9"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">10</div>
+          <div>
+            <div class="question-text" id="prompt-i-10"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>You don't have to worry. You have nothing to be sorry  <input type="text" class="answer-field answer-gap" aria-label="blank i.10" aria-describedby="prompt-i-10"> .</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.10" aria-describedby="prompt-i-10"></textarea>
+          </div>
+        </li>
+      </ol>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">11</div>
+          <div>
+            <div class="question-text" id="prompt-i-11"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>He looked  <input type="text" class="answer-field answer-gap" aria-label="blank i.11" aria-describedby="prompt-i-11">  the building for the last time then left without a word.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.11" aria-describedby="prompt-i-11"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">12</div>
+          <div>
+            <div class="question-text" id="prompt-i-12"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Simon was good  <input type="text" class="answer-field answer-gap" aria-label="blank i.12" aria-describedby="prompt-i-12">  singing, but he never sang before an audience.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.12" aria-describedby="prompt-i-12"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">13</div>
+          <div>
+            <div class="question-text" id="prompt-i-13"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>You should set an example  <input type="text" class="answer-field answer-gap" aria-label="blank i.13" aria-describedby="prompt-i-13">  your pupils because they will follow what you do.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.13" aria-describedby="prompt-i-13"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">14</div>
+          <div>
+            <div class="question-text" id="prompt-i-14"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>This is all completely new  <input type="text" class="answer-field answer-gap" aria-label="blank i.14" aria-describedby="prompt-i-14">  him.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.14" aria-describedby="prompt-i-14"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">15</div>
+          <div>
+            <div class="question-text" id="prompt-i-15"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>I'm getting used  <input type="text" class="answer-field answer-gap" aria-label="blank i.15" aria-describedby="prompt-i-15">  his way of speaking.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.15" aria-describedby="prompt-i-15"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">16</div>
+          <div>
+            <div class="question-text" id="prompt-i-16"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>This new model is definitely inferior  <input type="text" class="answer-field answer-gap" aria-label="blank i.16" aria-describedby="prompt-i-16">  the old one.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.16" aria-describedby="prompt-i-16"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">17</div>
+          <div>
+            <div class="question-text" id="prompt-i-17"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Never open the door  <input type="text" class="answer-field answer-gap" aria-label="blank i.17" aria-describedby="prompt-i-17">  a stranger when you are  <input type="text" class="answer-field answer-gap" aria-label="blank i.17-2" aria-describedby="prompt-i-17">  home alone.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.17" aria-describedby="prompt-i-17"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">18</div>
+          <div>
+            <div class="question-text" id="prompt-i-18"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>She was very rude  <input type="text" class="answer-field answer-gap" aria-label="blank i.18" aria-describedby="prompt-i-18">  me the other day.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.18" aria-describedby="prompt-i-18"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">19</div>
+          <div>
+            <div class="question-text" id="prompt-i-19"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>They finally arrived  <input type="text" class="answer-field answer-gap" aria-label="blank i.19" aria-describedby="prompt-i-19">  the village as planned.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.19" aria-describedby="prompt-i-19"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">20</div>
+          <div>
+            <div class="question-text" id="prompt-i-20"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>He will be here  <input type="text" class="answer-field answer-gap" aria-label="blank i.20" aria-describedby="prompt-i-20">  no time. Just wait here.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.20" aria-describedby="prompt-i-20"></textarea>
+          </div>
+        </li>
+      <ol start="21" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">21</div>
+          <div>
+            <div class="question-text" id="prompt-i-21"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Sally went to the party  <input type="text" class="answer-field answer-gap" aria-label="blank i.21" aria-describedby="prompt-i-21">  her red dress.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.21" aria-describedby="prompt-i-21"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">22</div>
+          <div>
+            <div class="question-text" id="prompt-i-22"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Ted was fond  <input type="text" class="answer-field answer-gap" aria-label="blank i.22" aria-describedby="prompt-i-22">  going to the theatre.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.22" aria-describedby="prompt-i-22"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">23</div>
+          <div>
+            <div class="question-text" id="prompt-i-23"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>It was kind  <input type="text" class="answer-field answer-gap" aria-label="blank i.23" aria-describedby="prompt-i-23">  you to help us.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.23" aria-describedby="prompt-i-23"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">24</div>
+          <div>
+            <div class="question-text" id="prompt-i-24"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>He is an expert  <input type="text" class="answer-field answer-gap" aria-label="blank i.24" aria-describedby="prompt-i-24">  doing such jobs.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.24" aria-describedby="prompt-i-24"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">25</div>
+          <div>
+            <div class="question-text" id="prompt-i-25"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>I lost my watch somewhere. I have been looking  <input type="text" class="answer-field answer-gap" aria-label="blank i.25" aria-describedby="prompt-i-25">  it everywhere.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.25" aria-describedby="prompt-i-25"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">26</div>
+          <div>
+            <div class="question-text" id="prompt-i-26"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The bull charged at the matador all  <input type="text" class="answer-field answer-gap" aria-label="blank i.26" aria-describedby="prompt-i-26">  a sudden.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.26" aria-describedby="prompt-i-26"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">27</div>
+          <div>
+            <div class="question-text" id="prompt-i-27"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Joan used to go to the pub to relax. She just asked  <input type="text" class="answer-field answer-gap" aria-label="blank i.27" aria-describedby="prompt-i-27">  a beer and stayed  <input type="text" class="answer-field answer-gap" aria-label="blank i.27-2" aria-describedby="prompt-i-27">  the whole evening.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.27" aria-describedby="prompt-i-27"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">28</div>
+          <div>
+            <div class="question-text" id="prompt-i-28"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>Sam used to go travelling  <input type="text" class="answer-field answer-gap" aria-label="blank i.28" aria-describedby="prompt-i-28">  a friend  <input type="text" class="answer-field answer-gap" aria-label="blank i.28-2" aria-describedby="prompt-i-28">  his.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.28" aria-describedby="prompt-i-28"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">29</div>
+          <div>
+            <div class="question-text" id="prompt-i-29"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>He left  <input type="text" class="answer-field answer-gap" aria-label="blank i.29" aria-describedby="prompt-i-29">  the airport  <input type="text" class="answer-field answer-gap" aria-label="blank i.29-2" aria-describedby="prompt-i-29">  a great hurry, leaving his passport behind.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.29" aria-describedby="prompt-i-29"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">30</div>
+          <div>
+            <div class="question-text" id="prompt-i-30"><span class="exercise-label">I. Fill in the blanks with the correct prepositions at, of, in, to, with or for — </span>The boy was busy  <input type="text" class="answer-field answer-gap" aria-label="blank i.30" aria-describedby="prompt-i-30">  his toys and forgot the time.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to I.30" aria-describedby="prompt-i-30"></textarea>
+          </div>
+        </li>
+      </ol>
+      <h3>II. Fill in the blanks with during, before or after</h3>
+      <p>用 during, before 或 after 填空</p>
+      <ol start="1" class="exercise-list">
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">1</div>
+          <div>
+            <div class="question-text" id="prompt-ii-1"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>He learned to play flute  <input type="text" class="answer-field answer-gap" aria-label="blank ii.1" aria-describedby="prompt-ii-1">  the winter vacation.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.1" aria-describedby="prompt-ii-1"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">2</div>
+          <div>
+            <div class="question-text" id="prompt-ii-2"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span> <input type="text" class="answer-field answer-gap" aria-label="blank ii.2" aria-describedby="prompt-ii-2">  he finished the experiment, he noted down the results.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.2" aria-describedby="prompt-ii-2"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">3</div>
+          <div>
+            <div class="question-text" id="prompt-ii-3"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>You can never make a judgment  <input type="text" class="answer-field answer-gap" aria-label="blank ii.3" aria-describedby="prompt-ii-3">  you fully understand the situation.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.3" aria-describedby="prompt-ii-3"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">4</div>
+          <div>
+            <div class="question-text" id="prompt-ii-4"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span> <input type="text" class="answer-field answer-gap" aria-label="blank ii.4" aria-describedby="prompt-ii-4">  I leave for the airport, I will go and say goodbye to my teacher.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.4" aria-describedby="prompt-ii-4"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">5</div>
+          <div>
+            <div class="question-text" id="prompt-ii-5"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>He couldn't forget the months  <input type="text" class="answer-field answer-gap" aria-label="blank ii.5" aria-describedby="prompt-ii-5">  which he had worked in the small village.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.5" aria-describedby="prompt-ii-5"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">6</div>
+          <div>
+            <div class="question-text" id="prompt-ii-6"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>Somehow he managed to get out of the house  <input type="text" class="answer-field answer-gap" aria-label="blank ii.6" aria-describedby="prompt-ii-6">  he was found.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.6" aria-describedby="prompt-ii-6"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">7</div>
+          <div>
+            <div class="question-text" id="prompt-ii-7"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>You should always lock the doors  <input type="text" class="answer-field answer-gap" aria-label="blank ii.7" aria-describedby="prompt-ii-7">  you leave home.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.7" aria-describedby="prompt-ii-7"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">8</div>
+          <div>
+            <div class="question-text" id="prompt-ii-8"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>He went straight home  <input type="text" class="answer-field answer-gap" aria-label="blank ii.8" aria-describedby="prompt-ii-8">  he had finished work.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.8" aria-describedby="prompt-ii-8"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">9</div>
+          <div>
+            <div class="question-text" id="prompt-ii-9"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>He went deaf  <input type="text" class="answer-field answer-gap" aria-label="blank ii.9" aria-describedby="prompt-ii-9">  he had heard the loud noise in the sky.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.9" aria-describedby="prompt-ii-9"></textarea>
+          </div>
+        </li>
+        <li class="exercise-item">
+          <div class="item-index" aria-hidden="true">10</div>
+          <div>
+            <div class="question-text" id="prompt-ii-10"><span class="exercise-label">II. Fill in the blanks with during, before or after — </span>I visited Bonn and Berlin  <input type="text" class="answer-field answer-gap" aria-label="blank ii.10" aria-describedby="prompt-ii-10">  my holiday in Germany.</div>
+            <textarea class="answer-field" rows="2" aria-label="Your answer to II.10" aria-describedby="prompt-ii-10"></textarea>
+          </div>
+        </li>
+      </ol>
+
+      <h3>III. Fill in the blanks with appropriate prepositions</h3>
+      <p>用适当的介词填空</p>
+      <p class="passage-text" id="passage-text-iii">There was a man who kept ten monkeys  <input type="text" class="answer-field answer-gap" aria-label="Your answer to blank 1" aria-describedby="passage-text-iii">  pets because he was very fond  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 2" aria-describedby="passage-text-iii">  them. Every morning the monkeys would swing  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 3" aria-describedby="passage-text-iii">  one branch  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 4" aria-describedby="passage-text-iii">  another  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 5" aria-describedby="passage-text-iii">  the courtyard. After that, the man would feed them bananas. One morning the man said  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 6" aria-describedby="passage-text-iii">  the monkeys, "We have very few bananas left.  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 7" aria-describedby="passage-text-iii">  breakfast I shall give each  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 8" aria-describedby="passage-text-iii">  you three bananas and four  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 9" aria-describedby="passage-text-iii">  supper." The monkeys looked very unhappy. They screamed  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 10" aria-describedby="passage-text-iii">  the man. "Well, then, will you have four bananas  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 11" aria-describedby="passage-text-iii">  the morning and three for supper?" asked the man. The monkeys looked  <input type="text" class="answer-field answer-gap" aria-label="Your answer for blank 12" aria-describedby="passage-text-iii">  one another. Then they jumped up and down happily.</p>
+    </section>
+
+    <section id="original-images" class="original-images">
+      <h2>Original lesson images</h2>
+      <p class="section-intro">The scanned pages below are the source material for this lesson.</p>
+      <details class="original-page" id="original-page-1">
+        <summary>Open original page 1</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-070/page-001.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-070/page-001.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-070/page-001.png" alt="Original scan page 1 for NCE Grammar Practice 2 Lesson 70" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-2">
+        <summary>Open original page 2</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-070/page-002.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-070/page-002.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-070/page-002.png" alt="Original scan page 2 for NCE Grammar Practice 2 Lesson 70" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-3">
+        <summary>Open original page 3</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-070/page-003.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-070/page-003.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-070/page-003.png" alt="Original scan page 3 for NCE Grammar Practice 2 Lesson 70" width="1240" height="1755">
+        </div>
+      </details>
+      <details class="original-page" id="original-page-4">
+        <summary>Open original page 4</summary>
+        <ul class="original-actions">
+          <li><a href="images/lesson-070/page-004.png" target="_blank">Open</a></li>
+          <li><a href="images/lesson-070/page-004.png" download>Download</a></li>
+        </ul>
+        <div class="original-image-frame">
+          <img src="images/lesson-070/page-004.png" alt="Original scan page 4 for NCE Grammar Practice 2 Lesson 70" width="1240" height="1755">
+        </div>
+      </details>
+    </section>
+
+    <section id="lesson-notes" class="lesson-notes">
+      <label for="notes">Lesson notes</label>
+      <textarea id="notes" aria-label="Lesson notes"></textarea>
+    </section>
+
+        <nav class="lesson-navigation" aria-label="Lesson navigation"><a href="lesson-069.html" target="_blank" rel="prev noopener noreferrer">Previous lesson</a><button type="button" class="lesson-submit" id="submit-answers">Submit</button><button type="button" class="lesson-download" id="download-answers">Download answers</button><span>Lesson 70 of 96</span><a href="lesson-071.html" target="_blank" rel="next noopener noreferrer">Next lesson</a></nav>
+  </main>
+
+  <script>
+    (() => {
+      const key = () => ["nce-grammar", "NCE Grammar Practice 2", "lesson-070", location.pathname.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "")].join(":");
+      const fields = Array.from(document.querySelectorAll(".answer-field"));
+      const notes = document.getElementById("notes");
+      const submitButton = document.getElementById("submit-answers");
+      const downloadButton = document.getElementById("download-answers");
+      const readValue = (field) => (field.value || "").trim();
+      const save = () => {
+        const payload = { lesson: "lesson-070", title: "Lesson 70: Red for danger", answers: {}, notes: readValue(notes), savedAt: new Date().toISOString() };
+        fields.forEach((field, index) => { payload.answers[`answer-${index + 1}`] = readValue(field); });
+        localStorage.setItem(key(), JSON.stringify(payload));
+      };
+      const restore = () => {
+        const raw = localStorage.getItem(key());
+        if (!raw) return;
+        try {
+          const payload = JSON.parse(raw);
+          fields.forEach((field, index) => { field.value = payload?.answers?.[`answer-${index + 1}`] || ""; });
+          notes.value = payload?.notes || "";
+        } catch (error) { console.warn("Could not restore saved lesson answers.", error); }
+      };
+      const summarize = () => {
+        const answered = fields.filter((field) => readValue(field)).length;
+        const answeredNotes = readValue(notes) ? "yes" : "no";
+        return { answered, total: fields.length, notes: answeredNotes };
+      };
+      const toMarkdown = () => {
+        const summary = summarize();
+        const lines = [
+          "# NCE Grammar Practice 2 — Lesson 70: Red for danger",
+          "",
+          `Saved at: ${new Date().toLocaleString()}`,
+          `Answered: ${summary.answered} of ${summary.total}`,
+          `Notes: ${summary.notes}`,
+          "",
+          "## Answers",
+          ""
+        ];
+        fields.forEach((field, index) => {
+          const prompt = document.getElementById(field.getAttribute("aria-describedby"))?.textContent || `Question ${index + 1}`;
+          const answer = readValue(field) || "(not answered)";
+          lines.push(`${index + 1}. **${prompt.trim()}**`, "", `   ${answer}`, "");
+        });
+        lines.push("## Lesson notes", "", readValue(notes) || "(none)");
+        return lines.join("\n");
+      };
+      submitButton?.addEventListener("click", () => { save(); submitButton.textContent = "Submitted!"; window.setTimeout(() => { submitButton.textContent = "Submit lesson"; }, 1800); });
+      downloadButton?.addEventListener("click", () => {
+        const blob = new Blob([toMarkdown()], { type: "text/markdown;charset=utf-8" });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "nce2-lesson-070-answers.md";
+        link.click();
+        URL.revokeObjectURL(url);
+      });
+      fields.forEach((field) => field.addEventListener("input", save));
+      notes?.addEventListener("input", save);
+      restore();
+    })();
+  </script>
+  <script src="lesson-navigation.js"></script>
+</body>
+</html>
